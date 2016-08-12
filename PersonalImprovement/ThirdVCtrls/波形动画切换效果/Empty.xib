@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PUW-OJ-zXT">
+            <rect key="frame" x="0.0" y="0.0" width="326" height="73.5"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Animation Type" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0V3-Wa-Hpy">
+                    <rect key="frame" x="20" y="46" width="145.5" height="27.5"/>
+                    <fontDescription key="fontDescription" name="GillSans-Light" family="Gill Sans" pointSize="24"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vbj-7u-Y4b">
+                    <rect key="frame" x="252" y="21" width="51" height="31"/>
+                </switch>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="vbj-7u-Y4b" secondAttribute="trailing" constant="20" id="2jZ-pC-yf1"/>
+                <constraint firstAttribute="height" constant="120" id="XWn-uI-1nE"/>
+                <constraint firstAttribute="centerY" secondItem="0V3-Wa-Hpy" secondAttribute="centerY" id="ZxY-ci-sjB"/>
+                <constraint firstItem="0V3-Wa-Hpy" firstAttribute="leading" secondItem="PUW-OJ-zXT" secondAttribute="leading" constant="20" id="qQp-UZ-qQw"/>
+                <constraint firstItem="0V3-Wa-Hpy" firstAttribute="centerY" secondItem="vbj-7u-Y4b" secondAttribute="centerY" id="wC0-yj-adb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="138" y="-44.25"/>
+        </view>
+    </objects>
+</document>

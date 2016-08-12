@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BLKFlexibleHeightBarVCtrl">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1X2-Dn-jDa" userLabel="SquareCashButton">
+                    <rect key="frame" x="42" y="190" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="c4v-OW-tho"/>
+                        <constraint firstAttribute="height" constant="100" id="ynP-FU-T3z"/>
+                    </constraints>
+                    <state key="normal" image="square-cash-icon.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="50"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="clickBtn1:" destination="-1" eventType="touchUpInside" id="neE-9u-fXd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IlA-iW-esn" userLabel="FacebookButton">
+                    <rect key="frame" x="192" y="190" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="NMj-LX-Uob"/>
+                        <constraint firstAttribute="height" constant="100" id="eYZ-ap-kfg"/>
+                    </constraints>
+                    <state key="normal" image="facebook-icon.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="50"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="clickBtn2:" destination="-1" eventType="touchUpInside" id="KnE-Pj-TM6"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="1X2-Dn-jDa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="42" id="2YX-Ur-DbE"/>
+                <constraint firstAttribute="trailing" secondItem="IlA-iW-esn" secondAttribute="trailing" constant="28" id="IE4-D7-pKI"/>
+                <constraint firstItem="1X2-Dn-jDa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="190" id="Xbc-NP-t4X"/>
+                <constraint firstItem="IlA-iW-esn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="190" id="bCs-HW-WdT"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="275" y="381"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="facebook-icon.png" width="512" height="512"/>
+        <image name="square-cash-icon.png" width="256" height="256"/>
+    </resources>
+</document>
