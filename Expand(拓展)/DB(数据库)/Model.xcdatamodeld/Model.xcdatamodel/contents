@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F27" minimumToolsVersion="Xcode 7.0">
+    <entity name="UpDownloadRecorder" representedClassName="UpDownloadRecorder" syncable="YES">
+        <attribute name="downloadPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="downloadResumeData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="fileEdt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="fileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileSize" optional="YES" attributeType="Integer 64" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="isAutoBackUp" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isSuccess" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isUpload" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="operationStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="percent" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="recorderkey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rowId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="uploadAssetUrlStr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uploadOffset" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="uploadServerPath" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="UpDownloadRecorder" positionX="-63" positionY="-18" width="128" height="270"/>
+    </elements>
+</model>
