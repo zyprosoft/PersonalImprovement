@@ -45,6 +45,7 @@
     [self addCell:@"CLLocationManager定位" class:@"INTUViewController"];
     [self addCell:@"CodeSnippets代码片段" class:@"CodeSnipptesVCtrl"];
     [self addCell:@"TapkuLibrary" class:@"TapkuRootViewController"];
+    [self addCell:@"设计模式" class:@"TapkuRootViewController"];
 }
 
 - (void)addCell:(NSString *)title class:(NSString *)className {

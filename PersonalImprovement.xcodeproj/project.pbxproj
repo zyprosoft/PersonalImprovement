@@ -4550,6 +4550,13 @@
 			path = XYDTagV;
 			sourceTree = "<group>";
 		};
+		494FACBD1D5F17EB005C64A1 /* 设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "设计模式";
+			sourceTree = "<group>";
+		};
 		497D4D0B1D4450E500AFCBBD /* JHStatusBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -6305,6 +6312,7 @@
 		49FC8C2A1D2BFB9A007454F7 /* FirstVCtrls */ = {
 			isa = PBXGroup;
 			children = (
+				494FACBD1D5F17EB005C64A1 /* 设计模式 */,
 				4917A3C11D562DEF00A55069 /* TapkuLibrary */,
 				491532A61D4A34250006E1AE /* CodeSnippets:Ojbective-C */,
 				49FB9CA51D4501020047FAA4 /* CLLocationManager定位 */,
