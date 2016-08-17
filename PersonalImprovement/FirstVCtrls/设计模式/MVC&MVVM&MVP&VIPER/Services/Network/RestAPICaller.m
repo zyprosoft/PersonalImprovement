@@ -8,6 +8,7 @@
 
 #import "RestAPICaller.h"
 #import "AFNetworking.h"
+#import "<#header#>"
 
 @interface RestAPICaller () {
     AFHTTPSessionManager *sessionManager;
@@ -28,7 +29,12 @@
 }
 
 - (NSURLSessionDataTask *)doGetWithStr:(NSString *)url callback:(NSDictionary <NSString *,id> *)callback {
-
+    AFJSONRequestSerializer *serializer = [AFJSONRequestSerializer new];
+    NSURLRequest *request = [serializer requestWithMethod:@"get" URLString:url parameters:nil error:nil];
+    NSURLSessionDataTask *task = [sessionManager dataTaskWithRequest:request completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
+        
+    }];
+    return task;
 }
 
 @end
