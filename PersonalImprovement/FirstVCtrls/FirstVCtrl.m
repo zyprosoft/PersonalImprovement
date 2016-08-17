@@ -15,6 +15,7 @@
 #import "SystemServicesDemoViewController.h"
 #import "CodeSnipptesVCtrl.h"
 #import "TapkuRootViewController.h"
+#import "StructureAndPatternVCtrl.h"
 
 @interface FirstVCtrl ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -45,7 +46,7 @@
     [self addCell:@"CLLocationManager定位" class:@"INTUViewController"];
     [self addCell:@"CodeSnippets代码片段" class:@"CodeSnipptesVCtrl"];
     [self addCell:@"TapkuLibrary" class:@"TapkuRootViewController"];
-    [self addCell:@"设计模式" class:@"TapkuRootViewController"];
+    [self addCell:@"设计模式" class:@"StructureAndPatternVCtrl"];
 }
 
 - (void)addCell:(NSString *)title class:(NSString *)className {
