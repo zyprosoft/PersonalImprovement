@@ -19,8 +19,6 @@
 
 @interface FirstVCtrl ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (strong,nonatomic)NSMutableArray *titleArray;
-@property (strong,nonatomic)NSMutableArray *classArray;
 
 @end
 
@@ -32,8 +30,6 @@
 
     self.title = @"功能";
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
-    _titleArray= [NSMutableArray array];
-    _classArray = [NSMutableArray array];
     [self addCell:@"TestThread" class:@"TestThread"];
     [self addCell:@"__block and __weak" class:@"TestBlockVCtrl1"];
     [self addCell:@"TestCoreData" class:@"TestCoreDataVCtrl"];
@@ -55,20 +51,20 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return _titleArray.count;
+    return self.titleArray.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
-    cell.textLabel.text = _titleArray[indexPath.row];
+    cell.textLabel.text = self.titleArray[indexPath.row];
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [_tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    NSString *cellTitle = _titleArray[indexPath.row];
-    NSString *classStr = _classArray[indexPath.row];
+    NSString *cellTitle = self.titleArray[indexPath.row];
+    NSString *classStr = self.classArray[indexPath.row];
     Class class = NSClassFromString(classStr);
     UIViewController *ctrl = [[class alloc]init];
     ctrl.title = cellTitle;

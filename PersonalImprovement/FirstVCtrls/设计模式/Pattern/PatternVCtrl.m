@@ -10,8 +10,6 @@
 
 @interface PatternVCtrl ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (strong,nonatomic)NSMutableArray *titleArray;
-@property (strong,nonatomic)NSMutableArray *classArray;
 
 @end
 
@@ -19,8 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _titleArray = [NSMutableArray array];
-    _classArray = [NSMutableArray array];
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
      [self addCell:@"设计模式" class:@"TapkuRootViewController"];
 }
@@ -38,7 +34,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView
  numberOfRowsInSection:(NSInteger)section {
-    return _titleArray.count;
+    return self.titleArray.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView
@@ -52,15 +48,15 @@
 
 - (void)configureCell:(UITableViewCell *)cell
     forRowAtIndexPath:(NSIndexPath *)indexPath {
-    cell.textLabel.text = _titleArray[indexPath.row];
+    cell.textLabel.text = self.titleArray[indexPath.row];
 }
 
 #pragma mark - UITableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [_tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    NSString *cellTitle = _titleArray[indexPath.row];
-    NSString *classStr = _classArray[indexPath.row];
+    NSString *cellTitle = self.titleArray[indexPath.row];
+    NSString *classStr = self.classArray[indexPath.row];
     Class class = NSClassFromString(classStr);
     UIViewController *ctrl = [[class alloc]init];
     ctrl.title = cellTitle;

@@ -16,6 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _titleArray = [NSMutableArray array];
+    _classArray = [NSMutableArray array];
+}
+
+- (void)addCell:(NSString *)title class:(NSString *)className {
+    [self.titleArray addObject:title];
+    [self.classArray addObject:className];
 }
 
 - (void)viewWillAppear:(BOOL)animated {

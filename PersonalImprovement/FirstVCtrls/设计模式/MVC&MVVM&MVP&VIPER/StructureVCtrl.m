@@ -1,45 +1,41 @@
 //
-//  StructureAndPatternVCtrl.m
+//  StructureVCtrl.m
 //  PersonalImprovement
 //
-//  Created by xiongyoudou on 16/8/17.
+//  Created by xiongyoudou on 16/8/18.
 //  Copyright © 2016年 xiong有都. All rights reserved.
 //
 
-#import "StructureAndPatternVCtrl.h"
+#import "StructureVCtrl.h"
 
-@interface StructureAndPatternVCtrl ()
+
+@interface StructureVCtrl ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+
 @end
 
-@implementation StructureAndPatternVCtrl
+@implementation StructureVCtrl
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
-    [self addCell:@"MVC&MVVM&MVP&VIPPER比较" class:@"StructureVCtrl"];
+    [self addCell:@"MVC" class:@"aaa"];
     [self addCell:@"MVVM&ReactiveCocoa" class:@"StructureVCtrl"];
     [self addCell:@"Pattern" class:@"PatternVCtrl"];
 }
 
-- (void)addCell:(NSString *)title class:(NSString *)className {
-    [self.titleArray addObject:title];
-    [self.classArray addObject:className];
-}
-
 #pragma mark - UITableViewDataSource
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
-}
-
 - (NSInteger)tableView:(UITableView *)tableView
- numberOfRowsInSection:(NSInteger)section {
+ numberOfRowsInSection:(NSInteger)section
+{
     return self.titleArray.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView
-         cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+         cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     
     [self configureCell:cell forRowAtIndexPath:indexPath];
@@ -48,7 +44,8 @@
 }
 
 - (void)configureCell:(UITableViewCell *)cell
-    forRowAtIndexPath:(NSIndexPath *)indexPath {
+    forRowAtIndexPath:(NSIndexPath *)indexPath
+{
     cell.textLabel.text = self.titleArray[indexPath.row];
 }
 
@@ -57,11 +54,24 @@
     [_tableView deselectRowAtIndexPath:indexPath animated:YES];
     
     NSString *cellTitle = self.titleArray[indexPath.row];
-    NSString *classStr = self.classArray[indexPath.row];
-    Class class = NSClassFromString(classStr);
-    UIViewController *ctrl = [[class alloc]init];
-    ctrl.title = cellTitle;
-    [self.navigationController pushViewController:ctrl animated:YES];
+    if ([cellTitle isEqualToString:@"MVC"]) {
+        UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"MVC" bundle:nil];
+        UIViewController *ctrl = [mainStoryBoard instantiateViewControllerWithIdentifier:@"ctrl"];
+        ctrl.title = cellTitle;
+        [self.navigationController pushViewController:ctrl animated:YES];
+    }else {
+        NSString *classStr = self.classArray[indexPath.row];
+        Class class = NSClassFromString(classStr);
+        UIViewController *ctrl = [[class alloc]init];
+        ctrl.title = cellTitle;
+        [self.navigationController pushViewController:ctrl animated:YES];
+    }
 }
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
 
 @end

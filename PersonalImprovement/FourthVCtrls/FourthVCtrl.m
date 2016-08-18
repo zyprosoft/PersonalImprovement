@@ -13,8 +13,6 @@
 
 @interface FourthVCtrl ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (strong,nonatomic)NSMutableArray *titleArray;
-@property (strong,nonatomic)NSMutableArray *classArray;
 
 @end
 
@@ -27,8 +25,6 @@
     self.title = @"完整工程";
     
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
-    _titleArray= [NSMutableArray array];
-    _classArray = [NSMutableArray array];
     [self addCell:@"音乐播放器" class:@"MusicListViewController"];
     [self addCell:@"JSQ聊天" class:@"JSQMessage"];
     [self addCell:@"MWPhotoBrowser图片浏览器" class:@"MWPhotoBrowser图片浏览器"];
@@ -42,20 +38,20 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return _titleArray.count;
+    return self.titleArray.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
-    cell.textLabel.text = _titleArray[indexPath.row];
+    cell.textLabel.text = self.titleArray[indexPath.row];
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [_tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    NSString *cellTitle = _titleArray[indexPath.row];
-    NSString *classStr = _classArray[indexPath.row];
+    NSString *cellTitle = self.titleArray[indexPath.row];
+    NSString *classStr = self.classArray[indexPath.row];
     Class class = NSClassFromString(classStr);
     UIViewController *ctrl = [[class alloc]init];
     if ([cellTitle isEqualToString:@"JSQ聊天"]) {

@@ -29,8 +29,6 @@
 
 @interface ThirdVCtrl ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (strong,nonatomic)NSMutableArray *titleArray;
-@property (strong,nonatomic)NSMutableArray *classArray;
 
 @end
 
@@ -47,8 +45,6 @@
     
     self.title = @"动画效果";
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
-    _titleArray= [NSMutableArray array];
-    _classArray = [NSMutableArray array];
     [self addCell:@"波形动画切换" class:@"AMWaveViewController"];
     [self addCell:@"放射弹出" class:@"AwesomeMenuVCtrl"];
     [self addCell:@"伸缩式headerBar" class:@"BLKFlexibleHeightBarVCtrl"];
@@ -81,12 +77,12 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return _titleArray.count;
+    return self.titleArray.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
-    cell.textLabel.text = _titleArray[indexPath.row];
+    cell.textLabel.text = self.titleArray[indexPath.row];
     cell.textLabel.textColor = [UIColor whiteColor];
     [cell setBackgroundColor:[UIColor clearColor]];
     return cell;
@@ -95,8 +91,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [_tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    NSString *cellTitle = _titleArray[indexPath.row];
-    NSString *classStr = _classArray[indexPath.row];
+    NSString *cellTitle = self.titleArray[indexPath.row];
+    NSString *classStr = self.classArray[indexPath.row];
     Class class = NSClassFromString(classStr);
     UIViewController *ctrl = [[class alloc]init];
     ctrl.title = cellTitle;

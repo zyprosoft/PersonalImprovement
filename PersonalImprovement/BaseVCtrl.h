@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface BaseVCtrl : UIViewController
+@property (strong,nonatomic)NSMutableArray *titleArray;
+@property (strong,nonatomic)NSMutableArray *classArray;
 
 - (void)setBackBtn:(BOOL)isHidden navBarHidden:(BOOL)isNavBarHidden;
+- (void)addCell:(NSString *)title class:(NSString *)className;
+
 @end
