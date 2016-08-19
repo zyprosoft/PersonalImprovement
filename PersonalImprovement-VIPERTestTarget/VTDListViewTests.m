@@ -39,7 +39,7 @@
 {
     [super setUp];
 
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"VIPER" bundle:[NSBundle mainBundle]];
     self.view = [storyboard instantiateViewControllerWithIdentifier:@"VTDListViewController"];
 }
 
