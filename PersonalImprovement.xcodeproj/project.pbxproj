@@ -656,6 +656,14 @@
 		4991E0461D5392B90061FF84 /* icon.psd in Resources */ = {isa = PBXBuildFile; fileRef = 4991E0401D5392B90061FF84 /* icon.psd */; };
 		4991E0471D5392B90061FF84 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4991E0411D5392B90061FF84 /* iTunesArtwork@2x.png */; };
 		49A0A3741D66AE2400633FFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A0A3731D66AE2400633FFA /* Images.xcassets */; };
+		49A0A37C1D66D48800633FFA /* PersonalImprovement_VIPERTestTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A0A37B1D66D48800633FFA /* PersonalImprovement_VIPERTestTarget.m */; };
+		49A0A3891D66D4B600633FFA /* VIPER_TODOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A0A3831D66D4B600633FFA /* VIPER_TODOTests.m */; };
+		49A0A38A1D66D4B600633FFA /* VTDCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A0A3841D66D4B600633FFA /* VTDCalendarTests.m */; };
+		49A0A38B1D66D4B600633FFA /* VTDListInteractorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A0A3851D66D4B600633FFA /* VTDListInteractorTests.m */; };
+		49A0A38C1D66D4B600633FFA /* VTDListPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A0A3861D66D4B600633FFA /* VTDListPresenterTests.m */; };
+		49A0A38D1D66D4B600633FFA /* VTDListViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A0A3871D66D4B600633FFA /* VTDListViewTests.m */; };
+		49A0A38E1D66D4B600633FFA /* VTDRelativeDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A0A3881D66D4B600633FFA /* VTDRelativeDateTests.m */; };
+		49A0A40F1D66E4B800633FFA /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A0A4081D66E4B800633FFA /* libOCMock.a */; };
 		49B171F31D29558B00F2520D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B171F21D29558B00F2520D /* libz.tbd */; };
 		49B171FF1D29565700F2520D /* account_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B171F41D29565700F2520D /* account_highlight@2x.png */; };
 		49B172001D29565700F2520D /* account_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B171F41D29565700F2520D /* account_highlight@2x.png */; };
@@ -1265,6 +1273,13 @@
 			remoteInfo = PersonalImprovement;
 		};
 		4981A0701C62EFEA009B0157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4981A0431C62EFE9009B0157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4981A04A1C62EFEA009B0157;
+			remoteInfo = PersonalImprovement;
+		};
+		49A0A37E1D66D48800633FFA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4981A0431C62EFE9009B0157 /* Project object */;
 			proxyType = 1;
@@ -2286,6 +2301,22 @@
 		4991E0401D5392B90061FF84 /* icon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = icon.psd; sourceTree = "<group>"; };
 		4991E0411D5392B90061FF84 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		49A0A3731D66AE2400633FFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49A0A3791D66D48700633FFA /* PersonalImprovement-VIPERTestTarget.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PersonalImprovement-VIPERTestTarget.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A0A37B1D66D48800633FFA /* PersonalImprovement_VIPERTestTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalImprovement_VIPERTestTarget.m; sourceTree = "<group>"; };
+		49A0A37D1D66D48800633FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A0A3831D66D4B600633FFA /* VIPER_TODOTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIPER_TODOTests.m; sourceTree = "<group>"; };
+		49A0A3841D66D4B600633FFA /* VTDCalendarTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDCalendarTests.m; sourceTree = "<group>"; };
+		49A0A3851D66D4B600633FFA /* VTDListInteractorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDListInteractorTests.m; sourceTree = "<group>"; };
+		49A0A3861D66D4B600633FFA /* VTDListPresenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDListPresenterTests.m; sourceTree = "<group>"; };
+		49A0A3871D66D4B600633FFA /* VTDListViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDListViewTests.m; sourceTree = "<group>"; };
+		49A0A3881D66D4B600633FFA /* VTDRelativeDateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDRelativeDateTests.m; sourceTree = "<group>"; };
+		49A0A4081D66E4B800633FFA /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		49A0A4091D66E4B800633FFA /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		49A0A40A1D66E4B800633FFA /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		49A0A40B1D66E4B800633FFA /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		49A0A40C1D66E4B800633FFA /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		49A0A40D1D66E4B800633FFA /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		49A0A40E1D66E4B800633FFA /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 		49B171F11D2951CE00F2520D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		49B171F21D29558B00F2520D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		49B171F41D29565700F2520D /* account_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account_highlight@2x.png"; sourceTree = "<group>"; };
@@ -3265,6 +3296,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A0A3761D66D48700633FFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A0A40F1D66E4B800633FFA /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5305,7 +5344,9 @@
 				4930EBD01D28B2AE00606CD9 /* Vendors(第三方) */,
 				4981A0671C62EFEA009B0157 /* PersonalImprovementTests */,
 				4981A0721C62EFEA009B0157 /* PersonalImprovementUITests */,
+				49A0A37A1D66D48800633FFA /* PersonalImprovement-VIPERTestTarget */,
 				4981A04C1C62EFEA009B0157 /* Products */,
+				49A0A4071D66E4B800633FFA /* OCMock */,
 				5A4C30AA63E0F7F05EA9DD24 /* Pods */,
 				FD09C2B7ADD73A1CAEF32BB2 /* Frameworks */,
 			);
@@ -5319,6 +5360,7 @@
 				4981A06F1C62EFEA009B0157 /* PersonalImprovementUITests.xctest */,
 				4981A0851C62F03F009B0157 /* photoData-lightweightCtrl.app */,
 				4981A0A01C62F05E009B0157 /* QuartzDemo.app */,
+				49A0A3791D66D48700633FFA /* PersonalImprovement-VIPERTestTarget.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -5664,6 +5706,35 @@
 				4991E0411D5392B90061FF84 /* iTunesArtwork@2x.png */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		49A0A37A1D66D48800633FFA /* PersonalImprovement-VIPERTestTarget */ = {
+			isa = PBXGroup;
+			children = (
+				49A0A3831D66D4B600633FFA /* VIPER_TODOTests.m */,
+				49A0A3841D66D4B600633FFA /* VTDCalendarTests.m */,
+				49A0A3851D66D4B600633FFA /* VTDListInteractorTests.m */,
+				49A0A3861D66D4B600633FFA /* VTDListPresenterTests.m */,
+				49A0A3871D66D4B600633FFA /* VTDListViewTests.m */,
+				49A0A3881D66D4B600633FFA /* VTDRelativeDateTests.m */,
+				49A0A37B1D66D48800633FFA /* PersonalImprovement_VIPERTestTarget.m */,
+				49A0A37D1D66D48800633FFA /* Info.plist */,
+			);
+			path = "PersonalImprovement-VIPERTestTarget";
+			sourceTree = "<group>";
+		};
+		49A0A4071D66E4B800633FFA /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				49A0A4081D66E4B800633FFA /* libOCMock.a */,
+				49A0A4091D66E4B800633FFA /* NSNotificationCenter+OCMAdditions.h */,
+				49A0A40A1D66E4B800633FFA /* OCMArg.h */,
+				49A0A40B1D66E4B800633FFA /* OCMConstraint.h */,
+				49A0A40C1D66E4B800633FFA /* OCMock.h */,
+				49A0A40D1D66E4B800633FFA /* OCMockObject.h */,
+				49A0A40E1D66E4B800633FFA /* OCMockRecorder.h */,
+			);
+			path = OCMock;
 			sourceTree = "<group>";
 		};
 		49B172201D29567600F2520D /* XYDTabBarcontroller */ = {
@@ -7803,6 +7874,24 @@
 			productReference = 4981A0A01C62F05E009B0157 /* QuartzDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		49A0A3781D66D48700633FFA /* PersonalImprovement-VIPERTestTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A0A3801D66D48800633FFA /* Build configuration list for PBXNativeTarget "PersonalImprovement-VIPERTestTarget" */;
+			buildPhases = (
+				49A0A3751D66D48700633FFA /* Sources */,
+				49A0A3761D66D48700633FFA /* Frameworks */,
+				49A0A3771D66D48700633FFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49A0A37F1D66D48800633FFA /* PBXTargetDependency */,
+			);
+			name = "PersonalImprovement-VIPERTestTarget";
+			productName = "PersonalImprovement-VIPERTestTarget";
+			productReference = 49A0A3791D66D48700633FFA /* PersonalImprovement-VIPERTestTarget.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -7829,6 +7918,10 @@
 					};
 					4981A09F1C62F05E009B0157 = {
 						CreatedOnToolsVersion = 7.2.1;
+					};
+					49A0A3781D66D48700633FFA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4981A04A1C62EFEA009B0157;
 					};
 				};
 			};
@@ -7891,6 +7984,7 @@
 				4981A06E1C62EFEA009B0157 /* PersonalImprovementUITests */,
 				4981A0841C62F03F009B0157 /* photoData-lightweightCtrl */,
 				4981A09F1C62F05E009B0157 /* QuartzDemo */,
+				49A0A3781D66D48700633FFA /* PersonalImprovement-VIPERTestTarget */,
 			);
 		};
 /* End PBXProject section */
@@ -8476,6 +8570,13 @@
 				49B172041D29565700F2520D /* account_normal@2x.png in Resources */,
 				49B172101D29565700F2520D /* message_normal@2x.png in Resources */,
 				49B172331D29567600F2520D /* main_badge@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A0A3771D66D48700633FFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -9262,6 +9363,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		49A0A3751D66D48700633FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A0A38A1D66D4B600633FFA /* VTDCalendarTests.m in Sources */,
+				49A0A3891D66D4B600633FFA /* VIPER_TODOTests.m in Sources */,
+				49A0A37C1D66D48800633FFA /* PersonalImprovement_VIPERTestTarget.m in Sources */,
+				49A0A38C1D66D4B600633FFA /* VTDListPresenterTests.m in Sources */,
+				49A0A38B1D66D4B600633FFA /* VTDListInteractorTests.m in Sources */,
+				49A0A38D1D66D4B600633FFA /* VTDListViewTests.m in Sources */,
+				49A0A38E1D66D4B600633FFA /* VTDRelativeDateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -9274,6 +9389,11 @@
 			isa = PBXTargetDependency;
 			target = 4981A04A1C62EFEA009B0157 /* PersonalImprovement */;
 			targetProxy = 4981A0701C62EFEA009B0157 /* PBXContainerItemProxy */;
+		};
+		49A0A37F1D66D48800633FFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4981A04A1C62EFEA009B0157 /* PersonalImprovement */;
+			targetProxy = 49A0A37E1D66D48800633FFA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -9454,10 +9574,12 @@
 					"\"${PODS_ROOT}/Headers/Public/SSKeychain\"",
 					"\"${PODS_ROOT}/Headers/Public/WYPopoverController\"",
 					"$(SDKROOT)/usr/include/libxml2",
+					"$(PROJECT_DIR)/OCMock",
 				);
 				INFOPLIST_FILE = PersonalImprovement/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hampoo.personal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d9054a31-286d-41be-ae7f-ce7718fb9c43";
@@ -9494,10 +9616,12 @@
 					"\"${PODS_ROOT}/Headers/Public/SSKeychain\"",
 					"\"${PODS_ROOT}/Headers/Public/WYPopoverController\"",
 					"$(SDKROOT)/usr/include/libxml2",
+					"$(PROJECT_DIR)/OCMock",
 				);
 				INFOPLIST_FILE = PersonalImprovement/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hampoo.personal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d9054a31-286d-41be-ae7f-ce7718fb9c43";
@@ -9597,6 +9721,48 @@
 			};
 			name = Release;
 		};
+		49A0A3811D66D48800633FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/OCMock",
+				);
+				INFOPLIST_FILE = "PersonalImprovement-VIPERTestTarget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hampoo.PersonalImprovement-VIPERTestTarget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersonalImprovement.app/PersonalImprovement";
+			};
+			name = Debug;
+		};
+		49A0A3821D66D48800633FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/OCMock",
+				);
+				INFOPLIST_FILE = "PersonalImprovement-VIPERTestTarget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hampoo.PersonalImprovement-VIPERTestTarget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersonalImprovement.app/PersonalImprovement";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -9650,6 +9816,15 @@
 			buildConfigurations = (
 				4981A0B51C62F05E009B0157 /* Debug */,
 				4981A0B61C62F05E009B0157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A0A3801D66D48800633FFA /* Build configuration list for PBXNativeTarget "PersonalImprovement-VIPERTestTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A0A3811D66D48800633FFA /* Debug */,
+				49A0A3821D66D48800633FFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

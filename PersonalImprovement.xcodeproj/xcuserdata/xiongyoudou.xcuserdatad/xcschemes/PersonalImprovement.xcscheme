@@ -48,6 +48,16 @@
                ReferencedContainer = "container:PersonalImprovement.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "49A0A3781D66D48700633FFA"
+               BuildableName = "PersonalImprovement-VIPERTestTarget.xctest"
+               BlueprintName = "PersonalImprovement-VIPERTestTarget"
+               ReferencedContainer = "container:PersonalImprovement.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
