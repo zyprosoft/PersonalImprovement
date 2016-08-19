@@ -7,7 +7,8 @@
 //
 
 #import "StructureVCtrl.h"
-
+#import "MVVMTableViewController.h"
+#import "VTDAppDependencies.h"
 
 @interface StructureVCtrl ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -21,8 +22,10 @@
     
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     [self addCell:@"MVC" class:@"aaa"];
-    [self addCell:@"MVVM&ReactiveCocoa" class:@"StructureVCtrl"];
-    [self addCell:@"Pattern" class:@"PatternVCtrl"];
+    [self addCell:@"MVP" class:@"BBB"];
+    [self addCell:@"MVP2" class:@"CCC"];
+    [self addCell:@"MVVM" class:@"CCC"];
+    [self addCell:@"VIPER" class:@"CCC"];
 }
 
 #pragma mark - UITableViewDataSource
@@ -59,6 +62,23 @@
         UIViewController *ctrl = [mainStoryBoard instantiateViewControllerWithIdentifier:@"ctrl"];
         ctrl.title = cellTitle;
         [self.navigationController pushViewController:ctrl animated:YES];
+    }else if ([cellTitle isEqualToString:@"MVP"]) {
+        UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"MVP" bundle:nil];
+        UIViewController *ctrl = [mainStoryBoard instantiateViewControllerWithIdentifier:@"ctrl"];
+        ctrl.title = cellTitle;
+        [self.navigationController pushViewController:ctrl animated:YES];
+    }else if ([cellTitle isEqualToString:@"MVP2"]) {
+        UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"MVP2" bundle:nil];
+        UIViewController *ctrl = [mainStoryBoard instantiateViewControllerWithIdentifier:@"ctrl"];
+        ctrl.title = cellTitle;
+        [self.navigationController pushViewController:ctrl animated:YES];
+    }else if ([cellTitle isEqualToString:@"MVVM"]) {
+        MVVMTableViewController *ctrl=[[MVVMTableViewController alloc] init];
+        ctrl.title = cellTitle;
+        [self.navigationController pushViewController:ctrl animated:YES];
+    }else if ([cellTitle isEqualToString:@"VIPER"]) {
+        VTDAppDependencies *dependencies = [[VTDAppDependencies alloc] init];
+        [dependencies installRootViewControllerIntoWindow:KCurrentWindow];
     }else {
         NSString *classStr = self.classArray[indexPath.row];
         Class class = NSClassFromString(classStr);

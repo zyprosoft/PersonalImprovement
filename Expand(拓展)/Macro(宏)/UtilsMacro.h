@@ -35,6 +35,8 @@
 
 #define KCurrentWindow [[UIApplication sharedApplication].delegate window]
 #define KWindowSize KCurrentWindow.bounds.size
+#define KWindowWidth KCurrentWindow.bounds.size.width
+#define KWindowHeight KCurrentWindow.bounds.size.height
 
 #define KCurrentShowingViewCtrl [MyTool getCurrentViewingCtrl]
 #define KCurrentShowingView KCurrentShowingViewCtrl.view
