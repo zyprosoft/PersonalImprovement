@@ -22,7 +22,7 @@
 // THE SOFTWARE.
 
 #import <XCTest/XCTest.h>
-//#import <OCMock/OCMock.h>
+#import <OCMock/OCMock.h>
 #import "OCMock.h"
 #import "VTDListPresenter.h"
 #import "VTDListViewInterface.h"

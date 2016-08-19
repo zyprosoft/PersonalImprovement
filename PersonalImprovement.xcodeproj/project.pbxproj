@@ -17,6 +17,9 @@
 		490009011D50ABF2006C5D06 /* REMenuProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 490008FA1D50ABF2006C5D06 /* REMenuProfileViewController.m */; };
 		490009021D50ABF2006C5D06 /* REMenuRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 490008FC1D50ABF2006C5D06 /* REMenuRootViewController.m */; };
 		490009041D50B392006C5D06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490009031D50B392006C5D06 /* Images.xcassets */; };
+		4900EFFB1D6709120030E6D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4900EFFA1D6709120030E6D4 /* Foundation.framework */; };
+		4900EFFD1D6709170030E6D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4900EFFC1D6709170030E6D4 /* UIKit.framework */; };
+		4900F0181D670C240030E6D4 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4900F0101D670BE80030E6D4 /* libOCMock.a */; };
 		4901471C1D58D3430058E23B /* noise.png in Resources */ = {isa = PBXBuildFile; fileRef = 490147151D58D3430058E23B /* noise.png */; };
 		4901471D1D58D3430058E23B /* YLBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 490147171D58D3430058E23B /* YLBackgroundView.m */; };
 		4901471E1D58D3430058E23B /* YLProgressBarSample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 490147181D58D3430058E23B /* YLProgressBarSample-Info.plist */; };
@@ -663,7 +666,6 @@
 		49A0A38C1D66D4B600633FFA /* VTDListPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A0A3861D66D4B600633FFA /* VTDListPresenterTests.m */; };
 		49A0A38D1D66D4B600633FFA /* VTDListViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A0A3871D66D4B600633FFA /* VTDListViewTests.m */; };
 		49A0A38E1D66D4B600633FFA /* VTDRelativeDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A0A3881D66D4B600633FFA /* VTDRelativeDateTests.m */; };
-		49A0A40F1D66E4B800633FFA /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A0A4081D66E4B800633FFA /* libOCMock.a */; };
 		49B171F31D29558B00F2520D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B171F21D29558B00F2520D /* libz.tbd */; };
 		49B171FF1D29565700F2520D /* account_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B171F41D29565700F2520D /* account_highlight@2x.png */; };
 		49B172001D29565700F2520D /* account_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B171F41D29565700F2520D /* account_highlight@2x.png */; };
@@ -1309,6 +1311,15 @@
 		490008FB1D50ABF2006C5D06 /* REMenuRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenuRootViewController.h; sourceTree = "<group>"; };
 		490008FC1D50ABF2006C5D06 /* REMenuRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenuRootViewController.m; sourceTree = "<group>"; };
 		490009031D50B392006C5D06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4900EFFA1D6709120030E6D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4900EFFC1D6709170030E6D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4900F0101D670BE80030E6D4 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		4900F0111D670BE80030E6D4 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		4900F0121D670BE80030E6D4 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		4900F0131D670BE80030E6D4 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		4900F0141D670BE80030E6D4 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		4900F0151D670BE80030E6D4 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		4900F0161D670BE80030E6D4 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 		490147151D58D3430058E23B /* noise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noise.png; sourceTree = "<group>"; };
 		490147161D58D3430058E23B /* YLBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLBackgroundView.h; sourceTree = "<group>"; };
 		490147171D58D3430058E23B /* YLBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLBackgroundView.m; sourceTree = "<group>"; };
@@ -2310,13 +2321,6 @@
 		49A0A3861D66D4B600633FFA /* VTDListPresenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDListPresenterTests.m; sourceTree = "<group>"; };
 		49A0A3871D66D4B600633FFA /* VTDListViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDListViewTests.m; sourceTree = "<group>"; };
 		49A0A3881D66D4B600633FFA /* VTDRelativeDateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDRelativeDateTests.m; sourceTree = "<group>"; };
-		49A0A4081D66E4B800633FFA /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
-		49A0A4091D66E4B800633FFA /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
-		49A0A40A1D66E4B800633FFA /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
-		49A0A40B1D66E4B800633FFA /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
-		49A0A40C1D66E4B800633FFA /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
-		49A0A40D1D66E4B800633FFA /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
-		49A0A40E1D66E4B800633FFA /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 		49B171F11D2951CE00F2520D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		49B171F21D29558B00F2520D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		49B171F41D29565700F2520D /* account_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account_highlight@2x.png"; sourceTree = "<group>"; };
@@ -3303,7 +3307,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49A0A40F1D66E4B800633FFA /* libOCMock.a in Frameworks */,
+				4900F0181D670C240030E6D4 /* libOCMock.a in Frameworks */,
+				4900EFFD1D6709170030E6D4 /* UIKit.framework in Frameworks */,
+				4900EFFB1D6709120030E6D4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3341,6 +3347,20 @@
 				490008FC1D50ABF2006C5D06 /* REMenuRootViewController.m */,
 			);
 			path = REMenu;
+			sourceTree = "<group>";
+		};
+		4900F00F1D670BE80030E6D4 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				4900F0101D670BE80030E6D4 /* libOCMock.a */,
+				4900F0111D670BE80030E6D4 /* NSNotificationCenter+OCMAdditions.h */,
+				4900F0121D670BE80030E6D4 /* OCMArg.h */,
+				4900F0131D670BE80030E6D4 /* OCMConstraint.h */,
+				4900F0141D670BE80030E6D4 /* OCMock.h */,
+				4900F0151D670BE80030E6D4 /* OCMockObject.h */,
+				4900F0161D670BE80030E6D4 /* OCMockRecorder.h */,
+			);
+			path = OCMock;
 			sourceTree = "<group>";
 		};
 		490147141D58D3430058E23B /* YLProgressBar */ = {
@@ -5342,11 +5362,11 @@
 				4930EB811D28B2AE00606CD9 /* Other(其他) */,
 				4930EB821D28B2AE00606CD9 /* Resource(资源) */,
 				4930EBD01D28B2AE00606CD9 /* Vendors(第三方) */,
+				4900F00F1D670BE80030E6D4 /* OCMock */,
 				4981A0671C62EFEA009B0157 /* PersonalImprovementTests */,
 				4981A0721C62EFEA009B0157 /* PersonalImprovementUITests */,
 				49A0A37A1D66D48800633FFA /* PersonalImprovement-VIPERTestTarget */,
 				4981A04C1C62EFEA009B0157 /* Products */,
-				49A0A4071D66E4B800633FFA /* OCMock */,
 				5A4C30AA63E0F7F05EA9DD24 /* Pods */,
 				FD09C2B7ADD73A1CAEF32BB2 /* Frameworks */,
 			);
@@ -5721,20 +5741,6 @@
 				49A0A37D1D66D48800633FFA /* Info.plist */,
 			);
 			path = "PersonalImprovement-VIPERTestTarget";
-			sourceTree = "<group>";
-		};
-		49A0A4071D66E4B800633FFA /* OCMock */ = {
-			isa = PBXGroup;
-			children = (
-				49A0A4081D66E4B800633FFA /* libOCMock.a */,
-				49A0A4091D66E4B800633FFA /* NSNotificationCenter+OCMAdditions.h */,
-				49A0A40A1D66E4B800633FFA /* OCMArg.h */,
-				49A0A40B1D66E4B800633FFA /* OCMConstraint.h */,
-				49A0A40C1D66E4B800633FFA /* OCMock.h */,
-				49A0A40D1D66E4B800633FFA /* OCMockObject.h */,
-				49A0A40E1D66E4B800633FFA /* OCMockRecorder.h */,
-			);
-			path = OCMock;
 			sourceTree = "<group>";
 		};
 		49B172201D29567600F2520D /* XYDTabBarcontroller */ = {
@@ -7775,6 +7781,8 @@
 		FD09C2B7ADD73A1CAEF32BB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4900EFFC1D6709170030E6D4 /* UIKit.framework */,
+				4900EFFA1D6709120030E6D4 /* Foundation.framework */,
 				49B171F21D29558B00F2520D /* libz.tbd */,
 				4C3EBFDB6BE99D3B84B2F431 /* libPods.a */,
 			);
@@ -9579,7 +9587,7 @@
 				INFOPLIST_FILE = PersonalImprovement/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/OCMock";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hampoo.personal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d9054a31-286d-41be-ae7f-ce7718fb9c43";
@@ -9621,7 +9629,7 @@
 				INFOPLIST_FILE = PersonalImprovement/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/OCMock";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hampoo.personal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d9054a31-286d-41be-ae7f-ce7718fb9c43";
@@ -9727,11 +9735,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/OCMock",
-				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/OCMock";
 				INFOPLIST_FILE = "PersonalImprovement-VIPERTestTarget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -9748,11 +9752,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/OCMock",
-				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/OCMock";
 				INFOPLIST_FILE = "PersonalImprovement-VIPERTestTarget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
