@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '05172A65FF0CC4ED8AA7F4F9'
+               BlueprintIdentifier = 'CAA6C0A392EEA1E0FBAE8E99'
                BlueprintName = 'AXRatingView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libAXRatingView.a'>

@@ -71,7 +71,7 @@ static void verifyAllowedClassesByPropertyKey(Class modelClass) {
 		objc_property_t property = class_getProperty(self, key.UTF8String);
 		NSAssert(property != NULL, @"Could not find property \"%@\" on %@", key, self);
 
-		mtl_propertyAttributes *attributes = mtl_copyPropertyAttributes(property);
+		ext_propertyAttributes *attributes = ext_copyPropertyAttributes(property);
 		@onExit {
 			free(attributes);
 		};
@@ -98,7 +98,7 @@ static void verifyAllowedClassesByPropertyKey(Class modelClass) {
 		objc_property_t property = class_getProperty(self, key.UTF8String);
 		NSAssert(property != NULL, @"Could not find property \"%@\" on %@", key, self);
 
-		mtl_propertyAttributes *attributes = mtl_copyPropertyAttributes(property);
+		ext_propertyAttributes *attributes = ext_copyPropertyAttributes(property);
 		@onExit {
 			free(attributes);
 		};

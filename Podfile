@@ -46,6 +46,9 @@ pod 'XLForm'
 pod 'AXRatingView', '1.0.3'
 pod 'JVFloatLabeledTextField', '1.0.2'
 pod 'YLProgressBar'
+pod 'ReactiveCocoa'
+pod 'libextobjc'
+pod 'ReactiveViewModel', '0.1.1'
 
 #pod 'JSQMessagesViewController'
 

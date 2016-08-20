@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '7A5540326CAA840DC04E0F9C'
+               BlueprintIdentifier = '8EC3055B2256F357ED716D1E'
                BlueprintName = 'KYGooeyMenu'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libKYGooeyMenu.a'>

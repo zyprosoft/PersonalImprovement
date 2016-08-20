@@ -42,6 +42,41 @@ PODS:
   - JVFloatLabeledTextField (1.0.2)
   - KYCuteView (1.3.0)
   - KYGooeyMenu (1.0.5)
+  - libextobjc (0.4.1):
+    - libextobjc/EXTADT (= 0.4.1)
+    - libextobjc/EXTConcreteProtocol (= 0.4.1)
+    - libextobjc/EXTKeyPathCoding (= 0.4.1)
+    - libextobjc/EXTNil (= 0.4.1)
+    - libextobjc/EXTSafeCategory (= 0.4.1)
+    - libextobjc/EXTScope (= 0.4.1)
+    - libextobjc/EXTSelectorChecking (= 0.4.1)
+    - libextobjc/EXTSynthesize (= 0.4.1)
+    - libextobjc/NSInvocation+EXT (= 0.4.1)
+    - libextobjc/NSMethodSignature+EXT (= 0.4.1)
+    - libextobjc/RuntimeExtensions (= 0.4.1)
+    - libextobjc/UmbrellaHeader (= 0.4.1)
+  - libextobjc/EXTADT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSInvocation+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSMethodSignature+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - libextobjc/UmbrellaHeader (0.4.1)
   - M13ProgressSuite (1.2.7)
   - MagicalRecord (2.3.2):
     - MagicalRecord/Core (= 2.3.2)
@@ -103,6 +138,15 @@ PODS:
     - UIColor+FlatColors
   - PSTCollectionView (1.2.3)
   - RBBAnimation (0.4.0)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - ReactiveViewModel (0.1.1):
+    - ReactiveCocoa (~> 2.1)
   - REMenu (1.10)
   - SDWebImage (3.8.1):
     - SDWebImage/Core (= 3.8.1)
@@ -142,6 +186,7 @@ DEPENDENCIES:
   - JVFloatLabeledTextField (= 1.0.2)
   - KYCuteView
   - KYGooeyMenu
+  - libextobjc
   - M13ProgressSuite
   - MagicalRecord
   - Mantle (= 1.5.5)
@@ -157,6 +202,8 @@ DEPENDENCIES:
   - PQFCustomLoaders
   - PSTCollectionView
   - RBBAnimation
+  - ReactiveCocoa
+  - ReactiveViewModel (= 0.1.1)
   - REMenu
   - SDWebImage
   - Shapes
@@ -194,6 +241,7 @@ SPEC CHECKSUMS:
   JVFloatLabeledTextField: 58a3a32cfb800e5b224f676987e7c13abf50a14d
   KYCuteView: ad61c0ef95a2595e6bade134189d5a4dbe3ed3f2
   KYGooeyMenu: 3d9f3504b59a5dd1b6c4ff34a06836284647a2aa
+  libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
   M13ProgressSuite: 03d194af6359da440641ba758aed5a18b0386a86
   MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
   Mantle: 1b29072a707453975b200a173cf77ec1e2810b75
@@ -209,6 +257,8 @@ SPEC CHECKSUMS:
   PQFCustomLoaders: 861daed580660069d1cb5c61db835baabf1f21a5
   PSTCollectionView: 6749df92885353521f55279a7ce2b293762e2be4
   RBBAnimation: 4b2d66f6d993febce63cd564da934985313b9c59
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  ReactiveViewModel: 171492c2d30d3eb3c89730fd180c0f6a2ae7e774
   REMenu: 30dad195930adf6c5eeb8041e3257aa60bf9fa49
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
   Shapes: 0e67e4324ce4a3cd0d4ca9431bd26387a677877f

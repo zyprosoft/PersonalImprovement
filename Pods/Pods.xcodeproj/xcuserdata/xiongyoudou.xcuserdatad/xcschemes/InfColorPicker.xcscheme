@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'FE776508DED06D073CAFC333'
+               BlueprintIdentifier = '1463D9A0CA7E22FFDD3D7C38'
                BlueprintName = 'InfColorPicker'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libInfColorPicker.a'>

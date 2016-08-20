@@ -10,6 +10,16 @@
 #import "MVVMTableViewController.h"
 #import "VTDAppDependencies.h"
 
+#import "CNTCountInteractor.h"
+#import "CNTCountPresenter.h"
+#import "CNTCountViewController.h"
+
+#import "ASHCoreDataStack.h"
+// View Controllers
+#import "ASHMasterViewController.h"
+// View Models
+#import "ASHMasterViewModel.h"
+
 @interface StructureVCtrl ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
@@ -25,7 +35,9 @@
     [self addCell:@"MVP" class:@"BBB"];
     [self addCell:@"MVP2" class:@"CCC"];
     [self addCell:@"MVVM" class:@"CCC"];
+    [self addCell:@"MVVM2(C-14完整项目)" class:@"CCC"];
     [self addCell:@"VIPER" class:@"CCC"];
+    [self addCell:@"VIPER2" class:@"CCC"];
 }
 
 #pragma mark - UITableViewDataSource
@@ -76,9 +88,29 @@
         MVVMTableViewController *ctrl=[[MVVMTableViewController alloc] init];
         ctrl.title = cellTitle;
         [self.navigationController pushViewController:ctrl animated:YES];
+    }else if ([cellTitle isEqualToString:@"MVVM2(C-14完整项目)"]) {
+        UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"MVVM2" bundle:nil];
+        ASHMasterViewController *ctrl = [mainStoryBoard instantiateViewControllerWithIdentifier:@"ctrl"];
+        ctrl.title = cellTitle;
+        ASHMasterViewModel *viewModel = [[ASHMasterViewModel alloc] initWithModel:[ASHCoreDataStack defaultStack].managedObjectContext];
+        ctrl.viewModel = viewModel;
+        // Setup model
+        [[ASHCoreDataStack defaultStack] ensureInitialLoad];
+        [self.navigationController pushViewController:ctrl animated:YES];
     }else if ([cellTitle isEqualToString:@"VIPER"]) {
         VTDAppDependencies *dependencies = [[VTDAppDependencies alloc] init];
         [dependencies installRootViewControllerIntoWindow:KCurrentWindow];
+    }else if ([cellTitle isEqualToString:@"VIPER2"]) {
+        CNTCountViewController* view = [[CNTCountViewController alloc] init];
+        CNTCountPresenter* presenter = [[CNTCountPresenter alloc] init];
+        CNTCountInteractor* interactor = [[CNTCountInteractor alloc] init];
+        
+        view.presenter = presenter;
+        presenter.view = view;
+        
+        presenter.interactor = interactor;
+        interactor.output = presenter;
+        [self.navigationController pushViewController:view animated:YES];
     }else {
         NSString *classStr = self.classArray[indexPath.row];
         Class class = NSClassFromString(classStr);

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E482561420C0B1301D72BE27'
+               BlueprintIdentifier = '709FA5CF49C739C8B15BE636'
                BlueprintName = 'MTAnimation'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libMTAnimation.a'>
