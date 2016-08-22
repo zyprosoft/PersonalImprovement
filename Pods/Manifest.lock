@@ -77,6 +77,7 @@ PODS:
     - libextobjc/RuntimeExtensions
   - libextobjc/RuntimeExtensions (0.4.1)
   - libextobjc/UmbrellaHeader (0.4.1)
+  - LinqToObjectiveC (2.1.0)
   - M13ProgressSuite (1.2.7)
   - MagicalRecord (2.3.2):
     - MagicalRecord/Core (= 2.3.2)
@@ -131,6 +132,7 @@ PODS:
   - MRProgress/Stopable (0.8.3):
     - MRProgress/Helper
   - MTAnimation (1.2.2)
+  - objectiveflickr (2.0.4)
   - Onboard (2.2.0)
   - pop (1.0.9)
   - PQFCustomLoaders (1.1.0):
@@ -187,6 +189,7 @@ DEPENDENCIES:
   - KYCuteView
   - KYGooeyMenu
   - libextobjc
+  - LinqToObjectiveC
   - M13ProgressSuite
   - MagicalRecord
   - Mantle (= 1.5.5)
@@ -197,6 +200,7 @@ DEPENDENCIES:
   - MMDrawerController
   - MRProgress
   - MTAnimation
+  - objectiveflickr
   - Onboard
   - pop
   - PQFCustomLoaders
@@ -242,6 +246,7 @@ SPEC CHECKSUMS:
   KYCuteView: ad61c0ef95a2595e6bade134189d5a4dbe3ed3f2
   KYGooeyMenu: 3d9f3504b59a5dd1b6c4ff34a06836284647a2aa
   libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
+  LinqToObjectiveC: f0e40c137a458b6b9725c4c7b6a575c0c72e3aec
   M13ProgressSuite: 03d194af6359da440641ba758aed5a18b0386a86
   MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
   Mantle: 1b29072a707453975b200a173cf77ec1e2810b75
@@ -252,6 +257,7 @@ SPEC CHECKSUMS:
   MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
   MRProgress: 16de7cc9f347e8846797a770db102a323fe7ef09
   MTAnimation: 1079f4ff38c0282779ced010d7363a8f893fd3ee
+  objectiveflickr: aed169dae1eb5a5550ca78f7efd7ccde2e4c26e5
   Onboard: c46261255c0bcbe26ab2823782764c96fca7a33e
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   PQFCustomLoaders: 861daed580660069d1cb5c61db835baabf1f21a5

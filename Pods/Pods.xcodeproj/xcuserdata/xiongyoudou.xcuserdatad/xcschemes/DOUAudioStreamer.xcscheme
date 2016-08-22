@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D1D3FF2382F048ADCE5CB95F'
+               BlueprintIdentifier = 'E787C91C5ADDA5E2057FF309'
                BlueprintName = 'DOUAudioStreamer'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libDOUAudioStreamer.a'>

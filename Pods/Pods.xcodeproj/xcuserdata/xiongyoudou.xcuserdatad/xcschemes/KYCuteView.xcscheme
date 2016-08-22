@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '8C6720AC4B12EA1AABD22E1F'
+               BlueprintIdentifier = '36230CB7B1144CF7100CE9CD'
                BlueprintName = 'KYCuteView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libKYCuteView.a'>

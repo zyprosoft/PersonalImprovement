@@ -7,6 +7,7 @@
 //
 
 #import "StructureAndPatternVCtrl.h"
+#import "ReactiveCocoaMVVMVCtrl.h"
 
 @interface StructureAndPatternVCtrl ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -18,13 +19,8 @@
     [super viewDidLoad];
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     [self addCell:@"MVC&MVVM&MVP&VIPPER比较" class:@"StructureVCtrl"];
-    [self addCell:@"MVVM&ReactiveCocoa" class:@"StructureVCtrl"];
+    [self addCell:@"MVVM&ReactiveCocoa" class:@"ReactiveCocoaMVVMVCtrl"];
     [self addCell:@"Pattern" class:@"PatternVCtrl"];
-}
-
-- (void)addCell:(NSString *)title class:(NSString *)className {
-    [self.titleArray addObject:title];
-    [self.classArray addObject:className];
 }
 
 #pragma mark - UITableViewDataSource

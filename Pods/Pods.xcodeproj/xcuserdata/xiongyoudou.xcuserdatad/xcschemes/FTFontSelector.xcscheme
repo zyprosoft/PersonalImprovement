@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '05B1F3879FD10F7796979A4B'
+               BlueprintIdentifier = '31AE357B677EA34B70AAF5AF'
                BlueprintName = 'FTFontSelector'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libFTFontSelector.a'>

@@ -49,6 +49,8 @@ pod 'YLProgressBar'
 pod 'ReactiveCocoa'
 pod 'libextobjc'
 pod 'ReactiveViewModel', '0.1.1'
+pod 'LinqToObjectiveC'
+pod 'objectiveflickr'
 
 #pod 'JSQMessagesViewController'
 

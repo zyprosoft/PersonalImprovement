@@ -88,6 +88,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "TSMessages/Pod/Assets/TSMessagesDefaultDesign.json"
   install_resource "TapkuLibrary/src/TapkuLibrary.bundle"
   install_resource "XLForm/XLForm/XLForm.bundle"
+  install_resource "objectiveflickr/BridgeSupport"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "DateTools/DateTools/DateTools.bundle"
@@ -120,6 +121,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "TSMessages/Pod/Assets/TSMessagesDefaultDesign.json"
   install_resource "TapkuLibrary/src/TapkuLibrary.bundle"
   install_resource "XLForm/XLForm/XLForm.bundle"
+  install_resource "objectiveflickr/BridgeSupport"
 fi
 
 mkdir -p "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
