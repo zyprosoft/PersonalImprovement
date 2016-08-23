@@ -498,6 +498,8 @@
 		49534C891D6565240077BDF1 /* NSObject+MVCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49534C7A1D6565240077BDF1 /* NSObject+MVCModel.m */; };
 		49534C8A1D6565240077BDF1 /* MVCMyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49534C7D1D6565240077BDF1 /* MVCMyCell.m */; };
 		49534C8B1D6565240077BDF1 /* UIView+MVCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49534C7F1D6565240077BDF1 /* UIView+MVCModel.m */; };
+		496217B31D6BD6D000181B27 /* AlgorithmVCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 496217B11D6BD6D000181B27 /* AlgorithmVCtrl.m */; };
+		496217B41D6BD6D000181B27 /* AlgorithmVCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 496217B21D6BD6D000181B27 /* AlgorithmVCtrl.xib */; };
 		4963976D1D6583E20090806A /* StructureVCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4963976B1D6583E20090806A /* StructureVCtrl.m */; };
 		4963976E1D6583E20090806A /* StructureVCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4963976C1D6583E20090806A /* StructureVCtrl.xib */; };
 		4972E7A01D6694C9005B4315 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 4972E7821D6694C9005B4315 /* car.png */; };
@@ -687,6 +689,21 @@
 		49A0A38C1D66D4B600633FFA /* VTDListPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A0A3861D66D4B600633FFA /* VTDListPresenterTests.m */; };
 		49A0A38D1D66D4B600633FFA /* VTDListViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A0A3871D66D4B600633FFA /* VTDListViewTests.m */; };
 		49A0A38E1D66D4B600633FFA /* VTDRelativeDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A0A3881D66D4B600633FFA /* VTDRelativeDateTests.m */; };
+		49A93F271D6BE92B009269BC /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A93EFC1D6BE92B009269BC /* BinarySearch.m */; };
+		49A93F281D6BE92B009269BC /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A93EFF1D6BE92B009269BC /* BinaryTree.m */; };
+		49A93F291D6BE92B009269BC /* BinaryTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A93F011D6BE92B009269BC /* BinaryTreeNode.m */; };
+		49A93F2A1D6BE92B009269BC /* BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A93F051D6BE92B009269BC /* BubbleSort.m */; };
+		49A93F2B1D6BE92B009269BC /* DynamicProgramming.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A93F081D6BE92B009269BC /* DynamicProgramming.m */; };
+		49A93F2C1D6BE92B009269BC /* HeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A93F0B1D6BE92B009269BC /* HeapSort.m */; };
+		49A93F2D1D6BE92B009269BC /* ShellSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A93F0E1D6BE92B009269BC /* ShellSort.m */; };
+		49A93F2E1D6BE92B009269BC /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A93F111D6BE92B009269BC /* MergeSort.m */; };
+		49A93F2F1D6BE92B009269BC /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A93F141D6BE92B009269BC /* QuickSort.m */; };
+		49A93F301D6BE92B009269BC /* Dijkstra.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A93F171D6BE92B009269BC /* Dijkstra.m */; };
+		49A93F311D6BE92B009269BC /* InsertSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A93F1A1D6BE92B009269BC /* InsertSort.m */; };
+		49A93F321D6BE92B009269BC /* Hanoi.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A93F1D1D6BE92B009269BC /* Hanoi.m */; };
+		49A93F331D6BE92B009269BC /* AMWGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A93F201D6BE92B009269BC /* AMWGraph.m */; };
+		49A93F341D6BE92B009269BC /* Bfprt.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A93F231D6BE92B009269BC /* Bfprt.m */; };
+		49A93F351D6BE92B009269BC /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A93F261D6BE92B009269BC /* ListNode.m */; };
 		49B171F31D29558B00F2520D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B171F21D29558B00F2520D /* libz.tbd */; };
 		49B171FF1D29565700F2520D /* account_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B171F41D29565700F2520D /* account_highlight@2x.png */; };
 		49B172001D29565700F2520D /* account_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B171F41D29565700F2520D /* account_highlight@2x.png */; };
@@ -2314,6 +2331,9 @@
 		49534C7D1D6565240077BDF1 /* MVCMyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVCMyCell.m; sourceTree = "<group>"; };
 		49534C7E1D6565240077BDF1 /* UIView+MVCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MVCModel.h"; sourceTree = "<group>"; };
 		49534C7F1D6565240077BDF1 /* UIView+MVCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MVCModel.m"; sourceTree = "<group>"; };
+		496217B01D6BD6D000181B27 /* AlgorithmVCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgorithmVCtrl.h; sourceTree = "<group>"; };
+		496217B11D6BD6D000181B27 /* AlgorithmVCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlgorithmVCtrl.m; sourceTree = "<group>"; };
+		496217B21D6BD6D000181B27 /* AlgorithmVCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlgorithmVCtrl.xib; sourceTree = "<group>"; };
 		4963976A1D6583E20090806A /* StructureVCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StructureVCtrl.h; sourceTree = "<group>"; };
 		4963976B1D6583E20090806A /* StructureVCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StructureVCtrl.m; sourceTree = "<group>"; };
 		4963976C1D6583E20090806A /* StructureVCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StructureVCtrl.xib; sourceTree = "<group>"; };
@@ -2638,6 +2658,37 @@
 		49A0A3861D66D4B600633FFA /* VTDListPresenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDListPresenterTests.m; sourceTree = "<group>"; };
 		49A0A3871D66D4B600633FFA /* VTDListViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDListViewTests.m; sourceTree = "<group>"; };
 		49A0A3881D66D4B600633FFA /* VTDRelativeDateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDRelativeDateTests.m; sourceTree = "<group>"; };
+		49A93EFB1D6BE92B009269BC /* BinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
+		49A93EFC1D6BE92B009269BC /* BinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearch.m; sourceTree = "<group>"; };
+		49A93EFE1D6BE92B009269BC /* BinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
+		49A93EFF1D6BE92B009269BC /* BinaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryTree.m; sourceTree = "<group>"; };
+		49A93F001D6BE92B009269BC /* BinaryTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTreeNode.h; sourceTree = "<group>"; };
+		49A93F011D6BE92B009269BC /* BinaryTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryTreeNode.m; sourceTree = "<group>"; };
+		49A93F021D6BE92B009269BC /* ReadMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadMe.h; sourceTree = "<group>"; };
+		49A93F041D6BE92B009269BC /* BubbleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
+		49A93F051D6BE92B009269BC /* BubbleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleSort.m; sourceTree = "<group>"; };
+		49A93F071D6BE92B009269BC /* DynamicProgramming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicProgramming.h; sourceTree = "<group>"; };
+		49A93F081D6BE92B009269BC /* DynamicProgramming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicProgramming.m; sourceTree = "<group>"; };
+		49A93F0A1D6BE92B009269BC /* HeapSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeapSort.h; sourceTree = "<group>"; };
+		49A93F0B1D6BE92B009269BC /* HeapSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeapSort.m; sourceTree = "<group>"; };
+		49A93F0D1D6BE92B009269BC /* ShellSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShellSort.h; sourceTree = "<group>"; };
+		49A93F0E1D6BE92B009269BC /* ShellSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShellSort.m; sourceTree = "<group>"; };
+		49A93F101D6BE92B009269BC /* MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
+		49A93F111D6BE92B009269BC /* MergeSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
+		49A93F131D6BE92B009269BC /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		49A93F141D6BE92B009269BC /* QuickSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
+		49A93F161D6BE92B009269BC /* Dijkstra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dijkstra.h; sourceTree = "<group>"; };
+		49A93F171D6BE92B009269BC /* Dijkstra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dijkstra.m; sourceTree = "<group>"; };
+		49A93F191D6BE92B009269BC /* InsertSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertSort.h; sourceTree = "<group>"; };
+		49A93F1A1D6BE92B009269BC /* InsertSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertSort.m; sourceTree = "<group>"; };
+		49A93F1C1D6BE92B009269BC /* Hanoi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hanoi.h; sourceTree = "<group>"; };
+		49A93F1D1D6BE92B009269BC /* Hanoi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hanoi.m; sourceTree = "<group>"; };
+		49A93F1F1D6BE92B009269BC /* AMWGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMWGraph.h; sourceTree = "<group>"; };
+		49A93F201D6BE92B009269BC /* AMWGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMWGraph.m; sourceTree = "<group>"; };
+		49A93F221D6BE92B009269BC /* Bfprt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bfprt.h; sourceTree = "<group>"; };
+		49A93F231D6BE92B009269BC /* Bfprt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bfprt.m; sourceTree = "<group>"; };
+		49A93F251D6BE92B009269BC /* ListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
+		49A93F261D6BE92B009269BC /* ListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
 		49B171F11D2951CE00F2520D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		49B171F21D29558B00F2520D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		49B171F41D29565700F2520D /* account_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account_highlight@2x.png"; sourceTree = "<group>"; };
@@ -5796,6 +5847,17 @@
 			path = VIPER;
 			sourceTree = "<group>";
 		};
+		496217AF1D6BD67200181B27 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				49A93EF91D6BE92B009269BC /* OC-Algorithm */,
+				496217B01D6BD6D000181B27 /* AlgorithmVCtrl.h */,
+				496217B11D6BD6D000181B27 /* AlgorithmVCtrl.m */,
+				496217B21D6BD6D000181B27 /* AlgorithmVCtrl.xib */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
 		4972E7841D6694C9005B4315 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -6668,6 +6730,156 @@
 				49A0A37D1D66D48800633FFA /* Info.plist */,
 			);
 			path = "PersonalImprovement-VIPERTestTarget";
+			sourceTree = "<group>";
+		};
+		49A93EF91D6BE92B009269BC /* OC-Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				49A93EFA1D6BE92B009269BC /* 二分查找 */,
+				49A93EFD1D6BE92B009269BC /* 二叉树 */,
+				49A93F031D6BE92B009269BC /* 冒泡排序 */,
+				49A93F061D6BE92B009269BC /* 动态规划 */,
+				49A93F091D6BE92B009269BC /* 堆排序 */,
+				49A93F0C1D6BE92B009269BC /* 希尔排序 */,
+				49A93F0F1D6BE92B009269BC /* 归并排序 */,
+				49A93F121D6BE92B009269BC /* 快速排序 */,
+				49A93F151D6BE92B009269BC /* 戴克斯特拉算法 */,
+				49A93F181D6BE92B009269BC /* 插入排序 */,
+				49A93F1B1D6BE92B009269BC /* 汉诺塔 */,
+				49A93F1E1D6BE92B009269BC /* 深度优先算法 */,
+				49A93F211D6BE92B009269BC /* 线性查找 */,
+				49A93F241D6BE92B009269BC /* 链表 */,
+			);
+			path = "OC-Algorithm";
+			sourceTree = "<group>";
+		};
+		49A93EFA1D6BE92B009269BC /* 二分查找 */ = {
+			isa = PBXGroup;
+			children = (
+				49A93EFB1D6BE92B009269BC /* BinarySearch.h */,
+				49A93EFC1D6BE92B009269BC /* BinarySearch.m */,
+			);
+			path = "二分查找";
+			sourceTree = "<group>";
+		};
+		49A93EFD1D6BE92B009269BC /* 二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				49A93EFE1D6BE92B009269BC /* BinaryTree.h */,
+				49A93EFF1D6BE92B009269BC /* BinaryTree.m */,
+				49A93F001D6BE92B009269BC /* BinaryTreeNode.h */,
+				49A93F011D6BE92B009269BC /* BinaryTreeNode.m */,
+				49A93F021D6BE92B009269BC /* ReadMe.h */,
+			);
+			path = "二叉树";
+			sourceTree = "<group>";
+		};
+		49A93F031D6BE92B009269BC /* 冒泡排序 */ = {
+			isa = PBXGroup;
+			children = (
+				49A93F041D6BE92B009269BC /* BubbleSort.h */,
+				49A93F051D6BE92B009269BC /* BubbleSort.m */,
+			);
+			path = "冒泡排序";
+			sourceTree = "<group>";
+		};
+		49A93F061D6BE92B009269BC /* 动态规划 */ = {
+			isa = PBXGroup;
+			children = (
+				49A93F071D6BE92B009269BC /* DynamicProgramming.h */,
+				49A93F081D6BE92B009269BC /* DynamicProgramming.m */,
+			);
+			path = "动态规划";
+			sourceTree = "<group>";
+		};
+		49A93F091D6BE92B009269BC /* 堆排序 */ = {
+			isa = PBXGroup;
+			children = (
+				49A93F0A1D6BE92B009269BC /* HeapSort.h */,
+				49A93F0B1D6BE92B009269BC /* HeapSort.m */,
+			);
+			path = "堆排序";
+			sourceTree = "<group>";
+		};
+		49A93F0C1D6BE92B009269BC /* 希尔排序 */ = {
+			isa = PBXGroup;
+			children = (
+				49A93F0D1D6BE92B009269BC /* ShellSort.h */,
+				49A93F0E1D6BE92B009269BC /* ShellSort.m */,
+			);
+			path = "希尔排序";
+			sourceTree = "<group>";
+		};
+		49A93F0F1D6BE92B009269BC /* 归并排序 */ = {
+			isa = PBXGroup;
+			children = (
+				49A93F101D6BE92B009269BC /* MergeSort.h */,
+				49A93F111D6BE92B009269BC /* MergeSort.m */,
+			);
+			path = "归并排序";
+			sourceTree = "<group>";
+		};
+		49A93F121D6BE92B009269BC /* 快速排序 */ = {
+			isa = PBXGroup;
+			children = (
+				49A93F131D6BE92B009269BC /* QuickSort.h */,
+				49A93F141D6BE92B009269BC /* QuickSort.m */,
+			);
+			path = "快速排序";
+			sourceTree = "<group>";
+		};
+		49A93F151D6BE92B009269BC /* 戴克斯特拉算法 */ = {
+			isa = PBXGroup;
+			children = (
+				49A93F161D6BE92B009269BC /* Dijkstra.h */,
+				49A93F171D6BE92B009269BC /* Dijkstra.m */,
+			);
+			path = "戴克斯特拉算法";
+			sourceTree = "<group>";
+		};
+		49A93F181D6BE92B009269BC /* 插入排序 */ = {
+			isa = PBXGroup;
+			children = (
+				49A93F191D6BE92B009269BC /* InsertSort.h */,
+				49A93F1A1D6BE92B009269BC /* InsertSort.m */,
+			);
+			path = "插入排序";
+			sourceTree = "<group>";
+		};
+		49A93F1B1D6BE92B009269BC /* 汉诺塔 */ = {
+			isa = PBXGroup;
+			children = (
+				49A93F1C1D6BE92B009269BC /* Hanoi.h */,
+				49A93F1D1D6BE92B009269BC /* Hanoi.m */,
+			);
+			path = "汉诺塔";
+			sourceTree = "<group>";
+		};
+		49A93F1E1D6BE92B009269BC /* 深度优先算法 */ = {
+			isa = PBXGroup;
+			children = (
+				49A93F1F1D6BE92B009269BC /* AMWGraph.h */,
+				49A93F201D6BE92B009269BC /* AMWGraph.m */,
+			);
+			path = "深度优先算法";
+			sourceTree = "<group>";
+		};
+		49A93F211D6BE92B009269BC /* 线性查找 */ = {
+			isa = PBXGroup;
+			children = (
+				49A93F221D6BE92B009269BC /* Bfprt.h */,
+				49A93F231D6BE92B009269BC /* Bfprt.m */,
+			);
+			path = "线性查找";
+			sourceTree = "<group>";
+		};
+		49A93F241D6BE92B009269BC /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
+				49A93F251D6BE92B009269BC /* ListNode.h */,
+				49A93F261D6BE92B009269BC /* ListNode.m */,
+			);
+			path = "链表";
 			sourceTree = "<group>";
 		};
 		49B172201D29567600F2520D /* XYDTabBarcontroller */ = {
@@ -8125,6 +8337,7 @@
 		49FC8C2A1D2BFB9A007454F7 /* FirstVCtrls */ = {
 			isa = PBXGroup;
 			children = (
+				496217AF1D6BD67200181B27 /* Algorithm */,
 				49B353A41D63F0AD00FB1673 /* 设计模式 */,
 				4917A3C11D562DEF00A55069 /* TapkuLibrary */,
 				491532A61D4A34250006E1AE /* CodeSnippets:Ojbective-C */,
@@ -10083,6 +10296,7 @@
 				49FF26C91D3D1FF400F01228 /* pageDot@2x.png in Resources */,
 				4930EDA61D28B2AE00606CD9 /* list_rar@2x.png in Resources */,
 				49F964E91D48EA60007E4C21 /* MZFormSheetController.storyboard in Resources */,
+				496217B41D6BD6D000181B27 /* AlgorithmVCtrl.xib in Resources */,
 				49FC8C7F1D2BFDB0007454F7 /* Info.plist in Resources */,
 				49015EC91D449356005ECC93 /* JSQMessagesTypingIndicatorFooterView.xib in Resources */,
 				49FC8C6C1D2BFB9A007454F7 /* Assets.xcassets in Resources */,
@@ -10557,6 +10771,7 @@
 				49FDEF7D1D6951B000D8D378 /* StrategyVCtrl1.m in Sources */,
 				4930ED5E1D28B2AE00606CD9 /* HttpConstant.m in Sources */,
 				49FDF3101D69DFE100D8D378 /* HCDColleagueA.m in Sources */,
+				49A93F351D6BE92B009269BC /* ListNode.m in Sources */,
 				49F7F3231D44462D00663F4F /* SystemServicesDemoViewController.m in Sources */,
 				49FCE9701D4314B500ED6A90 /* LocationForm.m in Sources */,
 				49F965071D48EA88007E4C21 /* MZFormSheetSegue.m in Sources */,
@@ -10635,6 +10850,7 @@
 				49B172431D29567600F2520D /* XYDTabBarButton.m in Sources */,
 				49B928661D3E7C7E00CCF80C /* EKTreeNode.m in Sources */,
 				49FDF2E31D69DFE100D8D378 /* HCDForwards.m in Sources */,
+				49A93F2C1D6BE92B009269BC /* HeapSort.m in Sources */,
 				49F7F30E1D44462D00663F4F /* MSArcLayer.m in Sources */,
 				49FBCD781D328C4400D4D091 /* NSString+BFKit.m in Sources */,
 				49FDF2D01D69DFE100D8D378 /* ObserverVCtrl2.m in Sources */,
@@ -10648,6 +10864,7 @@
 				49F964721D47924C007E4C21 /* MJTestViewController.m in Sources */,
 				49FCE9821D4314B500ED6A90 /* RootFormViewController1.m in Sources */,
 				49F546E61D4E3CA200938724 /* CustomTransitionViewController.m in Sources */,
+				49A93F2F1D6BE92B009269BC /* QuickSort.m in Sources */,
 				49F7F2CF1D443D2D00663F4F /* JKRootViewController.m in Sources */,
 				49FDF31C1D69DFE100D8D378 /* InterpreterVCtrl2.m in Sources */,
 				49F965161D48EBE0007E4C21 /* NSInvocation+Copy.m in Sources */,
@@ -10733,6 +10950,7 @@
 				49FBCD821D328C4400D4D091 /* UINavigationBar+BFKit.m in Sources */,
 				4930EDE21D28B2AE00606CD9 /* MWGridCell.m in Sources */,
 				49FBCD7F1D328C4400D4D091 /* UIImage+BFKit.m in Sources */,
+				49A93F281D6BE92B009269BC /* BinaryTree.m in Sources */,
 				49FBCD841D328C4400D4D091 /* UIScrollView+BFKit.m in Sources */,
 				49FCE90A1D411FDF00ED6A90 /* FormatterViewController.m in Sources */,
 				4930EDD51D28B2AE00606CD9 /* CancelInContentScrollV.m in Sources */,
@@ -10746,6 +10964,7 @@
 				49FCE8881D3FC71A00ED6A90 /* MusicListViewController.m in Sources */,
 				49F546F41D4E3CA200938724 /* PasswordStrengthIndicatorView.m in Sources */,
 				49FDF2E01D69DFE100D8D378 /* HCDWork.m in Sources */,
+				49A93F2D1D6BE92B009269BC /* ShellSort.m in Sources */,
 				4917A3E31D562DEF00A55069 /* TapkuCoverflowViewController.m in Sources */,
 				49FFE5591D464B7A0072B4C4 /* ConsoleViewController.m in Sources */,
 				49015EB61D449356005ECC93 /* JSQMessagesBubbleImage.m in Sources */,
@@ -10848,6 +11067,7 @@
 				49FCE9871D4314B500ED6A90 /* FormViewController.m in Sources */,
 				49FDEB571D68A68700D8D378 /* ASHMasterViewModel.m in Sources */,
 				49015EA01D449356005ECC93 /* NSBundle+JSQMessages.m in Sources */,
+				49A93F331D6BE92B009269BC /* AMWGraph.m in Sources */,
 				49015EA71D449356005ECC93 /* JSQMessagesAvatarImageFactory.m in Sources */,
 				49F964EB1D48EA60007E4C21 /* MZCustomTransition.m in Sources */,
 				4917A4F11D56DDAD00A55069 /* MapViewController.m in Sources */,
@@ -10886,6 +11106,7 @@
 				49FBCD0C1D328B7700D4D091 /* InfoViewController.m in Sources */,
 				49C7D7A51D65960C00BC0926 /* AMNTimeline.m in Sources */,
 				490009001D50ABF2006C5D06 /* REMenuNavigationViewController.m in Sources */,
+				49A93F321D6BE92B009269BC /* Hanoi.m in Sources */,
 				49FBCC621D32883E00D4D091 /* PersistentStack.m in Sources */,
 				49FDEB241D689AC800D8D378 /* CNTCountInteractor.m in Sources */,
 				49F964631D47924C007E4C21 /* MJChiBaoZiFooter.m in Sources */,
@@ -10949,6 +11170,7 @@
 				49F493AC1D557F890033C75C /* SWViewController.m in Sources */,
 				4917A4D51D56DDAD00A55069 /* FloatLabeledTextFieldCell.m in Sources */,
 				4930EE131D28B2AE00606CD9 /* ScanPhotoesViewCtrl.m in Sources */,
+				49A93F301D6BE92B009269BC /* Dijkstra.m in Sources */,
 				49534C0B1D63FB9A0077BDF1 /* StructureAndPatternVCtrl.m in Sources */,
 				49FDEF631D6951B000D8D378 /* ObserverVCtrl1.m in Sources */,
 				497B85A01D6B39F300AF3DEF /* RWTFlickrSearchResults.m in Sources */,
@@ -10974,6 +11196,7 @@
 				49FDF2CC1D69DFE100D8D378 /* HCDNBAObserver.m in Sources */,
 				49FDEF501D6951B000D8D378 /* FlyweightVCtrl1.m in Sources */,
 				49015EBE1D449356005ECC93 /* JSQMessagesCollectionViewCellOutgoing.m in Sources */,
+				49A93F2A1D6BE92B009269BC /* BubbleSort.m in Sources */,
 				49FDF2DF1D69DFE100D8D378 /* HCDSleepState.m in Sources */,
 				4917A4741D56D9B400A55069 /* WYViewController.m in Sources */,
 				49FCE98E1D4314B500ED6A90 /* PrivacyPolicyViewController1.m in Sources */,
@@ -11100,6 +11323,7 @@
 				49B9286E1D3E7C7E00CCF80C /* NSNumber+EKStuff.m in Sources */,
 				4917A40B1D56D6F400A55069 /* TSDemoViewController.m in Sources */,
 				49FDF2DA1D69DFE100D8D378 /* HCDAfternoonState.m in Sources */,
+				49A93F311D6BE92B009269BC /* InsertSort.m in Sources */,
 				49F546E31D4E3CA200938724 /* ButtonViewController.m in Sources */,
 				4930EE281D28B2AE00606CD9 /* TagViewProperty.m in Sources */,
 				490147FD1D58D7ED0058E23B /* CYRToken.m in Sources */,
@@ -11123,6 +11347,7 @@
 				49F546F31D4E3CA200938724 /* PaperButton.m in Sources */,
 				49534C891D6565240077BDF1 /* NSObject+MVCModel.m in Sources */,
 				49FB9C9D1D44CB1A0047FAA4 /* MenuLayer.m in Sources */,
+				49A93F291D6BE92B009269BC /* BinaryTreeNode.m in Sources */,
 				4972E7AD1D6694C9005B4315 /* PresenterTableViewCell.m in Sources */,
 				492574DC1D3BE4D900C454D4 /* UINavigationBar+Animation.m in Sources */,
 				49FDEF7B1D6951B000D8D378 /* UIInfomationView.m in Sources */,
@@ -11136,6 +11361,7 @@
 				49F964701D47924C007E4C21 /* MJCollectionViewController.m in Sources */,
 				4972E7AC1D6694C9005B4315 /* PresenterCollectionViewCell.m in Sources */,
 				49F7F34B1D44468100663F4F /* SSDiskInfo.m in Sources */,
+				49A93F271D6BE92B009269BC /* BinarySearch.m in Sources */,
 				49FDEF3A1D6951B000D8D378 /* UIView+SetRect.m in Sources */,
 				49015EA41D449356005ECC93 /* UIView+JSQMessages.m in Sources */,
 				49FDEF301D6951B000D8D378 /* Invoker.m in Sources */,
@@ -11195,6 +11421,7 @@
 				49B928631D3E7C7E00CCF80C /* EKLinkedList.m in Sources */,
 				49FCE98A1D4314B500ED6A90 /* LoginForm2.m in Sources */,
 				49FCE9711D4314B500ED6A90 /* LocationMapViewController.m in Sources */,
+				49A93F2B1D6BE92B009269BC /* DynamicProgramming.m in Sources */,
 				4917A3E81D562DEF00A55069 /* TapkuLabelViewController.m in Sources */,
 				49FBCDBC1D33E3FE00D4D091 /* FacebookStyleBar.m in Sources */,
 				4991DFA41D52348C0061FF84 /* DimmingViewController.m in Sources */,
@@ -11205,6 +11432,7 @@
 				49FBCD791D328C4400D4D091 /* NSThread+BFKit.m in Sources */,
 				49FDF2E71D69DFE100D8D378 /* HCDGameRoll.m in Sources */,
 				49FDF3451D69E38200D8D378 /* HCDstock3.m in Sources */,
+				49A93F341D6BE92B009269BC /* Bfprt.m in Sources */,
 				4991E0141D538D0D0061FF84 /* SOLWundergroundDownloader.m in Sources */,
 				49FDEF7E1D6951B000D8D378 /* Chess.m in Sources */,
 				4972E83F1D669DEE005B4315 /* VTDUpcomingItem.m in Sources */,
@@ -11341,6 +11569,7 @@
 				49FDF2BB1D69DFE100D8D378 /* HCDCalculateDivide.m in Sources */,
 				49015EAB1D449356005ECC93 /* JSQMessagesToolbarButtonFactory.m in Sources */,
 				4991DF8B1D5225D10061FF84 /* SevenSwitchViewController.m in Sources */,
+				496217B31D6BD6D000181B27 /* AlgorithmVCtrl.m in Sources */,
 				49B9286B1D3E7C7E00CCF80C /* NSObject+EKComparisonForIOS.m in Sources */,
 				49F9646D1D47924C007E4C21 /* MJSingleViewController.m in Sources */,
 				49FDEF7A1D6951B000D8D378 /* UIButton+inits.m in Sources */,
@@ -11403,6 +11632,7 @@
 				4972E8401D669DEE005B4315 /* VTDListDataManager.m in Sources */,
 				49FBCD8B1D328C4400D4D091 /* UIWindow+BFKit.m in Sources */,
 				49FBCDB01D33E37F00D4D091 /* SquareCashStyleBehaviorDefiner.m in Sources */,
+				49A93F2E1D6BE92B009269BC /* MergeSort.m in Sources */,
 				49FDEF6E1D6951B000D8D378 /* SubSingleton.m in Sources */,
 				49FC8C6B1D2BFB9A007454F7 /* AppDelegate.m in Sources */,
 				49FBCDAC1D33E37F00D4D091 /* BLKFlexibleHeightBar.m in Sources */,
