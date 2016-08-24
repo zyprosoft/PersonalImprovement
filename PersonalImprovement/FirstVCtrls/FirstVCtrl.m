@@ -43,6 +43,7 @@
     [self addCell:@"CodeSnippets代码片段" class:@"CodeSnipptesVCtrl"];
     [self addCell:@"TapkuLibrary" class:@"TapkuRootViewController"];
     [self addCell:@"设计模式" class:@"StructureAndPatternVCtrl"];
+    [self addCell:@"CFNetworking网络层架构" class:@"ddd"];
 }
 
 - (void)addCell:(NSString *)title class:(NSString *)className {
@@ -69,14 +70,13 @@
     UIViewController *ctrl = [[class alloc]init];
     ctrl.title = cellTitle;
     if ([cellTitle isEqualToString:@"SystemService"]) {
-        //将我们的storyBoard实例化，“SystemServiceMainStoryboard”为StoryBoard的名称
         UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"SystemServiceMainStoryboard" bundle:nil];
-        
-        //将第二个控制器实例化，"SecondViewController"为我们设置的控制器的ID
         UITabBarController *tabBarCtrl = [mainStoryBoard instantiateViewControllerWithIdentifier:@"tabBar"];
-        
-        //跳转事件
         [self.navigationController pushViewController:tabBarCtrl animated:YES];
+    }else if ([cellTitle isEqualToString:@"CFNetworking网络层架构"]){
+        UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"CFNetworking" bundle:nil];
+        UIViewController *ctrl = [mainStoryBoard instantiateViewControllerWithIdentifier:@"TestViewController"];
+        [self.navigationController pushViewController:ctrl animated:YES];
     }else {
         [self.navigationController pushViewController:ctrl animated:YES];
     }
