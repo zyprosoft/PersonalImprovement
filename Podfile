@@ -1,4 +1,5 @@
 platform:ios,'7.0'
+
 pod 'EAIntroView'
 pod 'MBProgressHUD'
 pod 'AFNetworking'
@@ -51,6 +52,8 @@ pod 'libextobjc'
 pod 'ReactiveViewModel', '0.1.1'
 pod 'LinqToObjectiveC'
 pod 'objectiveflickr'
+pod 'YYKit'
+#pod 'ChatKit'
 
 #pod 'JSQMessagesViewController'
 

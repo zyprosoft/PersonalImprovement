@@ -166,6 +166,9 @@ PODS:
   - WYPopoverController (0.3.9)
   - XLForm (3.2.0)
   - YLProgressBar (3.9.0)
+  - YYKit (1.0.7):
+    - YYKit/no-arc (= 1.0.7)
+  - YYKit/no-arc (1.0.7)
 
 DEPENDENCIES:
   - AFNetworking
@@ -221,6 +224,7 @@ DEPENDENCIES:
   - WYPopoverController
   - XLForm
   - YLProgressBar
+  - YYKit
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -279,5 +283,6 @@ SPEC CHECKSUMS:
   WYPopoverController: a9db25ac2841a686acdc0f3a99bdb21545db32f4
   XLForm: 2250b4e96ab8ffa5f3355838c79edd90de451782
   YLProgressBar: 531026483d30a5dc82d91a842d4e069b65f08162
+  YYKit: 843d1b26e20b82c695790c9a89907eaa1e99907f
 
-COCOAPODS: 0.39.0
+COCOAPODS: 0.36.4
