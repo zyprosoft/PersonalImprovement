@@ -10,6 +10,7 @@
 #import "MusicListViewController.h"
 #import "DemoMessagesViewController.h"
 #import "SOLMainViewController.h"
+#import "YYRootViewController.h"
 
 @interface FourthVCtrl ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -29,6 +30,7 @@
     [self addCell:@"JSQ聊天" class:@"JSQMessage"];
     [self addCell:@"MWPhotoBrowser图片浏览器" class:@"MWPhotoBrowser图片浏览器"];
     [self addCell:@"Sol天气" class:@"SOLMainViewController"];
+    [self addCell:@"YYKit" class:@"YYRootViewController"];
     [MyTool hideExtraTableviewSeparatedLine:_tableView];
 }
 
