@@ -9,6 +9,18 @@
 #import "StructureAndPatternVCtrl.h"
 #import "ReactiveCocoaMVVMVCtrl.h"
 
+#import "AbstractFactoryViewController.h"
+#import "BridgeViewController.h"
+#import "BuilderViewController.h"
+#import "ChainOfResponsibilityViewController.h"
+#import "DecoratorViewController.h"
+#import "FacadeViewController.h"
+#import "FlyweightViewController.h"
+#import "Singleton.h"
+#import "StrategyViewController.h"
+#import "TemplateMethodViewController.h"
+#import "CoordinatingController.h"
+
 @interface StructureAndPatternVCtrl ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @end
@@ -21,6 +33,18 @@
     [self addCell:@"MVC&MVVM&MVP&VIPPER比较" class:@"StructureVCtrl"];
     [self addCell:@"MVVM&ReactiveCocoa" class:@"ReactiveCocoaMVVMVCtrl"];
     [self addCell:@"Pattern" class:@"PatternVCtrl"];
+    
+    [self addCell:@"Objective-C设计模式-AbstractFactory" class:@"AbstractFactoryViewController"];
+    [self addCell:@"Objective-C设计模式-Bridge" class:@"BridgeViewController"];
+    [self addCell:@"Objective-C设计模式-Builder" class:@"BuilderViewController"];
+    [self addCell:@"Objective-C设计模式-ChainOfResponsibility" class:@"ChainOfResponsibilityViewController"];
+    [self addCell:@"Objective-C设计模式-Decorator" class:@"DecoratorViewController"];
+    [self addCell:@"Objective-C设计模式-Facade" class:@"FacadeViewController"];
+    [self addCell:@"Objective-C设计模式-Flyweight" class:@"FlyweightViewController"];
+    [self addCell:@"Objective-C设计模式-Strategy" class:@"StrategyViewController"];
+    [self addCell:@"Objective-C设计模式-TemplateMethod" class:@"TemplateMethodViewController"];
+    [self addCell:@"Objective-C设计模式-Singleton" class:@"ddd"];
+    [self addCell:@"Objective-C设计模式-TouchPainter" class:@"ddd"];
 }
 
 #pragma mark - UITableViewDataSource
