@@ -1,1 +1,0 @@
-PODS_JKCATEGORIES_OTHER_LDFLAGS = -l"z" -framework "CoreData" -framework "CoreLocation" -framework "Foundation" -framework "MapKit" -framework "QuartzCore" -framework "UIKit"

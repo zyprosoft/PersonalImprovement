@@ -139,7 +139,7 @@ static BOOL MTLValidateAndSetValue(id obj, NSString *key, id value, BOOL forceUp
 	NSMutableSet *keys = [NSMutableSet set];
 
 	[self enumeratePropertiesUsingBlock:^(objc_property_t property, BOOL *stop) {
-		mtl_propertyAttributes *attributes = mtl_copyPropertyAttributes(property);
+		ext_propertyAttributes *attributes = ext_copyPropertyAttributes(property);
 		@onExit {
 			free(attributes);
 		};

@@ -1,5 +1,5 @@
 platform:ios,'7.0'
-
+target 'PersonalImprovement' do
 pod 'EAIntroView'
 pod 'MBProgressHUD'
 pod 'AFNetworking'
@@ -61,3 +61,4 @@ pod 'DOUAudioStreamer', '0.2.11'
 pod 'GVUserDefaults'
 pod 'Mantle', '1.5.5'
 
+end
