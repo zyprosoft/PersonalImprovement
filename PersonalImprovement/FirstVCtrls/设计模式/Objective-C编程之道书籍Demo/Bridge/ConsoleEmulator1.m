@@ -6,10 +6,10 @@
 //  Copyright 2010 Carlo Chung. All rights reserved.
 //
 
-#import "ConsoleEmulator.h"
+#import "ConsoleEmulator1.h"
 
 
-@implementation ConsoleEmulator
+@implementation ConsoleEmulator1
 
 - (void) loadInstructionsForCommand:(ConsoleCommand) command
 {

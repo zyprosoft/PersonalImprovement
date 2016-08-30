@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "InputValidator.h"
+#import "InputValidator1.h"
 
 
-@interface AlphaInputValidator : InputValidator
+@interface AlphaInputValidator : InputValidator1
 {
 
 }

@@ -7,7 +7,7 @@
 //
 
 #import "AbstractFactoryViewController.h"
-#import "BrandingFactory.h"
+#import "BrandingFactory1.h"
 
 @implementation AbstractFactoryViewController
 
@@ -45,7 +45,7 @@
 	// construct the view from
 	// branded UI elements obtained
 	// from a BrandingFactory
-	BrandingFactory * factory = [BrandingFactory factory];
+	BrandingFactory1 * factory = [BrandingFactory1 factory];
 	
 	//...
 	UIView * view = [factory brandedView];

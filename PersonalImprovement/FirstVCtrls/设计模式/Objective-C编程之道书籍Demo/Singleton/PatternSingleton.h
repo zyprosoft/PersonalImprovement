@@ -9,12 +9,12 @@
 #import <Foundation/Foundation.h>
 
 
-@interface Singleton : NSObject 
+@interface PatternSingleton : NSObject
 {
 
 }
 
-+ (Singleton *) sharedInstance;
++ (PatternSingleton *) sharedInstance;
 
 - (void) operation;
 

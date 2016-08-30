@@ -1,20 +1,20 @@
 //
-//  GameBoyEmulator.m
+//  GameGearEmulator.m
 //  Bridge
 //
 //  Created by Carlo Chung on 11/26/10.
 //  Copyright 2010 Carlo Chung. All rights reserved.
 //
 
-#import "GameBoyEmulator.h"
+#import "GameGearEmulator1.h"
 
 
-@implementation GameBoyEmulator
+@implementation GameGearEmulator1
 
 - (void) loadInstructionsForCommand:(ConsoleCommand) command
 {
 	// load specific instructions for
-	// the Game Boy
+	// the Game Gear
 }
 
 - (void) executeInstructions

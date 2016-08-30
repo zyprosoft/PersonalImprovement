@@ -6,10 +6,10 @@
 //  Copyright 2010 Carlo Chung. All rights reserved.
 //
 
-#import "ConsoleController.h"
+#import "ConsoleController1.h"
 
 
-@implementation ConsoleController
+@implementation ConsoleController1
 
 @synthesize emulator=emulator_;
 

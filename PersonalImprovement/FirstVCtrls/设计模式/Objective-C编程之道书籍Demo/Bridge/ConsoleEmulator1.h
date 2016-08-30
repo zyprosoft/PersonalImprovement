@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "ConsoleCommands.h"
 
-@interface ConsoleEmulator : NSObject 
+@interface ConsoleEmulator1 : NSObject 
 {
 
 }

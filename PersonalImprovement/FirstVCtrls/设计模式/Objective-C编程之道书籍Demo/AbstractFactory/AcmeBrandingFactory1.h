@@ -1,5 +1,5 @@
 //
-//  BrandingFactory.h
+//  AcmeBrandingFactory.h
 //  AbstractFactory
 //
 //  Created by Carlo Chung on 11/1/10.
@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BrandingFactory1.h"
 
-@interface BrandingFactory : NSObject 
+
+@interface AcmeBrandingFactory1 : BrandingFactory1
 {
 
 }
-
-+ (BrandingFactory *) factory;
 
 - (UIView *) brandedView;
 - (UIButton *) brandedMainButton;

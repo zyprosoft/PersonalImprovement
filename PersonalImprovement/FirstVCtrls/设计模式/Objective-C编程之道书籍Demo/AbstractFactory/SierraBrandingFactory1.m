@@ -6,29 +6,29 @@
 //  Copyright 2010 Carlo Chung. All rights reserved.
 //
 
-#import "SierraBrandingFactory.h"
+#import "SierraBrandingFactory1.h"
 #import "SierraView.h"
 #import "SierraMainButton.h"
 #import "SierraToolbar.h"
 
-@implementation SierraBrandingFactory
+@implementation SierraBrandingFactory1
 
 - (UIView*) brandedView
 {
 	// returns a custom view for Sierra
-	return [[[SierraView alloc] init] autorelease];
+	return [[SierraView alloc] init];
 }
 
 - (UIButton*) brandedMainButton
 {
 	// returns a custom main button for Sierra
-	return [[[SierraMainButton alloc] init] autorelease];
+	return [[SierraMainButton alloc] init];
 }
 
 - (UIToolbar*) brandedToolbar
 {
 	// returns a custom toolbar for Sierra
-	return [[[SierraToolbar alloc] init] autorelease];
+	return [[SierraToolbar alloc] init];
 }
 
 @end

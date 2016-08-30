@@ -6,10 +6,10 @@
 //  Copyright 2010 Carlo Chung. All rights reserved.
 //
 
-#import "Car.h"
+#import "Car1.h"
 
 
-@implementation Car
+@implementation Car1
 
 - (void) releaseBrakes
 {

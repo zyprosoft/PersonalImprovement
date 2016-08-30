@@ -6,10 +6,10 @@
 //  Copyright 2011 Carlo Chung. All rights reserved.
 //
 
-#import "InputValidator.h"
+#import "InputValidator1.h"
 
 
-@implementation InputValidator
+@implementation InputValidator1
 
 // A stub for any actual validation strategy
 - (BOOL) validateInput:(UITextField *)input error:(NSError **) error

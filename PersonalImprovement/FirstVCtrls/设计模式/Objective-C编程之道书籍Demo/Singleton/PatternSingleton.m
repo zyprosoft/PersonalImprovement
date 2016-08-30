@@ -6,13 +6,13 @@
 //  Copyright 2010 Carlo Chung. All rights reserved.
 //
 
-#import "Singleton.h"
+#import "PatternSingleton.h"
 
 
-@implementation Singleton
+@implementation PatternSingleton
 
 
-static Singleton *sharedSingleton_ = nil;
+static PatternSingleton *sharedSingleton_ = nil;
 
 - (void) operation
 {
@@ -20,7 +20,7 @@ static Singleton *sharedSingleton_ = nil;
   NSLog(@"Singleton");
 }
 
-+ (Singleton *) sharedInstance
++ (PatternSingleton *) sharedInstance
 {
   if (sharedSingleton_ == nil)
   {

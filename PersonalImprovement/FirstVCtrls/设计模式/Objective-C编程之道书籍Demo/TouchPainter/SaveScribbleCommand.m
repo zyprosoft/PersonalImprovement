@@ -25,7 +25,7 @@
   
   // use an instance of ScribbleManager
   // to save the scribble and its thumbnail
-  ScribbleManager *scribbleManager = [[[ScribbleManager alloc] init] autorelease];
+  ScribbleManager *scribbleManager = [[ScribbleManager alloc] init];
   [scribbleManager saveScribble:scribble thumbnail:canvasViewImage];
   
   // finally show an alertbox that says
@@ -36,7 +36,6 @@
                                             cancelButtonTitle:@"OK"
                                             otherButtonTitles:nil];
   [alertView show];
-  [alertView release];
 }
 
 @end

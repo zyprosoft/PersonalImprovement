@@ -7,7 +7,7 @@
 //
 
 #import "TouchConsoleController.h"
-#import "ConsoleEmulator.h"
+#import "ConsoleEmulator1.h"
 
 
 @implementation TouchConsoleController

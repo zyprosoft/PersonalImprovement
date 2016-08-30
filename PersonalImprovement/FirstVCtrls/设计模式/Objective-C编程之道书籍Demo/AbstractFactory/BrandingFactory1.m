@@ -6,19 +6,19 @@
 //  Copyright 2010 Carlo Chung. All rights reserved.
 //
 
-#import "BrandingFactory.h"
-#import "AcmeBrandingFactory.h"
-#import "SierraBrandingFactory.h"
+#import "BrandingFactory1.h"
+#import "AcmeBrandingFactory1.h"
+#import "SierraBrandingFactory1.h"
 
 
-@implementation BrandingFactory
+@implementation BrandingFactory1
 
-+ (BrandingFactory *) factory
++ (BrandingFactory1 *) factory
 {
 #if defined (USE_ACME)
-	return [[[AcmeBrandingFactory alloc] init] autorelease];
+	return [[[AcmeBrandingFactory1 alloc] init] autorelease];
 #elif defined (USE_SIERRA)
-	return [[[SierraBrandingFactory alloc] init] autorelease];
+	return [[[SierraBrandingFactory1 alloc] init] autorelease];
 #else
 	return nil;
 #endif

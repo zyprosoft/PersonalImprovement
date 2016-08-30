@@ -1,5 +1,5 @@
 //
-//  GameGearEmulator.h
+//  GameBoyEmulator.h
 //  Bridge
 //
 //  Created by Carlo Chung on 11/26/10.
@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ConsoleEmulator.h"
+#import "ConsoleEmulator1.h"
 
-@interface GameGearEmulator : ConsoleEmulator 
+@interface GameBoyEmulator1 : ConsoleEmulator1
 {
 
 }

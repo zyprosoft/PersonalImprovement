@@ -10,7 +10,7 @@
 
 static NSString * const InputValidationErrorDomain = @"InputValidationErrorDomain";
 
-@interface InputValidator : NSObject 
+@interface InputValidator1 : NSObject 
 {
 
 }

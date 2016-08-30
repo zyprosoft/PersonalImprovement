@@ -10,7 +10,7 @@
 #import "BrandingFactory.h"
 
 
-@interface SierraBrandingFactory : BrandingFactory
+@interface SierraBrandingFactory1 : BrandingFactory
 {
 	
 }

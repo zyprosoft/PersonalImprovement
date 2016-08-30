@@ -7,16 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ConsoleEmulator.h"
+#import "ConsoleEmulator1.h"
 #import "ConsoleCommands.h"
 
-@interface ConsoleController : NSObject 
+@interface ConsoleController1 : NSObject 
 {
   @private
-  ConsoleEmulator *emulator_;
+  ConsoleEmulator1 *emulator_;
 }
 
-@property (nonatomic, retain) ConsoleEmulator *emulator;
+@property (nonatomic, retain) ConsoleEmulator1 *emulator;
 
 - (void) setCommand:(ConsoleCommand) command;
 

@@ -337,21 +337,21 @@
 		492575171D3BE72C00C454D4 /* DAkeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492575161D3BE72C00C454D4 /* DAkeyboardViewController.m */; };
 		4929A3411D748B29000E8B1F /* AbstractFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2381D748B28000E8B1F /* AbstractFactoryViewController.m */; };
 		4929A3421D748B29000E8B1F /* AbstractFactoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4929A2391D748B28000E8B1F /* AbstractFactoryViewController.xib */; };
-		4929A3431D748B29000E8B1F /* AcmeBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A23B1D748B28000E8B1F /* AcmeBrandingFactory.m */; };
+		4929A3431D748B29000E8B1F /* AcmeBrandingFactory1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A23B1D748B28000E8B1F /* AcmeBrandingFactory1.m */; };
 		4929A3441D748B29000E8B1F /* AcmeMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A23D1D748B28000E8B1F /* AcmeMainButton.m */; };
 		4929A3451D748B29000E8B1F /* AcmeToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A23F1D748B28000E8B1F /* AcmeToolbar.m */; };
 		4929A3461D748B29000E8B1F /* AcmeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2411D748B28000E8B1F /* AcmeView.m */; };
-		4929A3471D748B29000E8B1F /* BrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2431D748B28000E8B1F /* BrandingFactory.m */; };
-		4929A3491D748B29000E8B1F /* SierraBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2461D748B28000E8B1F /* SierraBrandingFactory.m */; };
+		4929A3471D748B29000E8B1F /* BrandingFactory1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2431D748B28000E8B1F /* BrandingFactory1.m */; };
+		4929A3491D748B29000E8B1F /* SierraBrandingFactory1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2461D748B28000E8B1F /* SierraBrandingFactory1.m */; };
 		4929A34A1D748B29000E8B1F /* SierraMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2481D748B28000E8B1F /* SierraMainButton.m */; };
 		4929A34B1D748B29000E8B1F /* SierraToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A24A1D748B28000E8B1F /* SierraToolbar.m */; };
 		4929A34C1D748B29000E8B1F /* SierraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A24C1D748B28000E8B1F /* SierraView.m */; };
 		4929A34E1D748B29000E8B1F /* BridgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2511D748B28000E8B1F /* BridgeViewController.m */; };
 		4929A34F1D748B29000E8B1F /* BridgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4929A2521D748B28000E8B1F /* BridgeViewController.xib */; };
-		4929A3501D748B29000E8B1F /* ConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2551D748B28000E8B1F /* ConsoleController.m */; };
-		4929A3511D748B29000E8B1F /* ConsoleEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2571D748B28000E8B1F /* ConsoleEmulator.m */; };
-		4929A3521D748B29000E8B1F /* GameBoyEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2591D748B28000E8B1F /* GameBoyEmulator.m */; };
-		4929A3531D748B29000E8B1F /* GameGearEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A25B1D748B28000E8B1F /* GameGearEmulator.m */; };
+		4929A3501D748B29000E8B1F /* ConsoleController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2551D748B28000E8B1F /* ConsoleController1.m */; };
+		4929A3511D748B29000E8B1F /* ConsoleEmulator1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2571D748B28000E8B1F /* ConsoleEmulator1.m */; };
+		4929A3521D748B29000E8B1F /* GameBoyEmulator1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2591D748B28000E8B1F /* GameBoyEmulator1.m */; };
+		4929A3531D748B29000E8B1F /* GameGearEmulator1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A25B1D748B28000E8B1F /* GameGearEmulator1.m */; };
 		4929A3551D748B29000E8B1F /* TouchConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A25E1D748B28000E8B1F /* TouchConsoleController.m */; };
 		4929A3561D748B29000E8B1F /* BuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2611D748B28000E8B1F /* BuilderViewController.m */; };
 		4929A3571D748B29000E8B1F /* BuilderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4929A2621D748B28000E8B1F /* BuilderViewController.xib */; };
@@ -381,7 +381,7 @@
 		4929A3741D748B29000E8B1F /* UIImage+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2991D748B28000E8B1F /* UIImage+Shadow.m */; };
 		4929A3751D748B29000E8B1F /* UIImage+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A29B1D748B28000E8B1F /* UIImage+Transform.m */; };
 		4929A3761D748B29000E8B1F /* CabDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A29E1D748B28000E8B1F /* CabDriver.m */; };
-		4929A3771D748B29000E8B1F /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2A01D748B28000E8B1F /* Car.m */; };
+		4929A3771D748B29000E8B1F /* Car1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2A01D748B28000E8B1F /* Car1.m */; };
 		4929A3791D748B29000E8B1F /* FacadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2A41D748B28000E8B1F /* FacadeViewController.m */; };
 		4929A37A1D748B29000E8B1F /* FacadeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4929A2A51D748B28000E8B1F /* FacadeViewController.xib */; };
 		4929A37C1D748B29000E8B1F /* Taximeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2A81D748B28000E8B1F /* Taximeter.m */; };
@@ -398,10 +398,10 @@
 		4929A3881D748B29000E8B1F /* zinnia.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929A2BC1D748B28000E8B1F /* zinnia.png */; };
 		4929A38A1D748B29000E8B1F /* Go4Singleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2BF1D748B28000E8B1F /* Go4Singleton.cpp */; };
 		4929A38C1D748B29000E8B1F /* MySingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2C31D748B28000E8B1F /* MySingleton.m */; };
-		4929A38D1D748B29000E8B1F /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2C51D748B28000E8B1F /* Singleton.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4929A38D1D748B29000E8B1F /* PatternSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2C51D748B28000E8B1F /* PatternSingleton.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4929A38F1D748B29000E8B1F /* AlphaInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2CA1D748B28000E8B1F /* AlphaInputValidator.m */; };
 		4929A3901D748B29000E8B1F /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2CC1D748B28000E8B1F /* CustomTextField.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		4929A3911D748B29000E8B1F /* InputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2CE1D748B28000E8B1F /* InputValidator.m */; };
+		4929A3911D748B29000E8B1F /* InputValidator1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2CE1D748B28000E8B1F /* InputValidator1.m */; };
 		4929A3931D748B29000E8B1F /* NumericInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2D11D748B28000E8B1F /* NumericInputValidator.m */; };
 		4929A3951D748B29000E8B1F /* StrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929A2D51D748B28000E8B1F /* StrategyViewController.m */; };
 		4929A3961D748B29000E8B1F /* StrategyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4929A2D61D748B28000E8B1F /* StrategyViewController.xib */; };
@@ -2340,18 +2340,18 @@
 		4929A2371D748B28000E8B1F /* AbstractFactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractFactoryViewController.h; sourceTree = "<group>"; };
 		4929A2381D748B28000E8B1F /* AbstractFactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryViewController.m; sourceTree = "<group>"; };
 		4929A2391D748B28000E8B1F /* AbstractFactoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AbstractFactoryViewController.xib; sourceTree = "<group>"; };
-		4929A23A1D748B28000E8B1F /* AcmeBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeBrandingFactory.h; sourceTree = "<group>"; };
-		4929A23B1D748B28000E8B1F /* AcmeBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeBrandingFactory.m; sourceTree = "<group>"; };
+		4929A23A1D748B28000E8B1F /* AcmeBrandingFactory1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeBrandingFactory1.h; sourceTree = "<group>"; };
+		4929A23B1D748B28000E8B1F /* AcmeBrandingFactory1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeBrandingFactory1.m; sourceTree = "<group>"; };
 		4929A23C1D748B28000E8B1F /* AcmeMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeMainButton.h; sourceTree = "<group>"; };
 		4929A23D1D748B28000E8B1F /* AcmeMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeMainButton.m; sourceTree = "<group>"; };
 		4929A23E1D748B28000E8B1F /* AcmeToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeToolbar.h; sourceTree = "<group>"; };
 		4929A23F1D748B28000E8B1F /* AcmeToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeToolbar.m; sourceTree = "<group>"; };
 		4929A2401D748B28000E8B1F /* AcmeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeView.h; sourceTree = "<group>"; };
 		4929A2411D748B28000E8B1F /* AcmeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeView.m; sourceTree = "<group>"; };
-		4929A2421D748B28000E8B1F /* BrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandingFactory.h; sourceTree = "<group>"; };
-		4929A2431D748B28000E8B1F /* BrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandingFactory.m; sourceTree = "<group>"; };
-		4929A2451D748B28000E8B1F /* SierraBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraBrandingFactory.h; sourceTree = "<group>"; };
-		4929A2461D748B28000E8B1F /* SierraBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraBrandingFactory.m; sourceTree = "<group>"; };
+		4929A2421D748B28000E8B1F /* BrandingFactory1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandingFactory1.h; sourceTree = "<group>"; };
+		4929A2431D748B28000E8B1F /* BrandingFactory1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandingFactory1.m; sourceTree = "<group>"; };
+		4929A2451D748B28000E8B1F /* SierraBrandingFactory1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraBrandingFactory1.h; sourceTree = "<group>"; };
+		4929A2461D748B28000E8B1F /* SierraBrandingFactory1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraBrandingFactory1.m; sourceTree = "<group>"; };
 		4929A2471D748B28000E8B1F /* SierraMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraMainButton.h; sourceTree = "<group>"; };
 		4929A2481D748B28000E8B1F /* SierraMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraMainButton.m; sourceTree = "<group>"; };
 		4929A2491D748B28000E8B1F /* SierraToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraToolbar.h; sourceTree = "<group>"; };
@@ -2362,14 +2362,14 @@
 		4929A2511D748B28000E8B1F /* BridgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeViewController.m; sourceTree = "<group>"; };
 		4929A2521D748B28000E8B1F /* BridgeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BridgeViewController.xib; sourceTree = "<group>"; };
 		4929A2531D748B28000E8B1F /* ConsoleCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleCommands.h; sourceTree = "<group>"; };
-		4929A2541D748B28000E8B1F /* ConsoleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleController.h; sourceTree = "<group>"; };
-		4929A2551D748B28000E8B1F /* ConsoleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleController.m; sourceTree = "<group>"; };
-		4929A2561D748B28000E8B1F /* ConsoleEmulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleEmulator.h; sourceTree = "<group>"; };
-		4929A2571D748B28000E8B1F /* ConsoleEmulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleEmulator.m; sourceTree = "<group>"; };
-		4929A2581D748B28000E8B1F /* GameBoyEmulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBoyEmulator.h; sourceTree = "<group>"; };
-		4929A2591D748B28000E8B1F /* GameBoyEmulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBoyEmulator.m; sourceTree = "<group>"; };
-		4929A25A1D748B28000E8B1F /* GameGearEmulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameGearEmulator.h; sourceTree = "<group>"; };
-		4929A25B1D748B28000E8B1F /* GameGearEmulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameGearEmulator.m; sourceTree = "<group>"; };
+		4929A2541D748B28000E8B1F /* ConsoleController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleController1.h; sourceTree = "<group>"; };
+		4929A2551D748B28000E8B1F /* ConsoleController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleController1.m; sourceTree = "<group>"; };
+		4929A2561D748B28000E8B1F /* ConsoleEmulator1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleEmulator1.h; sourceTree = "<group>"; };
+		4929A2571D748B28000E8B1F /* ConsoleEmulator1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleEmulator1.m; sourceTree = "<group>"; };
+		4929A2581D748B28000E8B1F /* GameBoyEmulator1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBoyEmulator1.h; sourceTree = "<group>"; };
+		4929A2591D748B28000E8B1F /* GameBoyEmulator1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBoyEmulator1.m; sourceTree = "<group>"; };
+		4929A25A1D748B28000E8B1F /* GameGearEmulator1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameGearEmulator1.h; sourceTree = "<group>"; };
+		4929A25B1D748B28000E8B1F /* GameGearEmulator1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameGearEmulator1.m; sourceTree = "<group>"; };
 		4929A25D1D748B28000E8B1F /* TouchConsoleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchConsoleController.h; sourceTree = "<group>"; };
 		4929A25E1D748B28000E8B1F /* TouchConsoleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchConsoleController.m; sourceTree = "<group>"; };
 		4929A2601D748B28000E8B1F /* BuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderViewController.h; sourceTree = "<group>"; };
@@ -2425,8 +2425,8 @@
 		4929A29B1D748B28000E8B1F /* UIImage+Transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Transform.m"; sourceTree = "<group>"; };
 		4929A29D1D748B28000E8B1F /* CabDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CabDriver.h; sourceTree = "<group>"; };
 		4929A29E1D748B28000E8B1F /* CabDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CabDriver.m; sourceTree = "<group>"; };
-		4929A29F1D748B28000E8B1F /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
-		4929A2A01D748B28000E8B1F /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		4929A29F1D748B28000E8B1F /* Car1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car1.h; sourceTree = "<group>"; };
+		4929A2A01D748B28000E8B1F /* Car1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car1.m; sourceTree = "<group>"; };
 		4929A2A31D748B28000E8B1F /* FacadeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacadeViewController.h; sourceTree = "<group>"; };
 		4929A2A41D748B28000E8B1F /* FacadeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacadeViewController.m; sourceTree = "<group>"; };
 		4929A2A51D748B28000E8B1F /* FacadeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FacadeViewController.xib; sourceTree = "<group>"; };
@@ -2452,14 +2452,14 @@
 		4929A2C01D748B28000E8B1F /* Go4Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Go4Singleton.h; sourceTree = "<group>"; };
 		4929A2C21D748B28000E8B1F /* MySingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySingleton.h; sourceTree = "<group>"; };
 		4929A2C31D748B28000E8B1F /* MySingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySingleton.m; sourceTree = "<group>"; };
-		4929A2C41D748B28000E8B1F /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
-		4929A2C51D748B28000E8B1F /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		4929A2C41D748B28000E8B1F /* PatternSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternSingleton.h; sourceTree = "<group>"; };
+		4929A2C51D748B28000E8B1F /* PatternSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternSingleton.m; sourceTree = "<group>"; };
 		4929A2C91D748B28000E8B1F /* AlphaInputValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaInputValidator.h; sourceTree = "<group>"; };
 		4929A2CA1D748B28000E8B1F /* AlphaInputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphaInputValidator.m; sourceTree = "<group>"; };
 		4929A2CB1D748B28000E8B1F /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
 		4929A2CC1D748B28000E8B1F /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
-		4929A2CD1D748B28000E8B1F /* InputValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputValidator.h; sourceTree = "<group>"; };
-		4929A2CE1D748B28000E8B1F /* InputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputValidator.m; sourceTree = "<group>"; };
+		4929A2CD1D748B28000E8B1F /* InputValidator1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputValidator1.h; sourceTree = "<group>"; };
+		4929A2CE1D748B28000E8B1F /* InputValidator1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputValidator1.m; sourceTree = "<group>"; };
 		4929A2D01D748B28000E8B1F /* NumericInputValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumericInputValidator.h; sourceTree = "<group>"; };
 		4929A2D11D748B28000E8B1F /* NumericInputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumericInputValidator.m; sourceTree = "<group>"; };
 		4929A2D41D748B28000E8B1F /* StrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrategyViewController.h; sourceTree = "<group>"; };
@@ -5924,18 +5924,18 @@
 				4929A2371D748B28000E8B1F /* AbstractFactoryViewController.h */,
 				4929A2381D748B28000E8B1F /* AbstractFactoryViewController.m */,
 				4929A2391D748B28000E8B1F /* AbstractFactoryViewController.xib */,
-				4929A23A1D748B28000E8B1F /* AcmeBrandingFactory.h */,
-				4929A23B1D748B28000E8B1F /* AcmeBrandingFactory.m */,
+				4929A23A1D748B28000E8B1F /* AcmeBrandingFactory1.h */,
+				4929A23B1D748B28000E8B1F /* AcmeBrandingFactory1.m */,
 				4929A23C1D748B28000E8B1F /* AcmeMainButton.h */,
 				4929A23D1D748B28000E8B1F /* AcmeMainButton.m */,
 				4929A23E1D748B28000E8B1F /* AcmeToolbar.h */,
 				4929A23F1D748B28000E8B1F /* AcmeToolbar.m */,
 				4929A2401D748B28000E8B1F /* AcmeView.h */,
 				4929A2411D748B28000E8B1F /* AcmeView.m */,
-				4929A2421D748B28000E8B1F /* BrandingFactory.h */,
-				4929A2431D748B28000E8B1F /* BrandingFactory.m */,
-				4929A2451D748B28000E8B1F /* SierraBrandingFactory.h */,
-				4929A2461D748B28000E8B1F /* SierraBrandingFactory.m */,
+				4929A2421D748B28000E8B1F /* BrandingFactory1.h */,
+				4929A2431D748B28000E8B1F /* BrandingFactory1.m */,
+				4929A2451D748B28000E8B1F /* SierraBrandingFactory1.h */,
+				4929A2461D748B28000E8B1F /* SierraBrandingFactory1.m */,
 				4929A2471D748B28000E8B1F /* SierraMainButton.h */,
 				4929A2481D748B28000E8B1F /* SierraMainButton.m */,
 				4929A2491D748B28000E8B1F /* SierraToolbar.h */,
@@ -5953,14 +5953,14 @@
 				4929A2511D748B28000E8B1F /* BridgeViewController.m */,
 				4929A2521D748B28000E8B1F /* BridgeViewController.xib */,
 				4929A2531D748B28000E8B1F /* ConsoleCommands.h */,
-				4929A2541D748B28000E8B1F /* ConsoleController.h */,
-				4929A2551D748B28000E8B1F /* ConsoleController.m */,
-				4929A2561D748B28000E8B1F /* ConsoleEmulator.h */,
-				4929A2571D748B28000E8B1F /* ConsoleEmulator.m */,
-				4929A2581D748B28000E8B1F /* GameBoyEmulator.h */,
-				4929A2591D748B28000E8B1F /* GameBoyEmulator.m */,
-				4929A25A1D748B28000E8B1F /* GameGearEmulator.h */,
-				4929A25B1D748B28000E8B1F /* GameGearEmulator.m */,
+				4929A2541D748B28000E8B1F /* ConsoleController1.h */,
+				4929A2551D748B28000E8B1F /* ConsoleController1.m */,
+				4929A2561D748B28000E8B1F /* ConsoleEmulator1.h */,
+				4929A2571D748B28000E8B1F /* ConsoleEmulator1.m */,
+				4929A2581D748B28000E8B1F /* GameBoyEmulator1.h */,
+				4929A2591D748B28000E8B1F /* GameBoyEmulator1.m */,
+				4929A25A1D748B28000E8B1F /* GameGearEmulator1.h */,
+				4929A25B1D748B28000E8B1F /* GameGearEmulator1.m */,
 				4929A25D1D748B28000E8B1F /* TouchConsoleController.h */,
 				4929A25E1D748B28000E8B1F /* TouchConsoleController.m */,
 			);
@@ -6047,8 +6047,8 @@
 				4929A2A51D748B28000E8B1F /* FacadeViewController.xib */,
 				4929A29D1D748B28000E8B1F /* CabDriver.h */,
 				4929A29E1D748B28000E8B1F /* CabDriver.m */,
-				4929A29F1D748B28000E8B1F /* Car.h */,
-				4929A2A01D748B28000E8B1F /* Car.m */,
+				4929A29F1D748B28000E8B1F /* Car1.h */,
+				4929A2A01D748B28000E8B1F /* Car1.m */,
 				4929A2A71D748B28000E8B1F /* Taximeter.h */,
 				4929A2A81D748B28000E8B1F /* Taximeter.m */,
 			);
@@ -6093,8 +6093,8 @@
 				4929A2C31D748B28000E8B1F /* MySingleton.m */,
 				4929A2BF1D748B28000E8B1F /* Go4Singleton.cpp */,
 				4929A2C01D748B28000E8B1F /* Go4Singleton.h */,
-				4929A2C41D748B28000E8B1F /* Singleton.h */,
-				4929A2C51D748B28000E8B1F /* Singleton.m */,
+				4929A2C41D748B28000E8B1F /* PatternSingleton.h */,
+				4929A2C51D748B28000E8B1F /* PatternSingleton.m */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -6109,8 +6109,8 @@
 				4929A2CA1D748B28000E8B1F /* AlphaInputValidator.m */,
 				4929A2CB1D748B28000E8B1F /* CustomTextField.h */,
 				4929A2CC1D748B28000E8B1F /* CustomTextField.m */,
-				4929A2CD1D748B28000E8B1F /* InputValidator.h */,
-				4929A2CE1D748B28000E8B1F /* InputValidator.m */,
+				4929A2CD1D748B28000E8B1F /* InputValidator1.h */,
+				4929A2CE1D748B28000E8B1F /* InputValidator1.m */,
 				4929A2D01D748B28000E8B1F /* NumericInputValidator.h */,
 				4929A2D11D748B28000E8B1F /* NumericInputValidator.m */,
 			);
@@ -12543,7 +12543,7 @@
 				49FDEF441D6951B000D8D378 /* Square.m in Sources */,
 				4930EDDC1D28B2AE00606CD9 /* DaiDodgeKeyboard.m in Sources */,
 				49FBCD7A1D328C4400D4D091 /* UIBarButtonItem+BFKit.m in Sources */,
-				4929A3511D748B29000E8B1F /* ConsoleEmulator.m in Sources */,
+				4929A3511D748B29000E8B1F /* ConsoleEmulator1.m in Sources */,
 				49F7F34F1D44468100663F4F /* SSMemoryInfo.m in Sources */,
 				49F7F3511D44468100663F4F /* SSProcessInfo.m in Sources */,
 				49FDEB511D68A68700D8D378 /* ASHDetailViewModel.m in Sources */,
@@ -12609,7 +12609,7 @@
 				49FFE5571D464B7A0072B4C4 /* BarViewController.m in Sources */,
 				492574FA1D3BE4F500C454D4 /* TableViewCell.m in Sources */,
 				4972E7AB1D6694C9005B4315 /* CarsPhotoViewController.m in Sources */,
-				4929A3911D748B29000E8B1F /* InputValidator.m in Sources */,
+				4929A3911D748B29000E8B1F /* InputValidator1.m in Sources */,
 				49F7F30D1D44462D00663F4F /* MSAnnotatedGauge.m in Sources */,
 				4930EE2A1D28B2AE00606CD9 /* XYDTagV.m in Sources */,
 				492574DB1D3BE4D900C454D4 /* UIImageView+Night.m in Sources */,
@@ -12647,7 +12647,7 @@
 				49F545471D4E30B700938724 /* OnboardVCtrl.m in Sources */,
 				49DAA87E1D742F5900F92C7E /* YYTextAttributeExample.m in Sources */,
 				49FDEB261D689AC800D8D378 /* CNTCountViewController.m in Sources */,
-				4929A3531D748B29000E8B1F /* GameGearEmulator.m in Sources */,
+				4929A3531D748B29000E8B1F /* GameGearEmulator1.m in Sources */,
 				49FC8C7D1D2BFC73007454F7 /* MainPageViewController.m in Sources */,
 				49F7F3221D44462D00663F4F /* SystemServicesDemoProcessesViewController.m in Sources */,
 				49DAA85C1D742F5900F92C7E /* YYImageBenchmark.m in Sources */,
@@ -12686,7 +12686,7 @@
 				49F964CB1D48E256007E4C21 /* MRStopButtonMinHitAreaViewController.m in Sources */,
 				49FDF2C11D69DFE100D8D378 /* HCDfactoryMinus.m in Sources */,
 				49FDF2EB1D69DFE100D8D378 /* HCDConcreteCompany.m in Sources */,
-				4929A3471D748B29000E8B1F /* BrandingFactory.m in Sources */,
+				4929A3471D748B29000E8B1F /* BrandingFactory1.m in Sources */,
 				4991DFA71D52348C0061FF84 /* VoiceMemosRecordButtonViewController.m in Sources */,
 				49F7F3451D44468100663F4F /* SystemServices.m in Sources */,
 				49F7F2BD1D43634200663F4F /* HMSegmentedViewController.m in Sources */,
@@ -12702,7 +12702,7 @@
 				49DAA85A1D742F5900F92C7E /* YYFeedListExample.m in Sources */,
 				49FDF3231D69DFE100D8D378 /* HCDVisitors.m in Sources */,
 				4930ED751D28B2AE00606CD9 /* solarOrLunar.c in Sources */,
-				4929A38D1D748B29000E8B1F /* Singleton.m in Sources */,
+				4929A38D1D748B29000E8B1F /* PatternSingleton.m in Sources */,
 				49FC8C921D2D59B0007454F7 /* ThirdViewController.m in Sources */,
 				4917A4DF1D56DDAD00A55069 /* InputsFormViewController.m in Sources */,
 				49FDF1601D69544300D8D378 /* MementoModel.m in Sources */,
@@ -13039,7 +13039,7 @@
 				4972E8331D669DEE005B4315 /* TODO.xcdatamodeld in Sources */,
 				49F546E11D4E3CA200938724 /* PresentingAnimator.m in Sources */,
 				49B9285A1D3E7C7E00CCF80C /* EKBHeap.m in Sources */,
-				4929A3501D748B29000E8B1F /* ConsoleController.m in Sources */,
+				4929A3501D748B29000E8B1F /* ConsoleController1.m in Sources */,
 				4917A4F91D56DDAD00A55069 /* SelectorsFormViewController.m in Sources */,
 				4991DFA91D52348C0061FF84 /* HighlightableShapeButton.m in Sources */,
 				4917A4F81D56DDAD00A55069 /* HTTPSessionManager.m in Sources */,
@@ -13204,7 +13204,7 @@
 				4929A3CF1D748B29000E8B1F /* Vertex.m in Sources */,
 				49F7F31E1D44462D00663F4F /* PCPieChart.m in Sources */,
 				49FDEB501D68A68700D8D378 /* ASHDetailViewController.m in Sources */,
-				4929A3431D748B29000E8B1F /* AcmeBrandingFactory.m in Sources */,
+				4929A3431D748B29000E8B1F /* AcmeBrandingFactory1.m in Sources */,
 				49B928721D3E7C7E00CCF80C /* SSRadixNode.m in Sources */,
 				49FBCD721D328C4400D4D091 /* NSFileManager+BFKit.m in Sources */,
 				4930EE201D28B2AE00606CD9 /* XYDArrowItem.m in Sources */,
@@ -13272,7 +13272,7 @@
 				49FDEF321D6951B000D8D378 /* MakeLighterCommand.m in Sources */,
 				4930EDE51D28B2AE00606CD9 /* MWPhotoBrowser.m in Sources */,
 				4972E7A21D6694C9005B4315 /* Car.m in Sources */,
-				4929A3491D748B29000E8B1F /* SierraBrandingFactory.m in Sources */,
+				4929A3491D748B29000E8B1F /* SierraBrandingFactory1.m in Sources */,
 				49C7D7A61D65960C00BC0926 /* AMNPhotoListCollectionViewPresenter.m in Sources */,
 				49FCE98B1D4314B500ED6A90 /* LoginFormViewController.m in Sources */,
 				497B85BF1D6B3C2200AF3DEF /* RWTSearchResultsViewModel.m in Sources */,
@@ -13321,7 +13321,7 @@
 				4929A35F1D748B29000E8B1F /* Avatar.m in Sources */,
 				49FBCDAE1D33E37F00D4D091 /* BLKFlexibleHeightBarSubviewLayoutAttributes.m in Sources */,
 				4917A46D1D56D9B400A55069 /* WYGesturesViewController.m in Sources */,
-				4929A3521D748B29000E8B1F /* GameBoyEmulator.m in Sources */,
+				4929A3521D748B29000E8B1F /* GameBoyEmulator1.m in Sources */,
 				49FBCD061D328B7700D4D091 /* UserInterfaceKitViewController.m in Sources */,
 				4917A4F71D56DDAD00A55069 /* Model.xcdatamodeld in Sources */,
 				49FBCC611D32883E00D4D091 /* Item.m in Sources */,
@@ -13368,7 +13368,7 @@
 				4930ED5F1D28B2AE00606CD9 /* Model.xcdatamodeld in Sources */,
 				4972E8391D669DEE005B4315 /* VTDAddPresenter.m in Sources */,
 				49F964ED1D48EA60007E4C21 /* MZNavigationViewController.m in Sources */,
-				4929A3771D748B29000E8B1F /* Car.m in Sources */,
+				4929A3771D748B29000E8B1F /* Car1.m in Sources */,
 				49FDF3461D69E38200D8D378 /* FacadeVCtrl2.m in Sources */,
 				4930EE1F1D28B2AE00606CD9 /* XYDSectionItem.m in Sources */,
 				49015EBA1D449356005ECC93 /* JSQMessagesCollectionView.m in Sources */,

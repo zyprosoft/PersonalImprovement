@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ConsoleController.h"
+#import "ConsoleController1.h"
 
-@interface TouchConsoleController : ConsoleController 
+@interface TouchConsoleController : ConsoleController1
 {
 
 }

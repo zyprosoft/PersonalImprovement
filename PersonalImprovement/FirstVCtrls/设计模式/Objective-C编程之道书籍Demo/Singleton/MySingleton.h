@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Singleton.h"
+#import "PatternSingleton.h"
 
 
 
-@interface MySingleton : Singleton
+@interface MySingleton : PatternSingleton
 {
 
 }

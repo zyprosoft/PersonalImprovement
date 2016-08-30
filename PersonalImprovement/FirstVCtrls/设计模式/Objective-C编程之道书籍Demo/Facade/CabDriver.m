@@ -21,7 +21,7 @@
   
   // operate the vehicle
   // until location x is reached
-  Car *car = [[Car alloc] init];
+  Car1 *car = [[Car1 alloc] init];
   [car releaseBrakes];
   [car changeGears];
   [car pressAccelerator];
