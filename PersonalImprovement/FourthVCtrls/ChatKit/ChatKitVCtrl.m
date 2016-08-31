@@ -29,7 +29,7 @@
     [super viewDidLoad];
 
     [self addApplicationObserver];
-    
+    self.view.backgroundColor = [UIColor whiteColor];
     [LCChatKitExample invokeThisMethodInDidFinishLaunching];
     LCCKLoginViewController *loginViewController = [[LCCKLoginViewController alloc] initWithNibName:@"LCCKLoginViewController" bundle:[NSBundle mainBundle]];
     loginViewController.autoLogin = YES;
@@ -47,6 +47,10 @@
     }];
     [self.navigationController pushViewController:loginViewController animated:YES];
 //    self.window.rootViewController = loginViewController;
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    self.navigationController.navigationBarHidden = YES;
 }
 
 #pragma mark - 注册应用观察者
