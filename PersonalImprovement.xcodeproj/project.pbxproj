@@ -182,6 +182,27 @@
 		49015ECF1D44B65F005ECC93 /* IMG_3668.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 49015ECC1D44B65F005ECC93 /* IMG_3668.PNG */; };
 		49015ED01D44B65F005ECC93 /* KYCuteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49015ECE1D44B65F005ECC93 /* KYCuteViewController.m */; };
 		4912E3511D758B4600914825 /* bpg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4912E3501D758B4600914825 /* bpg.framework */; };
+		4912E3981D766F9800914825 /* LCCKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912E35A1D766F9800914825 /* LCCKUser.m */; };
+		4912E3991D766F9800914825 /* LCCKInputViewPluginConversationBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912E35F1D766F9800914825 /* LCCKInputViewPluginConversationBackground.m */; };
+		4912E39A1D766F9800914825 /* LCCKVCardMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912E3641D766F9800914825 /* LCCKVCardMessage.m */; };
+		4912E39B1D766F9800914825 /* calling_card_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4912E3661D766F9800914825 /* calling_card_bg@2x.png */; };
+		4912E39C1D766F9800914825 /* LCCKInputViewPluginVCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912E3691D766F9800914825 /* LCCKInputViewPluginVCard.m */; };
+		4912E39D1D766F9800914825 /* LCCKVCardMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912E36B1D766F9800914825 /* LCCKVCardMessageCell.m */; };
+		4912E39E1D766F9800914825 /* LCCKVCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912E36D1D766F9800914825 /* LCCKVCardView.m */; };
+		4912E39F1D766F9800914825 /* LCCKVCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4912E36E1D766F9800914825 /* LCCKVCardView.xib */; };
+		4912E3A01D766F9900914825 /* LCCKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912E3721D766F9800914825 /* LCCKLoginViewController.m */; };
+		4912E3A11D766F9900914825 /* LCCKLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4912E3731D766F9800914825 /* LCCKLoginViewController.xib */; };
+		4912E3A21D766F9900914825 /* DEMOCustomAutoCompleteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912E3761D766F9800914825 /* DEMOCustomAutoCompleteObject.m */; };
+		4912E3A31D766F9900914825 /* DEMODataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912E3781D766F9800914825 /* DEMODataSource.m */; };
+		4912E3A41D766F9900914825 /* LCCKLoginDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912E37A1D766F9800914825 /* LCCKLoginDataSource.m */; };
+		4912E3A51D766F9900914825 /* LCCKMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912E37E1D766F9800914825 /* LCCKMapViewController.m */; };
+		4912E3A61D766F9900914825 /* LCCKUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912E3811D766F9800914825 /* LCCKUtil.m */; };
+		4912E3A71D766F9900914825 /* LCCKPlusButtonSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912E3841D766F9800914825 /* LCCKPlusButtonSubclass.m */; };
+		4912E3AD1D766F9900914825 /* LCCKContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912E38F1D766F9800914825 /* LCCKContactManager.m */; };
+		4912E3AE1D766F9900914825 /* NSObject+LCCKHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912E3931D766F9800914825 /* NSObject+LCCKHUD.m */; };
+		4912E3AF1D766F9900914825 /* LCChatKitExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912E3951D766F9800914825 /* LCChatKitExample.m */; };
+		4912E3B01D766F9900914825 /* LCCKTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912E3971D766F9800914825 /* LCCKTabBarControllerConfig.m */; };
+		4912E3B31D766FD400914825 /* ChatKitVCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912E3B21D766FD400914825 /* ChatKitVCtrl.m */; };
 		491532AA1D4A34480006E1AE /* CodeSnipptesVCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 491532A81D4A34480006E1AE /* CodeSnipptesVCtrl.m */; };
 		491532AB1D4A34480006E1AE /* CodeSnipptesVCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 491532A91D4A34480006E1AE /* CodeSnipptesVCtrl.xib */; };
 		4917A3DE1D562DEF00A55069 /* TapkuAlertsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4917A3C31D562DEF00A55069 /* TapkuAlertsViewController.m */; };
@@ -548,15 +569,15 @@
 		4930EDDE1D28B2AE00606CD9 /* UIView+FirstResponderNotify.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EBF21D28B2AE00606CD9 /* UIView+FirstResponderNotify.m */; };
 		4930EDDF1D28B2AE00606CD9 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EBF51D28B2AE00606CD9 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4930EDE01D28B2AE00606CD9 /* LMComBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EBF81D28B2AE00606CD9 /* LMComBoxView.m */; };
-		4930EDE11D28B2AE00606CD9 /* MWCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EBFC1D28B2AE00606CD9 /* MWCaptionView.m */; };
-		4930EDE21D28B2AE00606CD9 /* MWGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EBFF1D28B2AE00606CD9 /* MWGridCell.m */; };
-		4930EDE31D28B2AE00606CD9 /* MWGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EC011D28B2AE00606CD9 /* MWGridViewController.m */; };
-		4930EDE41D28B2AE00606CD9 /* MWPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EC031D28B2AE00606CD9 /* MWPhoto.m */; };
-		4930EDE51D28B2AE00606CD9 /* MWPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EC051D28B2AE00606CD9 /* MWPhotoBrowser.m */; };
-		4930EDE61D28B2AE00606CD9 /* MWTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EC091D28B2AE00606CD9 /* MWTapDetectingImageView.m */; };
-		4930EDE71D28B2AE00606CD9 /* MWTapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EC0B1D28B2AE00606CD9 /* MWTapDetectingView.m */; };
-		4930EDE81D28B2AE00606CD9 /* MWZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EC0D1D28B2AE00606CD9 /* MWZoomingScrollView.m */; };
-		4930EDE91D28B2AE00606CD9 /* UIImage+MWPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EC0F1D28B2AE00606CD9 /* UIImage+MWPhotoBrowser.m */; };
+		4930EDE11D28B2AE00606CD9 /* XYDMWCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EBFC1D28B2AE00606CD9 /* XYDMWCaptionView.m */; };
+		4930EDE21D28B2AE00606CD9 /* XYDMWGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EBFF1D28B2AE00606CD9 /* XYDMWGridCell.m */; };
+		4930EDE31D28B2AE00606CD9 /* XYDMWGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EC011D28B2AE00606CD9 /* XYDMWGridViewController.m */; };
+		4930EDE41D28B2AE00606CD9 /* XYDMWPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EC031D28B2AE00606CD9 /* XYDMWPhoto.m */; };
+		4930EDE51D28B2AE00606CD9 /* XYDMWPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EC051D28B2AE00606CD9 /* XYDMWPhotoBrowser.m */; };
+		4930EDE61D28B2AE00606CD9 /* XYDMWTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EC091D28B2AE00606CD9 /* XYDMWTapDetectingImageView.m */; };
+		4930EDE71D28B2AE00606CD9 /* XYDMWTapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EC0B1D28B2AE00606CD9 /* XYDMWTapDetectingView.m */; };
+		4930EDE81D28B2AE00606CD9 /* XYDMWZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EC0D1D28B2AE00606CD9 /* XYDMWZoomingScrollView.m */; };
+		4930EDE91D28B2AE00606CD9 /* UIImage+XYDMWPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EC0F1D28B2AE00606CD9 /* UIImage+XYDMWPhotoBrowser.m */; };
 		4930EDEA1D28B2AE00606CD9 /* Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4930EC111D28B2AE00606CD9 /* Checkmark.png */; };
 		4930EDEB1D28B2AE00606CD9 /* Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4930EC121D28B2AE00606CD9 /* Checkmark@2x.png */; };
 		4930EDEC1D28B2AE00606CD9 /* ImageError.png in Resources */ = {isa = PBXBuildFile; fileRef = 4930EC131D28B2AE00606CD9 /* ImageError.png */; };
@@ -2091,6 +2112,47 @@
 		49015ECD1D44B65F005ECC93 /* KYCuteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYCuteViewController.h; sourceTree = "<group>"; };
 		49015ECE1D44B65F005ECC93 /* KYCuteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYCuteViewController.m; sourceTree = "<group>"; };
 		4912E3501D758B4600914825 /* bpg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = bpg.framework; sourceTree = "<group>"; };
+		4912E3591D766F9800914825 /* LCCKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKUser.h; sourceTree = "<group>"; };
+		4912E35A1D766F9800914825 /* LCCKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKUser.m; sourceTree = "<group>"; };
+		4912E35E1D766F9800914825 /* LCCKInputViewPluginConversationBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKInputViewPluginConversationBackground.h; sourceTree = "<group>"; };
+		4912E35F1D766F9800914825 /* LCCKInputViewPluginConversationBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKInputViewPluginConversationBackground.m; sourceTree = "<group>"; };
+		4912E3631D766F9800914825 /* LCCKVCardMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKVCardMessage.h; sourceTree = "<group>"; };
+		4912E3641D766F9800914825 /* LCCKVCardMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKVCardMessage.m; sourceTree = "<group>"; };
+		4912E3661D766F9800914825 /* calling_card_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calling_card_bg@2x.png"; sourceTree = "<group>"; };
+		4912E3681D766F9800914825 /* LCCKInputViewPluginVCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKInputViewPluginVCard.h; sourceTree = "<group>"; };
+		4912E3691D766F9800914825 /* LCCKInputViewPluginVCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKInputViewPluginVCard.m; sourceTree = "<group>"; };
+		4912E36A1D766F9800914825 /* LCCKVCardMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKVCardMessageCell.h; sourceTree = "<group>"; };
+		4912E36B1D766F9800914825 /* LCCKVCardMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKVCardMessageCell.m; sourceTree = "<group>"; };
+		4912E36C1D766F9800914825 /* LCCKVCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKVCardView.h; sourceTree = "<group>"; };
+		4912E36D1D766F9800914825 /* LCCKVCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKVCardView.m; sourceTree = "<group>"; };
+		4912E36E1D766F9800914825 /* LCCKVCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCCKVCardView.xib; sourceTree = "<group>"; };
+		4912E3711D766F9800914825 /* LCCKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKLoginViewController.h; sourceTree = "<group>"; };
+		4912E3721D766F9800914825 /* LCCKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKLoginViewController.m; sourceTree = "<group>"; };
+		4912E3731D766F9800914825 /* LCCKLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCCKLoginViewController.xib; sourceTree = "<group>"; };
+		4912E3751D766F9800914825 /* DEMOCustomAutoCompleteObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOCustomAutoCompleteObject.h; sourceTree = "<group>"; };
+		4912E3761D766F9800914825 /* DEMOCustomAutoCompleteObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOCustomAutoCompleteObject.m; sourceTree = "<group>"; };
+		4912E3771D766F9800914825 /* DEMODataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMODataSource.h; sourceTree = "<group>"; };
+		4912E3781D766F9800914825 /* DEMODataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMODataSource.m; sourceTree = "<group>"; };
+		4912E3791D766F9800914825 /* LCCKLoginDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKLoginDataSource.h; sourceTree = "<group>"; };
+		4912E37A1D766F9800914825 /* LCCKLoginDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKLoginDataSource.m; sourceTree = "<group>"; };
+		4912E37D1D766F9800914825 /* LCCKMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKMapViewController.h; sourceTree = "<group>"; };
+		4912E37E1D766F9800914825 /* LCCKMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKMapViewController.m; sourceTree = "<group>"; };
+		4912E37F1D766F9800914825 /* LCCKConstantsDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKConstantsDefinition.h; sourceTree = "<group>"; };
+		4912E3801D766F9800914825 /* LCCKUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKUtil.h; sourceTree = "<group>"; };
+		4912E3811D766F9800914825 /* LCCKUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKUtil.m; sourceTree = "<group>"; };
+		4912E3831D766F9800914825 /* LCCKPlusButtonSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKPlusButtonSubclass.h; sourceTree = "<group>"; };
+		4912E3841D766F9800914825 /* LCCKPlusButtonSubclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKPlusButtonSubclass.m; sourceTree = "<group>"; };
+		4912E38E1D766F9800914825 /* LCCKContactManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKContactManager.h; sourceTree = "<group>"; };
+		4912E38F1D766F9800914825 /* LCCKContactManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKContactManager.m; sourceTree = "<group>"; };
+		4912E3901D766F9800914825 /* LCCKExampleConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKExampleConstants.h; sourceTree = "<group>"; };
+		4912E3921D766F9800914825 /* NSObject+LCCKHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LCCKHUD.h"; sourceTree = "<group>"; };
+		4912E3931D766F9800914825 /* NSObject+LCCKHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LCCKHUD.m"; sourceTree = "<group>"; };
+		4912E3941D766F9800914825 /* LCChatKitExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCChatKitExample.h; sourceTree = "<group>"; };
+		4912E3951D766F9800914825 /* LCChatKitExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCChatKitExample.m; sourceTree = "<group>"; };
+		4912E3961D766F9800914825 /* LCCKTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKTabBarControllerConfig.h; sourceTree = "<group>"; };
+		4912E3971D766F9800914825 /* LCCKTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKTabBarControllerConfig.m; sourceTree = "<group>"; };
+		4912E3B11D766FD400914825 /* ChatKitVCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatKitVCtrl.h; sourceTree = "<group>"; };
+		4912E3B21D766FD400914825 /* ChatKitVCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatKitVCtrl.m; sourceTree = "<group>"; };
 		491532A71D4A34480006E1AE /* CodeSnipptesVCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeSnipptesVCtrl.h; sourceTree = "<group>"; };
 		491532A81D4A34480006E1AE /* CodeSnipptesVCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeSnipptesVCtrl.m; sourceTree = "<group>"; };
 		491532A91D4A34480006E1AE /* CodeSnipptesVCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CodeSnipptesVCtrl.xib; sourceTree = "<group>"; };
@@ -2682,27 +2744,27 @@
 		4930EBF51D28B2AE00606CD9 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
 		4930EBF71D28B2AE00606CD9 /* LMComBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMComBoxView.h; sourceTree = "<group>"; };
 		4930EBF81D28B2AE00606CD9 /* LMComBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMComBoxView.m; sourceTree = "<group>"; };
-		4930EBFB1D28B2AE00606CD9 /* MWCaptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWCaptionView.h; sourceTree = "<group>"; };
-		4930EBFC1D28B2AE00606CD9 /* MWCaptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWCaptionView.m; sourceTree = "<group>"; };
-		4930EBFD1D28B2AE00606CD9 /* MWCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWCommon.h; sourceTree = "<group>"; };
-		4930EBFE1D28B2AE00606CD9 /* MWGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGridCell.h; sourceTree = "<group>"; };
-		4930EBFF1D28B2AE00606CD9 /* MWGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGridCell.m; sourceTree = "<group>"; };
+		4930EBFB1D28B2AE00606CD9 /* XYDMWCaptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDMWCaptionView.h; sourceTree = "<group>"; };
+		4930EBFC1D28B2AE00606CD9 /* XYDMWCaptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDMWCaptionView.m; sourceTree = "<group>"; };
+		4930EBFD1D28B2AE00606CD9 /* XYDMWCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDMWCommon.h; sourceTree = "<group>"; };
+		4930EBFE1D28B2AE00606CD9 /* XYDMWGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDMWGridCell.h; sourceTree = "<group>"; };
+		4930EBFF1D28B2AE00606CD9 /* XYDMWGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDMWGridCell.m; sourceTree = "<group>"; };
 		4930EC001D28B2AE00606CD9 /* MWGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGridViewController.h; sourceTree = "<group>"; };
-		4930EC011D28B2AE00606CD9 /* MWGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGridViewController.m; sourceTree = "<group>"; };
-		4930EC021D28B2AE00606CD9 /* MWPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhoto.h; sourceTree = "<group>"; };
-		4930EC031D28B2AE00606CD9 /* MWPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPhoto.m; sourceTree = "<group>"; };
-		4930EC041D28B2AE00606CD9 /* MWPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhotoBrowser.h; sourceTree = "<group>"; };
-		4930EC051D28B2AE00606CD9 /* MWPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPhotoBrowser.m; sourceTree = "<group>"; };
-		4930EC061D28B2AE00606CD9 /* MWPhotoBrowserPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhotoBrowserPrivate.h; sourceTree = "<group>"; };
-		4930EC071D28B2AE00606CD9 /* MWPhotoProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhotoProtocol.h; sourceTree = "<group>"; };
-		4930EC081D28B2AE00606CD9 /* MWTapDetectingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTapDetectingImageView.h; sourceTree = "<group>"; };
-		4930EC091D28B2AE00606CD9 /* MWTapDetectingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTapDetectingImageView.m; sourceTree = "<group>"; };
-		4930EC0A1D28B2AE00606CD9 /* MWTapDetectingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTapDetectingView.h; sourceTree = "<group>"; };
-		4930EC0B1D28B2AE00606CD9 /* MWTapDetectingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTapDetectingView.m; sourceTree = "<group>"; };
-		4930EC0C1D28B2AE00606CD9 /* MWZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWZoomingScrollView.h; sourceTree = "<group>"; };
-		4930EC0D1D28B2AE00606CD9 /* MWZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWZoomingScrollView.m; sourceTree = "<group>"; };
-		4930EC0E1D28B2AE00606CD9 /* UIImage+MWPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MWPhotoBrowser.h"; sourceTree = "<group>"; };
-		4930EC0F1D28B2AE00606CD9 /* UIImage+MWPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MWPhotoBrowser.m"; sourceTree = "<group>"; };
+		4930EC011D28B2AE00606CD9 /* XYDMWGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDMWGridViewController.m; sourceTree = "<group>"; };
+		4930EC021D28B2AE00606CD9 /* XYDMWPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDMWPhoto.h; sourceTree = "<group>"; };
+		4930EC031D28B2AE00606CD9 /* XYDMWPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDMWPhoto.m; sourceTree = "<group>"; };
+		4930EC041D28B2AE00606CD9 /* XYDMWPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDMWPhotoBrowser.h; sourceTree = "<group>"; };
+		4930EC051D28B2AE00606CD9 /* XYDMWPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDMWPhotoBrowser.m; sourceTree = "<group>"; };
+		4930EC061D28B2AE00606CD9 /* XYDMWPhotoBrowserPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDMWPhotoBrowserPrivate.h; sourceTree = "<group>"; };
+		4930EC071D28B2AE00606CD9 /* XYDMWPhotoProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDMWPhotoProtocol.h; sourceTree = "<group>"; };
+		4930EC081D28B2AE00606CD9 /* XYDMWTapDetectingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDMWTapDetectingImageView.h; sourceTree = "<group>"; };
+		4930EC091D28B2AE00606CD9 /* XYDMWTapDetectingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDMWTapDetectingImageView.m; sourceTree = "<group>"; };
+		4930EC0A1D28B2AE00606CD9 /* XYDMWTapDetectingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDMWTapDetectingView.h; sourceTree = "<group>"; };
+		4930EC0B1D28B2AE00606CD9 /* XYDMWTapDetectingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDMWTapDetectingView.m; sourceTree = "<group>"; };
+		4930EC0C1D28B2AE00606CD9 /* XYDMWZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDMWZoomingScrollView.h; sourceTree = "<group>"; };
+		4930EC0D1D28B2AE00606CD9 /* XYDMWZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDMWZoomingScrollView.m; sourceTree = "<group>"; };
+		4930EC0E1D28B2AE00606CD9 /* UIImage+XYDMWPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XYDMWPhotoBrowser.h"; sourceTree = "<group>"; };
+		4930EC0F1D28B2AE00606CD9 /* UIImage+XYDMWPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XYDMWPhotoBrowser.m"; sourceTree = "<group>"; };
 		4930EC111D28B2AE00606CD9 /* Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checkmark.png; sourceTree = "<group>"; };
 		4930EC121D28B2AE00606CD9 /* Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checkmark@2x.png"; sourceTree = "<group>"; };
 		4930EC131D28B2AE00606CD9 /* ImageError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageError.png; sourceTree = "<group>"; };
@@ -5283,6 +5345,198 @@
 			path = KYCuteView;
 			sourceTree = "<group>";
 		};
+		4912E3561D766F9800914825 /* ChatKit */ = {
+			isa = PBXGroup;
+			children = (
+				4912E3571D766F9800914825 /* Class */,
+				4912E3B11D766FD400914825 /* ChatKitVCtrl.h */,
+				4912E3B21D766FD400914825 /* ChatKitVCtrl.m */,
+				4912E3941D766F9800914825 /* LCChatKitExample.h */,
+				4912E3951D766F9800914825 /* LCChatKitExample.m */,
+				4912E3961D766F9800914825 /* LCCKTabBarControllerConfig.h */,
+				4912E3971D766F9800914825 /* LCCKTabBarControllerConfig.m */,
+			);
+			path = ChatKit;
+			sourceTree = "<group>";
+		};
+		4912E3571D766F9800914825 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				4912E3581D766F9800914825 /* Model */,
+				4912E35B1D766F9800914825 /* Module */,
+				4912E38D1D766F9800914825 /* Tool */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		4912E3581D766F9800914825 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4912E3591D766F9800914825 /* LCCKUser.h */,
+				4912E35A1D766F9800914825 /* LCCKUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4912E35B1D766F9800914825 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				4912E35C1D766F9800914825 /* Customize */,
+				4912E36F1D766F9800914825 /* Login */,
+				4912E37B1D766F9800914825 /* Main */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		4912E35C1D766F9800914825 /* Customize */ = {
+			isa = PBXGroup;
+			children = (
+				4912E35D1D766F9800914825 /* CustomizedConversationBackground */,
+				4912E3601D766F9800914825 /* CustomizedMessage */,
+			);
+			path = Customize;
+			sourceTree = "<group>";
+		};
+		4912E35D1D766F9800914825 /* CustomizedConversationBackground */ = {
+			isa = PBXGroup;
+			children = (
+				4912E35E1D766F9800914825 /* LCCKInputViewPluginConversationBackground.h */,
+				4912E35F1D766F9800914825 /* LCCKInputViewPluginConversationBackground.m */,
+			);
+			path = CustomizedConversationBackground;
+			sourceTree = "<group>";
+		};
+		4912E3601D766F9800914825 /* CustomizedMessage */ = {
+			isa = PBXGroup;
+			children = (
+				4912E3611D766F9800914825 /* VCardMessage */,
+			);
+			path = CustomizedMessage;
+			sourceTree = "<group>";
+		};
+		4912E3611D766F9800914825 /* VCardMessage */ = {
+			isa = PBXGroup;
+			children = (
+				4912E3621D766F9800914825 /* Model */,
+				4912E3651D766F9800914825 /* Resources */,
+				4912E3671D766F9800914825 /* View */,
+			);
+			path = VCardMessage;
+			sourceTree = "<group>";
+		};
+		4912E3621D766F9800914825 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4912E3631D766F9800914825 /* LCCKVCardMessage.h */,
+				4912E3641D766F9800914825 /* LCCKVCardMessage.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4912E3651D766F9800914825 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4912E3661D766F9800914825 /* calling_card_bg@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4912E3671D766F9800914825 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4912E3681D766F9800914825 /* LCCKInputViewPluginVCard.h */,
+				4912E3691D766F9800914825 /* LCCKInputViewPluginVCard.m */,
+				4912E36A1D766F9800914825 /* LCCKVCardMessageCell.h */,
+				4912E36B1D766F9800914825 /* LCCKVCardMessageCell.m */,
+				4912E36C1D766F9800914825 /* LCCKVCardView.h */,
+				4912E36D1D766F9800914825 /* LCCKVCardView.m */,
+				4912E36E1D766F9800914825 /* LCCKVCardView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4912E36F1D766F9800914825 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4912E3701D766F9800914825 /* Controller */,
+				4912E3741D766F9800914825 /* Model */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4912E3701D766F9800914825 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4912E3711D766F9800914825 /* LCCKLoginViewController.h */,
+				4912E3721D766F9800914825 /* LCCKLoginViewController.m */,
+				4912E3731D766F9800914825 /* LCCKLoginViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4912E3741D766F9800914825 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4912E3751D766F9800914825 /* DEMOCustomAutoCompleteObject.h */,
+				4912E3761D766F9800914825 /* DEMOCustomAutoCompleteObject.m */,
+				4912E3771D766F9800914825 /* DEMODataSource.h */,
+				4912E3781D766F9800914825 /* DEMODataSource.m */,
+				4912E3791D766F9800914825 /* LCCKLoginDataSource.h */,
+				4912E37A1D766F9800914825 /* LCCKLoginDataSource.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4912E37B1D766F9800914825 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4912E37C1D766F9800914825 /* Controller */,
+				4912E37F1D766F9800914825 /* LCCKConstantsDefinition.h */,
+				4912E3801D766F9800914825 /* LCCKUtil.h */,
+				4912E3811D766F9800914825 /* LCCKUtil.m */,
+				4912E3821D766F9800914825 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4912E37C1D766F9800914825 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4912E37D1D766F9800914825 /* LCCKMapViewController.h */,
+				4912E37E1D766F9800914825 /* LCCKMapViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4912E3821D766F9800914825 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4912E3831D766F9800914825 /* LCCKPlusButtonSubclass.h */,
+				4912E3841D766F9800914825 /* LCCKPlusButtonSubclass.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4912E38D1D766F9800914825 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				4912E38E1D766F9800914825 /* LCCKContactManager.h */,
+				4912E38F1D766F9800914825 /* LCCKContactManager.m */,
+				4912E3901D766F9800914825 /* LCCKExampleConstants.h */,
+				4912E3911D766F9800914825 /* MBProgressHUD */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		4912E3911D766F9800914825 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4912E3921D766F9800914825 /* NSObject+LCCKHUD.h */,
+				4912E3931D766F9800914825 /* NSObject+LCCKHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		491532A61D4A34250006E1AE /* CodeSnippets:Ojbective-C */ = {
 			isa = PBXGroup;
 			children = (
@@ -6587,27 +6841,27 @@
 		4930EBFA1D28B2AE00606CD9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4930EBFB1D28B2AE00606CD9 /* MWCaptionView.h */,
-				4930EBFC1D28B2AE00606CD9 /* MWCaptionView.m */,
-				4930EBFD1D28B2AE00606CD9 /* MWCommon.h */,
-				4930EBFE1D28B2AE00606CD9 /* MWGridCell.h */,
-				4930EBFF1D28B2AE00606CD9 /* MWGridCell.m */,
+				4930EBFB1D28B2AE00606CD9 /* XYDMWCaptionView.h */,
+				4930EBFC1D28B2AE00606CD9 /* XYDMWCaptionView.m */,
+				4930EBFD1D28B2AE00606CD9 /* XYDMWCommon.h */,
+				4930EBFE1D28B2AE00606CD9 /* XYDMWGridCell.h */,
+				4930EBFF1D28B2AE00606CD9 /* XYDMWGridCell.m */,
 				4930EC001D28B2AE00606CD9 /* MWGridViewController.h */,
-				4930EC011D28B2AE00606CD9 /* MWGridViewController.m */,
-				4930EC021D28B2AE00606CD9 /* MWPhoto.h */,
-				4930EC031D28B2AE00606CD9 /* MWPhoto.m */,
-				4930EC041D28B2AE00606CD9 /* MWPhotoBrowser.h */,
-				4930EC051D28B2AE00606CD9 /* MWPhotoBrowser.m */,
-				4930EC061D28B2AE00606CD9 /* MWPhotoBrowserPrivate.h */,
-				4930EC071D28B2AE00606CD9 /* MWPhotoProtocol.h */,
-				4930EC081D28B2AE00606CD9 /* MWTapDetectingImageView.h */,
-				4930EC091D28B2AE00606CD9 /* MWTapDetectingImageView.m */,
-				4930EC0A1D28B2AE00606CD9 /* MWTapDetectingView.h */,
-				4930EC0B1D28B2AE00606CD9 /* MWTapDetectingView.m */,
-				4930EC0C1D28B2AE00606CD9 /* MWZoomingScrollView.h */,
-				4930EC0D1D28B2AE00606CD9 /* MWZoomingScrollView.m */,
-				4930EC0E1D28B2AE00606CD9 /* UIImage+MWPhotoBrowser.h */,
-				4930EC0F1D28B2AE00606CD9 /* UIImage+MWPhotoBrowser.m */,
+				4930EC011D28B2AE00606CD9 /* XYDMWGridViewController.m */,
+				4930EC021D28B2AE00606CD9 /* XYDMWPhoto.h */,
+				4930EC031D28B2AE00606CD9 /* XYDMWPhoto.m */,
+				4930EC041D28B2AE00606CD9 /* XYDMWPhotoBrowser.h */,
+				4930EC051D28B2AE00606CD9 /* XYDMWPhotoBrowser.m */,
+				4930EC061D28B2AE00606CD9 /* XYDMWPhotoBrowserPrivate.h */,
+				4930EC071D28B2AE00606CD9 /* XYDMWPhotoProtocol.h */,
+				4930EC081D28B2AE00606CD9 /* XYDMWTapDetectingImageView.h */,
+				4930EC091D28B2AE00606CD9 /* XYDMWTapDetectingImageView.m */,
+				4930EC0A1D28B2AE00606CD9 /* XYDMWTapDetectingView.h */,
+				4930EC0B1D28B2AE00606CD9 /* XYDMWTapDetectingView.m */,
+				4930EC0C1D28B2AE00606CD9 /* XYDMWZoomingScrollView.h */,
+				4930EC0D1D28B2AE00606CD9 /* XYDMWZoomingScrollView.m */,
+				4930EC0E1D28B2AE00606CD9 /* UIImage+XYDMWPhotoBrowser.h */,
+				4930EC0F1D28B2AE00606CD9 /* UIImage+XYDMWPhotoBrowser.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -9892,6 +10146,7 @@
 		49FC8C451D2BFB9A007454F7 /* FourthVCtrls */ = {
 			isa = PBXGroup;
 			children = (
+				4912E3561D766F9800914825 /* ChatKit */,
 				49DAA79D1D742F5800F92C7E /* YYKit */,
 				4991DFED1D538D0D0061FF84 /* Sol */,
 				49015E251D448EAD005ECC93 /* JSQMessage */,
@@ -11594,6 +11849,7 @@
 				zh_CN,
 				zh_HK,
 				zh_TW,
+				"zh-Hans-CN",
 			);
 			mainGroup = 4981A0421C62EFE9009B0157;
 			productRefGroup = 4981A04C1C62EFEA009B0157 /* Products */;
@@ -11621,6 +11877,7 @@
 				49F7F3151D44462D00663F4F /* Hardware.png in Resources */,
 				4930EE1D1D28B2AE00606CD9 /* XYDBottomBarCell.xib in Resources */,
 				4917A4E21D56DDAD00A55069 /* XLForm-MultiValuedSections.gif in Resources */,
+				4912E39F1D766F9800914825 /* LCCKVCardView.xib in Resources */,
 				49FB9CA01D44CC610047FAA4 /* KYCuteViewController.xib in Resources */,
 				49F545681D4E332B00938724 /* headphones.png in Resources */,
 				49FBCDC21D33E44500D4D091 /* square-cash-icon.png in Resources */,
@@ -11629,6 +11886,7 @@
 				49FCE9831D4314B500ED6A90 /* RootFormViewController1.xib in Resources */,
 				49B172021D29565700F2520D /* account_normal@2x.png in Resources */,
 				49F5456B1D4E332B00938724 /* nasalization rg.ttf in Resources */,
+				4912E39B1D766F9800914825 /* calling_card_bg@2x.png in Resources */,
 				49DAA8391D742F5900F92C7E /* ermilio.gif in Resources */,
 				49DAA8701D742F5900F92C7E /* mew_baseline.png in Resources */,
 				49015ECF1D44B65F005ECC93 /* IMG_3668.PNG in Resources */,
@@ -11904,6 +12162,7 @@
 				490147D71D58D7ED0058E23B /* ZSSlink@2x.png in Resources */,
 				49F7F2BB1D43634200663F4F /* 4.png in Resources */,
 				49F545651D4E332B00938724 /* charcoal.png in Resources */,
+				4912E3A11D766F9900914825 /* LCCKLoginViewController.xib in Resources */,
 				49F5457B1D4E332B00938724 /* video3.mp4 in Resources */,
 				4930EDBB1D28B2AE00606CD9 /* white_delete@3x.png in Resources */,
 				49F545641D4E332B00938724 /* blue.png in Resources */,
@@ -12364,6 +12623,7 @@
 				4929A3981D748B29000E8B1F /* Hamburger.m in Sources */,
 				4972E8431D669DEE005B4315 /* VTDUpcomingDisplayDataCollector.m in Sources */,
 				49C7D7AA1D65960C00BC0926 /* AMNImageViewController.m in Sources */,
+				4912E3A31D766F9900914825 /* DEMODataSource.m in Sources */,
 				49F964741D47924C007E4C21 /* MJWebViewViewController.m in Sources */,
 				49F9649A1D48DFA7007E4C21 /* MMExampleSideDrawerViewController.m in Sources */,
 				49F6F0551D3D1899008EC2EA /* DateToolsViewController.m in Sources */,
@@ -12374,7 +12634,7 @@
 				49FDF31B1D69DFE100D8D378 /* HCDTerminalExpression.m in Sources */,
 				49FCE8EA1D411F6C00ED6A90 /* TTTLocationFormatter.m in Sources */,
 				49FDF2C61D69DFE100D8D378 /* HCDtextPaperB.m in Sources */,
-				4930EDE31D28B2AE00606CD9 /* MWGridViewController.m in Sources */,
+				4930EDE31D28B2AE00606CD9 /* XYDMWGridViewController.m in Sources */,
 				49FBCD761D328C4400D4D091 /* NSObject+BFKit.m in Sources */,
 				49FDF3151D69DFE100D8D378 /* HCDUser.m in Sources */,
 				4929A3731D748B29000E8B1F /* UIImage+ImageComponent.m in Sources */,
@@ -12530,6 +12790,7 @@
 				49FCE8E81D411F6C00ED6A90 /* TTTArrayFormatter.m in Sources */,
 				49FDF31E1D69DFE100D8D378 /* HCDConcreteElementB.m in Sources */,
 				49C7D7A31D65960C00BC0926 /* AMNPhotoList.m in Sources */,
+				4912E3AE1D766F9900914825 /* NSObject+LCCKHUD.m in Sources */,
 				49F965201D48F776007E4C21 /* MRProgressOverlayView+AFNetworking.m in Sources */,
 				49F9652C1D48F8DA007E4C21 /* NJKWebViewProgressView.m in Sources */,
 				4917A4F01D56DDAD00A55069 /* CLLocationValueTrasformer.m in Sources */,
@@ -12546,6 +12807,7 @@
 				49FDF3421D69E38200D8D378 /* HCDFound.m in Sources */,
 				492574DE1D3BE4D900C454D4 /* UIBarButtonItem+Night.m in Sources */,
 				49F965051D48EA88007E4C21 /* MZFormSheetBackgroundWindowViewController.m in Sources */,
+				4912E39C1D766F9800914825 /* LCCKInputViewPluginVCard.m in Sources */,
 				49FDF2CD1D69DFE100D8D378 /* HCDSecreteSubject.m in Sources */,
 				49FDEF431D6951B000D8D378 /* ShapeMaker.m in Sources */,
 				49FBCC5D1D32883E00D4D091 /* TestBlockVCtrl1.m in Sources */,
@@ -12560,6 +12822,7 @@
 				4917A3E51D562DEF00A55069 /* TapkuEmptyViewController.m in Sources */,
 				49FBCD7D1D328C4400D4D091 /* UIDevice+BFKit.m in Sources */,
 				49FDEF201D6951B000D8D378 /* GameBoyEmulator.m in Sources */,
+				4912E3AD1D766F9900914825 /* LCCKContactManager.m in Sources */,
 				492574EA1D3BE4D900C454D4 /* UITextView+Night.m in Sources */,
 				49FDEB551D68A68700D8D378 /* ASHEditStepViewModel.m in Sources */,
 				49FBCDAF1D33E37F00D4D091 /* FacebookStyleBarBehaviorDefiner.m in Sources */,
@@ -12574,6 +12837,7 @@
 				4917A4DE1D56DDAD00A55069 /* ExamplesFormViewController.m in Sources */,
 				49FCE8EE1D411F6C00ED6A90 /* TTTUnitOfInformationFormatter.m in Sources */,
 				49FCE9111D411FDF00ED6A90 /* URLRequestFormatterViewController.m in Sources */,
+				4912E3A21D766F9900914825 /* DEMOCustomAutoCompleteObject.m in Sources */,
 				49F964961D48DFA7007E4C21 /* MMExampleCenterTableViewController.m in Sources */,
 				492574E01D3BE4D900C454D4 /* UILabel+Night.m in Sources */,
 				49F964C61D48E256007E4C21 /* MRCircularProgressViewController.m in Sources */,
@@ -12593,7 +12857,7 @@
 				49B172461D29567600F2520D /* XYDTabBarController.m in Sources */,
 				49FBCD821D328C4400D4D091 /* UINavigationBar+BFKit.m in Sources */,
 				49DAA8651D742F5900F92C7E /* YYPhotoGroupView.m in Sources */,
-				4930EDE21D28B2AE00606CD9 /* MWGridCell.m in Sources */,
+				4930EDE21D28B2AE00606CD9 /* XYDMWGridCell.m in Sources */,
 				49FBCD7F1D328C4400D4D091 /* UIImage+BFKit.m in Sources */,
 				49A93F281D6BE92B009269BC /* BinaryTree.m in Sources */,
 				49DAA8851D742F5900F92C7E /* YYTextMarkdownExample.m in Sources */,
@@ -12628,6 +12892,7 @@
 				49015EB81D449356005ECC93 /* JSQVideoMediaItem.m in Sources */,
 				4929A3971D748B29000E8B1F /* AnySandwich.m in Sources */,
 				4917A4DC1D56DDAD00A55069 /* DatesFormViewController.m in Sources */,
+				4912E3AF1D766F9900914825 /* LCChatKitExample.m in Sources */,
 				49DAA87D1D742F5900F92C7E /* YYTextAttachmentExample.m in Sources */,
 				49FDEF841D6951B000D8D378 /* VisitorVCtrl1.m in Sources */,
 				49F964EE1D48EA60007E4C21 /* MZTableViewController.m in Sources */,
@@ -12686,6 +12951,7 @@
 				490147431D58D7940058E23B /* ZSSDemoViewController.m in Sources */,
 				49DAA8541D742F5900F92C7E /* WBStatusComposeViewController.m in Sources */,
 				49FDEF731D6951B000D8D378 /* StateType.m in Sources */,
+				4912E3A71D766F9900914825 /* LCCKPlusButtonSubclass.m in Sources */,
 				4991E01A1D538D0D0061FF84 /* SOLSettingsViewController.m in Sources */,
 				4972E7D21D669A07005B4315 /* MVVMCustomTableViewCell.m in Sources */,
 				49015EA51D449356005ECC93 /* JSQMessagesViewController.m in Sources */,
@@ -12781,6 +13047,7 @@
 				49B928591D3E7C7E00CCF80C /* EKBTree.m in Sources */,
 				49FBCD0C1D328B7700D4D091 /* InfoViewController.m in Sources */,
 				49C7D7A51D65960C00BC0926 /* AMNTimeline.m in Sources */,
+				4912E3A61D766F9900914825 /* LCCKUtil.m in Sources */,
 				490009001D50ABF2006C5D06 /* REMenuNavigationViewController.m in Sources */,
 				4929A36F1D748B29000E8B1F /* ImageShadowFilter.m in Sources */,
 				49A93F321D6BE92B009269BC /* Hanoi.m in Sources */,
@@ -12804,6 +13071,7 @@
 				49DAA8821D742F5900F92C7E /* YYTextEmoticonExample.m in Sources */,
 				4930EDD41D28B2AE00606CD9 /* AsynchronousOperation.m in Sources */,
 				49FDEF561D6951B000D8D378 /* MediatorVCtrl1.m in Sources */,
+				4912E3A41D766F9900914825 /* LCCKLoginDataSource.m in Sources */,
 				4972E82F1D669DEE005B4315 /* NSCalendar+CalendarAdditions.m in Sources */,
 				49FCE9161D43125500ED6A90 /* FXFormsVCtrl.m in Sources */,
 				49FDF2AE1D69DFE100D8D378 /* HCDCashRobate.m in Sources */,
@@ -12834,10 +13102,11 @@
 				49015EB11D449356005ECC93 /* JSQAudioMediaItem.m in Sources */,
 				497B85AB1D6B39F300AF3DEF /* RWTSearchResultsViewController.m in Sources */,
 				49FDF2FB1D69DFE100D8D378 /* HCDGameNokiaSoftware.m in Sources */,
+				4912E3981D766F9800914825 /* LCCKUser.m in Sources */,
 				49F964691D47924C007E4C21 /* MJExample.m in Sources */,
 				49FCE9751D4314B500ED6A90 /* PrivacyPolicyViewController.m in Sources */,
 				4929A3C21D748B29000E8B1F /* ScribbleManager.m in Sources */,
-				4930EDE91D28B2AE00606CD9 /* UIImage+MWPhotoBrowser.m in Sources */,
+				4930EDE91D28B2AE00606CD9 /* UIImage+XYDMWPhotoBrowser.m in Sources */,
 				4929A3611D748B29000E8B1F /* ChainOfResponsibilityViewController.m in Sources */,
 				49FCE90F1D411FDF00ED6A90 /* TimeIntervalFormatterViewController.m in Sources */,
 				49FCE8ED1D411F6C00ED6A90 /* TTTTimeIntervalFormatter.m in Sources */,
@@ -12846,6 +13115,7 @@
 				49FCE8E91D411F6C00ED6A90 /* TTTColorFormatter.m in Sources */,
 				4966F2FA1D6D8331001E16BD /* GDMapService.m in Sources */,
 				49FDEF351D6951B000D8D378 /* File.m in Sources */,
+				4912E3A01D766F9900914825 /* LCCKLoginViewController.m in Sources */,
 				4929A35D1D748B29000E8B1F /* Attack.m in Sources */,
 				49FCE97A1D4314B500ED6A90 /* TermsViewController.m in Sources */,
 				49FDEF721D6951B000D8D378 /* StateTwo.m in Sources */,
@@ -13041,7 +13311,7 @@
 				4930EE281D28B2AE00606CD9 /* TagViewProperty.m in Sources */,
 				490147FD1D58D7ED0058E23B /* CYRToken.m in Sources */,
 				49FCE88C1D3FC71A00ED6A90 /* BaseHelper.m in Sources */,
-				4930EDE81D28B2AE00606CD9 /* MWZoomingScrollView.m in Sources */,
+				4930EDE81D28B2AE00606CD9 /* XYDMWZoomingScrollView.m in Sources */,
 				4929A3441D748B29000E8B1F /* AcmeMainButton.m in Sources */,
 				49FDEF2C1D6951B000D8D378 /* PhoneNumChain.m in Sources */,
 				4929A3411D748B29000E8B1F /* AbstractFactoryViewController.m in Sources */,
@@ -13085,6 +13355,7 @@
 				49A93F271D6BE92B009269BC /* BinarySearch.m in Sources */,
 				49FDEF3A1D6951B000D8D378 /* UIView+SetRect.m in Sources */,
 				49015EA41D449356005ECC93 /* UIView+JSQMessages.m in Sources */,
+				4912E39A1D766F9800914825 /* LCCKVCardMessage.m in Sources */,
 				49FDEF301D6951B000D8D378 /* Invoker.m in Sources */,
 				4930EDD71D28B2AE00606CD9 /* ELCImagePickerController.m in Sources */,
 				4930ED5D1D28B2AE00606CD9 /* AppConstant.m in Sources */,
@@ -13107,16 +13378,18 @@
 				492574D81D3BE4D900C454D4 /* NSObject+DeallocBlock.m in Sources */,
 				4991E0111D538D0D0061FF84 /* UIImage+ImageEffects.m in Sources */,
 				497B859F1D6B39F300AF3DEF /* RWTFlickrSearchImpl.m in Sources */,
-				4930EDE71D28B2AE00606CD9 /* MWTapDetectingView.m in Sources */,
+				4930EDE71D28B2AE00606CD9 /* XYDMWTapDetectingView.m in Sources */,
 				4991DFA61D52348C0061FF84 /* ProgressViewController.m in Sources */,
 				49F546E81D4E3CA200938724 /* FoldingViewController.m in Sources */,
 				49DAA8611D742F5900F92C7E /* YYWebImageExample.m in Sources */,
 				49FDF2FA1D69DFE100D8D378 /* HCDAddressListSofeware.m in Sources */,
+				4912E3A51D766F9900914825 /* LCCKMapViewController.m in Sources */,
 				49FCE99C1D4314B500ED6A90 /* RootForm2.m in Sources */,
 				4930ED791D28B2AE00606CD9 /* ImageTool.m in Sources */,
 				49FDEF3C1D6951B000D8D378 /* DecoratorGamePlay.m in Sources */,
 				497D4D131D4450E500AFCBBD /* SBCustomStyleViewController.m in Sources */,
 				49FDF3171D69DFE100D8D378 /* FlyweightVCtrl2.m in Sources */,
+				4912E39D1D766F9800914825 /* LCCKVCardMessageCell.m in Sources */,
 				4917A4E81D56DDAD00A55069 /* BasicPredicateViewController.m in Sources */,
 				49FDF2C21D69DFE100D8D378 /* HCDfactoryMultiply.m in Sources */,
 				49FBCD861D328C4400D4D091 /* UITextField+BFKit.m in Sources */,
@@ -13170,6 +13443,7 @@
 				49DAA8591D742F5900F92C7E /* WBStatusTimelineViewController.m in Sources */,
 				49DAA8671D742F5900F92C7E /* YYSimpleWebViewController.m in Sources */,
 				49F7F3531D44468100663F4F /* SSUUID.m in Sources */,
+				4912E3B31D766FD400914825 /* ChatKitVCtrl.m in Sources */,
 				49FDF2C31D69DFE100D8D378 /* FactoryVCtrl2.m in Sources */,
 				4991DFB61D5389930061FF84 /* FBShimmeringView.m in Sources */,
 				49B928541D3E7C7E00CCF80C /* EKAVLTree.m in Sources */,
@@ -13209,6 +13483,7 @@
 				4917A4EF1D56DDAD00A55069 /* CustomSelectorsFormViewController.m in Sources */,
 				49DAA8881D742F5900F92C7E /* YYTextUndoRedoExample.m in Sources */,
 				49015EC21D449356005ECC93 /* JSQMessagesLabel.m in Sources */,
+				4912E3991D766F9800914825 /* LCCKInputViewPluginConversationBackground.m in Sources */,
 				49FB58D31D4F8ACA009B3A54 /* PQFRootViewController.m in Sources */,
 				49FCE8921D3FC71A00ED6A90 /* NAKPlaybackIndicatorContentView.m in Sources */,
 				4929A3CF1D748B29000E8B1F /* Vertex.m in Sources */,
@@ -13280,7 +13555,7 @@
 				4972E8321D669DEE005B4315 /* VTDManagedTodoItem.m in Sources */,
 				4963976D1D6583E20090806A /* StructureVCtrl.m in Sources */,
 				49FDEF321D6951B000D8D378 /* MakeLighterCommand.m in Sources */,
-				4930EDE51D28B2AE00606CD9 /* MWPhotoBrowser.m in Sources */,
+				4930EDE51D28B2AE00606CD9 /* XYDMWPhotoBrowser.m in Sources */,
 				4972E7A21D6694C9005B4315 /* Car.m in Sources */,
 				4929A3491D748B29000E8B1F /* SierraBrandingFactory1.m in Sources */,
 				49C7D7A61D65960C00BC0926 /* AMNPhotoListCollectionViewPresenter.m in Sources */,
@@ -13332,6 +13607,7 @@
 				49FBCDAE1D33E37F00D4D091 /* BLKFlexibleHeightBarSubviewLayoutAttributes.m in Sources */,
 				4917A46D1D56D9B400A55069 /* WYGesturesViewController.m in Sources */,
 				4929A3521D748B29000E8B1F /* GameBoyEmulator1.m in Sources */,
+				4912E3B01D766F9900914825 /* LCCKTabBarControllerConfig.m in Sources */,
 				49FBCD061D328B7700D4D091 /* UserInterfaceKitViewController.m in Sources */,
 				4917A4F71D56DDAD00A55069 /* Model.xcdatamodeld in Sources */,
 				49FBCC611D32883E00D4D091 /* Item.m in Sources */,
@@ -13355,11 +13631,11 @@
 				49FFE5601D464B7A0072B4C4 /* SegmentedBarViewController.m in Sources */,
 				49FDEF311D6951B000D8D378 /* MakeDarkerCommand.m in Sources */,
 				49B928621D3E7C7E00CCF80C /* EKVertex.m in Sources */,
-				4930EDE41D28B2AE00606CD9 /* MWPhoto.m in Sources */,
+				4930EDE41D28B2AE00606CD9 /* XYDMWPhoto.m in Sources */,
 				490148021D58D7ED0058E23B /* HRColorPickerViewController.m in Sources */,
 				49FDF2E11D69DFE100D8D378 /* StateVCtrl2.m in Sources */,
 				49FDF3241D69DFE100D8D378 /* VisitorVCtlr2.m in Sources */,
-				4930EDE11D28B2AE00606CD9 /* MWCaptionView.m in Sources */,
+				4930EDE11D28B2AE00606CD9 /* XYDMWCaptionView.m in Sources */,
 				49FDEF831D6951B000D8D378 /* ElementCollection.m in Sources */,
 				49DAA8661D742F5900F92C7E /* YYRootViewController.m in Sources */,
 				49FDEF3E1D6951B000D8D378 /* GamePlay.m in Sources */,
@@ -13389,6 +13665,7 @@
 				49FDF2D81D69DFE100D8D378 /* SQLUser.m in Sources */,
 				49FDEF371D6951B000D8D378 /* FileCell.m in Sources */,
 				49F965211D48F776007E4C21 /* MRProgressView+AFNetworking.m in Sources */,
+				4912E39E1D766F9800914825 /* LCCKVCardView.m in Sources */,
 				49FDF1611D69544300D8D378 /* MementoVCtrl1.m in Sources */,
 				4966F2FD1D6D8331001E16BD /* TestCaseFactory.m in Sources */,
 				49DAA8491D742F5900F92C7E /* T1StatusLayout.m in Sources */,
@@ -13430,7 +13707,7 @@
 				497B85BD1D6B3C2200AF3DEF /* RWTPreviousSearchViewModel.m in Sources */,
 				49FBCC681D32883E00D4D091 /* TestThread.m in Sources */,
 				49F7F30F1D44462D00663F4F /* MSGradientArcLayer.m in Sources */,
-				4930EDE61D28B2AE00606CD9 /* MWTapDetectingImageView.m in Sources */,
+				4930EDE61D28B2AE00606CD9 /* XYDMWTapDetectingImageView.m in Sources */,
 				49F9649F1D48DFA7007E4C21 /* MMSideDrawerTableViewCell.m in Sources */,
 				49FC8C871D2D551C007454F7 /* AMWaveTransition.m in Sources */,
 				4966F2E71D6D8331001E16BD /* NSURLRequest+CTNetworkingMethods.m in Sources */,

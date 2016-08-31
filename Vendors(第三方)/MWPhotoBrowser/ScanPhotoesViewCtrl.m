@@ -76,49 +76,49 @@
     return self.enableGrid && _isShowGridBtn;
 }
 
-#pragma mark - MWPhotoBrowserDelegate，所有的数据代理方法
+#pragma mark - XYDMWPhotoBrowserDelegate，所有的数据代理方法
 
-- (NSUInteger)numberOfPhotosInPhotoBrowser:(MWPhotoBrowser *)photoBrowser {
+- (NSUInteger)numberOfPhotosInPhotoBrowser:(XYDMWPhotoBrowser *)photoBrowser {
     return self.photoesArray.count;
 }
 
-- (id <MWPhoto>)photoBrowser:(MWPhotoBrowser *)photoBrowser photoAtIndex:(NSUInteger)index {
+- (id <XYDMWPhoto>)photoBrowser:(XYDMWPhotoBrowser *)photoBrowser photoAtIndex:(NSUInteger)index {
     //大图数据代理方法
     if (index < self.photoesArray.count) {
-        MWPhoto *photo = self.photoesArray[index];
+        XYDMWPhoto *photo = self.photoesArray[index];
         return photo;
     }
     return nil;
 }
 
 //小图数据代理方法
-- (id <MWPhoto>)photoBrowser:(MWPhotoBrowser *)photoBrowser thumbPhotoAtIndex:(NSUInteger)index {
+- (id <XYDMWPhoto>)photoBrowser:(XYDMWPhotoBrowser *)photoBrowser thumbPhotoAtIndex:(NSUInteger)index {
     if (index < self.thumbsArray.count) {
        return self.thumbsArray[index];
     }
     return nil;
 }
 
-- (MWCaptionView *)photoBrowser:(MWPhotoBrowser *)photoBrowser captionViewForPhotoAtIndex:(NSUInteger)index {
+- (XYDMWCaptionView *)photoBrowser:(XYDMWPhotoBrowser *)photoBrowser captionViewForPhotoAtIndex:(NSUInteger)index {
     return nil;
 }
 
 //图片已经展示之后进入此方法
-- (void)photoBrowser:(MWPhotoBrowser *)photoBrowser didDisplayPhotoAtIndex:(NSUInteger)index {
+- (void)photoBrowser:(XYDMWPhotoBrowser *)photoBrowser didDisplayPhotoAtIndex:(NSUInteger)index {
 }
 
 //判断当前图片是否选中
-- (BOOL)photoBrowser:(MWPhotoBrowser *)photoBrowser isPhotoSelectedAtIndex:(NSUInteger)index {
+- (BOOL)photoBrowser:(XYDMWPhotoBrowser *)photoBrowser isPhotoSelectedAtIndex:(NSUInteger)index {
     return [[_selections objectAtIndex:index] boolValue];
 }
 
 //当某一张图片视图的选中状态发生改变时，进入此代理方法
-- (void)photoBrowser:(MWPhotoBrowser *)photoBrowser photoAtIndex:(NSUInteger)index selectedChanged:(BOOL)selected {
+- (void)photoBrowser:(XYDMWPhotoBrowser *)photoBrowser photoAtIndex:(NSUInteger)index selectedChanged:(BOOL)selected {
     [_selections replaceObjectAtIndex:index withObject:[NSNumber numberWithBool:selected]];//数组个数是确定的，直接替换就好
     NSLog(@"Photo at index %lu selected %@", (unsigned long)index, selected ? @"YES" : @"NO");
 }
 
-- (UIBarButtonItem *)photoBrowserRightTopBarItem:(MWPhotoBrowser *)photoBrowser {
+- (UIBarButtonItem *)photoBrowserRightTopBarItem:(XYDMWPhotoBrowser *)photoBrowser {
     if ([self isShowingGrid]) {
         doneButton = [self getRightTopBarItemWithTitle:@"全选"];
         return doneButton;
@@ -129,7 +129,7 @@
     }
 }
 
-- (UIBarButtonItem *)photoBrowserBackBarItem:(MWPhotoBrowser *)photoBrowser {
+- (UIBarButtonItem *)photoBrowserBackBarItem:(XYDMWPhotoBrowser *)photoBrowser {
     UIButton *backBtn = [AppTool getBtnImageN:@"nav_back" target:self action:@selector(clickBackBtn)];
     backBtn.frame = CGRectMake(0,0,10,44);
     return [[UIBarButtonItem alloc]initWithCustomView:backBtn];
@@ -151,7 +151,7 @@
     return barItem;
 }
 
-- (NSArray *)photoBrowserToolBarItems:(MWPhotoBrowser *)photoBrowser {
+- (NSArray *)photoBrowserToolBarItems:(XYDMWPhotoBrowser *)photoBrowser {
     UIBarButtonItem *fixedSpace = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:self action:nil];
     fixedSpace.width = 32; // To balance action button
     UIBarButtonItem *flexSpace = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:self action:nil];

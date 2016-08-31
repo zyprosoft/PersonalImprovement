@@ -1,17 +1,17 @@
 //
-//  MWGridViewController.h
-//  MWPhotoBrowser
+//  XYDMWGridViewController.h
+//  XYDMWPhotoBrowser
 //
 //  Created by Michael Waterfall on 08/10/2013.
 //
 //
 
 #import <UIKit/UIKit.h>
-#import "MWPhotoBrowser.h"
+#import "XYDMWPhotoBrowser.h"
 
-@interface MWGridViewController : UICollectionViewController {}
+@interface XYDMWGridViewController : UICollectionViewController {}
 
-@property (nonatomic, assign) MWPhotoBrowser *browser;
+@property (nonatomic, assign) XYDMWPhotoBrowser *browser;
 @property (nonatomic) BOOL selectionMode;
 @property (nonatomic) CGPoint initialContentOffset;
 

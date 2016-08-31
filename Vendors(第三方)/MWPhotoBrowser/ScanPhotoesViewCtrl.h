@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MWPhotoBrowser.h"
+#import "XYDMWPhotoBrowser.h"
 
 // 本来为了封装的考虑，不应在此耦合此属性，但问题也不大
 typedef NS_ENUM(NSInteger,FromWhichKind){
@@ -18,7 +18,7 @@ typedef NS_ENUM(NSInteger,FromWhichKind){
 // 删除网盘文件/删除传输记录文件
 typedef void (^DeleteDataBlock)(id data);
 
-@interface ScanPhotoesViewCtrl : MWPhotoBrowser<MWPhotoBrowserDelegate> {
+@interface ScanPhotoesViewCtrl : XYDMWPhotoBrowser<XYDMWPhotoBrowserDelegate> {
      NSMutableArray *_selections;
 }
 // 大图

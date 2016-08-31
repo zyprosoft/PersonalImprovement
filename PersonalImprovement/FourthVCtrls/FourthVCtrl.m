@@ -11,6 +11,7 @@
 #import "DemoMessagesViewController.h"
 #import "SOLMainViewController.h"
 #import "YYRootViewController.h"
+#import "ChatKitVCtrl.h"
 
 @interface FourthVCtrl ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -28,9 +29,10 @@
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     [self addCell:@"音乐播放器" class:@"MusicListViewController"];
     [self addCell:@"JSQ聊天" class:@"JSQMessage"];
-    [self addCell:@"MWPhotoBrowser图片浏览器" class:@"MWPhotoBrowser图片浏览器"];
+    [self addCell:@"XYDMWPhotoBrowser图片浏览器" class:@"XYDMWPhotoBrowser图片浏览器"];
     [self addCell:@"Sol天气" class:@"SOLMainViewController"];
     [self addCell:@"YYKit" class:@"YYRootViewController"];
+    [self addCell:@"ChatKit" class:@"ChatKitVCtrl"];
     [MyTool hideExtraTableviewSeparatedLine:_tableView];
 }
 

@@ -1,7 +1,7 @@
 platform:ios,'7.0'
 target 'PersonalImprovement' do
 pod 'EAIntroView'
-pod 'MBProgressHUD'
+#pod 'MBProgressHUD'
 pod 'AFNetworking'
 pod 'SDWebImage'
 pod 'Masonry'
@@ -53,7 +53,10 @@ pod 'ReactiveViewModel', '0.1.1'
 pod 'LinqToObjectiveC'
 pod 'objectiveflickr'
 pod 'YYKit'
-pod 'ChatKit'
+#pod 'ChatKit', '~> 0.7.2'
+pod 'MLPAutoCompleteTextField'
+pod 'TWMessageBarManager'
+pod 'FTPopOverMenu'
 
 #pod 'JSQMessagesViewController'
 

@@ -147,7 +147,7 @@
 
 
 //点击Done按钮之后调用该方法
--(void)photoBrowserDidClickDone:(MWPhotoBrowser *)photoBrowser andSelectionArray:(NSArray *)arry {
+-(void)photoBrowserDidClickDone:(XYDMWPhotoBrowser *)photoBrowser andSelectionArray:(NSArray *)arry {
     NSMutableArray *assetArray = [NSMutableArray array];
     ALAssetsGroup *assetGroup = self.assetGroups[self.whichGroup];
     [assetGroup enumerateAssetsUsingBlock:^(ALAsset*asset, NSUInteger index, BOOL *stop) {
