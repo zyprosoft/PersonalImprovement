@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C76F04AEF57AE6B9395A8FA /* libPods-PersonalImprovement.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D7CE305621F152EC627A3 /* libPods-PersonalImprovement.a */; };
 		490008E21D50A5E4006C5D06 /* CAAnimation+Name.m in Sources */ = {isa = PBXBuildFile; fileRef = 490008DD1D50A5E4006C5D06 /* CAAnimation+Name.m */; };
 		490008E31D50A5E4006C5D06 /* RBBAnimationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 490008DF1D50A5E4006C5D06 /* RBBAnimationListViewController.m */; };
 		490008E41D50A5E4006C5D06 /* RBBAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 490008E11D50A5E4006C5D06 /* RBBAnimationViewController.m */; };
@@ -540,7 +541,6 @@
 		4930EDD61D28B2AE00606CD9 /* ELCAlbumPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EBDD1D28B2AE00606CD9 /* ELCAlbumPickerController.m */; };
 		4930EDD71D28B2AE00606CD9 /* ELCImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EBE11D28B2AE00606CD9 /* ELCImagePickerController.m */; };
 		4930EDD81D28B2AE00606CD9 /* CustomNavigationCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EBE41D28B2AE00606CD9 /* CustomNavigationCtrl.m */; };
-		4930EDD91D28B2AE00606CD9 /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EBE71D28B2AE00606CD9 /* DACircularProgressView.m */; };
 		4930EDDA1D28B2AE00606CD9 /* DaiDodgeKeyboard+AccessObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EBEA1D28B2AE00606CD9 /* DaiDodgeKeyboard+AccessObject.m */; };
 		4930EDDB1D28B2AE00606CD9 /* DaiDodgeKeyboard+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EBEC1D28B2AE00606CD9 /* DaiDodgeKeyboard+Animation.m */; };
 		4930EDDC1D28B2AE00606CD9 /* DaiDodgeKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EBEE1D28B2AE00606CD9 /* DaiDodgeKeyboard.m */; };
@@ -2668,8 +2668,6 @@
 		4930EBE11D28B2AE00606CD9 /* ELCImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCImagePickerController.m; sourceTree = "<group>"; };
 		4930EBE31D28B2AE00606CD9 /* CustomNavigationCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationCtrl.h; sourceTree = "<group>"; };
 		4930EBE41D28B2AE00606CD9 /* CustomNavigationCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationCtrl.m; sourceTree = "<group>"; };
-		4930EBE61D28B2AE00606CD9 /* DACircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACircularProgressView.h; sourceTree = "<group>"; };
-		4930EBE71D28B2AE00606CD9 /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
 		4930EBE91D28B2AE00606CD9 /* DaiDodgeKeyboard+AccessObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DaiDodgeKeyboard+AccessObject.h"; sourceTree = "<group>"; };
 		4930EBEA1D28B2AE00606CD9 /* DaiDodgeKeyboard+AccessObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DaiDodgeKeyboard+AccessObject.m"; sourceTree = "<group>"; };
 		4930EBEB1D28B2AE00606CD9 /* DaiDodgeKeyboard+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DaiDodgeKeyboard+Animation.h"; sourceTree = "<group>"; };
@@ -4840,6 +4838,7 @@
 				49DAA79C1D74291700F92C7E /* WebP.framework in Frameworks */,
 				493A2E531D675F1C00DB5CD5 /* libOCMock.a in Frameworks */,
 				49B171F31D29558B00F2520D /* libz.tbd in Frameworks */,
+				1C76F04AEF57AE6B9395A8FA /* libPods-PersonalImprovement.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6480,7 +6479,6 @@
 				4930EBD81D28B2AE00606CD9 /* CancelContentScrollV */,
 				4930EBDB1D28B2AE00606CD9 /* CustomImagePicker */,
 				4930EBE21D28B2AE00606CD9 /* CustomNavigationCtrl */,
-				4930EBE51D28B2AE00606CD9 /* DACircularProgressView */,
 				4930EBE81D28B2AE00606CD9 /* DaiDodgeKeyboard */,
 				4930EBF31D28B2AE00606CD9 /* KeychainItemWrapper */,
 				4930EBF61D28B2AE00606CD9 /* LMComBox */,
@@ -6538,15 +6536,6 @@
 				4930EBE41D28B2AE00606CD9 /* CustomNavigationCtrl.m */,
 			);
 			path = CustomNavigationCtrl;
-			sourceTree = "<group>";
-		};
-		4930EBE51D28B2AE00606CD9 /* DACircularProgressView */ = {
-			isa = PBXGroup;
-			children = (
-				4930EBE61D28B2AE00606CD9 /* DACircularProgressView.h */,
-				4930EBE71D28B2AE00606CD9 /* DACircularProgressView.m */,
-			);
-			path = DACircularProgressView;
 			sourceTree = "<group>";
 		};
 		4930EBE81D28B2AE00606CD9 /* DaiDodgeKeyboard */ = {
@@ -12478,7 +12467,6 @@
 				492574D31D3BE4D900C454D4 /* DKImage.m in Sources */,
 				4972E7AE1D6694C9005B4315 /* PresenterView.m in Sources */,
 				4972E8441D669DEE005B4315 /* VTDUpcomingDisplayItem.m in Sources */,
-				4930EDD91D28B2AE00606CD9 /* DACircularProgressView.m in Sources */,
 				492574E11D3BE4D900C454D4 /* UINavigationBar+Night.m in Sources */,
 				49B928681D3E7C7E00CCF80C /* EKALocation.m in Sources */,
 				49FBCD901D328C4400D4D091 /* BFLog.m in Sources */,
