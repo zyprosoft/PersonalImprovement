@@ -15,16 +15,44 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - AFSoundManager (2.1)
+  - AVOSCloud (3.4.0-beta.3)
+  - AVOSCloudIM (3.4.0-beta.3):
+    - AVOSCloud (= 3.4.0-beta.3)
+    - AVOSCloudIM/_ARC (= 3.4.0-beta.3)
+    - AVOSCloudIM/_NOARC (= 3.4.0-beta.3)
+  - AVOSCloudIM/_ARC (3.4.0-beta.3):
+    - AVOSCloud (= 3.4.0-beta.3)
+    - AVOSCloudIM/_NOARC (= 3.4.0-beta.3)
+  - AVOSCloudIM/_NOARC (3.4.0-beta.3):
+    - AVOSCloud (= 3.4.0-beta.3)
   - AXRatingView (1.0.3)
+  - ChatKit (0.7.2):
+    - AVOSCloud (~> 3.4.0-beta.2)
+    - AVOSCloudIM (~> 3.4.0-beta.2)
+    - DACircularProgress (~> 2.3.1)
+    - FDStackView (~> 1.0)
+    - FMDB (~> 2.6.2)
+    - Masonry (~> 1.0.1)
+    - MJRefresh (~> 3.1.9)
+    - MLLabel (~> 1.9.2)
+    - MWPhotoBrowser (= 2.1.2)
+    - pop (~> 1.0.9)
+    - SDWebImage (~> 3.8.0)
+    - UITableView+FDTemplateLayoutCell (~> 1.5.beta)
   - CocoaAsyncSocket (7.5.0):
     - CocoaAsyncSocket/GCD (= 7.5.0)
   - CocoaAsyncSocket/GCD (7.5.0)
   - CYLTabBarController (1.6.0)
+  - DACircularProgress (2.3.1)
   - DateTools (1.7.0)
   - DOUAudioStreamer (0.2.11)
   - EAIntroView (2.9.0):
     - EARestrictedScrollView (~> 1.1.0)
   - EARestrictedScrollView (1.1.0)
+  - FDStackView (1.0)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
   - FoldingTabBar (1.0.8)
   - FTFontSelector (1.1.3)
   - FTPopOverMenu (1.1.9)
@@ -86,7 +114,9 @@ PODS:
     - MarqueeLabel/ObjC (= 2.7.9)
   - MarqueeLabel/ObjC (2.7.9)
   - Masonry (1.0.1)
+  - MBProgressHUD (0.9.2)
   - MJRefresh (3.1.12)
+  - MLLabel (1.9.2)
   - MLPAutoCompleteTextField (1.5)
   - MMDrawerController (0.6.0):
     - MMDrawerController/Core (= 0.6.0)
@@ -129,6 +159,10 @@ PODS:
   - MRProgress/Stopable (0.8.3):
     - MRProgress/Helper
   - MTAnimation (1.2.2)
+  - MWPhotoBrowser (2.1.2):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 0.9)
+    - SDWebImage (!= 3.7.2, ~> 3.7)
   - objectiveflickr (2.0.4)
   - Onboard (2.2.0)
   - pop (1.0.9)
@@ -161,6 +195,7 @@ PODS:
     - HexColors (~> 2.2.0)
   - TWMessageBarManager (1.8.1)
   - UIColor+FlatColors (0.0.2)
+  - UITableView+FDTemplateLayoutCell (1.5.beta)
   - WYPopoverController (0.3.9)
   - XLForm (3.2.0)
   - YLProgressBar (3.10.0)
@@ -172,6 +207,7 @@ DEPENDENCIES:
   - AFNetworking
   - AFSoundManager
   - AXRatingView (= 1.0.3)
+  - ChatKit (~> 0.7.2)
   - CocoaAsyncSocket
   - CYLTabBarController
   - DateTools
@@ -229,13 +265,19 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   AFSoundManager: 232af6154e736e6b2d8c93fafebfafd14fad7510
+  AVOSCloud: 261efb0d214fb769dc9e0ba4c28a63acd1490067
+  AVOSCloudIM: 685aee42d03ef8302883edab6cddd72e832bcc0a
   AXRatingView: ccaadc1bbda99a4b7e1d556059482d2b933a9f4e
+  ChatKit: 5a77ee5d0926f80522b5cc852bafae3ee4539db6
   CocoaAsyncSocket: 3baeb1ddd969f81cf9fca81053ae49ef2d1cbbfa
   CYLTabBarController: efbdd574772be17f17965acd7ee993f5972ff02f
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
   DOUAudioStreamer: 8aefc3e80eb6c01ec89fa3c30743c660e8c55bae
   EAIntroView: 76f68cc56242f2e25359419e6ecc2344ee7e1756
   EARestrictedScrollView: b0c2a3f92fb2610bb44d71c5e4893777c89e45ef
+  FDStackView: 3a4bbe0ce9c35e974246a585168b9da8c32213f1
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   FoldingTabBar: ff8d5dbb955b9b0d8280966e2a11dd71f854e155
   FTFontSelector: a5f0fc4dfb1606ad76da38570b0816c2e6c0d136
   FTPopOverMenu: 7306ce4f378dc3f9e80c356284634ef0df886e61
@@ -257,11 +299,14 @@ SPEC CHECKSUMS:
   Mantle: 1b29072a707453975b200a173cf77ec1e2810b75
   MarqueeLabel: 645cf4be33f8dca66fd7b15471e331d5a8d378df
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  MLLabel: df58127ce0bd1f87890ecc3232db77a85ce4cd97
   MLPAutoCompleteTextField: ba4d507bbff2bd4f139d4197814fc8dd39caf77e
   MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
   MRProgress: 16de7cc9f347e8846797a770db102a323fe7ef09
   MTAnimation: 1079f4ff38c0282779ced010d7363a8f893fd3ee
+  MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
   objectiveflickr: aed169dae1eb5a5550ca78f7efd7ccde2e4c26e5
   Onboard: c46261255c0bcbe26ab2823782764c96fca7a33e
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
@@ -282,11 +327,12 @@ SPEC CHECKSUMS:
   TSMessages: c8cc7b80f2a833af533872cd02010cac061532cc
   TWMessageBarManager: fd84e7948ba7968a2b5d9454859135761214ec56
   UIColor+FlatColors: 6c699df7a575281794c688c64cee6c44fd1f93b4
+  UITableView+FDTemplateLayoutCell: 02b508ab1cb4cea16a8c17ac83d2cd1fd72124f9
   WYPopoverController: a9db25ac2841a686acdc0f3a99bdb21545db32f4
   XLForm: 2250b4e96ab8ffa5f3355838c79edd90de451782
   YLProgressBar: 40a0627522dc1b536e02bf082a1b1ce3085b4668
   YYKit: 843d1b26e20b82c695790c9a89907eaa1e99907f
 
-PODFILE CHECKSUM: 924d3b66f6cfe37ced115af95c130f1c70c5f2d6
+PODFILE CHECKSUM: cb01f6f3b7e2e359eb9d464ee7ec27a55469ede8
 
 COCOAPODS: 1.0.1
