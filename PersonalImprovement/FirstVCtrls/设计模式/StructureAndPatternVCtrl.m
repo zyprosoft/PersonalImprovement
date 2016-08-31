@@ -16,7 +16,8 @@
 #import "DecoratorViewController.h"
 #import "FacadeViewController.h"
 #import "FlyweightViewController.h"
-#import "Singleton.h"
+#import "MySingleton.h"
+#import "PatternSingleton.h"
 #import "StrategyViewController.h"
 #import "TemplateMethodViewController.h"
 #import "CoordinatingController.h"
@@ -81,7 +82,17 @@
     Class class = NSClassFromString(classStr);
     UIViewController *ctrl = [[class alloc]init];
     ctrl.title = cellTitle;
-    [self.navigationController pushViewController:ctrl animated:YES];
+    if ([cellTitle isEqualToString:@"Objective-C设计模式-Singleton"]) {
+        PatternSingleton *s = [MySingleton sharedInstance];
+        [s operation];
+    }else if ([cellTitle isEqualToString:@"Objective-C设计模式-TouchPainter"]){
+        // Add the view controller's view to the window and display.
+        CoordinatingController *coordinatingController = [CoordinatingController sharedInstance];
+        ctrl = [coordinatingController activeViewController];
+        [self.navigationController pushViewController:ctrl animated:YES];
+    }else {
+        [self.navigationController pushViewController:ctrl animated:YES];
+    }
 }
 
 @end
