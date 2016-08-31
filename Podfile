@@ -53,7 +53,7 @@ pod 'ReactiveViewModel', '0.1.1'
 pod 'LinqToObjectiveC'
 pod 'objectiveflickr'
 pod 'YYKit'
-#pod 'ChatKit'
+pod 'ChatKit'
 
 #pod 'JSQMessagesViewController'
 
