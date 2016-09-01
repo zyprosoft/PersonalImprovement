@@ -26,6 +26,7 @@ PODS:
   - AVOSCloudIM/_NOARC (3.4.0-beta.3):
     - AVOSCloud (= 3.4.0-beta.3)
   - AXRatingView (1.0.3)
+  - BabyBluetooth (0.7.0)
   - ChatKit (0.7.2):
     - AVOSCloud (~> 3.4.0-beta.2)
     - AVOSCloudIM (~> 3.4.0-beta.2)
@@ -207,6 +208,7 @@ DEPENDENCIES:
   - AFNetworking
   - AFSoundManager
   - AXRatingView (= 1.0.3)
+  - BabyBluetooth
   - ChatKit (~> 0.7.2)
   - CocoaAsyncSocket
   - CYLTabBarController
@@ -268,6 +270,7 @@ SPEC CHECKSUMS:
   AVOSCloud: 261efb0d214fb769dc9e0ba4c28a63acd1490067
   AVOSCloudIM: 685aee42d03ef8302883edab6cddd72e832bcc0a
   AXRatingView: ccaadc1bbda99a4b7e1d556059482d2b933a9f4e
+  BabyBluetooth: d50758aecf24d4a0ab9271d69f0f116d6bee51c9
   ChatKit: 5a77ee5d0926f80522b5cc852bafae3ee4539db6
   CocoaAsyncSocket: 3baeb1ddd969f81cf9fca81053ae49ef2d1cbbfa
   CYLTabBarController: efbdd574772be17f17965acd7ee993f5972ff02f
@@ -333,6 +336,6 @@ SPEC CHECKSUMS:
   YLProgressBar: 40a0627522dc1b536e02bf082a1b1ce3085b4668
   YYKit: 843d1b26e20b82c695790c9a89907eaa1e99907f
 
-PODFILE CHECKSUM: cb01f6f3b7e2e359eb9d464ee7ec27a55469ede8
+PODFILE CHECKSUM: ce2b420018d5b2952676625cb7b9f39641b65b07
 
 COCOAPODS: 1.0.1

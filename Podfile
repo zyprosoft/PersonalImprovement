@@ -57,6 +57,7 @@ pod 'ChatKit', '~> 0.7.2'
 pod 'MLPAutoCompleteTextField'
 pod 'TWMessageBarManager'
 pod 'FTPopOverMenu'
+pod 'BabyBluetooth'
 
 #pod 'JSQMessagesViewController'
 

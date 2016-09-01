@@ -44,6 +44,7 @@
     [self addCell:@"TapkuLibrary" class:@"TapkuRootViewController"];
     [self addCell:@"设计模式" class:@"StructureAndPatternVCtrl"];
     [self addCell:@"CFNetworking网络层架构" class:@"ddd"];
+    [self addCell:@"蓝牙第三方库BabyBluetooth" class:@"ddd"];
 }
 
 - (void)addCell:(NSString *)title class:(NSString *)className {
