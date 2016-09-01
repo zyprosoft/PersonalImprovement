@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '41752FB3FE6F9DF0FD98B48703F53EBD'
-               BlueprintName = 'REMenu'
+               BlueprintIdentifier = 'C1E623E54AE090B93EC56D1D0321E057'
+               BlueprintName = 'SVWebViewController'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libREMenu.a'>
+               BuildableName = 'libSVWebViewController.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

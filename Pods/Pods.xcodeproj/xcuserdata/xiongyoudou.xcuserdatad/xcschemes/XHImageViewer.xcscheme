@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '41752FB3FE6F9DF0FD98B48703F53EBD'
-               BlueprintName = 'REMenu'
+               BlueprintIdentifier = 'CF333FC31F1928C51F67E78836463D6B'
+               BlueprintName = 'XHImageViewer'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libREMenu.a'>
+               BuildableName = 'libXHImageViewer.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

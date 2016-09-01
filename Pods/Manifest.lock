@@ -182,6 +182,7 @@ PODS:
   - ReactiveViewModel (0.1.1):
     - ReactiveCocoa (~> 2.1)
   - REMenu (1.10)
+  - SCLAlertView-Objective-C (0.7.9)
   - SDWebImage (3.8.1):
     - SDWebImage/Core (= 3.8.1)
   - SDWebImage/Core (3.8.1)
@@ -189,15 +190,18 @@ PODS:
   - SMPageControl (1.2)
   - SSKeychain (1.4.1)
   - SVProgressHUD (2.0.3)
+  - SVWebViewController (1.0)
   - SWTableViewCell (0.3.7)
   - TapkuLibrary (0.3.8)
   - TGCameraViewController (2.2.5)
   - TSMessages (0.9.12):
     - HexColors (~> 2.2.0)
+  - TTTAttributedLabel (1.13.4)
   - TWMessageBarManager (1.8.1)
   - UIColor+FlatColors (0.0.2)
   - UITableView+FDTemplateLayoutCell (1.5.beta)
   - WYPopoverController (0.3.9)
+  - XHImageViewer (0.1.2)
   - XLForm (3.2.0)
   - YLProgressBar (3.10.0)
   - YYKit (1.0.7):
@@ -212,6 +216,7 @@ DEPENDENCIES:
   - ChatKit (~> 0.7.2)
   - CocoaAsyncSocket
   - CYLTabBarController
+  - DACircularProgress
   - DateTools
   - DOUAudioStreamer (= 0.2.11)
   - EAIntroView
@@ -249,17 +254,21 @@ DEPENDENCIES:
   - ReactiveCocoa
   - ReactiveViewModel (= 0.1.1)
   - REMenu
+  - SCLAlertView-Objective-C (~> 0.7.3)
   - SDWebImage
   - Shapes
   - SMPageControl (~> 1.2)
   - SSKeychain
   - SVProgressHUD
+  - SVWebViewController
   - SWTableViewCell
   - TapkuLibrary
   - TGCameraViewController
   - TSMessages
+  - TTTAttributedLabel
   - TWMessageBarManager
   - WYPopoverController
+  - XHImageViewer
   - XLForm
   - YLProgressBar
   - YYKit
@@ -319,23 +328,27 @@ SPEC CHECKSUMS:
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   ReactiveViewModel: 171492c2d30d3eb3c89730fd180c0f6a2ae7e774
   REMenu: 30dad195930adf6c5eeb8041e3257aa60bf9fa49
+  SCLAlertView-Objective-C: e36ab12dc1ec4ff6f932888083b21d71a3a1ad23
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
   Shapes: 0e67e4324ce4a3cd0d4ca9431bd26387a677877f
   SMPageControl: 922892813001cfaf059e86e6801f46a967e9ee29
   SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  SVWebViewController: c36dda7326e81fcae0abf5d02bf7bbf7e41be901
   SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
   TapkuLibrary: 7a406dac46eff8595e191557eba88959f97f69b7
   TGCameraViewController: f982aca646a8f55152b32e75eef9ab30c97a9b53
   TSMessages: c8cc7b80f2a833af533872cd02010cac061532cc
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
   TWMessageBarManager: fd84e7948ba7968a2b5d9454859135761214ec56
   UIColor+FlatColors: 6c699df7a575281794c688c64cee6c44fd1f93b4
   UITableView+FDTemplateLayoutCell: 02b508ab1cb4cea16a8c17ac83d2cd1fd72124f9
   WYPopoverController: a9db25ac2841a686acdc0f3a99bdb21545db32f4
+  XHImageViewer: 7b275d2aa829e56761c30303b9d51cae086a90b9
   XLForm: 2250b4e96ab8ffa5f3355838c79edd90de451782
   YLProgressBar: 40a0627522dc1b536e02bf082a1b1ce3085b4668
   YYKit: 843d1b26e20b82c695790c9a89907eaa1e99907f
 
-PODFILE CHECKSUM: ce2b420018d5b2952676625cb7b9f39641b65b07
+PODFILE CHECKSUM: 5001cedc6751179bec253841ff28c6b7e650a513
 
 COCOAPODS: 1.0.1
