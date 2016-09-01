@@ -59,6 +59,12 @@ pod 'TWMessageBarManager'
 pod 'FTPopOverMenu'
 pod 'BabyBluetooth'
 
+pod 'SCLAlertView-Objective-C', '~> 0.7.3'
+pod 'TTTAttributedLabel'
+pod 'SVWebViewController'
+pod 'XHImageViewer'
+pod 'ZXingObjC'
+
 #pod 'JSQMessagesViewController'
 
 pod 'DOUAudioStreamer', '0.2.11'
