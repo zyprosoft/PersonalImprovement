@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:TeamTalk/TeamTalk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:meituan/meituan.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ResearchKit/ResearchKit.xcodeproj">
    </FileRef>
    <FileRef

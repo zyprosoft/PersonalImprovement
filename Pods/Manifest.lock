@@ -1,20 +1,31 @@
 PODS:
-  - AFNetworking (3.1.0):
-    - AFNetworking/NSURLSession (= 3.1.0)
-    - AFNetworking/Reachability (= 3.1.0)
-    - AFNetworking/Security (= 3.1.0)
-    - AFNetworking/Serialization (= 3.1.0)
-    - AFNetworking/UIKit (= 3.1.0)
-  - AFNetworking/NSURLSession (3.1.0):
+  - AFNetworkActivityLogger (2.0.4):
+    - AFNetworking/NSURLConnection (~> 2.0)
+    - AFNetworking/NSURLSession (~> 2.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.1.0)
-  - AFNetworking/Security (3.1.0)
-  - AFNetworking/Serialization (3.1.0)
-  - AFNetworking/UIKit (3.1.0):
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - AFSoundManager (2.1)
+  - AMap3DMap (2.5.0)
+  - AMapSearch (2.5.0)
   - AVOSCloud (3.4.0-beta.3)
   - AVOSCloudIM (3.4.0-beta.3):
     - AVOSCloud (= 3.4.0-beta.3)
@@ -116,6 +127,7 @@ PODS:
   - MarqueeLabel/ObjC (2.7.9)
   - Masonry (1.0.1)
   - MBProgressHUD (0.9.2)
+  - MJExtension (1.2.1)
   - MJRefresh (3.1.12)
   - MLLabel (1.9.2)
   - MLPAutoCompleteTextField (1.5)
@@ -170,6 +182,7 @@ PODS:
   - PQFCustomLoaders (1.1.0):
     - pop (~> 1.0)
     - UIColor+FlatColors
+  - ProtocolBuffers (1.9.11)
   - PSTCollectionView (1.2.3)
   - RBBAnimation (0.4.0)
   - ReactiveCocoa (2.5):
@@ -200,6 +213,7 @@ PODS:
   - TWMessageBarManager (1.8.1)
   - UIColor+FlatColors (0.0.2)
   - UITableView+FDTemplateLayoutCell (1.5.beta)
+  - UMengAnalytics (3.4.6)
   - WYPopoverController (0.3.9)
   - XHImageViewer (0.1.2)
   - XLForm (3.2.0)
@@ -207,16 +221,21 @@ PODS:
   - YYKit (1.0.7):
     - YYKit/no-arc (= 1.0.7)
   - YYKit/no-arc (1.0.7)
+  - ZXingObjC (3.1.0):
+    - ZXingObjC/All (= 3.1.0)
+  - ZXingObjC/All (3.1.0)
 
 DEPENDENCIES:
+  - AFNetworkActivityLogger
   - AFNetworking
   - AFSoundManager
+  - AMap3DMap (= 2.5.0)
+  - AMapSearch (= 2.5.0)
   - AXRatingView (= 1.0.3)
   - BabyBluetooth
   - ChatKit (~> 0.7.2)
   - CocoaAsyncSocket
   - CYLTabBarController
-  - DACircularProgress
   - DateTools
   - DOUAudioStreamer (= 0.2.11)
   - EAIntroView
@@ -240,6 +259,7 @@ DEPENDENCIES:
   - Mantle (= 1.5.5)
   - MarqueeLabel
   - Masonry
+  - MJExtension (= 1.2.1)
   - MJRefresh
   - MLPAutoCompleteTextField
   - MMDrawerController
@@ -249,6 +269,7 @@ DEPENDENCIES:
   - Onboard
   - pop
   - PQFCustomLoaders
+  - ProtocolBuffers (~> 1.9.4)
   - PSTCollectionView
   - RBBAnimation
   - ReactiveCocoa
@@ -267,15 +288,20 @@ DEPENDENCIES:
   - TSMessages
   - TTTAttributedLabel
   - TWMessageBarManager
+  - UMengAnalytics (= 3.4.6)
   - WYPopoverController
   - XHImageViewer
   - XLForm
   - YLProgressBar
   - YYKit
+  - ZXingObjC
 
 SPEC CHECKSUMS:
-  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AFNetworkActivityLogger: 121486778117d53b3ab1c61d264b88081d0c3eee
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   AFSoundManager: 232af6154e736e6b2d8c93fafebfafd14fad7510
+  AMap3DMap: 9f6274e39cd8937b5651f868c35deef9a37edce3
+  AMapSearch: eafa5a749b1078a46f15e6108e88307f78f75e9b
   AVOSCloud: 261efb0d214fb769dc9e0ba4c28a63acd1490067
   AVOSCloudIM: 685aee42d03ef8302883edab6cddd72e832bcc0a
   AXRatingView: ccaadc1bbda99a4b7e1d556059482d2b933a9f4e
@@ -312,6 +338,7 @@ SPEC CHECKSUMS:
   MarqueeLabel: 645cf4be33f8dca66fd7b15471e331d5a8d378df
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJExtension: 5e1d1c7504b79417e672df30ffbbbe61a4aa70fe
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   MLLabel: df58127ce0bd1f87890ecc3232db77a85ce4cd97
   MLPAutoCompleteTextField: ba4d507bbff2bd4f139d4197814fc8dd39caf77e
@@ -323,6 +350,7 @@ SPEC CHECKSUMS:
   Onboard: c46261255c0bcbe26ab2823782764c96fca7a33e
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   PQFCustomLoaders: 861daed580660069d1cb5c61db835baabf1f21a5
+  ProtocolBuffers: d509225eb2ea43d9582a59e94348fcf86e2abd65
   PSTCollectionView: 6749df92885353521f55279a7ce2b293762e2be4
   RBBAnimation: 4b2d66f6d993febce63cd564da934985313b9c59
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
@@ -343,12 +371,14 @@ SPEC CHECKSUMS:
   TWMessageBarManager: fd84e7948ba7968a2b5d9454859135761214ec56
   UIColor+FlatColors: 6c699df7a575281794c688c64cee6c44fd1f93b4
   UITableView+FDTemplateLayoutCell: 02b508ab1cb4cea16a8c17ac83d2cd1fd72124f9
+  UMengAnalytics: 24c06f0ea07295d2f1c093f0fe12d196fd801ea4
   WYPopoverController: a9db25ac2841a686acdc0f3a99bdb21545db32f4
   XHImageViewer: 7b275d2aa829e56761c30303b9d51cae086a90b9
   XLForm: 2250b4e96ab8ffa5f3355838c79edd90de451782
   YLProgressBar: 40a0627522dc1b536e02bf082a1b1ce3085b4668
   YYKit: 843d1b26e20b82c695790c9a89907eaa1e99907f
+  ZXingObjC: bf15b3814f7a105b6d99f47da2333c93a063650a
 
-PODFILE CHECKSUM: 5001cedc6751179bec253841ff28c6b7e650a513
+PODFILE CHECKSUM: 9308bdcb46210b5f736bffde8127357abb10dba6
 
 COCOAPODS: 1.0.1

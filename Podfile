@@ -1,5 +1,10 @@
+workspace 'PersonalImprovement.xcworkspace'
+project 'PersonalImprovement.xcodeproj'
+
 platform:ios,'7.0'
+
 target 'PersonalImprovement' do
+project 'PersonalImprovement.xcodeproj'
 pod 'EAIntroView'
 #pod 'MBProgressHUD'
 pod 'AFNetworking'
@@ -59,14 +64,6 @@ pod 'TWMessageBarManager'
 pod 'FTPopOverMenu'
 pod 'BabyBluetooth'
 
-pod 'SCLAlertView-Objective-C', '~> 0.7.3'
-pod 'TTTAttributedLabel'
-pod 'SVWebViewController'
-pod 'XHImageViewer'
-pod 'DACircularProgress'
-pod 'ZXingObjC'
-
-
 #pod 'JSQMessagesViewController'
 
 pod 'DOUAudioStreamer', '0.2.11'
@@ -74,3 +71,25 @@ pod 'GVUserDefaults'
 pod 'Mantle', '1.5.5'
 
 end
+
+target 'TeamTalk' do
+project 'TeamTalk/TeamTalk.xcodeproj'
+#    pod 'AFNetworking', '~> 2.3.0'
+    pod 'ProtocolBuffers', '~> 1.9.4'
+    pod 'SCLAlertView-Objective-C', '~> 0.7.3'
+    pod 'TTTAttributedLabel'
+    pod 'SVWebViewController'
+    pod 'XHImageViewer'
+    pod 'ZXingObjC'
+end
+
+target 'meituan' do
+project 'meituan/meituan.xcodeproj'
+#    pod 'AFNetworking', '~>2.0'
+    pod 'MJExtension',  '1.2.1'
+    pod 'UMengAnalytics', '3.4.6'
+    pod 'AMap3DMap', '2.5.0'
+    pod 'AMapSearch',  '2.5.0'
+    pod 'AFNetworkActivityLogger'
+end
+
