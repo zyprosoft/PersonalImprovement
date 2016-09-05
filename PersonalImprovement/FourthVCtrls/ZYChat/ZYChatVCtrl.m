@@ -59,20 +59,20 @@
     
     UIImage *navigationBarBack = GJCFQuickImageByColorWithSize([GJGCCommonFontColorStyle mainThemeColor], CGSizeMake(GJCFSystemScreenWidth * GJCFScreenScale, 64.f * GJCFScreenScale));
     [self.loginNav.navigationBar setBackgroundImage:navigationBarBack forBarMetrics:UIBarMetricsDefault];
-    [self.navigationController pushViewController:self.loginNav];
+    [self.navigationController pushViewController:self.loginNav animated:YES];
     
     //观察登录结果
     [GJCFNotificationCenter addObserver:self selector:@selector(observeLoginStatus:) name:ZYUserCenterLoginEaseMobSuccessNoti object:nil];
     
     //iOS8 注册APNS
-    if ([KCurrentWindow.application respondsToSelector:@selector(registerForRemoteNotifications)]) {
+    if ([KApplication respondsToSelector:@selector(registerForRemoteNotifications)]) {
         
-        [KCurrentWindow.application registerForRemoteNotifications];
+        [KApplication registerForRemoteNotifications];
         UIUserNotificationType notificationTypes = UIUserNotificationTypeBadge |
         UIUserNotificationTypeSound |
         UIUserNotificationTypeAlert;
         UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:notificationTypes categories:nil];
-        [KCurrentWindow.application registerUserNotificationSettings:settings];
+        [KApplication registerUserNotificationSettings:settings];
     }
     else{
         

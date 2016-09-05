@@ -36,8 +36,8 @@
 {
     [[ZYUserCenter shareCenter]LogoutWithSuccess:^(NSString *message) {
        
-        AppDelegate *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
-        [appDelegate logOutAction];
+//        AppDelegate *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+//        [appDelegate logOutAction];
         
     } withFaild:^(NSError *error) {
         
@@ -45,6 +45,7 @@
         
     }];
 }
+
 
 - (void)setupMyInformation
 {

@@ -1,32 +1,32 @@
 //
-//  MROldAFNetworkingSupportViewController.m
+//  MRAFNetworkingSupportViewController.m
 //  Example
 //
 //  Created by Marius Rackwitz on 16.07.14.
 //  Copyright (c) 2014 Marius Rackwitz. All rights reserved.
 //
 
-#import "MROldAFNetworkingSupportViewController.h"
-#import "OldAFNetworking.h"
+#import "MRAFNetworkingSupportViewController.h"
+#import "AFNetworking.h"
 #import "MRActivityIndicatorView.h"
 #import "MRCircularProgressView.h"
 #import "MRNavigationBarProgressView.h"
-#import "MRActivityIndicatorView+OldAFNetworking.h"
-#import "MRProgressView+OldAFNetworking.h"
-#import "MRProgressOverlayView+OldAFNetworking.h"
+#import "MRActivityIndicatorView+AFNetworking.h"
+#import "MRProgressView+AFNetworking.h"
+#import "MRProgressOverlayView+AFNetworking.h"
 
 
-@interface MROldAFNetworkingSupportViewController ()
+@interface MRAFNetworkingSupportViewController ()
 
 @property (weak, nonatomic) IBOutlet MRActivityIndicatorView *activityIndicatorView;
 @property (weak, nonatomic) IBOutlet MRCircularProgressView *circularProgressView;
 
-@property (nonatomic, strong) OldAFHTTPSessionManager *sessionManager;
+@property (nonatomic, strong) AFHTTPSessionManager *sessionManager;
 
 @end
 
 
-@implementation MROldAFNetworkingSupportViewController
+@implementation MRAFNetworkingSupportViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -36,8 +36,8 @@
     NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
     config.requestCachePolicy = NSURLRequestReloadIgnoringCacheData;
     
-    OldAFHTTPSessionManager *sessionManager = [[OldAFHTTPSessionManager alloc] initWithBaseURL:[NSURL URLWithString:@"https://httpbin.org/"] sessionConfiguration:config];
-    sessionManager.responseSerializer = [OldAFHTTPResponseSerializer serializer];
+    AFHTTPSessionManager *sessionManager = [[AFHTTPSessionManager alloc] initWithBaseURL:[NSURL URLWithString:@"https://httpbin.org/"] sessionConfiguration:config];
+    sessionManager.responseSerializer = [AFHTTPResponseSerializer serializer];
     self.sessionManager = sessionManager;
 }
 
@@ -87,7 +87,7 @@
 }
 
 - (IBAction)onOverlayViewUpload:(id)sender {
-    // See [OldAFNetworking/OldAFNetworking#2128](https://github.com/OldAFNetworking/OldAFNetworking/issues/2128)
+    // See [AFNetworking/AFNetworking#2128](https://github.com/AFNetworking/AFNetworking/issues/2128)
     NSString *fileName = @"aquarium-fish1.jpg";
     NSString *filePath = [NSBundle.mainBundle pathForResource:fileName.stringByDeletingPathExtension ofType:fileName.pathExtension];
     
@@ -97,7 +97,7 @@
     NSURL* tmpFileUrl = [NSURL fileURLWithPath:[NSTemporaryDirectory() stringByAppendingPathComponent:tmpFilename]];
     
     // Create a multipart form request.
-    NSMutableURLRequest *multipartRequest = [[OldAFHTTPRequestSerializer serializer] multipartFormRequestWithMethod:@"POST"
+    NSMutableURLRequest *multipartRequest = [[AFHTTPRequestSerializer serializer] multipartFormRequestWithMethod:@"POST"
                                                                                                        URLString:[[NSURL URLWithString:@"/post" relativeToURL:self.sessionManager.baseURL] absoluteString]
                                                                                                       parameters:nil
                                                                                        constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
@@ -108,14 +108,14 @@
                                                                                        } error:nil];
     
     // Dump multipart request into the temporary file.
-    [OldAFHTTPRequestSerializer.serializer requestWithMultipartFormRequest:multipartRequest
+    [AFHTTPRequestSerializer.serializer requestWithMultipartFormRequest:multipartRequest
                                             writingStreamContentsToFile:tmpFileUrl
                                                       completionHandler:^(NSError *error) {
                                                           // Once the multipart form is serialized into a temporary file, we can initialize
                                                           // the actual HTTP request using session manager.
                                                            
                                                           // Create default session manager.
-                                                          OldAFURLSessionManager *manager = [[OldAFURLSessionManager alloc] initWithSessionConfiguration:NSURLSessionConfiguration.defaultSessionConfiguration];
+                                                          AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:NSURLSessionConfiguration.defaultSessionConfiguration];
                                                             
                                                           // Here note that we are submitting the initial multipart request. We are, however,
                                                           // forcing the body stream to be read from the temporary file.

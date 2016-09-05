@@ -13,7 +13,7 @@
 #import "NSDictionary+AXNetworkingMethods.h"
 #import "CTNetworkingConfiguration.h"
 #import "NSObject+AXNetworkingMethods.h"
-#import <OldAFNetworking/OldAFNetworking.h>
+#import <AFNetworking/AFNetworking.h>
 #import "CTService.h"
 #import "NSObject+AXNetworkingMethods.h"
 #import "CTLogger.h"
@@ -21,7 +21,7 @@
 
 @interface CTRequestGenerator ()
 
-@property (nonatomic, strong) OldAFHTTPRequestSerializer *httpRequestSerializer;
+@property (nonatomic, strong) AFHTTPRequestSerializer *httpRequestSerializer;
 
 @end
 
@@ -106,10 +106,10 @@
 }
 
 #pragma mark - getters and setters
-- (OldAFHTTPRequestSerializer *)httpRequestSerializer
+- (AFHTTPRequestSerializer *)httpRequestSerializer
 {
     if (_httpRequestSerializer == nil) {
-        _httpRequestSerializer = [OldAFHTTPRequestSerializer serializer];
+        _httpRequestSerializer = [AFHTTPRequestSerializer serializer];
         _httpRequestSerializer.timeoutInterval = kCTNetworkingTimeoutSeconds;
         _httpRequestSerializer.cachePolicy = NSURLRequestUseProtocolCachePolicy;
     }

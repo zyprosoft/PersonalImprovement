@@ -181,7 +181,6 @@
 		49015ECA1D449356005ECC93 /* JSQMessagesTypingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49015E9E1D449356005ECC93 /* JSQMessagesTypingView.m */; };
 		49015ECF1D44B65F005ECC93 /* IMG_3668.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 49015ECC1D44B65F005ECC93 /* IMG_3668.PNG */; };
 		49015ED01D44B65F005ECC93 /* KYCuteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49015ECE1D44B65F005ECC93 /* KYCuteViewController.m */; };
-		4912E3511D758B4600914825 /* bpg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4912E3501D758B4600914825 /* bpg.framework */; };
 		4912E3981D766F9800914825 /* LCCKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912E35A1D766F9800914825 /* LCCKUser.m */; };
 		4912E3991D766F9800914825 /* LCCKInputViewPluginConversationBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912E35F1D766F9800914825 /* LCCKInputViewPluginConversationBackground.m */; };
 		4912E39A1D766F9800914825 /* LCCKVCardMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4912E3641D766F9800914825 /* LCCKVCardMessage.m */; };
@@ -636,6 +635,7 @@
 		4930EE291D28B2AE00606CD9 /* XYDTagContainerV.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EC701D28B2AE00606CD9 /* XYDTagContainerV.m */; };
 		4930EE2A1D28B2AE00606CD9 /* XYDTagV.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EC721D28B2AE00606CD9 /* XYDTagV.m */; };
 		493A2E531D675F1C00DB5CD5 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 493A2E521D675F1C00DB5CD5 /* libOCMock.a */; };
+		49415D631D7D714A00E6675C /* bpg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49415D621D7D714A00E6675C /* bpg.framework */; };
 		4948CB001D77127A007109B7 /* UIImage+XYDMWPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4948CAEC1D77127A007109B7 /* UIImage+XYDMWPhotoBrowser.m */; };
 		4948CB011D77127A007109B7 /* XYDMWCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4948CAEE1D77127A007109B7 /* XYDMWCaptionView.m */; };
 		4948CB021D77127A007109B7 /* XYDMWGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4948CAF11D77127A007109B7 /* XYDMWGridCell.m */; };
@@ -2742,7 +2742,6 @@
 		49015ECC1D44B65F005ECC93 /* IMG_3668.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_3668.PNG; sourceTree = "<group>"; };
 		49015ECD1D44B65F005ECC93 /* KYCuteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYCuteViewController.h; sourceTree = "<group>"; };
 		49015ECE1D44B65F005ECC93 /* KYCuteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYCuteViewController.m; sourceTree = "<group>"; };
-		4912E3501D758B4600914825 /* bpg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = bpg.framework; sourceTree = "<group>"; };
 		4912E3591D766F9800914825 /* LCCKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKUser.h; sourceTree = "<group>"; };
 		4912E35A1D766F9800914825 /* LCCKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKUser.m; sourceTree = "<group>"; };
 		4912E35E1D766F9800914825 /* LCCKInputViewPluginConversationBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKInputViewPluginConversationBackground.h; sourceTree = "<group>"; };
@@ -3471,6 +3470,7 @@
 		493A2E501D675F0D00DB5CD5 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMockObject.h; path = OCMock/OCMockObject.h; sourceTree = "<group>"; };
 		493A2E511D675F0D00DB5CD5 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMockRecorder.h; path = OCMock/OCMockRecorder.h; sourceTree = "<group>"; };
 		493A2E521D675F1C00DB5CD5 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = OCMock/libOCMock.a; sourceTree = "<group>"; };
+		49415D621D7D714A00E6675C /* bpg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = bpg.framework; sourceTree = "<group>"; };
 		4948CAEB1D77127A007109B7 /* UIImage+XYDMWPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XYDMWPhotoBrowser.h"; sourceTree = "<group>"; };
 		4948CAEC1D77127A007109B7 /* UIImage+XYDMWPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XYDMWPhotoBrowser.m"; sourceTree = "<group>"; };
 		4948CAED1D77127A007109B7 /* XYDMWCaptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDMWCaptionView.h; sourceTree = "<group>"; };
@@ -6545,9 +6545,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4912E3511D758B4600914825 /* bpg.framework in Frameworks */,
 				49C9F6DB1D7587DD00A113DA /* libPods-PersonalImprovement.a in Frameworks */,
 				49B4E67F1D7D0213001C8E29 /* libopencore-amrwb.a in Frameworks */,
+				49415D631D7D714A00E6675C /* bpg.framework in Frameworks */,
 				49DAA79C1D74291700F92C7E /* WebP.framework in Frameworks */,
 				493A2E531D675F1C00DB5CD5 /* libOCMock.a in Frameworks */,
 				49B4E67E1D7D0213001C8E29 /* libopencore-amrnb.a in Frameworks */,
@@ -12548,7 +12548,7 @@
 		49DAA7FE1D742F5900F92C7E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4912E3501D758B4600914825 /* bpg.framework */,
+				49415D621D7D714A00E6675C /* bpg.framework */,
 				49DAA7FF1D742F5900F92C7E /* cube@2x.png */,
 				49DAA8001D742F5900F92C7E /* EmoticonQQ.bundle */,
 				49DAA8011D742F5900F92C7E /* EmoticonWeibo.bundle */,
@@ -18315,6 +18315,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/PersonalImprovement/FourthVCtrls/YYKit/Resources\"",
+					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/YYKit/Resources",
 				);
 				GCC_PREFIX_HEADER = "/Users/xiongyoudou/Desktop/Github/PersonalImprovement/Other(其他)/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (
@@ -18365,6 +18366,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/PersonalImprovement/FourthVCtrls/YYKit/Resources\"",
+					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/YYKit/Resources",
 				);
 				GCC_PREFIX_HEADER = "/Users/xiongyoudou/Desktop/Github/PersonalImprovement/Other(其他)/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (

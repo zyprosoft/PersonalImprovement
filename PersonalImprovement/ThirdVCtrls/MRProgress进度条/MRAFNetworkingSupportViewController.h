@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 
-@interface MROldAFNetworkingSupportViewController : UIViewController
+@interface MRAFNetworkingSupportViewController : UIViewController
 
 @end
