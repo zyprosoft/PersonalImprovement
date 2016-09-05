@@ -190,4 +190,4 @@ extern NSString * const OldAFNetworkingReachabilityNotificationStatusItem;
 /**
  Returns a localized string representation of an `OldAFNetworkReachabilityStatus` value.
  */
-extern NSString * AFStringFromNetworkReachabilityStatus(OldAFNetworkReachabilityStatus status);
+extern NSString * OldAFStringFromNetworkReachabilityStatus(OldAFNetworkReachabilityStatus status);

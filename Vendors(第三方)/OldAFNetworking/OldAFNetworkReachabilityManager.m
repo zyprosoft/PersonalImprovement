@@ -39,7 +39,7 @@ typedef NS_ENUM(NSUInteger, OldAFNetworkReachabilityAssociation) {
     OldAFNetworkReachabilityForName = 3,
 };
 
-NSString * AFStringFromNetworkReachabilityStatus(OldAFNetworkReachabilityStatus status) {
+NSString * OldAFStringFromNetworkReachabilityStatus(OldAFNetworkReachabilityStatus status) {
     switch (status) {
         case OldAFNetworkReachabilityStatusNotReachable:
             return NSLocalizedStringFromTable(@"Not Reachable", @"OldAFNetworking", nil);
@@ -237,7 +237,7 @@ static void OldAFNetworkReachabilityReleaseCallback(const void *info) {
 #pragma mark -
 
 - (NSString *)localizedNetworkReachabilityStatusString {
-    return AFStringFromNetworkReachabilityStatus(self.networkReachabilityStatus);
+    return OldAFStringFromNetworkReachabilityStatus(self.networkReachabilityStatus);
 }
 
 #pragma mark -

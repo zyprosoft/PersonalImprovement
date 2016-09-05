@@ -258,7 +258,7 @@ static dispatch_queue_t _gjcfFileUploadManagerOperationQueue ;
     }];
 }
 
-- (void)constructingBodyWithTask:(GJCFFileUploadTask *)aTask formData:(id<AFMultipartFormData>)formData
+- (void)constructingBodyWithTask:(GJCFFileUploadTask *)aTask formData:(id<OldAFMultipartFormData>)formData
 {
     
     NSArray *fileModelArray = aTask.filesArray;
@@ -371,7 +371,7 @@ static dispatch_queue_t _gjcfFileUploadManagerOperationQueue ;
         
         __weak typeof(GJCFFileUploadTask) * weakTask = aTask;
         
-        OldAFHTTPRequestOperation *uploadOperation = [self.requestOperationManager POST:self.defaultPath parameters:self.defaultRequestParmas constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
+        OldAFHTTPRequestOperation *uploadOperation = [self.requestOperationManager POST:self.defaultPath parameters:self.defaultRequestParmas constructingBodyWithBlock:^(id<OldAFMultipartFormData> formData) {
             
             [self constructingBodyWithTask:weakTask formData:formData];
             

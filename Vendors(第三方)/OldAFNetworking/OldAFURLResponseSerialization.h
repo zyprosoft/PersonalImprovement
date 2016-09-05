@@ -101,15 +101,15 @@
 
 
 /**
- `AFJSONResponseSerializer` is a subclass of `OldAFHTTPResponseSerializer` that validates and decodes JSON responses.
+ `OldAFJSONResponseSerializer` is a subclass of `OldAFHTTPResponseSerializer` that validates and decodes JSON responses.
 
- By default, `AFJSONResponseSerializer` accepts the following MIME types, which includes the official standard, `application/json`, as well as other commonly-used types:
+ By default, `OldAFJSONResponseSerializer` accepts the following MIME types, which includes the official standard, `application/json`, as well as other commonly-used types:
 
  - `application/json`
  - `text/json`
  - `text/javascript`
  */
-@interface AFJSONResponseSerializer : OldAFHTTPResponseSerializer
+@interface OldAFJSONResponseSerializer : OldAFHTTPResponseSerializer
 
 /**
  Options for reading the response JSON data and creating the Foundation objects. For possible values, see the `NSJSONSerialization` documentation section "NSJSONReadingOptions". `0` by default.
@@ -133,14 +133,14 @@
 #pragma mark -
 
 /**
- `AFXMLParserSerializer` is a subclass of `OldAFHTTPResponseSerializer` that validates and decodes XML responses as an `NSXMLParser` objects.
+ `OldAFXMLParserSerializer` is a subclass of `OldAFHTTPResponseSerializer` that validates and decodes XML responses as an `NSXMLParser` objects.
 
- By default, `AFXMLParserSerializer` accepts the following MIME types, which includes the official standard, `application/xml`, as well as other commonly-used types:
+ By default, `OldAFXMLParserSerializer` accepts the following MIME types, which includes the official standard, `application/xml`, as well as other commonly-used types:
 
  - `application/xml`
  - `text/xml`
  */
-@interface AFXMLParserResponseSerializer : OldAFHTTPResponseSerializer
+@interface OldAFXMLParserResponseSerializer : OldAFHTTPResponseSerializer
 
 @end
 
@@ -149,14 +149,14 @@
 #ifdef __MAC_OS_X_VERSION_MIN_REQUIRED
 
 /**
- `AFXMLDocumentSerializer` is a subclass of `OldAFHTTPResponseSerializer` that validates and decodes XML responses as an `NSXMLDocument` objects.
+ `OldAFXMLDocumentSerializer` is a subclass of `OldAFHTTPResponseSerializer` that validates and decodes XML responses as an `NSXMLDocument` objects.
 
- By default, `AFXMLDocumentSerializer` accepts the following MIME types, which includes the official standard, `application/xml`, as well as other commonly-used types:
+ By default, `OldAFXMLDocumentSerializer` accepts the following MIME types, which includes the official standard, `application/xml`, as well as other commonly-used types:
 
  - `application/xml`
  - `text/xml`
  */
-@interface AFXMLDocumentResponseSerializer : OldAFHTTPResponseSerializer
+@interface OldAFXMLDocumentResponseSerializer : OldAFHTTPResponseSerializer
 
 /**
  Input and output options specifically intended for `NSXMLDocument` objects. For possible values, see the `NSJSONSerialization` documentation section "NSJSONReadingOptions". `0` by default.
@@ -177,13 +177,13 @@
 #pragma mark -
 
 /**
- `AFPropertyListSerializer` is a subclass of `OldAFHTTPResponseSerializer` that validates and decodes XML responses as an `NSXMLDocument` objects.
+ `OldAFPropertyListSerializer` is a subclass of `OldAFHTTPResponseSerializer` that validates and decodes XML responses as an `NSXMLDocument` objects.
 
- By default, `AFPropertyListSerializer` accepts the following MIME types:
+ By default, `OldAFPropertyListSerializer` accepts the following MIME types:
 
  - `application/x-plist`
  */
-@interface AFPropertyListResponseSerializer : OldAFHTTPResponseSerializer
+@interface OldAFPropertyListResponseSerializer : OldAFHTTPResponseSerializer
 
 /**
  The property list format. Possible values are described in "NSPropertyListFormat".
@@ -209,9 +209,9 @@
 #pragma mark -
 
 /**
- `AFImageSerializer` is a subclass of `OldAFHTTPResponseSerializer` that validates and decodes image responses.
+ `OldAFImageSerializer` is a subclass of `OldAFHTTPResponseSerializer` that validates and decodes image responses.
 
- By default, `AFImageSerializer` accepts the following MIME types, which correspond to the image formats supported by UIImage or NSImage:
+ By default, `OldAFImageSerializer` accepts the following MIME types, which correspond to the image formats supported by UIImage or NSImage:
 
  - `image/tiff`
  - `image/jpeg`
@@ -224,7 +224,7 @@
  - `image/x-xbitmap`
  - `image/x-win-bitmap`
  */
-@interface AFImageResponseSerializer : OldAFHTTPResponseSerializer
+@interface OldAFImageResponseSerializer : OldAFHTTPResponseSerializer
 
 #if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
 /**
@@ -243,9 +243,9 @@
 #pragma mark -
 
 /**
- `AFCompoundSerializer` is a subclass of `OldAFHTTPResponseSerializer` that delegates the response serialization to the first `OldAFHTTPResponseSerializer` object that returns an object for `responseObjectForResponse:data:error:`, falling back on the default behavior of `OldAFHTTPResponseSerializer`. This is useful for supporting multiple potential types and structures of server responses with a single serializer.
+ `OldAFCompoundSerializer` is a subclass of `OldAFHTTPResponseSerializer` that delegates the response serialization to the first `OldAFHTTPResponseSerializer` object that returns an object for `responseObjectForResponse:data:error:`, falling back on the default behavior of `OldAFHTTPResponseSerializer`. This is useful for supporting multiple potential types and structures of server responses with a single serializer.
  */
-@interface AFCompoundResponseSerializer : OldAFHTTPResponseSerializer
+@interface OldAFCompoundResponseSerializer : OldAFHTTPResponseSerializer
 
 /**
  The component response serializers.

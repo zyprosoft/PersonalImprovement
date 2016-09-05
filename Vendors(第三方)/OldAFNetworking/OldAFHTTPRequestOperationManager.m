@@ -60,7 +60,7 @@
     self.baseURL = url;
 
     self.requestSerializer = [OldAFHTTPRequestSerializer serializer];
-    self.responseSerializer = [AFJSONResponseSerializer serializer];
+    self.responseSerializer = [OldAFJSONResponseSerializer serializer];
 
     self.securityPolicy = [OldAFSecurityPolicy defaultPolicy];
 
@@ -156,7 +156,7 @@
 
 - (OldAFHTTPRequestOperation *)POST:(NSString *)URLString
                       parameters:(id)parameters
-       constructingBodyWithBlock:(void (^)(id <AFMultipartFormData> formData))block
+       constructingBodyWithBlock:(void (^)(id <OldAFMultipartFormData> formData))block
                          success:(void (^)(OldAFHTTPRequestOperation *operation, id responseObject))success
                          failure:(void (^)(OldAFHTTPRequestOperation *operation, NSError *error))failure
 {

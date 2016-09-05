@@ -301,7 +301,7 @@ expectedTotalBytes:(int64_t)expectedTotalBytes {
 
     self.session = [NSURLSession sessionWithConfiguration:self.sessionConfiguration delegate:self delegateQueue:self.operationQueue];
 
-    self.responseSerializer = [AFJSONResponseSerializer serializer];
+    self.responseSerializer = [OldAFJSONResponseSerializer serializer];
 
     self.securityPolicy = [OldAFSecurityPolicy defaultPolicy];
 
