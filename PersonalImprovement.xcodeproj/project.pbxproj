@@ -18315,7 +18315,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/PersonalImprovement/FourthVCtrls/YYKit/Resources\"",
-					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/YYKit/Resources",
+					"-force_load$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/YYKit/Resources",
 				);
 				GCC_PREFIX_HEADER = "/Users/xiongyoudou/Desktop/Github/PersonalImprovement/Other(其他)/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (
@@ -18366,7 +18366,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/PersonalImprovement/FourthVCtrls/YYKit/Resources\"",
-					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/YYKit/Resources",
+					"-force_load$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/YYKit/Resources",
 				);
 				GCC_PREFIX_HEADER = "/Users/xiongyoudou/Desktop/Github/PersonalImprovement/Other(其他)/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (
