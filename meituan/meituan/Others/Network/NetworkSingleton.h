@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AFNetworking.h"
+#import "OldAFNetworking.h"
 
 
 //请求超时
@@ -20,7 +20,7 @@ typedef void(^FailureBlock)(NSString *error);
 @interface NetworkSingleton : NSObject
 
 +(NetworkSingleton *)sharedManager;
--(AFHTTPRequestOperationManager *)baseHtppRequest;
+-(OldAFHTTPRequestOperationManager *)baseHtppRequest;
 
 
 #pragma mark - 获取广告页图片

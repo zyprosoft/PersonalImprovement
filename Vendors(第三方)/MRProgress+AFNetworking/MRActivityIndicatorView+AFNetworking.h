@@ -1,13 +1,13 @@
 //
-//  MRActivityIndicatorView+AFNetworking.h
+//  MRActivityIndicatorView+OldAFNetworking.h
 //  MRProgress
 //
 //  Created by Marius Rackwitz on 12.03.14.
 //
-//  This implementation is based on AFNetworking's UIKit additions.
+//  This implementation is based on OldAFNetworking's UIKit additions.
 //  So the following copyright notice and permission notice must be included:
 //
-// Copyright (c) 2013 AFNetworking (http://afnetworking.com)
+// Copyright (c) 2013 OldAFNetworking (http://afnetworking.com)
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -30,12 +30,12 @@
 #import "MRActivityIndicatorView.h"
 #import <UIKit/UIKit.h>
 
-@class AFURLConnectionOperation;
+@class OldAFURLConnectionOperation;
 
 /**
  This category adds methods to the MRProgress library's `MRActivityIndicatorView` class. The methods in this category provide support for automatically starting and stopping animation depending on the loading state of a request operation or session task.
  */
-@interface MRActivityIndicatorView (AFNetworking)
+@interface MRActivityIndicatorView (OldAFNetworking)
 
 ///----------------------------------
 /// @name Animating for Session Tasks

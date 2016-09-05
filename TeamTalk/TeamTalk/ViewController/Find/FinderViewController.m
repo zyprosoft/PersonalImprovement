@@ -11,7 +11,7 @@
 #import "ScanQRCodePage.h"
 #import "RuntimeStatus.h"
 #import "MTTUserEntity.h"
-#import "AFHTTPRequestOperationManager.h"
+#import "OldAFHTTPRequestOperationManager.h"
 #import "MTTURLProtocal.h"
 #import <SVWebViewController.h>
 #import <Masonry/Masonry.h>

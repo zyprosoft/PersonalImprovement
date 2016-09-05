@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 casatwy. All rights reserved.
 //
 
-#import <AFNetworking/AFNetworking.h>
+#import <OldAFNetworking/OldAFNetworking.h>
 #import "CTApiProxy.h"
 #import "CTServiceFactory.h"
 #import "CTRequestGenerator.h"
@@ -21,8 +21,8 @@ static NSString * const kAXApiProxyDispatchItemKeyCallbackFail = @"kAXApiProxyDi
 @property (nonatomic, strong) NSMutableDictionary *dispatchTable;
 @property (nonatomic, strong) NSNumber *recordedRequestId;
 
-//AFNetworking stuff
-@property (nonatomic, strong) AFHTTPSessionManager *sessionManager;
+//OldAFNetworking stuff
+@property (nonatomic, strong) OldAFHTTPSessionManager *sessionManager;
 
 @end
 
@@ -36,11 +36,11 @@ static NSString * const kAXApiProxyDispatchItemKeyCallbackFail = @"kAXApiProxyDi
     return _dispatchTable;
 }
 
-- (AFHTTPSessionManager *)sessionManager
+- (OldAFHTTPSessionManager *)sessionManager
 {
     if (_sessionManager == nil) {
-        _sessionManager = [AFHTTPSessionManager manager];
-        _sessionManager.responseSerializer = [AFHTTPResponseSerializer serializer];
+        _sessionManager = [OldAFHTTPSessionManager manager];
+        _sessionManager.responseSerializer = [OldAFHTTPResponseSerializer serializer];
         _sessionManager.securityPolicy.allowInvalidCertificates = YES;
         _sessionManager.securityPolicy.validatesDomainName = NO;
     }
@@ -101,7 +101,7 @@ static NSString * const kAXApiProxyDispatchItemKeyCallbackFail = @"kAXApiProxyDi
     }
 }
 
-/** 这个函数存在的意义在于，如果将来要把AFNetworking换掉，只要修改这个函数的实现即可。 */
+/** 这个函数存在的意义在于，如果将来要把OldAFNetworking换掉，只要修改这个函数的实现即可。 */
 - (NSNumber *)callApiWithRequest:(NSURLRequest *)request success:(AXCallback)success fail:(AXCallback)fail
 {
     

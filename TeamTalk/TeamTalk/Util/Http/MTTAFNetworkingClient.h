@@ -1,5 +1,5 @@
 //
-//  MTTAFNetworkingClient.h
+//  MTTOldAFNetworkingClient.h
 //  IOSDuoduo
 //
 //  Created by 东邪 on 14-5-29.
@@ -8,11 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-#import "AFNetworking.h"
+#import "OldAFNetworking.h"
 
 #define BLOCK_SAFE_RUN(block, ...) block ? block(__VA_ARGS__) : nil;
 
-@interface MTTAFNetworkingClient : NSObject
+@interface MTTOldAFNetworkingClient : NSObject
 
 +(void) jsonFormPOSTRequest:(NSString *)url param:(NSDictionary *)param success:(void (^)(id))success failure:(void (^)(NSError *))failure;
 

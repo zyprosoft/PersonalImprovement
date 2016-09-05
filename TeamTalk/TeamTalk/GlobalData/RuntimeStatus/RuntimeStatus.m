@@ -16,7 +16,7 @@
 #import "LogoutAPI.h"
 #import "DDClientState.h"
 #import "IMLogin.pb.h"
-#import "AFHTTPRequestOperationManager.h"
+#import "OldAFHTTPRequestOperationManager.h"
 #import "MTTSignNotifyAPI.h"
 #import "MTTPCLoginStatusNotifyAPI.h"
 #import "MTTUtil.h"
@@ -51,10 +51,10 @@
 
 -(void)checkUpdateVersion
 {
-    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    OldAFHTTPRequestOperationManager *manager = [OldAFHTTPRequestOperationManager manager];
     
-    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
-    [manager GET:@"http://tt.mogu.io/tt/ios.json" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    manager.responseSerializer = [OldAFHTTPResponseSerializer serializer];
+    [manager GET:@"http://tt.mogu.io/tt/ios.json" parameters:nil success:^(OldAFHTTPRequestOperation *operation, id responseObject) {
         
         NSDictionary *responseDictionary = [NSJSONSerialization JSONObjectWithData:responseObject options:0 error:nil];
         double version = [responseDictionary[@"version"] doubleValue];
@@ -70,7 +70,7 @@
         }
         
         
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+    } failure:^(OldAFHTTPRequestOperation *operation, NSError *error) {
     } ];
 }
 -(void)registerAPI

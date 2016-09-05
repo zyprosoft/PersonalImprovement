@@ -36,7 +36,7 @@ static NSString * const APIBaseURLString = @"http://obscure-refuge-3149.herokuap
     dispatch_once(&onceToken, ^{
         _sharedClient = [[HTTPSessionManager alloc] initWithBaseURL:[NSURL URLWithString:APIBaseURLString]];
         [_sharedClient.reachabilityManager startMonitoring];
-        _sharedClient.securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
+        _sharedClient.securityPolicy = [OldAFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
     });
     
     return _sharedClient;

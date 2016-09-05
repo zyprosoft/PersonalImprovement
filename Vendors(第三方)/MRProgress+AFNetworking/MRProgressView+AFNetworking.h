@@ -1,13 +1,13 @@
 //
-//  MRProgressView+AFNetworking.h
+//  MRProgressView+OldAFNetworking.h
 //  MRProgress
 //
 //  Created by Marius Rackwitz on 12.03.14.
 //
-//  This implementation is based on AFNetworking's UIKit additions.
+//  This implementation is based on OldAFNetworking's UIKit additions.
 //  So the following copyright notice and permission notice must be included:
 //
-// Copyright (c) 2013 AFNetworking (http://afnetworking.com)
+// Copyright (c) 2013 OldAFNetworking (http://afnetworking.com)
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -31,12 +31,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class AFURLConnectionOperation;
+@class OldAFURLConnectionOperation;
 
 /**
  This category adds methods to the UIKit framework's `MRProgressView` class. The methods in this category provide support for binding the progress to the upload and download progress of a session task or request operation.
  */
-@interface MRProgressView (AFNetworking)
+@interface MRProgressView (OldAFNetworking)
 
 ///------------------------------------
 /// @name Setting Session Task Progress

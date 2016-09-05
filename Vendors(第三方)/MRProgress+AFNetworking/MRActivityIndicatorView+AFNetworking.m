@@ -1,13 +1,13 @@
 //
-//  MRActivityIndicatorView+AFNetworking.m
+//  MRActivityIndicatorView+OldAFNetworking.m
 //  MRProgress
 //
 //  Created by Marius Rackwitz on 12.03.14.
 //
-//  This implementation is based on AFNetworking's UIKit additions.
+//  This implementation is based on OldAFNetworking's UIKit additions.
 //  So the following copyright notice and permission notice must be included:
 //
-// Copyright (c) 2013 AFNetworking (http://afnetworking.com)
+// Copyright (c) 2013 OldAFNetworking (http://afnetworking.com)
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -27,7 +27,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "MRActivityIndicatorView+AFNetworking.h"
+#import "MRActivityIndicatorView+OldAFNetworking.h"
 #import <objc/runtime.h>
 
 @interface AFActivityIndicatorViewNotificationObserver : NSObject
@@ -37,7 +37,7 @@
 
 @end
 
-@implementation MRActivityIndicatorView (AFNetworking)
+@implementation MRActivityIndicatorView (OldAFNetworking)
 
 - (AFActivityIndicatorViewNotificationObserver *)af_notificationObserver {
     AFActivityIndicatorViewNotificationObserver *notificationObserver = objc_getAssociatedObject(self, @selector(af_notificationObserver));

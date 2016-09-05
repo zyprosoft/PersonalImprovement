@@ -7,7 +7,7 @@
 //
 
 #import "DDSendPhotoMessageAPI.h"
-#import "AFHTTPRequestOperationManager.h"
+#import "OldAFHTTPRequestOperationManager.h"
 
 #import "MTTMessageEntity.h"
 #import "MTTPhotosCache.h"
@@ -15,7 +15,7 @@
 #import "MTTUtil.h"
 static int max_try_upload_times = 5;
 @interface DDSendPhotoMessageAPI ()
-@property(nonatomic,strong)AFHTTPRequestOperationManager *manager;
+@property(nonatomic,strong)OldAFHTTPRequestOperationManager *manager;
 @property(nonatomic,strong)NSOperationQueue *queue;
 @property(assign)bool isSending;
 @end
@@ -33,7 +33,7 @@ static int max_try_upload_times = 5;
 {
     self = [super init];
     if (self) {
-        self.manager = [AFHTTPRequestOperationManager manager];
+        self.manager = [OldAFHTTPRequestOperationManager manager];
         self.manager.responseSerializer.acceptableContentTypes
         = [NSSet setWithObject:@"text/html"];
         self.queue = [NSOperationQueue new];
@@ -60,7 +60,7 @@ static int max_try_upload_times = 5;
             NSDictionary *params =[NSDictionary dictionaryWithObjectsAndKeys:@"im_image",@"type", nil];
             [self.manager POST:urlString parameters:params constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
                 [formData appendPartWithFileData:imageData name:@"image" fileName:imageName mimeType:@"image/jpeg"];
-            } success:^(AFHTTPRequestOperation *operation, id responseObject) {
+            } success:^(OldAFHTTPRequestOperation *operation, id responseObject) {
     
                 imageData =nil;
                 image=nil;
@@ -107,10 +107,10 @@ static int max_try_upload_times = 5;
                     failure(nil);
                 }
                 
-            } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+            } failure:^(OldAFHTTPRequestOperation *operation, NSError *error) {
                 self.isSending=NO;
                 NSDictionary* userInfo = error.userInfo;
-                NSHTTPURLResponse* response = userInfo[AFNetworkingOperationFailingURLResponseErrorKey];
+                NSHTTPURLResponse* response = userInfo[OldAFNetworkingOperationFailingURLResponseErrorKey];
                 NSInteger stateCode = response.statusCode;
                 if (!(stateCode >= 300 && stateCode <=307))
                 {

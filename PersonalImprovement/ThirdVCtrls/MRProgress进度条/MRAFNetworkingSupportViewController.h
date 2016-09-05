@@ -1,5 +1,5 @@
 //
-//  MRAFNetworkingSupportViewController.h
+//  MROldAFNetworkingSupportViewController.h
 //  Example
 //
 //  Created by Marius Rackwitz on 16.07.14.
@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 
-@interface MRAFNetworkingSupportViewController : UIViewController
+@interface MROldAFNetworkingSupportViewController : UIViewController
 
 @end

@@ -10,7 +10,7 @@
 #import "MTTDatabaseUtil.h"
 #import "DDReceiveMessageAPI.h"
 #import "GetUnreadMessagesAPI.h"
-#import "MTTAFNetworkingClient.h"
+#import "MTTOldAFNetworkingClient.h"
 #import "MTTSessionEntity.h"
 #import "RuntimeStatus.h"
 #import "MsgReadACKAPI.h"

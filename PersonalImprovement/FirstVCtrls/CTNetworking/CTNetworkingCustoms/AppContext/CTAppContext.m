@@ -9,7 +9,7 @@
 #import "CTAppContext.h"
 #import "NSObject+AXNetworkingMethods.h"
 #import "UIDevice+IdentifierAddition.h"
-#import "AFNetworkReachabilityManager.h"
+#import "OldAFNetworkReachabilityManager.h"
 #import "CTLogger.h"
 #import "CTLocationManager.h"
 
@@ -37,7 +37,7 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         sharedInstance = [[CTAppContext alloc] init];
-        [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+        [[OldAFNetworkReachabilityManager sharedManager] startMonitoring];
     });
     return sharedInstance;
 }
@@ -159,10 +159,10 @@
 
 - (BOOL)isReachable
 {
-    if ([AFNetworkReachabilityManager sharedManager].networkReachabilityStatus == AFNetworkReachabilityStatusUnknown) {
+    if ([OldAFNetworkReachabilityManager sharedManager].networkReachabilityStatus == OldAFNetworkReachabilityStatusUnknown) {
         return YES;
     } else {
-        return [[AFNetworkReachabilityManager sharedManager] isReachable];
+        return [[OldAFNetworkReachabilityManager sharedManager] isReachable];
     }
 }
 

@@ -1,14 +1,14 @@
 //
-//  AFHTTPSessionOperation.m
+//  OldAFHTTPSessionOperation.m
 //
 //  Created by Robert Ryan on 8/6/15.
 //  Copyright (c) 2015 Robert Ryan. All rights reserved.
 //
 
-#import "AFHTTPSessionOperation.h"
-#import "AFNetworking.h"
+#import "OldAFHTTPSessionOperation.h"
+#import "OldAFNetworking.h"
 
-@interface AFHTTPSessionManager (DataTask)
+@interface OldAFHTTPSessionManager (DataTask)
 
 // this method is not publicly defined in @interface in .h, so we need to define our own interface for it
 
@@ -21,16 +21,16 @@
                                          failure:(void (^)(NSURLSessionDataTask *, NSError *))failure;
 @end
 
-@interface AFHTTPSessionOperation ()
+@interface OldAFHTTPSessionOperation ()
 
-@property (nonatomic, strong) AFHTTPSessionManager *manager;
+@property (nonatomic, strong) OldAFHTTPSessionManager *manager;
 @property (nonatomic, strong, readwrite, nullable) NSURLSessionTask *task;
 
 @end
 
-@implementation AFHTTPSessionOperation
+@implementation OldAFHTTPSessionOperation
 
-+ (instancetype)operationWithManager:(AFHTTPSessionManager *)manager
++ (instancetype)operationWithManager:(OldAFHTTPSessionManager *)manager
                           HTTPMethod:(NSString *)method
                            URLString:(NSString *)URLString
                           parameters:(id)parameters
@@ -39,7 +39,7 @@
                              success:(void (^)(NSURLSessionDataTask *, id))success
                              failure:(void (^)(NSURLSessionDataTask *, NSError *))failure {
 
-    AFHTTPSessionOperation *operation = [[self alloc] init];
+    OldAFHTTPSessionOperation *operation = [[self alloc] init];
     
     NSURLSessionTask *task = [manager dataTaskWithHTTPMethod:method URLString:URLString parameters:parameters uploadProgress:uploadProgress downloadProgress:downloadProgress success:^(NSURLSessionDataTask *task, id responseObject){
         if (success) {

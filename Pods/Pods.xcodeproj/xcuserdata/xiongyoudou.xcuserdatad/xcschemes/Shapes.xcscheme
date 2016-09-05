@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A9AC837ED67CFEA7B84FD74CFEB6B498'
+               BlueprintIdentifier = 'CA01D3D9E1A84A88624E041F4CD0C43C'
                BlueprintName = 'Shapes'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libShapes.a'>

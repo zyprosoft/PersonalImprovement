@@ -7,20 +7,20 @@
 
 #import "AsynchronousOperation.h"
 
-@class AFHTTPSessionManager;
+@class OldAFHTTPSessionManager;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AFHTTPSessionOperation : AsynchronousOperation
+@interface OldAFHTTPSessionOperation : AsynchronousOperation
 
 /** The NSURLSessionTask associated with this operation
  */
 @property (nonatomic, strong, readonly, nullable) NSURLSessionTask *task;
 
 /**
- Creates an `AFHTTPSessionOperation` with the specified request.
+ Creates an `OldAFHTTPSessionOperation` with the specified request.
  
- @param manager            The AFURLSessionManager for the operation.
+ @param manager            The OldAFURLSessionManager for the operation.
  @param request            The HTTP request for the request.
  @param method             The HTTP method (e.g. GET, POST, etc.).
  @param parameter          A dictionary of parameters to be added to the request. The nature of the encoding is dictated by the manager's requestSerializer setting.
@@ -29,9 +29,9 @@ NS_ASSUME_NONNULL_BEGIN
  @param success            A block object to be executed if and when the task successfully finishes.
  @param failure            A block object to be executed if and when the task fails.
  
- @returns AFURLSessionOperation that can be added to a NSOperationQueue.
+ @returns OldAFURLSessionOperation that can be added to a NSOperationQueue.
  */
-+ (instancetype)operationWithManager:(AFHTTPSessionManager *)manager
++ (instancetype)operationWithManager:(OldAFHTTPSessionManager *)manager
                           HTTPMethod:(NSString *)method
                            URLString:(NSString *)URLString
                           parameters:(nullable id)parameters

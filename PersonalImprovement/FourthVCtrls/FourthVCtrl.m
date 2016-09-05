@@ -12,6 +12,7 @@
 #import "SOLMainViewController.h"
 #import "YYRootViewController.h"
 #import "ChatKitVCtrl.h"
+#import "ZYChatVCtrl.h"
 
 @interface FourthVCtrl ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -33,6 +34,7 @@
     [self addCell:@"Sol天气" class:@"SOLMainViewController"];
     [self addCell:@"YYKit" class:@"YYRootViewController"];
     [self addCell:@"ChatKit" class:@"ChatKitVCtrl"];
+    [self addCell:@"ZYChat" class:@"ZYChatVCtrl"];
     [MyTool hideExtraTableviewSeparatedLine:_tableView];
 }
 

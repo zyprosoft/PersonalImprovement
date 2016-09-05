@@ -25,7 +25,7 @@
 
 #import <MobileCoreServices/MobileCoreServices.h>
 #import "UIView+XLFormAdditions.h"
-#import <AFNetworking/UIImageView+AFNetworking.h>
+#import <OldAFNetworking/UIImageView+OldAFNetworking.h>
 #import "XLFormImageSelectorCell.h"
 
 

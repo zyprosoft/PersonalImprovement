@@ -23,9 +23,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "AFHTTPSessionManager.h"
+#import "OldAFHTTPSessionManager.h"
 
-@interface HTTPSessionManager : AFHTTPSessionManager
+@interface HTTPSessionManager : OldAFHTTPSessionManager
 
 + (HTTPSessionManager *)sharedClient;
 

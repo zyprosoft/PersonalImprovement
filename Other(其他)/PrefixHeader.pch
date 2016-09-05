@@ -17,6 +17,33 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+#import "BTToast.h"
+#import <HyphenateFullSDK/EMSDKFull.h>
+#import "GJGCBaseViewController.h"
+#import "GJCFUitils.h"
+#import "GJGCImageResizeHelper.h"
+#import "GJCUAsyncImageView.h"
+#import "GJCUProgressView.h"
+#import "GJGCChatInputPanelStyle.h"
+#import "GJGCCommonFontColorStyle.h"
+#import "GJGCCommonHeadView.h"
+#import "GJCFAudioManager.h"
+#import "GJCFCachePathManager.h"
+#import "GJCFCoreTextContentView.h"
+#import "GJGCChatInputPanelStyle.h"
+#import "GJCFCoreTextAttributedStringStyle.h"
+#import "GJCFCoreTextImageAttributedStringStyle.h"
+#import "GJCFCoreTextParagraphStyle.h"
+#import "GJGCChatFriendContentModel.h"
+#import "GJGCMessageExtendModel.h"
+#import "JSONModel.h"
+#import "UIImageView+WebCache.h"
+#import "ZYUserCenter.h"
+#import "ZYChatDatabaseManager.h"
+#import "GJGCMessageExtendConst.h"
+#import "GJGCMessageExtendModel.h"
+
+
 #import "Masonry.h"
 
 #import "UIButton+WebCache.h"

@@ -70,11 +70,15 @@ pod 'DOUAudioStreamer', '0.2.11'
 pod 'GVUserDefaults'
 pod 'Mantle', '1.5.5'
 
+# ZYChat
+pod 'HyphenateFullSDK'
+pod 'VKVideoPlayer', '~> 0.1.1'
+
 end
 
 target 'TeamTalk' do
 project 'TeamTalk/TeamTalk.xcodeproj'
-#    pod 'AFNetworking', '~> 2.3.0'
+#    pod 'OldAFNetworking', '~> 2.3.0'
     pod 'ProtocolBuffers', '~> 1.9.4'
     pod 'SCLAlertView-Objective-C', '~> 0.7.3'
     pod 'TTTAttributedLabel'
@@ -85,11 +89,11 @@ end
 
 target 'meituan' do
 project 'meituan/meituan.xcodeproj'
-#    pod 'AFNetworking', '~>2.0'
+#    pod 'OldAFNetworking', '~>2.0'
     pod 'MJExtension',  '1.2.1'
     pod 'UMengAnalytics', '3.4.6'
     pod 'AMap3DMap', '2.5.0'
     pod 'AMapSearch',  '2.5.0'
-    pod 'AFNetworkActivityLogger'
+#    pod 'OldAFNetworkActivityLogger'
 end
 

@@ -7,7 +7,7 @@
 //
 
 #import "DDHttpServer.h"
-#import "MTTAFNetworkingClient.h"
+#import "MTTOldAFNetworkingClient.h"
 @implementation DDHttpServer
 - (void)loginWithUserName:(NSString*)userName
                  password:(NSString*)password
@@ -21,7 +21,7 @@
     [dictParams setObject:@"ooxx" forKey:@"macim"];
     [dictParams setObject:@"1.0" forKey:@"imclient"];
     [dictParams setObject:@"1" forKey:@"remember"];
-    [MTTAFNetworkingClient jsonFormPOSTRequest:@"user/zlogin/" param:dictParams success:^(id result) {
+    [MTTOldAFNetworkingClient jsonFormPOSTRequest:@"user/zlogin/" param:dictParams success:^(id result) {
         success(result);
     } failure:^(NSError * error) {
         failure(error);
@@ -30,16 +30,16 @@
 }
 -(void)getMsgIp:(void(^)(NSDictionary *dic))block failure:(void(^)(NSString* error))failure
 {
-    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    OldAFHTTPRequestOperationManager *manager = [OldAFHTTPRequestOperationManager manager];
 
-    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
-    [manager GET:SERVER_ADDR parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    manager.responseSerializer = [OldAFHTTPResponseSerializer serializer];
+    [manager GET:SERVER_ADDR parameters:nil success:^(OldAFHTTPRequestOperation *operation, id responseObject) {
         
             NSDictionary *responseDictionary = [NSJSONSerialization JSONObjectWithData:responseObject options:0 error:nil];
             block(responseDictionary);
         
         
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+    } failure:^(OldAFHTTPRequestOperation *operation, NSError *error) {
         NSString *errordes = error.domain;
         failure(errordes);
     } ];
