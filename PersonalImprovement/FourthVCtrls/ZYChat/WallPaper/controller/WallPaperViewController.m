@@ -50,7 +50,7 @@
     [_itemControlView setTapItemWithIndex:^(NSInteger index,BOOL animation){
         
         weakSelf.currentCategory = weakSelf.categories[index];
-        [weakSelf.collectView headerBeginRefreshing];
+        [weakSelf.collectView.mj_header beginRefreshing];
         
         [weakSelf.itemControlView moveToIndex:index];
         
@@ -80,30 +80,20 @@
 {
     // 添加下拉刷新头部控件
     GJCFWeakSelf weakSelf = self;
-    [self.collectView addHeaderWithCallback:^{
-        // 进入刷新状态就会回调这个Block
-        
+    self.collectView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
         weakSelf.currentPageIndex = 1;
         [weakSelf requestWallList];
-        
-    } dateKey:@"collection"];
-    // dateKey用于存储刷新时间，也可以不传值，可以保证不同界面拥有不同的刷新时间
-    
-    [self.collectView headerBeginRefreshing];
+    }];
+    [self.collectView.mj_header beginRefreshing];
 }
 
 - (void)addFooter
 {
     GJCFWeakSelf weakSelf = self;
-    
-    // 添加上拉刷新尾部控件
-    [self.collectView addFooterWithCallback:^{
-        // 进入刷新状态就会回调这个Block
-        
+    self.collectView.mj_footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
         weakSelf.currentPageIndex++;
         
         [weakSelf requestWallList];
-        
     }];
 }
 
@@ -193,8 +183,8 @@
         
         dispatch_async(dispatch_get_main_queue(), ^{
             
-            [self.collectView headerEndRefreshing];
-            [self.collectView  footerEndRefreshing];
+            [self.collectView.mj_header endRefreshing];
+            [self.collectView.mj_footer  endRefreshing];
             
             //reloadData会不起效果iOS7.0 ,用这个方法可以
             [self.collectView reloadSections:[NSIndexSet indexSetWithIndex:0]];

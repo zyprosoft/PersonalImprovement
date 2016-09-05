@@ -37,9 +37,6 @@
         UIImage *navigationBarBack = GJCFQuickImageByColorWithSize([GJGCCommonFontColorStyle mainThemeColor], CGSizeMake(GJCFSystemScreenWidth * GJCFScreenScale, 64.f * GJCFScreenScale));
         [self.loginNav.navigationBar setBackgroundImage:navigationBarBack forBarMetrics:UIBarMetricsDefault];
     }
-    if (self.window.rootViewController) {
-        self.window.rootViewController = nil;
-    }
     KCurrentWindow.rootViewController = self.loginNav;
 }
 
@@ -62,21 +59,20 @@
     
     UIImage *navigationBarBack = GJCFQuickImageByColorWithSize([GJGCCommonFontColorStyle mainThemeColor], CGSizeMake(GJCFSystemScreenWidth * GJCFScreenScale, 64.f * GJCFScreenScale));
     [self.loginNav.navigationBar setBackgroundImage:navigationBarBack forBarMetrics:UIBarMetricsDefault];
-    
     [self.navigationController pushViewController:self.loginNav];
     
     //观察登录结果
     [GJCFNotificationCenter addObserver:self selector:@selector(observeLoginStatus:) name:ZYUserCenterLoginEaseMobSuccessNoti object:nil];
     
     //iOS8 注册APNS
-    if ([application respondsToSelector:@selector(registerForRemoteNotifications)]) {
+    if ([KCurrentWindow.application respondsToSelector:@selector(registerForRemoteNotifications)]) {
         
-        [application registerForRemoteNotifications];
+        [KCurrentWindow.application registerForRemoteNotifications];
         UIUserNotificationType notificationTypes = UIUserNotificationTypeBadge |
         UIUserNotificationTypeSound |
         UIUserNotificationTypeAlert;
         UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:notificationTypes categories:nil];
-        [application registerUserNotificationSettings:settings];
+        [KCurrentWindow.application registerUserNotificationSettings:settings];
     }
     else{
         
@@ -92,8 +88,7 @@
 - (void)setupTab
 {
     BTTabBarRootController *tabBar = [[BTTabBarRootController alloc]init];
-    
-    self.window.rootViewController = tabBar;
+    KCurrentWindow.rootViewController = tabBar;
 }
 
 - (void)observeLoginStatus:(NSNotification *)noti

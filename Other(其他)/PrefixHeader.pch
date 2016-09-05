@@ -17,6 +17,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+#import "NSDictionary+Json.h"
+#import "NSString+Json.h"
 #import "BTToast.h"
 #import <HyphenateFullSDK/EMSDKFull.h>
 #import "GJGCBaseViewController.h"
