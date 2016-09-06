@@ -131,7 +131,7 @@
 -(void)setUpTableView{
     //添加下拉的动画图片
     //设置下拉刷新回调
-    [self.tableView addGifHeaderWithRefreshingTarget:self refreshingAction:@selector(refreshData)];
+    MJRefreshGifHeader *header =[MJRefreshGifHeader headerWithRefreshingTarget:self refreshingAction:@selector(refreshData)];
     
     //设置普通状态的动画图片
     NSMutableArray *idleImages = [NSMutableArray array];
@@ -139,7 +139,7 @@
         UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"dropdown_anim__000%zd",i]];
         [idleImages addObject:image];
     }
-    [self.tableView.gifHeader setImages:idleImages forState:MJRefreshHeaderStateIdle];
+    [header setImages:idleImages forState:MJRefreshStateIdle];
     
     //设置即将刷新状态的动画图片
     NSMutableArray *refreshingImages = [NSMutableArray array];
@@ -147,13 +147,15 @@
         UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"dropdown_loading_0%zd",i]];
         [refreshingImages addObject:image];
     }
-    [self.tableView.gifHeader setImages:refreshingImages forState:MJRefreshHeaderStatePulling];
+    [header setImages:refreshingImages forState:MJRefreshStatePulling];
     
     //设置正在刷新是的动画图片
-    [self.tableView.gifHeader setImages:refreshingImages forState:MJRefreshHeaderStateRefreshing];
+    [header setImages:refreshingImages forState:MJRefreshStateRefreshing];
     
+    header.stateLabel.hidden = YES;
+    self.tableView.mj_header = header;
     //马上进入刷新状态
-    [self.tableView.gifHeader beginRefreshing];
+    [self.tableView.mj_header beginRefreshing];
 }
 
 

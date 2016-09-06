@@ -185,7 +185,7 @@
 -(void)setUpTableView{
     //添加下拉的动画图片
     //设置下拉刷新回调
-    [self.tableView addGifHeaderWithRefreshingTarget:self refreshingAction:@selector(getFirstPageData)];
+    MJRefreshGifHeader *header =[MJRefreshGifHeader headerWithRefreshingTarget:self refreshingAction:@selector(getFirstPageData)];
     
     //设置普通状态的动画图片
     NSMutableArray *idleImages = [NSMutableArray array];
@@ -193,7 +193,7 @@
         UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"dropdown_anim__000%zd",i]];
         [idleImages addObject:image];
     }
-    [self.tableView.gifHeader setImages:idleImages forState:MJRefreshHeaderStateIdle];
+    [header setImages:idleImages forState:MJRefreshStateIdle];
     
     //设置即将刷新状态的动画图片
     NSMutableArray *refreshingImages = [NSMutableArray array];
@@ -201,22 +201,26 @@
         UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"dropdown_loading_0%zd",i]];
         [refreshingImages addObject:image];
     }
-    [self.tableView.gifHeader setImages:refreshingImages forState:MJRefreshHeaderStatePulling];
+    [header setImages:refreshingImages forState:MJRefreshStatePulling];
     
     //设置正在刷新是的动画图片
-    [self.tableView.gifHeader setImages:refreshingImages forState:MJRefreshHeaderStateRefreshing];
+    [header setImages:refreshingImages forState:MJRefreshStateRefreshing];
     
     //马上进入刷新状态
-    [self.tableView.gifHeader beginRefreshing];
+    header.stateLabel.hidden = YES;
+    self.tableView.mj_header = header;
     
+    //马上进入刷新状态
+    [self.tableView.mj_header beginRefreshing];
     
+    MJRefreshFooter *footer = [MJRefreshFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreData)];
     //上拉刷新
-    [self.tableView addGifFooterWithRefreshingTarget:self refreshingAction:@selector(loadMoreData)];
+    self.tableView.mj_footer = footer;
     
     //隐藏状态文字
 //    self.tableView.footer.stateHidden = YES;
     //设置正在刷新的动画
-    self.tableView.gifFooter.refreshingImages = refreshingImages;
+//    self.tableView.mj_footer.refreshingImages = refreshingImages;
     
     
     
