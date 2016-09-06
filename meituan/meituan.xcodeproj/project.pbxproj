@@ -1305,12 +1305,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3D8150F1B2AD522005689B8 /* Build configuration list for PBXNativeTarget "meituan" */;
 			buildPhases = (
-				6E11A77F9130908EAF3BB614 /* [CP] Check Pods Manifest.lock */,
 				E3D814E81B2AD522005689B8 /* Sources */,
 				E3D814E91B2AD522005689B8 /* Frameworks */,
 				E3D814EA1B2AD522005689B8 /* Resources */,
-				53CC281340CEAAD13F8CB609 /* [CP] Embed Pods Frameworks */,
-				A2C709CA614DEC0FCE9163E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1489,54 +1486,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		53CC281340CEAAD13F8CB609 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-meituan/Pods-meituan-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6E11A77F9130908EAF3BB614 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		A2C709CA614DEC0FCE9163E0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-meituan/Pods-meituan-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E3D814E81B2AD522005689B8 /* Sources */ = {

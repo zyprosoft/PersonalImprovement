@@ -92,7 +92,6 @@
 		C054EC381B3270D900078809 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C054EC371B3270D900078809 /* AppDelegate.m */; };
 		C054EC401B3270D900078809 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C054EC3F1B3270D900078809 /* Images.xcassets */; };
 		C054EC431B3270D900078809 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C054EC411B3270D900078809 /* LaunchScreen.xib */; };
-		C054EC4F1B3270D900078809 /* TeamTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C054EC4E1B3270D900078809 /* TeamTalkTests.m */; };
 		C054EC641B32734800078809 /* MTTConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = C054EC631B32734800078809 /* MTTConstant.m */; };
 		C054EC671B32737300078809 /* MTTUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C054EC661B32737300078809 /* MTTUtil.m */; };
 		C054EC851B3274E200078809 /* libsecurity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C054EC831B3274E200078809 /* libsecurity.a */; };
@@ -400,21 +399,10 @@
 		C0AE3A121B32C68200B67232 /* EditGroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0AE39FD1B32C68200B67232 /* EditGroupViewController.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C054EC491B3270D900078809 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C054EC271B3270D900078809 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C054EC2E1B3270D900078809;
-			remoteInfo = TeamTalk;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		490F0DCB1D78319B00DDF10D /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		490F0DCD1D78319E00DDF10D /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		4B80642F9C6991F4E6120EB1 /* libPods-TeamTalk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TeamTalk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		54591AB3FCDB39D2F25CF7A1 /* Pods-TeamTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamTalk/Pods-TeamTalk.debug.xcconfig"; sourceTree = "<group>"; };
 		810D52141B50ECFA004DF7B4 /* bgImage_HL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgImage_HL@2x.png"; sourceTree = "<group>"; };
 		810D52151B50ECFA004DF7B4 /* cellLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellLine@2x.png"; sourceTree = "<group>"; };
 		810D52161B50ECFA004DF7B4 /* LCActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCActionSheet.h; sourceTree = "<group>"; };
@@ -540,7 +528,6 @@
 		C054EC371B3270D900078809 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C054EC3F1B3270D900078809 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C054EC421B3270D900078809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C054EC481B3270D900078809 /* TeamTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C054EC4D1B3270D900078809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C054EC4E1B3270D900078809 /* TeamTalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamTalkTests.m; sourceTree = "<group>"; };
 		C054EC581B32715600078809 /* TeamTalk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TeamTalk-Prefix.pch"; sourceTree = "<group>"; };
@@ -1069,7 +1056,6 @@
 		C0AE39FB1B32C68200B67232 /* EditGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditGroupViewController.h; sourceTree = "<group>"; };
 		C0AE39FC1B32C68200B67232 /* EditGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditGroupViewController.m; sourceTree = "<group>"; };
 		C0AE39FD1B32C68200B67232 /* EditGroupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditGroupViewController.xib; sourceTree = "<group>"; };
-		C7633D666A503CC04985E590 /* Pods-TeamTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamTalk/Pods-TeamTalk.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1081,13 +1067,6 @@
 				C054EC851B3274E200078809 /* libsecurity.a in Frameworks */,
 				490F0DCE1D78319E00DDF10D /* Fabric.framework in Frameworks */,
 				ADCDE117FE8428B77A299D94 /* libPods-TeamTalk.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C054EC451B3270D900078809 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1170,15 +1149,6 @@
 			path = Signature;
 			sourceTree = "<group>";
 		};
-		ACF40651E27041C564B883E8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				54591AB3FCDB39D2F25CF7A1 /* Pods-TeamTalk.debug.xcconfig */,
-				C7633D666A503CC04985E590 /* Pods-TeamTalk.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		C054EC261B3270D900078809 = {
 			isa = PBXGroup;
 			children = (
@@ -1186,7 +1156,6 @@
 				C054EC4B1B3270D900078809 /* TeamTalkTests */,
 				C054EC301B3270D900078809 /* Products */,
 				527B2E51021DC51A46265D31 /* Frameworks */,
-				ACF40651E27041C564B883E8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1194,7 +1163,6 @@
 			isa = PBXGroup;
 			children = (
 				C054EC2F1B3270D900078809 /* TeamTalk.app */,
-				C054EC481B3270D900078809 /* TeamTalkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2502,14 +2470,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C054EC521B3270D900078809 /* Build configuration list for PBXNativeTarget "TeamTalk" */;
 			buildPhases = (
-				4E4997272494418DD0599B50 /* [CP] Check Pods Manifest.lock */,
 				468A16201B3937150093C314 /* ShellScript */,
 				C054EC2B1B3270D900078809 /* Sources */,
 				C054EC2C1B3270D900078809 /* Frameworks */,
 				C054EC2D1B3270D900078809 /* Resources */,
 				817CB3AD1B3BC68D0004AFEA /* Run Script */,
-				9BDE278F952FF5445F505EBD /* [CP] Embed Pods Frameworks */,
-				C72484F58E251F94C076BBE5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2519,24 +2484,6 @@
 			productName = TeamTalk;
 			productReference = C054EC2F1B3270D900078809 /* TeamTalk.app */;
 			productType = "com.apple.product-type.application";
-		};
-		C054EC471B3270D900078809 /* TeamTalkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C054EC551B3270D900078809 /* Build configuration list for PBXNativeTarget "TeamTalkTests" */;
-			buildPhases = (
-				C054EC441B3270D900078809 /* Sources */,
-				C054EC451B3270D900078809 /* Frameworks */,
-				C054EC461B3270D900078809 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C054EC4A1B3270D900078809 /* PBXTargetDependency */,
-			);
-			name = TeamTalkTests;
-			productName = TeamTalkTests;
-			productReference = C054EC481B3270D900078809 /* TeamTalkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -2550,11 +2497,6 @@
 					C054EC2E1B3270D900078809 = {
 						CreatedOnToolsVersion = 6.3;
 						DevelopmentTeam = MEU26PKGC2;
-					};
-					C054EC471B3270D900078809 = {
-						CreatedOnToolsVersion = 6.3;
-						DevelopmentTeam = MEU26PKGC2;
-						TestTargetID = C054EC2E1B3270D900078809;
 					};
 				};
 			};
@@ -2572,7 +2514,6 @@
 			projectRoot = "";
 			targets = (
 				C054EC2E1B3270D900078809 /* TeamTalk */,
-				C054EC471B3270D900078809 /* TeamTalkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -2738,13 +2679,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C054EC461B3270D900078809 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -2761,21 +2695,6 @@
 			shellPath = /bin/sh;
 			shellScript = "if [ \"${CONFIGURATION}\" = \"Release\" ] || [ \"${CONFIGURATION}\" = \"CI\" ]; then\n\nBUILD_NUMBER=`curl http://www.mogujie.com/mobile/build/increase -F \"identifier=im.teamtalk.tt\" -F \"sign=f41b3c980d33d9d51a0a0df685b20bb9\"`\n\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $BUILD_NUMBER\" \"${INFOPLIST_FILE}\"\nfi";
 		};
-		4E4997272494418DD0599B50 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		817CB3AD1B3BC68D0004AFEA /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2789,36 +2708,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "./Fabric.framework/run c85ad901eb0173a488b631e90f5913415f7424d1 bcd847cf6b15b2605cfff9400a4da335ce5ea3a0ac481dd143db404b55a09e73";
-		};
-		9BDE278F952FF5445F505EBD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TeamTalk/Pods-TeamTalk-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C72484F58E251F94C076BBE5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TeamTalk/Pods-TeamTalk-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -3063,23 +2952,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C054EC441B3270D900078809 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C054EC4F1B3270D900078809 /* TeamTalkTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C054EC4A1B3270D900078809 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C054EC2E1B3270D900078809 /* TeamTalk */;
-			targetProxy = C054EC491B3270D900078809 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C054EC411B3270D900078809 /* LaunchScreen.xib */ = {
@@ -3184,7 +3057,6 @@
 		};
 		C054EC531B3270D900078809 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54591AB3FCDB39D2F25CF7A1 /* Pods-TeamTalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -3214,7 +3086,6 @@
 		};
 		C054EC541B3270D900078809 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7633D666A503CC04985E590 /* Pods-TeamTalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -3241,46 +3112,6 @@
 			};
 			name = Release;
 		};
-		C054EC561B3270D900078809 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TeamTalkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeamTalk.app/TeamTalk";
-			};
-			name = Debug;
-		};
-		C054EC571B3270D900078809 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TeamTalkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeamTalk.app/TeamTalk";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3298,15 +3129,6 @@
 			buildConfigurations = (
 				C054EC531B3270D900078809 /* Debug */,
 				C054EC541B3270D900078809 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C054EC551B3270D900078809 /* Build configuration list for PBXNativeTarget "TeamTalkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C054EC561B3270D900078809 /* Debug */,
-				C054EC571B3270D900078809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
