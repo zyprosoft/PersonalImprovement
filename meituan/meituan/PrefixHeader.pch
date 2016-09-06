@@ -18,6 +18,7 @@
 #import "constant.h"
 #import "UIImageView+WebCache.h"
 #import "NSString+Size.h"
+#import "OldAFNetworking.h"
 
 
 #endif
