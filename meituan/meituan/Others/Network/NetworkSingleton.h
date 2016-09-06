@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "OldAFNetworking.h"
 
 
 //请求超时

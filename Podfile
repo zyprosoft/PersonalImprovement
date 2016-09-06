@@ -89,7 +89,7 @@ pod 'VKVideoPlayer', '~> 0.1.1'
     pod 'UMengAnalytics', '3.4.6'
     pod 'AMap3DMap', '2.5.0'
     pod 'AMapSearch',  '2.5.0'
-#    pod 'OldAFNetworkActivityLogger'
+  pod 'AFNetworkActivityLogger', :git => 'https://github.com/AFNetworking/AFNetworkActivityLogger.git', :branch => '3_0_0'
 
 end
 
