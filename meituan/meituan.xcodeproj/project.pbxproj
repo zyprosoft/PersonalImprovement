@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49B7C6EF1D7ECB89003A5597 /* OldAFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B7C6E61D7ECB89003A5597 /* OldAFHTTPRequestOperation.m */; };
+		49B7C6F01D7ECB89003A5597 /* OldAFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B7C6E71D7ECB89003A5597 /* OldAFHTTPRequestOperationManager.m */; };
+		49B7C6F11D7ECB89003A5597 /* OldAFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B7C6E81D7ECB89003A5597 /* OldAFHTTPSessionManager.m */; };
+		49B7C6F21D7ECB89003A5597 /* OldAFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B7C6E91D7ECB89003A5597 /* OldAFNetworkReachabilityManager.m */; };
+		49B7C6F31D7ECB89003A5597 /* OldAFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B7C6EA1D7ECB89003A5597 /* OldAFSecurityPolicy.m */; };
+		49B7C6F41D7ECB89003A5597 /* OldAFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B7C6EB1D7ECB89003A5597 /* OldAFURLConnectionOperation.m */; };
+		49B7C6F51D7ECB89003A5597 /* OldAFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B7C6EC1D7ECB89003A5597 /* OldAFURLRequestSerialization.m */; };
+		49B7C6F61D7ECB89003A5597 /* OldAFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B7C6ED1D7ECB89003A5597 /* OldAFURLResponseSerialization.m */; };
+		49B7C6F71D7ECB89003A5597 /* OldAFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B7C6EE1D7ECB89003A5597 /* OldAFURLSessionManager.m */; };
 		7C2D16E5A495736CFA304228 /* libPods-meituan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87622A3A0FA58F81B31E325C /* libPods-meituan.a */; };
 		E3513F0B1B4A1EF70071936B /* ImageScrollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3513F081B4A1EF70071936B /* ImageScrollCell.m */; };
 		E3513F0C1B4A1EF70071936B /* ImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3513F0A1B4A1EF70071936B /* ImageScrollView.m */; };
@@ -210,6 +219,15 @@
 
 /* Begin PBXFileReference section */
 		49B7C6E51D7EB0CF003A5597 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		49B7C6E61D7ECB89003A5597 /* OldAFHTTPRequestOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OldAFHTTPRequestOperation.m; path = "../Vendors(第三方)/OldAFNetworking/OldAFHTTPRequestOperation.m"; sourceTree = "<group>"; };
+		49B7C6E71D7ECB89003A5597 /* OldAFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OldAFHTTPRequestOperationManager.m; path = "../Vendors(第三方)/OldAFNetworking/OldAFHTTPRequestOperationManager.m"; sourceTree = "<group>"; };
+		49B7C6E81D7ECB89003A5597 /* OldAFHTTPSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OldAFHTTPSessionManager.m; path = "../Vendors(第三方)/OldAFNetworking/OldAFHTTPSessionManager.m"; sourceTree = "<group>"; };
+		49B7C6E91D7ECB89003A5597 /* OldAFNetworkReachabilityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OldAFNetworkReachabilityManager.m; path = "../Vendors(第三方)/OldAFNetworking/OldAFNetworkReachabilityManager.m"; sourceTree = "<group>"; };
+		49B7C6EA1D7ECB89003A5597 /* OldAFSecurityPolicy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OldAFSecurityPolicy.m; path = "../Vendors(第三方)/OldAFNetworking/OldAFSecurityPolicy.m"; sourceTree = "<group>"; };
+		49B7C6EB1D7ECB89003A5597 /* OldAFURLConnectionOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OldAFURLConnectionOperation.m; path = "../Vendors(第三方)/OldAFNetworking/OldAFURLConnectionOperation.m"; sourceTree = "<group>"; };
+		49B7C6EC1D7ECB89003A5597 /* OldAFURLRequestSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OldAFURLRequestSerialization.m; path = "../Vendors(第三方)/OldAFNetworking/OldAFURLRequestSerialization.m"; sourceTree = "<group>"; };
+		49B7C6ED1D7ECB89003A5597 /* OldAFURLResponseSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OldAFURLResponseSerialization.m; path = "../Vendors(第三方)/OldAFNetworking/OldAFURLResponseSerialization.m"; sourceTree = "<group>"; };
+		49B7C6EE1D7ECB89003A5597 /* OldAFURLSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OldAFURLSessionManager.m; path = "../Vendors(第三方)/OldAFNetworking/OldAFURLSessionManager.m"; sourceTree = "<group>"; };
 		818E84943F099FD595780941 /* Pods-meituan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meituan.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-meituan/Pods-meituan.debug.xcconfig"; sourceTree = "<group>"; };
 		87622A3A0FA58F81B31E325C /* libPods-meituan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-meituan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2670C406C396798C43CB235 /* Pods-meituan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meituan.release.xcconfig"; path = "../Pods/Target Support Files/Pods-meituan/Pods-meituan.release.xcconfig"; sourceTree = "<group>"; };
@@ -767,6 +785,15 @@
 		E3D814E31B2AD522005689B8 = {
 			isa = PBXGroup;
 			children = (
+				49B7C6E61D7ECB89003A5597 /* OldAFHTTPRequestOperation.m */,
+				49B7C6E71D7ECB89003A5597 /* OldAFHTTPRequestOperationManager.m */,
+				49B7C6E81D7ECB89003A5597 /* OldAFHTTPSessionManager.m */,
+				49B7C6E91D7ECB89003A5597 /* OldAFNetworkReachabilityManager.m */,
+				49B7C6EA1D7ECB89003A5597 /* OldAFSecurityPolicy.m */,
+				49B7C6EB1D7ECB89003A5597 /* OldAFURLConnectionOperation.m */,
+				49B7C6EC1D7ECB89003A5597 /* OldAFURLRequestSerialization.m */,
+				49B7C6ED1D7ECB89003A5597 /* OldAFURLResponseSerialization.m */,
+				49B7C6EE1D7ECB89003A5597 /* OldAFURLSessionManager.m */,
 				E3D814EE1B2AD522005689B8 /* meituan */,
 				E3D815081B2AD522005689B8 /* meituanTests */,
 				E3D814ED1B2AD522005689B8 /* Products */,
@@ -1516,6 +1543,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B7C6EF1D7ECB89003A5597 /* OldAFHTTPRequestOperation.m in Sources */,
+				49B7C6F01D7ECB89003A5597 /* OldAFHTTPRequestOperationManager.m in Sources */,
+				49B7C6F11D7ECB89003A5597 /* OldAFHTTPSessionManager.m in Sources */,
+				49B7C6F21D7ECB89003A5597 /* OldAFNetworkReachabilityManager.m in Sources */,
+				49B7C6F31D7ECB89003A5597 /* OldAFSecurityPolicy.m in Sources */,
+				49B7C6F41D7ECB89003A5597 /* OldAFURLConnectionOperation.m in Sources */,
+				49B7C6F51D7ECB89003A5597 /* OldAFURLRequestSerialization.m in Sources */,
+				49B7C6F61D7ECB89003A5597 /* OldAFURLResponseSerialization.m in Sources */,
+				49B7C6F71D7ECB89003A5597 /* OldAFURLSessionManager.m in Sources */,
 				E3D8159E1B3D24D2005689B8 /* RushDealsModel.m in Sources */,
 				E3A20FC11B5F2D4E005DA5CD /* JZMerAroundGroupModel.m in Sources */,
 				E3D815A41B423A96005689B8 /* HomeMenuCell.m in Sources */,
