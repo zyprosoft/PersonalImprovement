@@ -146,7 +146,6 @@
 		E3D814FB1B2AD522005689B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D814F91B2AD522005689B8 /* Main.storyboard */; };
 		E3D814FD1B2AD522005689B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D814FC1B2AD522005689B8 /* Images.xcassets */; };
 		E3D815001B2AD522005689B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3D814FE1B2AD522005689B8 /* LaunchScreen.xib */; };
-		E3D8150C1B2AD522005689B8 /* meituanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D8150B1B2AD522005689B8 /* meituanTests.m */; };
 		E3D8155A1B3150BB005689B8 /* icon_tabbar_homepage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D815501B3150BB005689B8 /* icon_tabbar_homepage@2x.png */; };
 		E3D8155B1B3150BB005689B8 /* icon_tabbar_homepage_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D815511B3150BB005689B8 /* icon_tabbar_homepage_selected@2x.png */; };
 		E3D8155C1B3150BB005689B8 /* icon_tabbar_merchant_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D815521B3150BB005689B8 /* icon_tabbar_merchant_normal@2x.png */; };
@@ -206,18 +205,7 @@
 		E3D815DA1B465A74005689B8 /* DisDealModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D815D91B465A74005689B8 /* DisDealModel.m */; };
 		E3D815DE1B4664F6005689B8 /* DisTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D815DD1B4664F6005689B8 /* DisTopicCell.m */; };
 		E3D815E11B46857D005689B8 /* HotQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D815E01B46857D005689B8 /* HotQueueViewController.m */; };
-		EFD9DF63ED3251D3E76ECA2A /* libPods-meituan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87622A3A0FA58F81B31E325C /* libPods-meituan.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E3D815061B2AD522005689B8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E3D814E41B2AD522005689B8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E3D814EB1B2AD522005689B8;
-			remoteInfo = meituan;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		236C77C1E5B12D33CEFA5611 /* Pods-meituan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meituan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meituan/Pods-meituan.debug.xcconfig"; sourceTree = "<group>"; };
@@ -416,7 +404,6 @@
 		E3D814FA1B2AD522005689B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3D814FC1B2AD522005689B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E3D814FF1B2AD522005689B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		E3D815051B2AD522005689B8 /* meituanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meituanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D8150A1B2AD522005689B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3D8150B1B2AD522005689B8 /* meituanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meituanTests.m; sourceTree = "<group>"; };
 		E3D815501B3150BB005689B8 /* icon_tabbar_homepage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tabbar_homepage@2x.png"; sourceTree = "<group>"; };
@@ -525,14 +512,6 @@
 				E3513FAB1B53BE190071936B /* libUMSocial_Sdk_4.2.3.a in Frameworks */,
 				E3D815B91B44CF52005689B8 /* CoreLocation.framework in Frameworks */,
 				E39571931B54B2A90064A84F /* libWeChatSDK.a in Frameworks */,
-				EFD9DF63ED3251D3E76ECA2A /* libPods-meituan.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3D815021B2AD522005689B8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -798,7 +777,6 @@
 			isa = PBXGroup;
 			children = (
 				E3D814EC1B2AD522005689B8 /* meituan.app */,
-				E3D815051B2AD522005689B8 /* meituanTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1302,8 +1280,6 @@
 				E3D814E81B2AD522005689B8 /* Sources */,
 				E3D814E91B2AD522005689B8 /* Frameworks */,
 				E3D814EA1B2AD522005689B8 /* Resources */,
-				2706E738CB4F36F0B9441DC3 /* [CP] Embed Pods Frameworks */,
-				2E2A5A5897A874858FD20086 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1313,24 +1289,6 @@
 			productName = meituan;
 			productReference = E3D814EC1B2AD522005689B8 /* meituan.app */;
 			productType = "com.apple.product-type.application";
-		};
-		E3D815041B2AD522005689B8 /* meituanTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E3D815121B2AD522005689B8 /* Build configuration list for PBXNativeTarget "meituanTests" */;
-			buildPhases = (
-				E3D815011B2AD522005689B8 /* Sources */,
-				E3D815021B2AD522005689B8 /* Frameworks */,
-				E3D815031B2AD522005689B8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E3D815071B2AD522005689B8 /* PBXTargetDependency */,
-			);
-			name = meituanTests;
-			productName = meituanTests;
-			productReference = E3D815051B2AD522005689B8 /* meituanTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -1343,10 +1301,6 @@
 				TargetAttributes = {
 					E3D814EB1B2AD522005689B8 = {
 						CreatedOnToolsVersion = 6.3.1;
-					};
-					E3D815041B2AD522005689B8 = {
-						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = E3D814EB1B2AD522005689B8;
 					};
 				};
 			};
@@ -1365,7 +1319,6 @@
 			projectRoot = "";
 			targets = (
 				E3D814EB1B2AD522005689B8 /* meituan */,
-				E3D815041B2AD522005689B8 /* meituanTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1504,46 +1457,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3D815031B2AD522005689B8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2706E738CB4F36F0B9441DC3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-meituan/Pods-meituan-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2E2A5A5897A874858FD20086 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-meituan/Pods-meituan-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7F593D9AB9BA7462A6D5CF26 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1626,23 +1542,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3D815011B2AD522005689B8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3D8150C1B2AD522005689B8 /* meituanTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E3D815071B2AD522005689B8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E3D814EB1B2AD522005689B8 /* meituan */;
-			targetProxy = E3D815061B2AD522005689B8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E3513F901B53BE190071936B /* UMSocialLocalizable.strings */ = {
@@ -1809,40 +1709,6 @@
 			};
 			name = Release;
 		};
-		E3D815131B2AD522005689B8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = meituanTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meituan.app/meituan";
-			};
-			name = Debug;
-		};
-		E3D815141B2AD522005689B8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = meituanTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meituan.app/meituan";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1860,15 +1726,6 @@
 			buildConfigurations = (
 				E3D815101B2AD522005689B8 /* Debug */,
 				E3D815111B2AD522005689B8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E3D815121B2AD522005689B8 /* Build configuration list for PBXNativeTarget "meituanTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E3D815131B2AD522005689B8 /* Debug */,
-				E3D815141B2AD522005689B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -20,7 +20,8 @@
 #import "NSDictionary+Json.h"
 #import "NSString+Json.h"
 #import "BTToast.h"
-#import <HyphenateFullSDK/EMSDKFull.h>
+//#import <HyphenateFullSDK/EMSDKFull.h>
+#import "EMSDKFull.h"
 #import "GJGCBaseViewController.h"
 #import "GJCFUitils.h"
 #import "GJGCImageResizeHelper.h"

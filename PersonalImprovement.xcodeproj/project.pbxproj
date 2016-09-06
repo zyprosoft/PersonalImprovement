@@ -636,6 +636,7 @@
 		4930EE2A1D28B2AE00606CD9 /* XYDTagV.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930EC721D28B2AE00606CD9 /* XYDTagV.m */; };
 		493A2E531D675F1C00DB5CD5 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 493A2E521D675F1C00DB5CD5 /* libOCMock.a */; };
 		49415D631D7D714A00E6675C /* bpg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49415D621D7D714A00E6675C /* bpg.framework */; };
+		49415D901D7E6EA700E6675C /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 49415D8F1D7E6EA700E6675C /* libiconv.tbd */; };
 		4948CB001D77127A007109B7 /* UIImage+XYDMWPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4948CAEC1D77127A007109B7 /* UIImage+XYDMWPhotoBrowser.m */; };
 		4948CB011D77127A007109B7 /* XYDMWCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4948CAEE1D77127A007109B7 /* XYDMWCaptionView.m */; };
 		4948CB021D77127A007109B7 /* XYDMWGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4948CAF11D77127A007109B7 /* XYDMWGridCell.m */; };
@@ -3471,6 +3472,7 @@
 		493A2E511D675F0D00DB5CD5 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OCMockRecorder.h; path = OCMock/OCMockRecorder.h; sourceTree = "<group>"; };
 		493A2E521D675F1C00DB5CD5 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = OCMock/libOCMock.a; sourceTree = "<group>"; };
 		49415D621D7D714A00E6675C /* bpg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = bpg.framework; sourceTree = "<group>"; };
+		49415D8F1D7E6EA700E6675C /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		4948CAEB1D77127A007109B7 /* UIImage+XYDMWPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XYDMWPhotoBrowser.h"; sourceTree = "<group>"; };
 		4948CAEC1D77127A007109B7 /* UIImage+XYDMWPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XYDMWPhotoBrowser.m"; sourceTree = "<group>"; };
 		4948CAED1D77127A007109B7 /* XYDMWCaptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDMWCaptionView.h; sourceTree = "<group>"; };
@@ -6545,6 +6547,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49415D901D7E6EA700E6675C /* libiconv.tbd in Frameworks */,
 				49C9F6DB1D7587DD00A113DA /* libPods-PersonalImprovement.a in Frameworks */,
 				49B4E67F1D7D0213001C8E29 /* libopencore-amrwb.a in Frameworks */,
 				49415D631D7D714A00E6675C /* bpg.framework in Frameworks */,
@@ -13840,9 +13843,9 @@
 		49FC8C491D2BFB9A007454F7 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				49FC8C7E1D2BFDB0007454F7 /* Info.plist */,
 				49FC8C4A1D2BFB9A007454F7 /* AppDelegate.h */,
 				49FC8C4B1D2BFB9A007454F7 /* AppDelegate.m */,
+				49FC8C7E1D2BFDB0007454F7 /* Info.plist */,
 				49FC8C4C1D2BFB9A007454F7 /* Assets.xcassets */,
 				49FC8C4D1D2BFB9A007454F7 /* LaunchScreen.storyboard */,
 				49FC8C501D2BFB9A007454F7 /* main.m */,
@@ -15323,6 +15326,7 @@
 		FD09C2B7ADD73A1CAEF32BB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49415D8F1D7E6EA700E6675C /* libiconv.tbd */,
 				49C9F6DA1D7587DD00A113DA /* libPods-PersonalImprovement.a */,
 				49C9F6D81D75852600A113DA /* bpg.framework */,
 				49DAA88E1D7436D200F92C7E /* bpg.framework */,
@@ -15459,6 +15463,7 @@
 				TargetAttributes = {
 					4981A04A1C62EFEA009B0157 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5V2QA55JDF;
 					};
 					4981A0631C62EFEA009B0157 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -18311,11 +18316,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jieyuan Lin (2D645H42RA)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/PersonalImprovement/FourthVCtrls/YYKit/Resources\"",
-					"-force_load$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/YYKit/Resources",
+					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/YYKit/Resources",
 				);
 				GCC_PREFIX_HEADER = "/Users/xiongyoudou/Desktop/Github/PersonalImprovement/Other(其他)/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (
@@ -18345,12 +18352,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/OCMock",
 					"$(inherited)",
-					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/TeamTalk/Exist/Security",
 					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/ZYChat/Dependcy/AudioCoder",
+					"$(PROJECT_DIR)/Vendors(第三方)/HyphenateFullSDK/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hampoo.personal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d9054a31-286d-41be-ae7f-ce7718fb9c43";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "PersonalImprovement/ThirdVCtrls/KYCuteView/PersonalImprovement-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -18362,11 +18369,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jieyuan Lin (2D645H42RA)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/PersonalImprovement/FourthVCtrls/YYKit/Resources\"",
-					"-force_load$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/YYKit/Resources",
+					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/YYKit/Resources",
 				);
 				GCC_PREFIX_HEADER = "/Users/xiongyoudou/Desktop/Github/PersonalImprovement/Other(其他)/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (
@@ -18396,12 +18405,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/OCMock",
 					"$(inherited)",
-					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/TeamTalk/Exist/Security",
 					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/ZYChat/Dependcy/AudioCoder",
+					"$(PROJECT_DIR)/Vendors(第三方)/HyphenateFullSDK/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hampoo.personal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d9054a31-286d-41be-ae7f-ce7718fb9c43";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "PersonalImprovement/ThirdVCtrls/KYCuteView/PersonalImprovement-Bridging-Header.h";
 			};
 			name = Release;

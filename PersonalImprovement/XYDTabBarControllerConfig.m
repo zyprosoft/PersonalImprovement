@@ -19,7 +19,7 @@
 /**
  *  lazy load tabBarController
  *
- *  @return CYLTabBarController
+ *  @return XYDTabBarController
  */
 - (XYDTabBarController *)tabBarController {
     if (_tabBarController == nil) {

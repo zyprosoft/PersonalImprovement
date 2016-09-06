@@ -108,7 +108,7 @@ NSString *const XYDTabBarItemSelectedImage = @"XYDTabBarItemSelectedImage";
     }
     if (viewControllers && [viewControllers isKindOfClass:[NSArray class]]) {
         if ((!_tabBarItemsAttributes) || (_tabBarItemsAttributes.count != viewControllers.count)) {
-            [NSException raise:@"CYLTabBarController" format:@"The count of CYLTabBarControllers is not equal to the count of tabBarItemsAttributes.【Chinese】设置_tabBarItemsAttributes属性时，请确保元素个数与控制器的个数相同，并在方法`-setViewControllers:`之前设置"];
+            [NSException raise:@"XYDTabBarController" format:@"The count of XYDTabBarControllers is not equal to the count of tabBarItemsAttributes.【Chinese】设置_tabBarItemsAttributes属性时，请确保元素个数与控制器的个数相同，并在方法`-setViewControllers:`之前设置"];
         }
         
         if (_plusButton) {

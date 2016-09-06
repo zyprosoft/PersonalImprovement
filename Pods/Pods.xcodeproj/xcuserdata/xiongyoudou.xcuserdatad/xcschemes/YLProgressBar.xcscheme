@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'BC70B262CA1ED770C4BDC6030A99DFC8'
+               BlueprintIdentifier = '6E2D8BF4D67D66E58A251D18B880BF3F'
                BlueprintName = 'YLProgressBar'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libYLProgressBar.a'>
