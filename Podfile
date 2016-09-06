@@ -1,10 +1,9 @@
 workspace 'PersonalImprovement.xcworkspace'
-project 'PersonalImprovement.xcodeproj'
 
 platform:ios,'7.0'
 
-target 'PersonalImprovement' do
-project 'PersonalImprovement.xcodeproj'
+def myPods
+
 pod 'EAIntroView'
 #pod 'MBProgressHUD'
 pod 'AFNetworking'
@@ -91,5 +90,16 @@ pod 'VKVideoPlayer', '~> 0.1.1'
     pod 'AMap3DMap', '2.5.0'
     pod 'AMapSearch',  '2.5.0'
 #    pod 'OldAFNetworkActivityLogger'
+
+end
+
+target 'meituan' do
+    xcodeproj 'meituan/meituan.xcodeproj'
+    myPods
+end
+
+target 'PersonalImprovement' do
+    xcodeproj 'PersonalImprovement.xcodeproj'
+    myPods
 end
 

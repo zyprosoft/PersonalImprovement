@@ -46,7 +46,6 @@
 #import "GJGCMessageExtendConst.h"
 #import "GJGCMessageExtendModel.h"
 
-
 #import "Masonry.h"
 
 #import "UIButton+WebCache.h"

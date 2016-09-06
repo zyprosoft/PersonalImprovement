@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '541516EDE0AE76A63F060EA123091158'
-               BlueprintName = 'XLForm'
+               BlueprintIdentifier = '897DA078D13B9074A62DBE46A8EDB9BE'
+               BlueprintName = 'Pods-meituan'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libXLForm.a'>
+               BuildableName = 'libPods-meituan.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

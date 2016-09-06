@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C2D16E5A495736CFA304228 /* libPods-meituan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87622A3A0FA58F81B31E325C /* libPods-meituan.a */; };
 		E3513F0B1B4A1EF70071936B /* ImageScrollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3513F081B4A1EF70071936B /* ImageScrollCell.m */; };
 		E3513F0C1B4A1EF70071936B /* ImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3513F0A1B4A1EF70071936B /* ImageScrollView.m */; };
 		E3513F0F1B4A208B0071936B /* ServiceAdvModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3513F0E1B4A208B0071936B /* ServiceAdvModel.m */; };
@@ -208,9 +209,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		236C77C1E5B12D33CEFA5611 /* Pods-meituan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meituan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-meituan/Pods-meituan.debug.xcconfig"; sourceTree = "<group>"; };
-		3EC294BB143A56CA8ED7350E /* Pods-meituan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meituan.release.xcconfig"; path = "Pods/Target Support Files/Pods-meituan/Pods-meituan.release.xcconfig"; sourceTree = "<group>"; };
+		49B7C6E51D7EB0CF003A5597 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		818E84943F099FD595780941 /* Pods-meituan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meituan.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-meituan/Pods-meituan.debug.xcconfig"; sourceTree = "<group>"; };
 		87622A3A0FA58F81B31E325C /* libPods-meituan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-meituan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2670C406C396798C43CB235 /* Pods-meituan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meituan.release.xcconfig"; path = "../Pods/Target Support Files/Pods-meituan/Pods-meituan.release.xcconfig"; sourceTree = "<group>"; };
 		E3513F071B4A1EF70071936B /* ImageScrollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScrollCell.h; sourceTree = "<group>"; };
 		E3513F081B4A1EF70071936B /* ImageScrollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScrollCell.m; sourceTree = "<group>"; };
 		E3513F091B4A1EF70071936B /* ImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScrollView.h; sourceTree = "<group>"; };
@@ -417,7 +419,6 @@
 		E3D815581B3150BB005689B8 /* icon_tabbar_onsite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tabbar_onsite@2x.png"; sourceTree = "<group>"; };
 		E3D815591B3150BB005689B8 /* icon_tabbar_onsite_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tabbar_onsite_selected@2x.png"; sourceTree = "<group>"; };
 		E3D815641B3153DA005689B8 /* Public.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
-		E3D815651B315454005689B8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		E3D815661B315570005689B8 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		E3D815671B315570005689B8 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		E3D815691B315D21005689B8 /* icon_homepage_downArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_homepage_downArrow@2x.png"; sourceTree = "<group>"; };
@@ -512,21 +513,13 @@
 				E3513FAB1B53BE190071936B /* libUMSocial_Sdk_4.2.3.a in Frameworks */,
 				E3D815B91B44CF52005689B8 /* CoreLocation.framework in Frameworks */,
 				E39571931B54B2A90064A84F /* libWeChatSDK.a in Frameworks */,
+				7C2D16E5A495736CFA304228 /* libPods-meituan.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C075F14DE14F78BD34243AB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				236C77C1E5B12D33CEFA5611 /* Pods-meituan.debug.xcconfig */,
-				3EC294BB143A56CA8ED7350E /* Pods-meituan.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		67D5AD53BD03F3F1C1DCF9F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -542,6 +535,15 @@
 				87622A3A0FA58F81B31E325C /* libPods-meituan.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACBCF68685B695CFEC783AC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				818E84943F099FD595780941 /* Pods-meituan.debug.xcconfig */,
+				C2670C406C396798C43CB235 /* Pods-meituan.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		E3513F061B4A1EF70071936B /* LoopView */ = {
@@ -769,7 +771,7 @@
 				E3D815081B2AD522005689B8 /* meituanTests */,
 				E3D814ED1B2AD522005689B8 /* Products */,
 				67D5AD53BD03F3F1C1DCF9F5 /* Frameworks */,
-				1C075F14DE14F78BD34243AB /* Pods */,
+				ACBCF68685B695CFEC783AC9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -797,6 +799,7 @@
 		E3D814EF1B2AD522005689B8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				49B7C6E51D7EB0CF003A5597 /* PrefixHeader.pch */,
 				E3D814F31B2AD522005689B8 /* AppDelegate.h */,
 				E3D814F41B2AD522005689B8 /* AppDelegate.m */,
 				E3D814F61B2AD522005689B8 /* ViewController.h */,
@@ -806,7 +809,6 @@
 				E3D814FE1B2AD522005689B8 /* LaunchScreen.xib */,
 				E3D814F01B2AD522005689B8 /* Info.plist */,
 				E3D814F11B2AD522005689B8 /* main.m */,
-				E3D815651B315454005689B8 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1276,10 +1278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3D8150F1B2AD522005689B8 /* Build configuration list for PBXNativeTarget "meituan" */;
 			buildPhases = (
-				7F593D9AB9BA7462A6D5CF26 /* [CP] Check Pods Manifest.lock */,
+				6E11A77F9130908EAF3BB614 /* [CP] Check Pods Manifest.lock */,
 				E3D814E81B2AD522005689B8 /* Sources */,
 				E3D814E91B2AD522005689B8 /* Frameworks */,
 				E3D814EA1B2AD522005689B8 /* Resources */,
+				53CC281340CEAAD13F8CB609 /* [CP] Embed Pods Frameworks */,
+				A2C709CA614DEC0FCE9163E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1460,7 +1464,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7F593D9AB9BA7462A6D5CF26 /* [CP] Check Pods Manifest.lock */ = {
+		53CC281340CEAAD13F8CB609 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-meituan/Pods-meituan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E11A77F9130908EAF3BB614 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1473,6 +1492,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A2C709CA614DEC0FCE9163E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-meituan/Pods-meituan-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1655,7 +1689,7 @@
 		};
 		E3D815101B2AD522005689B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 236C77C1E5B12D33CEFA5611 /* Pods-meituan.debug.xcconfig */;
+			baseConfigurationReference = 818E84943F099FD595780941 /* Pods-meituan.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1677,13 +1711,13 @@
 					"$(PROJECT_DIR)/meituan/Others/Library/UMAnalytics_Sdk_3.5.16",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		E3D815111B2AD522005689B8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EC294BB143A56CA8ED7350E /* Pods-meituan.release.xcconfig */;
+			baseConfigurationReference = C2670C406C396798C43CB235 /* Pods-meituan.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1705,7 +1739,7 @@
 					"$(PROJECT_DIR)/meituan/Others/Library/UMAnalytics_Sdk_3.5.16",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
