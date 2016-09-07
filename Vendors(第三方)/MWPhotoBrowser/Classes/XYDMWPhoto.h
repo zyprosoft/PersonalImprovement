@@ -16,6 +16,8 @@
 // conforms to XYDMWPhotoProtocol
 @interface XYDMWPhoto : NSObject <XYDMWPhoto>
 
+@property (nonatomic, strong) UIImage *image;
+@property (nonatomic, strong) NSURL *photoURL;
 @property (nonatomic, strong) NSString *caption;
 @property (nonatomic, strong) NSURL *videoURL;
 @property (nonatomic) BOOL emptyImage;

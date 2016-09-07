@@ -16,7 +16,7 @@
 #import <ZXingObjC.h>
 
 @interface DDChatImagePreviewViewController ()
-@property(nonatomic,strong)MWPhotoBrowser *browser ;
+@property(nonatomic,strong)XYDMWPhotoBrowser *browser ;
 @end
 
 @implementation DDChatImagePreviewViewController
@@ -46,7 +46,7 @@
     [super viewDidLoad];
 
     self.title=@"预览";
-    self.browser = [[MWPhotoBrowser alloc] initWithDelegate:self];
+    self.browser = [[XYDMWPhotoBrowser alloc] initWithDelegate:self];
     self.browser.displayActionButton = NO;
     self.browser.displayNavArrows = NO;
     [self.browser setHidesBottomBarWhenPushed:YES];
@@ -154,7 +154,7 @@
 
 -(void)decodeQRImage
 {
-    MWPhoto *curImage = [self.photos objectAtIndex:self.browser.currentIndex];
+    XYDMWPhoto *curImage = [self.photos objectAtIndex:self.browser.currentIndex];
     ZXImage *img = [[ZXImage alloc]initWithURL:curImage.photoURL];
     
     ZXLuminanceSource *source = [[ZXCGImageLuminanceSource alloc] initWithZXImage:img];
@@ -172,7 +172,7 @@
 }
 -(void)saveImage
 {
-    MWPhoto *curImage = [self.photos objectAtIndex:self.browser.currentIndex];
+    XYDMWPhoto *curImage = [self.photos objectAtIndex:self.browser.currentIndex];
     UIImageView *imageview = [UIImageView new];
     [imageview sd_setImageWithURL:curImage.photoURL];
     UIImageWriteToSavedPhotosAlbum(imageview.image, self, @selector(image:didFinishSavingWithError:contextInfo:), NULL);
@@ -195,11 +195,11 @@
     }];
 }
 
-- (NSUInteger)numberOfPhotosInPhotoBrowser:(MWPhotoBrowser *)photoBrowser{
+- (NSUInteger)numberOfPhotosInPhotoBrowser:(XYDMWPhotoBrowser *)photoBrowser{
     return [self.photos count];
 }
 
-- (id<MWPhoto>)photoBrowser:(MWPhotoBrowser *)photoBrowser photoAtIndex:(NSUInteger)index{
+- (id<XYDMWPhoto>)photoBrowser:(XYDMWPhotoBrowser *)photoBrowser photoAtIndex:(NSUInteger)index{
     if (index < _photos.count)
         return [_photos objectAtIndex:index];
     return nil;

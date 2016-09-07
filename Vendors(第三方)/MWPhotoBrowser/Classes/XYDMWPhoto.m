@@ -12,6 +12,7 @@
 #import <AssetsLibrary/AssetsLibrary.h>
 #import "XYDMWPhoto.h"
 #import "XYDMWPhotoBrowser.h"
+#import "DialogTool.h"
 
 @interface XYDMWPhoto () {
 
@@ -22,8 +23,6 @@
         
 }
 
-@property (nonatomic, strong) UIImage *image;
-@property (nonatomic, strong) NSURL *photoURL;
 @property (nonatomic, strong) PHAsset *asset;
 @property (nonatomic) CGSize assetTargetSize;
 

@@ -12,6 +12,8 @@
 #import "XYDMWPhotoBrowserPrivate.h"
 #import "SDImageCache.h"
 #import "UIImage+XYDMWPhotoBrowser.h"
+#import "DialogTool.h"
+
 
 #define PADDING                  10
 
@@ -1304,7 +1306,6 @@ static void * MWVideoPlayerObservation = &MWVideoPlayerObservation;
 
 - (void)_playVideo:(NSURL *)videoURL atPhotoIndex:(NSUInteger)index {
     if (videoURL.path && [videoURL.path rangeOfString:@"/var"].location != NSNotFound) {
-        KMyLog(@"%@",videoURL.path);
         if(![[NSFileManager defaultManager]fileExistsAtPath:videoURL.path]) {
             [[DialogTool sharedInstance]showTextHud:KCurrentShowingView hideAfterDelay:kHudDelay text:@"文件不存在" ];
             [self setVideoLoadingIndicatorVisible:NO atPageIndex:index];

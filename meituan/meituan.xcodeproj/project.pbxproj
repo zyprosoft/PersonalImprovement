@@ -538,6 +538,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		491B335D1D7FA26E0092A75F /* OldAFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				49B7C6E61D7ECB89003A5597 /* OldAFHTTPRequestOperation.m */,
+				49B7C6E71D7ECB89003A5597 /* OldAFHTTPRequestOperationManager.m */,
+				49B7C6E81D7ECB89003A5597 /* OldAFHTTPSessionManager.m */,
+				49B7C6E91D7ECB89003A5597 /* OldAFNetworkReachabilityManager.m */,
+				49B7C6EA1D7ECB89003A5597 /* OldAFSecurityPolicy.m */,
+				49B7C6EB1D7ECB89003A5597 /* OldAFURLConnectionOperation.m */,
+				49B7C6EC1D7ECB89003A5597 /* OldAFURLRequestSerialization.m */,
+				49B7C6ED1D7ECB89003A5597 /* OldAFURLResponseSerialization.m */,
+				49B7C6EE1D7ECB89003A5597 /* OldAFURLSessionManager.m */,
+			);
+			name = OldAFNetworking;
+			sourceTree = "<group>";
+		};
 		67D5AD53BD03F3F1C1DCF9F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -785,15 +801,7 @@
 		E3D814E31B2AD522005689B8 = {
 			isa = PBXGroup;
 			children = (
-				49B7C6E61D7ECB89003A5597 /* OldAFHTTPRequestOperation.m */,
-				49B7C6E71D7ECB89003A5597 /* OldAFHTTPRequestOperationManager.m */,
-				49B7C6E81D7ECB89003A5597 /* OldAFHTTPSessionManager.m */,
-				49B7C6E91D7ECB89003A5597 /* OldAFNetworkReachabilityManager.m */,
-				49B7C6EA1D7ECB89003A5597 /* OldAFSecurityPolicy.m */,
-				49B7C6EB1D7ECB89003A5597 /* OldAFURLConnectionOperation.m */,
-				49B7C6EC1D7ECB89003A5597 /* OldAFURLRequestSerialization.m */,
-				49B7C6ED1D7ECB89003A5597 /* OldAFURLResponseSerialization.m */,
-				49B7C6EE1D7ECB89003A5597 /* OldAFURLSessionManager.m */,
+				491B335D1D7FA26E0092A75F /* OldAFNetworking */,
 				E3D814EE1B2AD522005689B8 /* meituan */,
 				E3D815081B2AD522005689B8 /* meituanTests */,
 				E3D814ED1B2AD522005689B8 /* Products */,
@@ -1305,9 +1313,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3D8150F1B2AD522005689B8 /* Build configuration list for PBXNativeTarget "meituan" */;
 			buildPhases = (
+				D5C9B64D0BDEAEF14963B499 /* [CP] Check Pods Manifest.lock */,
 				E3D814E81B2AD522005689B8 /* Sources */,
 				E3D814E91B2AD522005689B8 /* Frameworks */,
 				E3D814EA1B2AD522005689B8 /* Resources */,
+				C4D9A270F25015FE3DCA3227 /* [CP] Embed Pods Frameworks */,
+				E698C1E8FE399469F9D46BB5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1486,6 +1497,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4D9A270F25015FE3DCA3227 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-meituan/Pods-meituan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5C9B64D0BDEAEF14963B499 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E698C1E8FE399469F9D46BB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-meituan/Pods-meituan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E3D814E81B2AD522005689B8 /* Sources */ = {

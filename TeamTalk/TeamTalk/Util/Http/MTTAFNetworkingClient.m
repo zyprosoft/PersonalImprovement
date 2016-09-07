@@ -6,10 +6,10 @@
 //  Copyright (c) 2014年 dujia. All rights reserved.
 //
 
-#import "MTTOldAFNetworkingClient.h"
+#import "MTTAFNetworkingClient.h"
 #import "NSDictionary+Safe.h"
 
-@implementation MTTOldAFNetworkingClient
+@implementation MTTAFNetworkingClient
 
 static NSString* const DD_URL_BASE = @"http://www.mogujie.com/";
 
@@ -47,16 +47,16 @@ static NSString* const DD_URL_BASE = @"http://www.mogujie.com/";
     
     
 }
-+(void) jsonFormRequest:(NSString *)url param:(NSDictionary *)param fromBlock:(void (^)(id <AFMultipartFormData> formData))block success:(void (^)(id))success failure:(void (^)(NSError *))failure
++(void) jsonFormRequest:(NSString *)url param:(NSDictionary *)param fromBlock:(void (^)(id <OldAFMultipartFormData> formData))block success:(void (^)(id))success failure:(void (^)(NSError *))failure
 {
     OldAFHTTPRequestOperationManager *manager = [OldAFHTTPRequestOperationManager manager];
     [manager GET:url parameters:param success:^(OldAFHTTPRequestOperation *operation, id responseObject) {
         if ([responseObject respondsToSelector:@selector(objectForKey:)]) {
-            [MTTOldAFNetworkingClient handleRequest:(NSDictionary *)responseObject success:success failure:failure];
+            [MTTAFNetworkingClient handleRequest:(NSDictionary *)responseObject success:success failure:failure];
         }else
         {
             NSDictionary *responseDictionary = [NSJSONSerialization JSONObjectWithData:responseObject options:0 error:nil];
-            [MTTOldAFNetworkingClient handleRequest:responseDictionary success:success failure:failure];
+            [MTTAFNetworkingClient handleRequest:responseDictionary success:success failure:failure];
         }
         
     } failure:^(OldAFHTTPRequestOperation *operation, NSError *error) {
@@ -74,7 +74,7 @@ static NSString* const DD_URL_BASE = @"http://www.mogujie.com/";
         NSDictionary *responseDictionary = [NSJSONSerialization JSONObjectWithData:responseObject options:0 error:nil];
         NSString *string = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
         NSLog(@"%@<------",string);
-        [MTTOldAFNetworkingClient handleRequest:responseDictionary success:success failure:failure];
+        [MTTAFNetworkingClient handleRequest:responseDictionary success:success failure:failure];
     } failure:^(OldAFHTTPRequestOperation *operation, NSError *error) {
         if([error.domain isEqualToString:NSURLErrorDomain])
             error = [NSError errorWithDomain:@"没有网络连接。" code:-100 userInfo:nil];

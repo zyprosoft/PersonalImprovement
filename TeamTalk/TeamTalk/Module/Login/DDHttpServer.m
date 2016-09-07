@@ -7,7 +7,7 @@
 //
 
 #import "DDHttpServer.h"
-#import "MTTOldAFNetworkingClient.h"
+#import "MTTAFNetworkingClient.h"
 @implementation DDHttpServer
 - (void)loginWithUserName:(NSString*)userName
                  password:(NSString*)password
@@ -21,7 +21,7 @@
     [dictParams setObject:@"ooxx" forKey:@"macim"];
     [dictParams setObject:@"1.0" forKey:@"imclient"];
     [dictParams setObject:@"1" forKey:@"remember"];
-    [MTTOldAFNetworkingClient jsonFormPOSTRequest:@"user/zlogin/" param:dictParams success:^(id result) {
+    [MTTAFNetworkingClient jsonFormPOSTRequest:@"user/zlogin/" param:dictParams success:^(id result) {
         success(result);
     } failure:^(NSError * error) {
         failure(error);

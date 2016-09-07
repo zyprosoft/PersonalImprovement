@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MWPhotoBrowser.h"
+#import "XYDMWPhotoBrowser.h"
 #import "LCActionSheet.h"
-@interface DDChatImagePreviewViewController : UIViewController<MWPhotoBrowserDelegate,UIActionSheetDelegate,LCActionSheetDelegate>
+@interface DDChatImagePreviewViewController : UIViewController<XYDMWPhotoBrowserDelegate,UIActionSheetDelegate,LCActionSheetDelegate>
 @property(nonatomic,strong)NSMutableArray *photos;
 @property(nonatomic)NSInteger index;
 @property(nonatomic)NSString *QRCodeResult;

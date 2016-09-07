@@ -98,8 +98,13 @@ target 'meituan' do
     myPods
 end
 
+
 target 'PersonalImprovement' do
     xcodeproj 'PersonalImprovement.xcodeproj'
     myPods
 end
 
+target 'TeamTalk' do
+    xcodeproj 'TeamTalk/TeamTalk.xcodeproj'
+    myPods
+end

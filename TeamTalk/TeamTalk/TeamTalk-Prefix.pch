@@ -26,4 +26,7 @@
 //    #import "RuntimeStatus.h"
 //    #import "SCLAlertView.h"
 //    #import "RootViewController.h"
+#import "MyTool.h"
+#import "UtilsMacro.h"
+
 #endif

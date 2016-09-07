@@ -279,6 +279,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-TeamTalk.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-meituan.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -643,6 +648,11 @@
 			<true/>
 		</dict>
 		<key>78239A33F829C2F1E81A0ACEDD00709E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7824D0DDD361ABB2D3D8A20E4C00C4E3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -58,7 +58,7 @@ static int max_try_upload_times = 5;
             __block UIImage *image = [UIImage imageWithData:imageData];
             NSString *imageName = [NSString stringWithFormat:@"image.png_%dx%d.png",image.size.width,image.size.height];
             NSDictionary *params =[NSDictionary dictionaryWithObjectsAndKeys:@"im_image",@"type", nil];
-            [self.manager POST:urlString parameters:params constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
+            [self.manager POST:urlString parameters:params constructingBodyWithBlock:^(id<OldAFMultipartFormData> formData) {
                 [formData appendPartWithFileData:imageData name:@"image" fileName:imageName mimeType:@"image/jpeg"];
             } success:^(OldAFHTTPRequestOperation *operation, id responseObject) {
     

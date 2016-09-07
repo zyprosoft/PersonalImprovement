@@ -11,6 +11,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import <AddressBook/AddressBook.h>
 #import <CoreLocation/CoreLocation.h>
+#import "UIColor+JKHEX.h"
 
 //#import "KeychainItemWrapper.h"
 #import "SSKeychain.h"

@@ -17,11 +17,11 @@
 #import "MBProgressHUD.h"
 #import "MTTPhotosCache.h"
 #import "DDMessageSendManager.h"
-#import "MWPhotoBrowser.h"
-@interface DDAlbumDetailsViewControll ()<MWPhotoBrowserDelegate>
+#import "XYDMWPhotoBrowser.h"
+@interface DDAlbumDetailsViewControll ()<XYDMWPhotoBrowserDelegate>
 @property(nonatomic,strong)NSMutableArray *photos;
 @property(strong)NSMutableArray *selections;
-@property(strong)MWPhotoBrowser *photoBrowser;
+@property(strong)XYDMWPhotoBrowser *photoBrowser;
 @property(nonatomic,strong)UIButton *button;
 @end
 
@@ -68,7 +68,7 @@
                 return ;
             }
             [weakSelf.selections removeAllObjects];
-            self.photoBrowser = [[MWPhotoBrowser alloc] initWithDelegate:weakSelf];
+            self.photoBrowser = [[XYDMWPhotoBrowser alloc] initWithDelegate:weakSelf];
             self.photoBrowser.displayActionButton = NO;
             self.photoBrowser.displayNavArrows = NO;
             self.photoBrowser.wantsFullScreenLayout = YES;
@@ -86,7 +86,7 @@
                     
                     UIImage *img = [[UIImage alloc]initWithCGImage:ref];
                     
-                    MWPhoto *photo =[MWPhoto photoWithImage:img];
+                    XYDMWPhoto *photo =[XYDMWPhoto photoWithImage:img];
                     
                     [self.photos addObject:photo];
                 }else
@@ -96,7 +96,7 @@
                     
                     UIImage *img = [[UIImage alloc]initWithCGImage:ref];
                     
-                    MWPhoto *photo =[MWPhoto photoWithImage:img];
+                    XYDMWPhoto *photo =[XYDMWPhoto photoWithImage:img];
                     [self.photos addObject:photo];
                 }
                 [self.selections addObject:@(1)];
@@ -166,23 +166,23 @@
     [self.gridView scrollToItemAtIndex:[self.assetsArray count] atScrollPosition:AQGridViewScrollPositionBottom animated:NO];
 
 }
-- (NSString *)photoBrowser:(MWPhotoBrowser *)photoBrowser titleForPhotoAtIndex:(NSUInteger)index{
+- (NSString *)photoBrowser:(XYDMWPhotoBrowser *)photoBrowser titleForPhotoAtIndex:(NSUInteger)index{
     return [NSString stringWithFormat:@"%ld/%ld",index+1,[self.photos count]];
 }
-- (BOOL)photoBrowser:(MWPhotoBrowser *)photoBrowser isPhotoSelectedAtIndex:(NSUInteger)index {
+- (BOOL)photoBrowser:(XYDMWPhotoBrowser *)photoBrowser isPhotoSelectedAtIndex:(NSUInteger)index {
     return [[_selections objectAtIndex:index] boolValue];
 }
 
-- (void)photoBrowser:(MWPhotoBrowser *)photoBrowser photoAtIndex:(NSUInteger)index selectedChanged:(BOOL)selected {
+- (void)photoBrowser:(XYDMWPhotoBrowser *)photoBrowser photoAtIndex:(NSUInteger)index selectedChanged:(BOOL)selected {
     [_selections replaceObjectAtIndex:index withObject:[NSNumber numberWithBool:selected]];
     [self setSendButtonTitle];
 }
      
-- (NSUInteger)numberOfPhotosInPhotoBrowser:(MWPhotoBrowser *)photoBrowser {
+- (NSUInteger)numberOfPhotosInPhotoBrowser:(XYDMWPhotoBrowser *)photoBrowser {
     return _photos.count;
 }
 
-- (id <MWPhoto>)photoBrowser:(MWPhotoBrowser *)photoBrowser photoAtIndex:(NSUInteger)index {
+- (id <XYDMWPhoto>)photoBrowser:(XYDMWPhotoBrowser *)photoBrowser photoAtIndex:(NSUInteger)index {
     if (index < _photos.count)
         return [_photos objectAtIndex:index];
     return nil;
@@ -294,7 +294,7 @@
             }];
             [tmp enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
                 NSInteger index = [obj integerValue];
-                MWPhoto *newPhoto = [self.photos objectAtIndex:index];
+                XYDMWPhoto *newPhoto = [self.photos objectAtIndex:index];
                 
                 MTTPhotoEnity *photo = [MTTPhotoEnity new];
                 NSString *keyName = [[MTTPhotosCache sharedPhotoCache] getKeyName];
