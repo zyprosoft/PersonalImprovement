@@ -6,8 +6,8 @@
 //  Copyright (c) 2015年 黄成都. All rights reserved.
 //
 
-#import "CommonTool.h"
+#import "DesignCommonTool.h"
 
-@implementation CommonTool
+@implementation DesignCommonTool
 
 @end

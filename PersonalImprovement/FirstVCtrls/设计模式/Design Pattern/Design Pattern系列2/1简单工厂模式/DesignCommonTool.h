@@ -15,6 +15,6 @@ typedef NS_ENUM(NSInteger, CalculateType){
     calcuteTypeDivide
 };
 
-@interface CommonTool : NSObject
+@interface DesignCommonTool : NSObject
 
 @end
