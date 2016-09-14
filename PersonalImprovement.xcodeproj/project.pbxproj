@@ -1113,8 +1113,6 @@
 		49B4E6871D7D0213001C8E29 /* GJCFFileUploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B4E26C1D7D0210001C8E29 /* GJCFFileUploadManager.m */; };
 		49B4E6881D7D0213001C8E29 /* GJCFFileUploadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B4E26E1D7D0210001C8E29 /* GJCFFileUploadTask.m */; };
 		49B4E6891D7D0213001C8E29 /* GJCFUploadFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B4E2701D7D0210001C8E29 /* GJCFUploadFileModel.m */; };
-		49B4E68A1D7D0213001C8E29 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B4E2731D7D0210001C8E29 /* FLAnimatedImage.m */; };
-		49B4E68B1D7D0213001C8E29 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B4E2751D7D0210001C8E29 /* FLAnimatedImageView.m */; };
 		49B4E6911D7D0213001C8E29 /* GJCFAssetsPickerResourceBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 49B4E2831D7D0210001C8E29 /* GJCFAssetsPickerResourceBundle.bundle */; };
 		49B4E6921D7D0213001C8E29 /* GJCFAssetsPickerCommonStyleDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B4E2861D7D0210001C8E29 /* GJCFAssetsPickerCommonStyleDescription.m */; };
 		49B4E6931D7D0213001C8E29 /* GJCFAssetsPickerConstans.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B4E2881D7D0210001C8E29 /* GJCFAssetsPickerConstans.m */; };
@@ -4229,10 +4227,6 @@
 		49B4E26E1D7D0210001C8E29 /* GJCFFileUploadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCFFileUploadTask.m; sourceTree = "<group>"; };
 		49B4E26F1D7D0210001C8E29 /* GJCFUploadFileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFUploadFileModel.h; sourceTree = "<group>"; };
 		49B4E2701D7D0210001C8E29 /* GJCFUploadFileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCFUploadFileModel.m; sourceTree = "<group>"; };
-		49B4E2721D7D0210001C8E29 /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
-		49B4E2731D7D0210001C8E29 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
-		49B4E2741D7D0210001C8E29 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
-		49B4E2751D7D0210001C8E29 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
 		49B4E2831D7D0210001C8E29 /* GJCFAssetsPickerResourceBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GJCFAssetsPickerResourceBundle.bundle; sourceTree = "<group>"; };
 		49B4E2851D7D0210001C8E29 /* GJCFAssetsPickerCommonStyleDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFAssetsPickerCommonStyleDescription.h; sourceTree = "<group>"; };
 		49B4E2861D7D0210001C8E29 /* GJCFAssetsPickerCommonStyleDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCFAssetsPickerCommonStyleDescription.m; sourceTree = "<group>"; };
@@ -10602,7 +10596,6 @@
 				49B4E2381D7D0210001C8E29 /* Base64 */,
 				49B4E23B1D7D0210001C8E29 /* DownloadManager */,
 				49B4E26A1D7D0210001C8E29 /* FileUploadManager */,
-				49B4E2711D7D0210001C8E29 /* FLAnimatedImage */,
 				49B4E2821D7D0210001C8E29 /* GJCFAssetsPicker */,
 				49B4E2AA1D7D0210001C8E29 /* GJCFAudioManager */,
 				49B4E2C91D7D0210001C8E29 /* GJCFCachePathManager */,
@@ -10683,17 +10676,6 @@
 				49B4E2701D7D0210001C8E29 /* GJCFUploadFileModel.m */,
 			);
 			path = FileUploadManager;
-			sourceTree = "<group>";
-		};
-		49B4E2711D7D0210001C8E29 /* FLAnimatedImage */ = {
-			isa = PBXGroup;
-			children = (
-				49B4E2721D7D0210001C8E29 /* FLAnimatedImage.h */,
-				49B4E2731D7D0210001C8E29 /* FLAnimatedImage.m */,
-				49B4E2741D7D0210001C8E29 /* FLAnimatedImageView.h */,
-				49B4E2751D7D0210001C8E29 /* FLAnimatedImageView.m */,
-			);
-			path = FLAnimatedImage;
 			sourceTree = "<group>";
 		};
 		49B4E2821D7D0210001C8E29 /* GJCFAssetsPicker */ = {
@@ -17502,7 +17484,6 @@
 				4929A3811D748B29000E8B1F /* FlyweightViewController.m in Sources */,
 				4972E7CA1D669A07005B4315 /* YiRefreshFooter.m in Sources */,
 				49F964641D47924C007E4C21 /* MJChiBaoZiFooter2.m in Sources */,
-				49B4E68B1D7D0213001C8E29 /* FLAnimatedImageView.m in Sources */,
 				49F964331D47900B007E4C21 /* ModalViewController.m in Sources */,
 				49B4E6AF1D7D0213001C8E29 /* GJCFCoreTextFrame.m in Sources */,
 				49FB58D21D4F8ACA009B3A54 /* PQFModelController.m in Sources */,
@@ -17815,7 +17796,6 @@
 				4930EDDB1D28B2AE00606CD9 /* DaiDodgeKeyboard+Animation.m in Sources */,
 				49B4E6661D7D0213001C8E29 /* GJGCChatSystemNotiDataManager.m in Sources */,
 				4930ED771D28B2AE00606CD9 /* GetIPAddressClass.m in Sources */,
-				49B4E68A1D7D0213001C8E29 /* FLAnimatedImage.m in Sources */,
 				4972E8361D669DEE005B4315 /* VTDDeviceClock.m in Sources */,
 				49FFE5581D464B7A0072B4C4 /* BorderedBarViewController.m in Sources */,
 				4948CB081D77127A007109B7 /* XYDMWZoomingScrollView.m in Sources */,
