@@ -890,6 +890,11 @@
 		49A93F331D6BE92B009269BC /* AMWGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A93F201D6BE92B009269BC /* AMWGraph.m */; };
 		49A93F341D6BE92B009269BC /* Bfprt.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A93F231D6BE92B009269BC /* Bfprt.m */; };
 		49A93F351D6BE92B009269BC /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A93F261D6BE92B009269BC /* ListNode.m */; };
+		49AD4BB01D8946A5005BD306 /* NYTExamplePhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AD4BAD1D8946A5005BD306 /* NYTExamplePhoto.m */; };
+		49AD4BB11D8946A5005BD306 /* NYTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AD4BAF1D8946A5005BD306 /* NYTViewController.m */; };
+		49AD4BB31D89474F005BD306 /* NYTMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49AD4BB21D89474F005BD306 /* NYTMain.storyboard */; };
+		49AD4BB61D8947EA005BD306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49AD4BB41D8947EA005BD306 /* Assets.xcassets */; };
+		49AD4BB71D8947EA005BD306 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 49AD4BB51D8947EA005BD306 /* giphy.gif */; };
 		49B171F31D29558B00F2520D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B171F21D29558B00F2520D /* libz.tbd */; };
 		49B171FF1D29565700F2520D /* account_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B171F41D29565700F2520D /* account_highlight@2x.png */; };
 		49B172001D29565700F2520D /* account_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B171F41D29565700F2520D /* account_highlight@2x.png */; };
@@ -2456,6 +2461,7 @@
 		49FFE5611D464B7A0072B4C4 /* SegmentedRingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FFE54F1D464B7A0072B4C4 /* SegmentedRingViewController.m */; };
 		49FFE5621D464B7A0072B4C4 /* StripedBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FFE5511D464B7A0072B4C4 /* StripedBarViewController.m */; };
 		49FFE5631D464B7A0072B4C4 /* MetroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FFE5531D464B7A0072B4C4 /* MetroViewController.m */; };
+		5F60F40B3F08775E841E1638 /* libPods-PersonalImprovement.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 870D7CE305621F152EC627A3 /* libPods-PersonalImprovement.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -3926,6 +3932,13 @@
 		49A93F231D6BE92B009269BC /* Bfprt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bfprt.m; sourceTree = "<group>"; };
 		49A93F251D6BE92B009269BC /* ListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
 		49A93F261D6BE92B009269BC /* ListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
+		49AD4BAC1D8946A5005BD306 /* NYTExamplePhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTExamplePhoto.h; sourceTree = "<group>"; };
+		49AD4BAD1D8946A5005BD306 /* NYTExamplePhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTExamplePhoto.m; sourceTree = "<group>"; };
+		49AD4BAE1D8946A5005BD306 /* NYTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYTViewController.h; sourceTree = "<group>"; };
+		49AD4BAF1D8946A5005BD306 /* NYTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYTViewController.m; sourceTree = "<group>"; };
+		49AD4BB21D89474F005BD306 /* NYTMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NYTMain.storyboard; sourceTree = "<group>"; };
+		49AD4BB41D8947EA005BD306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49AD4BB51D8947EA005BD306 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = giphy.gif; sourceTree = "<group>"; };
 		49B171F11D2951CE00F2520D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		49B171F21D29558B00F2520D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		49B171F41D29565700F2520D /* account_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account_highlight@2x.png"; sourceTree = "<group>"; };
@@ -6554,6 +6567,7 @@
 				493A2E531D675F1C00DB5CD5 /* libOCMock.a in Frameworks */,
 				49B4E67E1D7D0213001C8E29 /* libopencore-amrnb.a in Frameworks */,
 				49B171F31D29558B00F2520D /* libz.tbd in Frameworks */,
+				5F60F40B3F08775E841E1638 /* libPods-PersonalImprovement.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -10095,6 +10109,20 @@
 				49A93F261D6BE92B009269BC /* ListNode.m */,
 			);
 			path = "链表";
+			sourceTree = "<group>";
+		};
+		49AD4BAB1D8946A5005BD306 /* NYTPhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				49AD4BB21D89474F005BD306 /* NYTMain.storyboard */,
+				49AD4BAC1D8946A5005BD306 /* NYTExamplePhoto.h */,
+				49AD4BAD1D8946A5005BD306 /* NYTExamplePhoto.m */,
+				49AD4BAE1D8946A5005BD306 /* NYTViewController.h */,
+				49AD4BAF1D8946A5005BD306 /* NYTViewController.m */,
+				49AD4BB41D8947EA005BD306 /* Assets.xcassets */,
+				49AD4BB51D8947EA005BD306 /* giphy.gif */,
+			);
+			path = NYTPhotoViewer;
 			sourceTree = "<group>";
 		};
 		49B172201D29567600F2520D /* XYDTabBarcontroller */ = {
@@ -13854,6 +13882,7 @@
 		49FC8C511D2BFB9A007454F7 /* SecondVCtrls */ = {
 			isa = PBXGroup;
 			children = (
+				49AD4BAB1D8946A5005BD306 /* NYTPhotoViewer */,
 				490147221D58D7940058E23B /* ZSSRichTextEditor */,
 				4917A4751D56DDAD00A55069 /* XLForm */,
 				4917A4111D56D9B400A55069 /* WYPopover */,
@@ -15604,6 +15633,7 @@
 				490147D91D58D7ED0058E23B /* ZSSorderedlist@2x.png in Resources */,
 				49B4E7761D7D0213001C8E29 /* 072[乒乓]@2x.png in Resources */,
 				49F7F30B1D44462D00663F4F /* InfoPlist.strings in Resources */,
+				49AD4BB31D89474F005BD306 /* NYTMain.storyboard in Resources */,
 				4929A3BC1D748B29000E8B1F /* redo.png in Resources */,
 				4929A3861D748B29000E8B1F /* hollyhock.png in Resources */,
 				49B4E78D1D7D0213001C8E29 /* 099[发抖]@2x.png in Resources */,
@@ -16004,6 +16034,7 @@
 				4901473E1D58D7940058E23B /* Icon@2x.png in Resources */,
 				4930ED8C1D28B2AE00606CD9 /* list_arrow_down@2x.png in Resources */,
 				4917A4551D56D9B400A55069 /* 1Star@2x.png in Resources */,
+				49AD4BB61D8947EA005BD306 /* Assets.xcassets in Resources */,
 				49B4E7CA1D7D0213001C8E29 /* 聊天语音-icon-取消@2x.png in Resources */,
 				49FBCDC91D33E8C500D4D091 /* FacebookStyleViewController.xib in Resources */,
 				49C7D7B21D65963300BC0926 /* MVP.storyboard in Resources */,
@@ -16323,6 +16354,7 @@
 				4930EDAA1D28B2AE00606CD9 /* list_txt@2x.png in Resources */,
 				4917A4DA1D56DDAD00A55069 /* XLFormWeekDaysCell.xib in Resources */,
 				49B4E7D51D7D0213001C8E29 /* 聊天键盘-icon-选择照片-点击@2x.png in Resources */,
+				49AD4BB71D8947EA005BD306 /* giphy.gif in Resources */,
 				490147EE1D58D7ED0058E23B /* ZSStextcolor.png in Resources */,
 				4917A4DD1D56DDAD00A55069 /* XLForm-Dates.gif in Resources */,
 				49DAA8441D742F5900F92C7E /* twitter_3.json in Resources */,
@@ -16736,6 +16768,7 @@
 				49FDEB4F1D68A68700D8D378 /* ASHCoreDataStack.m in Sources */,
 				49F7F30A1D44462D00663F4F /* SystemServiceDetailViewController.m in Sources */,
 				49FBCDAD1D33E37F00D4D091 /* BLKFlexibleHeightBarBehaviorDefiner.m in Sources */,
+				49AD4BB11D8946A5005BD306 /* NYTViewController.m in Sources */,
 				49B4E6691D7D0213001C8E29 /* GJGCVideoPlayerViewController.m in Sources */,
 				49B172431D29567600F2520D /* XYDTabBarButton.m in Sources */,
 				49B928661D3E7C7E00CCF80C /* EKTreeNode.m in Sources */,
@@ -17587,6 +17620,7 @@
 				4917A4E81D56DDAD00A55069 /* BasicPredicateViewController.m in Sources */,
 				49FDF2C21D69DFE100D8D378 /* HCDfactoryMultiply.m in Sources */,
 				49FBCD861D328C4400D4D091 /* UITextField+BFKit.m in Sources */,
+				49AD4BB01D8946A5005BD306 /* NYTExamplePhoto.m in Sources */,
 				4929A3C91D748B29000E8B1F /* Stroke.m in Sources */,
 				492574F71D3BE4F500C454D4 /* PresentingViewController.m in Sources */,
 				49FBCDB11D33E37F00D4D091 /* UIView+BLKFlexibleHeightBarSubview.m in Sources */,

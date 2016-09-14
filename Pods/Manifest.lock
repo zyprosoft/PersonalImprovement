@@ -72,6 +72,7 @@ PODS:
     - EARestrictedScrollView (~> 1.1.0)
   - EARestrictedScrollView (1.1.0)
   - FDStackView (1.0)
+  - FLAnimatedImage (1.0.12)
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
@@ -188,6 +189,13 @@ PODS:
     - DACircularProgress (~> 2.3)
     - MBProgressHUD (~> 0.9)
     - SDWebImage (!= 3.7.2, ~> 3.7)
+  - NYTPhotoViewer (1.2.0):
+    - NYTPhotoViewer/AnimatedGifSupport (= 1.2.0)
+    - NYTPhotoViewer/Core (= 1.2.0)
+  - NYTPhotoViewer/AnimatedGifSupport (1.2.0):
+    - FLAnimatedImage (~> 1.0.12)
+    - NYTPhotoViewer/Core
+  - NYTPhotoViewer/Core (1.2.0)
   - objectiveflickr (2.0.4)
   - Onboard (2.2.0)
   - pop (1.0.9)
@@ -288,6 +296,7 @@ DEPENDENCIES:
   - MMDrawerController
   - MRProgress
   - MTAnimation
+  - NYTPhotoViewer
   - objectiveflickr
   - Onboard
   - pop
@@ -352,6 +361,7 @@ SPEC CHECKSUMS:
   EAIntroView: 76f68cc56242f2e25359419e6ecc2344ee7e1756
   EARestrictedScrollView: b0c2a3f92fb2610bb44d71c5e4893777c89e45ef
   FDStackView: 3a4bbe0ce9c35e974246a585168b9da8c32213f1
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   FoldingTabBar: ff8d5dbb955b9b0d8280966e2a11dd71f854e155
   FTFontSelector: a5f0fc4dfb1606ad76da38570b0816c2e6c0d136
@@ -385,6 +395,7 @@ SPEC CHECKSUMS:
   MRProgress: 16de7cc9f347e8846797a770db102a323fe7ef09
   MTAnimation: 1079f4ff38c0282779ced010d7363a8f893fd3ee
   MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
+  NYTPhotoViewer: 323217e4590a1586eb3c9674b3fefb0fb8b57896
   objectiveflickr: aed169dae1eb5a5550ca78f7efd7ccde2e4c26e5
   Onboard: c46261255c0bcbe26ab2823782764c96fca7a33e
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
@@ -421,6 +432,6 @@ SPEC CHECKSUMS:
   YYKit: 843d1b26e20b82c695790c9a89907eaa1e99907f
   ZXingObjC: bf15b3814f7a105b6d99f47da2333c93a063650a
 
-PODFILE CHECKSUM: 56aa9bf03ee01c962db5c596ce306c0ad7b8493f
+PODFILE CHECKSUM: 88039e904a4292e83f17497b02021227fe2b56d4
 
 COCOAPODS: 1.0.1

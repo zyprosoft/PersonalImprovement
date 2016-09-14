@@ -50,6 +50,7 @@
     [self addCell:@"WYPopoverDemoSegue" class:@"dddd"];
     [self addCell:@"XLForm" class:@"dddd"];
     [self addCell:@"ZSSRichTextEditor" class:@"ZSSDemoList"];
+    [self addCell:@"NYTPhotoViewer" class:@"sdddd"];
 }
 
 
@@ -118,6 +119,10 @@
         [self.navigationController pushViewController:ctrl animated:YES];
         self.navigationController.navigationBar.translucent = NO;
         ctrl.view.backgroundColor = [UIColor whiteColor];
+    }else if ([cellTitle isEqualToString:@"NYTPhotoViewer"]){
+        UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"NYTMain" bundle:nil];
+        UIViewController *ctrl = [mainStoryBoard instantiateViewControllerWithIdentifier:@"NYTViewController"];
+        [self.navigationController pushViewController:ctrl animated:YES];
     }else {
         [self.navigationController pushViewController:ctrl animated:YES];
     }

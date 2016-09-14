@@ -1,6 +1,6 @@
 workspace 'PersonalImprovement.xcworkspace'
 
-platform:ios,'7.0'
+platform:ios,'8.0'
 
 def myPods
 
@@ -72,6 +72,7 @@ pod 'Mantle', '1.5.5'
 # ZYChat
 pod 'HyphenateFullSDK'
 pod 'VKVideoPlayer', '~> 0.1.1'
+pod 'NYTPhotoViewer'
 
 
 #    pod 'OldAFNetworking', '~> 2.3.0'

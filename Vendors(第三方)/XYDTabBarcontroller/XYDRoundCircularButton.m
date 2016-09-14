@@ -74,6 +74,7 @@
 #pragma mark - Event Response
 
 - (void)clickPublish {
+    self.selected = !self.selected;
     NSLog(@"点击按钮");
 }
 
