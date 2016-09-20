@@ -2,7 +2,7 @@
 //  LCCKConversationListService.m
 //  LeanCloudChatKit-iOS
 //
-//  v0.7.0 Created by ElonChan (微信向我报BUG:chenyilong1010) on 16/3/22.
+//  v0.7.15 Created by ElonChan (微信向我报BUG:chenyilong1010) on 16/3/22.
 //  Copyright © 2016年 LeanCloud. All rights reserved.
 //
 
@@ -60,7 +60,7 @@
                     (!userId || !conversation.lcck_lastMessage) ?: [userIds addObject:userId];
                 }
             }
-            if (conversation.muted == NO) {
+            if (conversation.muted == NO && conversation.lcck_unreadCount > 0) {
                 totalUnreadCount += conversation.lcck_unreadCount;
             }
         }

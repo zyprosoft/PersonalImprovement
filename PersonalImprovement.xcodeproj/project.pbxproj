@@ -15473,6 +15473,7 @@
 					4981A04A1C62EFEA009B0157 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 5V2QA55JDF;
+						LastSwiftMigration = 0800;
 					};
 					4981A0631C62EFEA009B0157 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -18541,6 +18542,7 @@
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "PersonalImprovement/ThirdVCtrls/KYCuteView/PersonalImprovement-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -18757,6 +18759,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "PersonalImprovement/ThirdVCtrls/KYCuteView/PersonalImprovement-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
