@@ -1722,6 +1722,7 @@
 		49EF66F71D92237E0081B975 /* RedPacketInputViewPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EF66E81D92237E0081B975 /* RedPacketInputViewPlugin.m */; };
 		49EF66F81D92237E0081B975 /* RedpacketMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EF66EA1D92237E0081B975 /* RedpacketMessageCell.m */; };
 		49EF66F91D92237E0081B975 /* RedpacketTakenMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EF66EC1D92237E0081B975 /* RedpacketTakenMessageCell.m */; };
+		49EF66FC1D9266A40081B975 /* LCChatKitExample+Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EF66FB1D9266A40081B975 /* LCChatKitExample+Setting.m */; };
 		49F493A61D557F890033C75C /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F4939D1D557F890033C75C /* check@2x.png */; };
 		49F493A71D557F890033C75C /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F4939E1D557F890033C75C /* clock@2x.png */; };
 		49F493A81D557F890033C75C /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F4939F1D557F890033C75C /* cross@2x.png */; };
@@ -5232,6 +5233,8 @@
 		49EF66EA1D92237E0081B975 /* RedpacketMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedpacketMessageCell.m; sourceTree = "<group>"; };
 		49EF66EB1D92237E0081B975 /* RedpacketTakenMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedpacketTakenMessageCell.h; sourceTree = "<group>"; };
 		49EF66EC1D92237E0081B975 /* RedpacketTakenMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedpacketTakenMessageCell.m; sourceTree = "<group>"; };
+		49EF66FA1D9266A40081B975 /* LCChatKitExample+Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LCChatKitExample+Setting.h"; sourceTree = "<group>"; };
+		49EF66FB1D9266A40081B975 /* LCChatKitExample+Setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LCChatKitExample+Setting.m"; sourceTree = "<group>"; };
 		49F4939D1D557F890033C75C /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
 		49F4939E1D557F890033C75C /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
 		49F4939F1D557F890033C75C /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
@@ -7054,6 +7057,8 @@
 				4912E3B21D766FD400914825 /* ChatKitVCtrl.m */,
 				4912E3941D766F9800914825 /* LCChatKitExample.h */,
 				4912E3951D766F9800914825 /* LCChatKitExample.m */,
+				49EF66FA1D9266A40081B975 /* LCChatKitExample+Setting.h */,
+				49EF66FB1D9266A40081B975 /* LCChatKitExample+Setting.m */,
 				4912E3961D766F9800914825 /* LCCKTabBarControllerConfig.h */,
 				4912E3971D766F9800914825 /* LCCKTabBarControllerConfig.m */,
 			);
@@ -15610,7 +15615,7 @@
 				TargetAttributes = {
 					4981A04A1C62EFEA009B0157 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 5V2QA55JDF;
+						DevelopmentTeam = H8J36KWCJF;
 						LastSwiftMigration = 0800;
 					};
 					4981A0631C62EFEA009B0157 = {
@@ -16809,6 +16814,7 @@
 				49FDF3211D69DFE100D8D378 /* HCDElements.m in Sources */,
 				4991E0121D538D0D0061FF84 /* SOLStateManager.m in Sources */,
 				49F965251D48F7D4007E4C21 /* MRMethodCopier.m in Sources */,
+				49EF66FC1D9266A40081B975 /* LCChatKitExample+Setting.m in Sources */,
 				4930EDE01D28B2AE00606CD9 /* LMComBoxView.m in Sources */,
 				49DAA8551D742F5900F92C7E /* WBStatusHelper.m in Sources */,
 				49015ECA1D449356005ECC93 /* JSQMessagesTypingView.m in Sources */,
@@ -18479,6 +18485,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = H8J36KWCJF;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -18704,6 +18711,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = H8J36KWCJF;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

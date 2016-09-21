@@ -55,11 +55,12 @@
     HALoginViewController *loginVC = [[HALoginViewController alloc]init];
     loginVC.title = @"iOS码农之家";
     
-    self.loginNav = [[UINavigationController alloc]initWithRootViewController:loginVC];
+    // self.loginNav = [[UINavigationController alloc]initWithRootViewController:loginVC];
     
-    UIImage *navigationBarBack = GJCFQuickImageByColorWithSize([GJGCCommonFontColorStyle mainThemeColor], CGSizeMake(GJCFSystemScreenWidth * GJCFScreenScale, 64.f * GJCFScreenScale));
-    [self.loginNav.navigationBar setBackgroundImage:navigationBarBack forBarMetrics:UIBarMetricsDefault];
-    [self.navigationController pushViewController:self.loginNav animated:YES];
+    // UIImage *navigationBarBack = GJCFQuickImageByColorWithSize([GJGCCommonFontColorStyle mainThemeColor], CGSizeMake(GJCFSystemScreenWidth * GJCFScreenScale, 64.f * GJCFScreenScale));
+    // [self.loginNav.navigationBar setBackgroundImage:navigationBarBack forBarMetrics:UIBarMetricsDefault];
+    // [self.navigationController pushViewController:self.loginNav animated:YES];
+    [self.navigationController pushViewController:loginVC animated:YES];
     
     //观察登录结果
     [GJCFNotificationCenter addObserver:self selector:@selector(observeLoginStatus:) name:ZYUserCenterLoginEaseMobSuccessNoti object:nil];

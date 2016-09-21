@@ -200,7 +200,9 @@
      setViewWillDisappearBlock:^(LCCKBaseViewController *viewController, BOOL aAnimated) {
          [self lcck_hideHUDForView:viewController.view];
      }];
-    [self lcck_pushToViewController:conversationViewController];
+    
+    [navigationControlle pushViewController:conversationViewController animated:YES];
+    // [self lcck_pushToViewController:conversationViewController];
 }
 
 + (void)exampleOpenConversationViewControllerWithConversaionId:(NSString *)conversationId
