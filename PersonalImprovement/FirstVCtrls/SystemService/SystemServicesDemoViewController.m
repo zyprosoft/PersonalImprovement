@@ -83,7 +83,7 @@
     NSString *Currency = [NSString stringWithFormat:@"Currency: %@", [SystemSharedServices currency]];
     NSString *ApplicationVersion = [NSString stringWithFormat:@"Application Version: %@", [SystemSharedServices applicationVersion]];
     NSString *ClipboardContent = [NSString stringWithFormat:@"ClipBoard Content: \"%@\"", [SystemSharedServices clipboardContent]];
-    NSString *UniqueID = [NSString stringWithFormat:@"Unique ID: %@", [SystemSharedServices uniqueID]];
+    NSString *UniqueID = [NSString stringWithFormat:@"Unique ID: %@", [(SystemServices *)[SystemServices sharedServices] uniqueID]];
     NSString *DeviceSignature = [NSString stringWithFormat:@"Device Signature: %@", [SystemSharedServices deviceSignature]];
     NSString *CFUUID = [NSString stringWithFormat:@"CFUUID: %@", [SystemSharedServices cfuuid]];
     

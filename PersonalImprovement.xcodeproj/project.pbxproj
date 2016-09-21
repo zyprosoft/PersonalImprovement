@@ -1709,6 +1709,19 @@
 		49DAA8881D742F5900F92C7E /* YYTextUndoRedoExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DAA82B1D742F5900F92C7E /* YYTextUndoRedoExample.m */; };
 		49DAA8891D742F5900F92C7E /* YYKeychainExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DAA82E1D742F5900F92C7E /* YYKeychainExample.m */; };
 		49DAA88A1D742F5900F92C7E /* YYUtilityExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DAA8301D742F5900F92C7E /* YYUtilityExample.m */; };
+		49EF66ED1D92237E0081B975 /* AVIMTypedMessageRedPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EF66CC1D92237D0081B975 /* AVIMTypedMessageRedPacket.m */; };
+		49EF66EE1D92237E0081B975 /* AVIMTypedMessageRedPacketTaken.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EF66CE1D92237D0081B975 /* AVIMTypedMessageRedPacketTaken.m */; };
+		49EF66EF1D92237E0081B975 /* RedpacketCellResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 49EF66D01D92237D0081B975 /* RedpacketCellResource.bundle */; };
+		49EF66F01D92237E0081B975 /* AppDelegate+RedPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EF66D31D92237D0081B975 /* AppDelegate+RedPacket.m */; };
+		49EF66F11D92237E0081B975 /* RedpacketConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EF66D51D92237D0081B975 /* RedpacketConfig.m */; };
+		49EF66F21D92237E0081B975 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 49EF66D81D92237D0081B975 /* AlipaySDK.bundle */; };
+		49EF66F31D92237E0081B975 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EF66D91D92237D0081B975 /* AlipaySDK.framework */; };
+		49EF66F41D92237E0081B975 /* libRedpacketLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EF66DB1D92237D0081B975 /* libRedpacketLib.a */; };
+		49EF66F51D92237E0081B975 /* RedPacketResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 49EF66E11D92237D0081B975 /* RedPacketResource.bundle */; };
+		49EF66F61D92237E0081B975 /* RedPacketChangeInputViewPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EF66E61D92237E0081B975 /* RedPacketChangeInputViewPlugin.m */; };
+		49EF66F71D92237E0081B975 /* RedPacketInputViewPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EF66E81D92237E0081B975 /* RedPacketInputViewPlugin.m */; };
+		49EF66F81D92237E0081B975 /* RedpacketMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EF66EA1D92237E0081B975 /* RedpacketMessageCell.m */; };
+		49EF66F91D92237E0081B975 /* RedpacketTakenMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EF66EC1D92237E0081B975 /* RedpacketTakenMessageCell.m */; };
 		49F493A61D557F890033C75C /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F4939D1D557F890033C75C /* check@2x.png */; };
 		49F493A71D557F890033C75C /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F4939E1D557F890033C75C /* clock@2x.png */; };
 		49F493A81D557F890033C75C /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F4939F1D557F890033C75C /* cross@2x.png */; };
@@ -1955,7 +1968,6 @@
 		49FB9C9D1D44CB1A0047FAA4 /* MenuLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FB9C991D44CB1A0047FAA4 /* MenuLayer.m */; };
 		49FB9C9E1D44CB1A0047FAA4 /* KYSpringLayerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FB9C9B1D44CB1A0047FAA4 /* KYSpringLayerAnimation.m */; };
 		49FB9CA01D44CC610047FAA4 /* KYCuteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49FB9C9F1D44CC610047FAA4 /* KYCuteViewController.xib */; };
-		49FB9CA41D44CE010047FAA4 /* UIViewWSBoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FB9CA21D44CE010047FAA4 /* UIViewWSBoom.swift */; };
 		49FB9CA81D4501020047FAA4 /* INTUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FB9CA71D4501020047FAA4 /* INTUViewController.m */; };
 		49FB9CAA1D45010D0047FAA4 /* INTUViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49FB9CA91D45010D0047FAA4 /* INTUViewController.xib */; };
 		49FB9CE81D46465D0047FAA4 /* M13ProgressSuite.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FB9CD51D46465D0047FAA4 /* M13ProgressSuite.storyboard */; };
@@ -5193,6 +5205,33 @@
 		49DAA82F1D742F5900F92C7E /* YYUtilityExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYUtilityExample.h; sourceTree = "<group>"; };
 		49DAA8301D742F5900F92C7E /* YYUtilityExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYUtilityExample.m; sourceTree = "<group>"; };
 		49DAA88E1D7436D200F92C7E /* bpg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = bpg.framework; path = Pods/YYKit/Vendor/bpg.framework; sourceTree = "<group>"; };
+		49EF66CB1D92237D0081B975 /* AVIMTypedMessageRedPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVIMTypedMessageRedPacket.h; sourceTree = "<group>"; };
+		49EF66CC1D92237D0081B975 /* AVIMTypedMessageRedPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVIMTypedMessageRedPacket.m; sourceTree = "<group>"; };
+		49EF66CD1D92237D0081B975 /* AVIMTypedMessageRedPacketTaken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVIMTypedMessageRedPacketTaken.h; sourceTree = "<group>"; };
+		49EF66CE1D92237D0081B975 /* AVIMTypedMessageRedPacketTaken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVIMTypedMessageRedPacketTaken.m; sourceTree = "<group>"; };
+		49EF66D01D92237D0081B975 /* RedpacketCellResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RedpacketCellResource.bundle; sourceTree = "<group>"; };
+		49EF66D21D92237D0081B975 /* AppDelegate+RedPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+RedPacket.h"; sourceTree = "<group>"; };
+		49EF66D31D92237D0081B975 /* AppDelegate+RedPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+RedPacket.m"; sourceTree = "<group>"; };
+		49EF66D41D92237D0081B975 /* RedpacketConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedpacketConfig.h; sourceTree = "<group>"; };
+		49EF66D51D92237D0081B975 /* RedpacketConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedpacketConfig.m; sourceTree = "<group>"; };
+		49EF66D81D92237D0081B975 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		49EF66D91D92237D0081B975 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		49EF66DB1D92237D0081B975 /* libRedpacketLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRedpacketLib.a; sourceTree = "<group>"; };
+		49EF66DC1D92237D0081B975 /* RedpacketErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedpacketErrorCode.h; sourceTree = "<group>"; };
+		49EF66DD1D92237D0081B975 /* RedpacketMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedpacketMessageModel.h; sourceTree = "<group>"; };
+		49EF66DE1D92237D0081B975 /* RedpacketOpenConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedpacketOpenConst.h; sourceTree = "<group>"; };
+		49EF66DF1D92237D0081B975 /* RedpacketViewControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedpacketViewControl.h; sourceTree = "<group>"; };
+		49EF66E11D92237D0081B975 /* RedPacketResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RedPacketResource.bundle; sourceTree = "<group>"; };
+		49EF66E21D92237D0081B975 /* YZHRedpacketBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZHRedpacketBridge.h; sourceTree = "<group>"; };
+		49EF66E31D92237D0081B975 /* YZHRedpacketBridgeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZHRedpacketBridgeProtocol.h; sourceTree = "<group>"; };
+		49EF66E51D92237E0081B975 /* RedPacketChangeInputViewPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPacketChangeInputViewPlugin.h; sourceTree = "<group>"; };
+		49EF66E61D92237E0081B975 /* RedPacketChangeInputViewPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPacketChangeInputViewPlugin.m; sourceTree = "<group>"; };
+		49EF66E71D92237E0081B975 /* RedPacketInputViewPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPacketInputViewPlugin.h; sourceTree = "<group>"; };
+		49EF66E81D92237E0081B975 /* RedPacketInputViewPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPacketInputViewPlugin.m; sourceTree = "<group>"; };
+		49EF66E91D92237E0081B975 /* RedpacketMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedpacketMessageCell.h; sourceTree = "<group>"; };
+		49EF66EA1D92237E0081B975 /* RedpacketMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedpacketMessageCell.m; sourceTree = "<group>"; };
+		49EF66EB1D92237E0081B975 /* RedpacketTakenMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedpacketTakenMessageCell.h; sourceTree = "<group>"; };
+		49EF66EC1D92237E0081B975 /* RedpacketTakenMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedpacketTakenMessageCell.m; sourceTree = "<group>"; };
 		49F4939D1D557F890033C75C /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
 		49F4939E1D557F890033C75C /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
 		49F4939F1D557F890033C75C /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
@@ -5586,7 +5625,6 @@
 		49FB9C9B1D44CB1A0047FAA4 /* KYSpringLayerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYSpringLayerAnimation.m; sourceTree = "<group>"; };
 		49FB9C9F1D44CC610047FAA4 /* KYCuteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYCuteViewController.xib; sourceTree = "<group>"; };
 		49FB9CA11D44CE000047FAA4 /* PersonalImprovement-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PersonalImprovement-Bridging-Header.h"; sourceTree = "<group>"; };
-		49FB9CA21D44CE010047FAA4 /* UIViewWSBoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewWSBoom.swift; sourceTree = "<group>"; };
 		49FB9CA61D4501020047FAA4 /* INTUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTUViewController.h; sourceTree = "<group>"; };
 		49FB9CA71D4501020047FAA4 /* INTUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTUViewController.m; sourceTree = "<group>"; };
 		49FB9CA91D45010D0047FAA4 /* INTUViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = INTUViewController.xib; sourceTree = "<group>"; };
@@ -6554,9 +6592,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				49415D901D7E6EA700E6675C /* libiconv.tbd in Frameworks */,
+				49EF66F31D92237E0081B975 /* AlipaySDK.framework in Frameworks */,
 				49C9F6DB1D7587DD00A113DA /* libPods-PersonalImprovement.a in Frameworks */,
 				49B4E67F1D7D0213001C8E29 /* libopencore-amrwb.a in Frameworks */,
 				49415D631D7D714A00E6675C /* bpg.framework in Frameworks */,
+				49EF66F41D92237E0081B975 /* libRedpacketLib.a in Frameworks */,
 				49DAA79C1D74291700F92C7E /* WebP.framework in Frameworks */,
 				493A2E531D675F1C00DB5CD5 /* libOCMock.a in Frameworks */,
 				49B4E67E1D7D0213001C8E29 /* libopencore-amrnb.a in Frameworks */,
@@ -7000,7 +7040,6 @@
 				49015ECD1D44B65F005ECC93 /* KYCuteViewController.h */,
 				49015ECE1D44B65F005ECC93 /* KYCuteViewController.m */,
 				49FB9C9F1D44CC610047FAA4 /* KYCuteViewController.xib */,
-				49FB9CA21D44CE010047FAA4 /* UIViewWSBoom.swift */,
 				49FB9CA11D44CE000047FAA4 /* PersonalImprovement-Bridging-Header.h */,
 			);
 			path = KYCuteView;
@@ -7043,6 +7082,7 @@
 		4912E35B1D766F9800914825 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				49EF66C91D92237D0081B975 /* Redpacket */,
 				4912E35C1D766F9800914825 /* Customize */,
 				4912E36F1D766F9800914825 /* Login */,
 				4912E37B1D766F9800914825 /* Main */,
@@ -12626,6 +12666,104 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
+		49EF66C91D92237D0081B975 /* Redpacket */ = {
+			isa = PBXGroup;
+			children = (
+				49EF66CA1D92237D0081B975 /* Model */,
+				49EF66CF1D92237D0081B975 /* Resources */,
+				49EF66D11D92237D0081B975 /* Tool */,
+				49EF66D61D92237D0081B975 /* Vendor */,
+				49EF66E41D92237D0081B975 /* View */,
+			);
+			path = Redpacket;
+			sourceTree = "<group>";
+		};
+		49EF66CA1D92237D0081B975 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49EF66CB1D92237D0081B975 /* AVIMTypedMessageRedPacket.h */,
+				49EF66CC1D92237D0081B975 /* AVIMTypedMessageRedPacket.m */,
+				49EF66CD1D92237D0081B975 /* AVIMTypedMessageRedPacketTaken.h */,
+				49EF66CE1D92237D0081B975 /* AVIMTypedMessageRedPacketTaken.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49EF66CF1D92237D0081B975 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49EF66D01D92237D0081B975 /* RedpacketCellResource.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		49EF66D11D92237D0081B975 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				49EF66D21D92237D0081B975 /* AppDelegate+RedPacket.h */,
+				49EF66D31D92237D0081B975 /* AppDelegate+RedPacket.m */,
+				49EF66D41D92237D0081B975 /* RedpacketConfig.h */,
+				49EF66D51D92237D0081B975 /* RedpacketConfig.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		49EF66D61D92237D0081B975 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				49EF66D71D92237D0081B975 /* RedpacketStaticLib */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		49EF66D71D92237D0081B975 /* RedpacketStaticLib */ = {
+			isa = PBXGroup;
+			children = (
+				49EF66D81D92237D0081B975 /* AlipaySDK.bundle */,
+				49EF66D91D92237D0081B975 /* AlipaySDK.framework */,
+				49EF66DA1D92237D0081B975 /* lib */,
+				49EF66DC1D92237D0081B975 /* RedpacketErrorCode.h */,
+				49EF66DD1D92237D0081B975 /* RedpacketMessageModel.h */,
+				49EF66DE1D92237D0081B975 /* RedpacketOpenConst.h */,
+				49EF66DF1D92237D0081B975 /* RedpacketViewControl.h */,
+				49EF66E01D92237D0081B975 /* resources */,
+				49EF66E21D92237D0081B975 /* YZHRedpacketBridge.h */,
+				49EF66E31D92237D0081B975 /* YZHRedpacketBridgeProtocol.h */,
+			);
+			path = RedpacketStaticLib;
+			sourceTree = "<group>";
+		};
+		49EF66DA1D92237D0081B975 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				49EF66DB1D92237D0081B975 /* libRedpacketLib.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		49EF66E01D92237D0081B975 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				49EF66E11D92237D0081B975 /* RedPacketResource.bundle */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		49EF66E41D92237D0081B975 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49EF66E51D92237E0081B975 /* RedPacketChangeInputViewPlugin.h */,
+				49EF66E61D92237E0081B975 /* RedPacketChangeInputViewPlugin.m */,
+				49EF66E71D92237E0081B975 /* RedPacketInputViewPlugin.h */,
+				49EF66E81D92237E0081B975 /* RedPacketInputViewPlugin.m */,
+				49EF66E91D92237E0081B975 /* RedpacketMessageCell.h */,
+				49EF66EA1D92237E0081B975 /* RedpacketMessageCell.m */,
+				49EF66EB1D92237E0081B975 /* RedpacketTakenMessageCell.h */,
+				49EF66EC1D92237E0081B975 /* RedpacketTakenMessageCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		49F4939C1D557F890033C75C /* SWTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -15576,6 +15714,7 @@
 				4912E39F1D766F9800914825 /* LCCKVCardView.xib in Resources */,
 				49B4E6011D7D0213001C8E29 /* owl-login-arm-right@2x.png in Resources */,
 				49B4E7BD1D7D0213001C8E29 /* 逃跑@2x.png in Resources */,
+				49EF66EF1D92237E0081B975 /* RedpacketCellResource.bundle in Resources */,
 				49FB9CA01D44CC610047FAA4 /* KYCuteViewController.xib in Resources */,
 				49F545681D4E332B00938724 /* headphones.png in Resources */,
 				49FBCDC21D33E44500D4D091 /* square-cash-icon.png in Resources */,
@@ -15929,6 +16068,7 @@
 				4901473C1D58D7940058E23B /* 76.png in Resources */,
 				49F493A91D557F890033C75C /* list@2x.png in Resources */,
 				49FCE8821D3FC71A00ED6A90 /* Assets.xcassets in Resources */,
+				49EF66F51D92237E0081B975 /* RedPacketResource.bundle in Resources */,
 				49B171FF1D29565700F2520D /* account_highlight@2x.png in Resources */,
 				49B4E7F01D7D0213001C8E29 /* player_btn_pause_normal@2x.png in Resources */,
 				490147E51D58D7ED0058E23B /* ZSSrightjustify@2x.png in Resources */,
@@ -16390,6 +16530,7 @@
 				49B4E7861D7D0213001C8E29 /* 092[菜刀]@2x.png in Resources */,
 				4917A4681D56D9B400A55069 /* Gestures.png in Resources */,
 				49A0A3741D66AE2400633FFA /* Images.xcassets in Resources */,
+				49EF66F21D92237E0081B975 /* AlipaySDK.bundle in Resources */,
 				4930EDB61D28B2AE00606CD9 /* nav_menu@2x.png in Resources */,
 				490147D51D58D7ED0058E23B /* ZSSleftjustify@2x.png in Resources */,
 				4917A4641D56D9B400A55069 /* 5Stars.png in Resources */,
@@ -16755,6 +16896,7 @@
 				49B4E6691D7D0213001C8E29 /* GJGCVideoPlayerViewController.m in Sources */,
 				49B172431D29567600F2520D /* XYDTabBarButton.m in Sources */,
 				49B928661D3E7C7E00CCF80C /* EKTreeNode.m in Sources */,
+				49EF66F91D92237E0081B975 /* RedpacketTakenMessageCell.m in Sources */,
 				49FDF2E31D69DFE100D8D378 /* HCDForwards.m in Sources */,
 				49A93F2C1D6BE92B009269BC /* HeapSort.m in Sources */,
 				4929A3AA1D748B29000E8B1F /* CoordinatingController.m in Sources */,
@@ -16779,6 +16921,7 @@
 				49A93F2F1D6BE92B009269BC /* QuickSort.m in Sources */,
 				4929A3CA1D748B29000E8B1F /* ThumbnailViewController.m in Sources */,
 				49B4E6421D7D0213001C8E29 /* GJGCChatSystemPostNotiCell.m in Sources */,
+				49EF66F61D92237E0081B975 /* RedPacketChangeInputViewPlugin.m in Sources */,
 				49F7F2CF1D443D2D00663F4F /* JKRootViewController.m in Sources */,
 				49FDF31C1D69DFE100D8D378 /* InterpreterVCtrl2.m in Sources */,
 				49F965161D48EBE0007E4C21 /* NSInvocation+Copy.m in Sources */,
@@ -17047,6 +17190,7 @@
 				49B4E8081D7D0213001C8E29 /* ZYDataCenterRequestCondition.m in Sources */,
 				49FDF2D11D69DFE100D8D378 /* HCDAccessDepartment.m in Sources */,
 				49F964A41D48E026007E4C21 /* MMDrawerDemoVCtrl.m in Sources */,
+				49EF66F01D92237E0081B975 /* AppDelegate+RedPacket.m in Sources */,
 				49F965151D48EBE0007E4C21 /* MZAppearance.m in Sources */,
 				49B928551D3E7C7E00CCF80C /* EKAVLTreeNode.m in Sources */,
 				49F964CB1D48E256007E4C21 /* MRStopButtonMinHitAreaViewController.m in Sources */,
@@ -17076,6 +17220,7 @@
 				49FC8C921D2D59B0007454F7 /* ThirdViewController.m in Sources */,
 				4917A4DF1D56DDAD00A55069 /* InputsFormViewController.m in Sources */,
 				49FDF1601D69544300D8D378 /* MementoModel.m in Sources */,
+				49EF66F71D92237E0081B975 /* RedPacketInputViewPlugin.m in Sources */,
 				4929A3A61D748B29000E8B1F /* ClothCanvasViewGenerator.m in Sources */,
 				49B4E62E1D7D0213001C8E29 /* GJGCChatFriendMiniMessageCell.m in Sources */,
 				49FF26CF1D3D1FF400F01228 /* EAIntroViewController.m in Sources */,
@@ -17141,6 +17286,7 @@
 				49FDEF231D6951B000D8D378 /* BridgePatternVCtrl1.m in Sources */,
 				49B4E6DD1D7D0213001C8E29 /* NSString+Json.m in Sources */,
 				4966F2F11D6D8331001E16BD /* CTCommonParamsGenerator.m in Sources */,
+				49EF66EE1D92237E0081B975 /* AVIMTypedMessageRedPacketTaken.m in Sources */,
 				49FDF2B31D69DFE100D8D378 /* HCDnokiaPhone.m in Sources */,
 				49F7F3201D44462D00663F4F /* SystemServicesDemoMemoryViewController.m in Sources */,
 				49FDF30B1D69DFE100D8D378 /* HCDMnager.m in Sources */,
@@ -17764,7 +17910,6 @@
 				491532AA1D4A34480006E1AE /* CodeSnipptesVCtrl.m in Sources */,
 				49FCE9071D411FDF00ED6A90 /* AddressFormatterViewController.m in Sources */,
 				49B4E8241D7D0213001C8E29 /* GJGCCreateGroupContentModel.m in Sources */,
-				49FB9CA41D44CE010047FAA4 /* UIViewWSBoom.swift in Sources */,
 				49F964301D47900B007E4C21 /* MarqueeLabelDemoViewController.m in Sources */,
 				49FDEB561D68A68700D8D378 /* ASHMasterViewController.m in Sources */,
 				49FCE8EF1D411F6C00ED6A90 /* TTTURLRequestFormatter.m in Sources */,
@@ -18021,7 +18166,9 @@
 				490147471D58D7940058E23B /* ZSSPlaceholderViewController.m in Sources */,
 				49FDF2DC1D69DFE100D8D378 /* HCDForenoonState.m in Sources */,
 				49B4E6AA1D7D0213001C8E29 /* GJCFAudioPlayer.m in Sources */,
+				49EF66ED1D92237E0081B975 /* AVIMTypedMessageRedPacket.m in Sources */,
 				49FDF2DE1D69DFE100D8D378 /* HCDRestState.m in Sources */,
+				49EF66F81D92237E0081B975 /* RedpacketMessageCell.m in Sources */,
 				4972E8461D669DEE005B4315 /* VTDListViewController.m in Sources */,
 				4929A3671D748B29000E8B1F /* MetalArmor.m in Sources */,
 				49F7F34D1D44468100663F4F /* SSJailbreakCheck.m in Sources */,
@@ -18039,6 +18186,7 @@
 				4917A4501D56D9B400A55069 /* WYAnotherViewController.m in Sources */,
 				49FBCD8D1D328C4400D4D091 /* BFButton.m in Sources */,
 				49FDEF251D6951B000D8D378 /* SuperBike.m in Sources */,
+				49EF66F11D92237E0081B975 /* RedpacketConfig.m in Sources */,
 				4966F2FB1D6D8331001E16BD /* TestAPIManager.m in Sources */,
 				49B4E7EA1D7D0213001C8E29 /* GJGCMusicSearchResultListDataManager.m in Sources */,
 				4929A3681D748B29000E8B1F /* SwordAttack.m in Sources */,
@@ -18336,6 +18484,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/PersonalImprovement/FourthVCtrls/YYKit/Resources\"",
 					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/YYKit/Resources",
+					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/ChatKit/Class/Module/Redpacket/Vendor/RedpacketStaticLib",
 				);
 				GCC_PREFIX_HEADER = "/Users/xiongyoudou/Desktop/Github/PersonalImprovement/Other(其他)/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (
@@ -18366,6 +18515,7 @@
 					"$(PROJECT_DIR)/OCMock",
 					"$(inherited)",
 					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/ZYChat/Dependcy/AudioCoder",
+					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/ChatKit/Class/Module/Redpacket/Vendor/RedpacketStaticLib/lib",
 				);
 				"LIBRARY_SEARCH_PATHS[arch=*]" = (
 					"$(PROJECT_DIR)/OCMock",
@@ -18559,6 +18709,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/PersonalImprovement/FourthVCtrls/YYKit/Resources\"",
 					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/YYKit/Resources",
+					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/ChatKit/Class/Module/Redpacket/Vendor/RedpacketStaticLib",
 				);
 				GCC_PREFIX_HEADER = "/Users/xiongyoudou/Desktop/Github/PersonalImprovement/Other(其他)/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (
@@ -18589,6 +18740,7 @@
 					"$(PROJECT_DIR)/OCMock",
 					"$(inherited)",
 					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/ZYChat/Dependcy/AudioCoder",
+					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/ChatKit/Class/Module/Redpacket/Vendor/RedpacketStaticLib/lib",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",

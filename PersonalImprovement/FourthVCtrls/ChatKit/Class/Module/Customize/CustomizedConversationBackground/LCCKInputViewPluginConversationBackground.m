@@ -2,7 +2,7 @@
 //  LCCKInputViewPluginPickImage.m
 //  Pods
 //
-//  v0.7.0 Created by ElonChan (微信向我报BUG:chenyilong1010) on 16/8/11.
+//  v0.7.15 Created by ElonChan (微信向我报BUG:chenyilong1010) on 16/8/11.
 //
 //
 
@@ -69,7 +69,7 @@
         if (object) {
             UIImage *image = (UIImage *)object;
             //            [self.conversationViewController sendImageMessage:image];
-            [[LCChatKit sharedInstance] setCurrentConversationBackgroundImage:image scaledToSize:self.conversationViewController.view.frame.size];
+            [[LCChatKit sharedInstance] setBackgroundImage:image forConversationId:self.conversationViewController.conversationId scaledToSize:self.conversationViewController.view.frame.size];
         } else {
             LCCKLog(@"%@", error.description);
         }
