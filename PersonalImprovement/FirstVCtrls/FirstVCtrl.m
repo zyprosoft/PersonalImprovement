@@ -43,7 +43,7 @@
     [self addCell:@"CodeSnippets代码片段" class:@"CodeSnipptesVCtrl"];
     [self addCell:@"TapkuLibrary" class:@"TapkuRootViewController"];
     [self addCell:@"设计模式" class:@"StructureAndPatternVCtrl"];
-    [self addCell:@"CFNetworking网络层架构" class:@"ddd"];
+    [self addCell:@"CTNetworking网络层架构" class:@"ddd"];
     [self addCell:@"蓝牙第三方库BabyBluetooth" class:@"ddd"];
 }
 
