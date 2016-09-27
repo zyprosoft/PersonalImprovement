@@ -9,7 +9,6 @@
 #import "TestCoreDataVCtrl.h"
 #import "TableVDatasource.h"
 #import "PersistentStack.h"
-#import "Store.h"
 #import "Item.h"
 
 static NSString* const selectItemSegue = @"selectItem";
