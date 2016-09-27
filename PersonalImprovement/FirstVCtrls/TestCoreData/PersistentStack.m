@@ -32,24 +32,25 @@
 
 - (void)setupManagedObjectContext
 {
+    // 1、生成objectModel
+    NSManagedObjectModel *model = [[NSManagedObjectModel alloc] initWithContentsOfURL:self.modelURL];
+    
     // 2、传入模型对象，初始化NSPersistentStoreCoordinator
-    NSPersistentStoreCoordinator *coordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:self.managedObjectModel];
+    NSPersistentStoreCoordinator *coordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:model];
     
     // 3、初始化上下文，设置persistentStoreCoordinator属性
     self.managedObjectContext = [[NSManagedObjectContext alloc] initWithConcurrencyType:NSMainQueueConcurrencyType];
     self.managedObjectContext.persistentStoreCoordinator = coordinator;
+    
+    // 4、设置存储类型
     NSError* error;
     [self.managedObjectContext.persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:self.storeURL options:nil error:&error];
     if (error) {
         NSLog(@"error: %@", error);
     }
+    
+    
     self.managedObjectContext.undoManager = [[NSUndoManager alloc] init];
-}
-
-- (NSManagedObjectModel*)managedObjectModel
-{
-    // 1、 从应用程序包中加载模型文件
-    return [[NSManagedObjectModel alloc] initWithContentsOfURL:self.modelURL];
 }
 
 @end

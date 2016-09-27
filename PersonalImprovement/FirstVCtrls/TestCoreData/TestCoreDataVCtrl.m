@@ -29,7 +29,13 @@ static NSString* const selectItemSegue = @"selectItem";
     [super viewDidLoad];
     [UIApplication sharedApplication].applicationSupportsShakeToEdit = YES;
     if (self.navigationController.viewControllers.count == 2) {
-        self.stack = [[PersistentStack alloc] initWithStoreURL:self.storeURL modelURL:self.modelURL];
+        // 只在第二层才进入，只初始化一次
+         NSURL* documentsDirectory = [[NSFileManager defaultManager] URLForDirectory:NSDocumentDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:YES error:NULL];
+        NSURL *storeUrl = [documentsDirectory URLByAppendingPathComponent:@"db.sqlite"];
+        
+        NSURL *modelUrl = [[NSBundle mainBundle] URLForResource:@"TestCoreData" withExtension:@"momd"];
+        
+        self.stack = [[PersistentStack alloc] initWithStoreURL:storeUrl modelURL:modelUrl];
         self.parent = [self rootItem];
     }
     
@@ -49,17 +55,6 @@ static NSString* const selectItemSegue = @"selectItem";
         rootItem = [Item insertItemWithTitle:nil parent:nil inManagedObjectContext:self.managedObjectContext];
     }
     return rootItem;
-}
-
-- (NSURL*)storeURL
-{
-    NSURL* documentsDirectory = [[NSFileManager defaultManager] URLForDirectory:NSDocumentDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:YES error:NULL];
-    return [documentsDirectory URLByAppendingPathComponent:@"db.sqlite"];
-}
-
-- (NSURL*)modelURL
-{
-    return [[NSBundle mainBundle] URLForResource:@"TestCoreData" withExtension:@"momd"];
 }
 
 - (void)viewWillAppear:(BOOL)animated

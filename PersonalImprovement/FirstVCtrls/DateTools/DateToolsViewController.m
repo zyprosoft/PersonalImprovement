@@ -114,6 +114,8 @@
 }
 
 - (IBAction)sliderValueDidChange:(UISlider *)sender {
+    
+    // XIB中定义了slider的value的值为-50,000,000 - 15,000,000,000
     self.selectedDate = [NSDate dateWithTimeIntervalSinceNow:sender.value];
     
     //Update UI
