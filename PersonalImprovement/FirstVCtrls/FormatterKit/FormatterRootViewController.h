@@ -22,5 +22,7 @@
 
 #import <UIKit/UIKit.h>
 
+
+// 一个NSString的格式化工具，支持时间、颜色、地址、名字等等
 @interface FormatterRootViewController : UITableViewController
 @end

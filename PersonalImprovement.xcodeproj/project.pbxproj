@@ -1816,7 +1816,6 @@
 		49F7F2BC1D43634200663F4F /* 4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F7F2AA1D43634200663F4F /* 4@2x.png */; };
 		49F7F2BD1D43634200663F4F /* HMSegmentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7F2AC1D43634200663F4F /* HMSegmentedViewController.m */; };
 		49F7F2C11D43636E00663F4F /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7F2C01D43636E00663F4F /* HMSegmentedControl.m */; };
-		49F7F2CE1D443D2D00663F4F /* JKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7F2CA1D443D2D00663F4F /* JKBaseViewController.m */; };
 		49F7F2CF1D443D2D00663F4F /* JKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7F2CC1D443D2D00663F4F /* JKRootViewController.m */; };
 		49F7F2D01D443D2D00663F4F /* JKRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F7F2CD1D443D2D00663F4F /* JKRootViewController.xib */; };
 		49F7F2D41D443F9E00663F4F /* UIView+XYDFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7F2D31D443F9E00663F4F /* UIView+XYDFrame.m */; };
@@ -5359,8 +5358,6 @@
 		49F7F2AC1D43634200663F4F /* HMSegmentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedViewController.m; sourceTree = "<group>"; };
 		49F7F2BF1D43636E00663F4F /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
 		49F7F2C01D43636E00663F4F /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
-		49F7F2C91D443D2D00663F4F /* JKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKBaseViewController.h; sourceTree = "<group>"; };
-		49F7F2CA1D443D2D00663F4F /* JKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKBaseViewController.m; sourceTree = "<group>"; };
 		49F7F2CB1D443D2D00663F4F /* JKRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRootViewController.h; sourceTree = "<group>"; };
 		49F7F2CC1D443D2D00663F4F /* JKRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRootViewController.m; sourceTree = "<group>"; };
 		49F7F2CD1D443D2D00663F4F /* JKRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKRootViewController.xib; sourceTree = "<group>"; };
@@ -7254,6 +7251,8 @@
 		4917A3C11D562DEF00A55069 /* TapkuLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				4917A3DC1D562DEF00A55069 /* TapkuRootViewController.h */,
+				4917A3DD1D562DEF00A55069 /* TapkuRootViewController.m */,
 				4917A3C21D562DEF00A55069 /* TapkuAlertsViewController.h */,
 				4917A3C31D562DEF00A55069 /* TapkuAlertsViewController.m */,
 				4917A3C61D562DEF00A55069 /* TapkuButtonViewController.h */,
@@ -7278,8 +7277,6 @@
 				4917A3D91D562DEF00A55069 /* TapkuMoreCellsViewController.m */,
 				4917A3DA1D562DEF00A55069 /* TapkuNetworkRequestProgressViewController.h */,
 				4917A3DB1D562DEF00A55069 /* TapkuNetworkRequestProgressViewController.m */,
-				4917A3DC1D562DEF00A55069 /* TapkuRootViewController.h */,
-				4917A3DD1D562DEF00A55069 /* TapkuRootViewController.m */,
 			);
 			path = TapkuLibrary;
 			sourceTree = "<group>";
@@ -10185,13 +10182,13 @@
 		49B353A41D63F0AD00FB1673 /* 设计模式 */ = {
 			isa = PBXGroup;
 			children = (
-				4929A2331D748B28000E8B1F /* Objective-C编程之道书籍Demo */,
-				49FDEB641D694ECF00D8D378 /* Design Pattern */,
-				49428C8A1D64957400C87FCD /* MVC&MVVM&MVP&VIPER */,
-				497B85591D6B380200AF3DEF /* MVVM与ReactiveCocoa */,
 				49534C081D63FB9A0077BDF1 /* StructureAndPatternVCtrl.h */,
 				49534C091D63FB9A0077BDF1 /* StructureAndPatternVCtrl.m */,
 				49534C0A1D63FB9A0077BDF1 /* StructureAndPatternVCtrl.xib */,
+				49428C8A1D64957400C87FCD /* MVC&MVVM&MVP&VIPER */,
+				497B85591D6B380200AF3DEF /* MVVM与ReactiveCocoa */,
+				49FDEB641D694ECF00D8D378 /* Design Pattern */,
+				4929A2331D748B28000E8B1F /* Objective-C编程之道书籍Demo */,
 			);
 			path = "设计模式";
 			sourceTree = "<group>";
@@ -13094,8 +13091,6 @@
 		49F7F2C81D443D2D00663F4F /* JKCategories */ = {
 			isa = PBXGroup;
 			children = (
-				49F7F2C91D443D2D00663F4F /* JKBaseViewController.h */,
-				49F7F2CA1D443D2D00663F4F /* JKBaseViewController.m */,
 				49F7F2CB1D443D2D00663F4F /* JKRootViewController.h */,
 				49F7F2CC1D443D2D00663F4F /* JKRootViewController.m */,
 				49F7F2CD1D443D2D00663F4F /* JKRootViewController.xib */,
@@ -14337,28 +14332,28 @@
 		49FCE8F01D411FDF00ED6A90 /* FormatterKit */ = {
 			isa = PBXGroup;
 			children = (
+				49FCE8FF1D411FDF00ED6A90 /* FormatterRootViewController.h */,
+				49FCE9001D411FDF00ED6A90 /* FormatterRootViewController.m */,
 				49FCE8F11D411FDF00ED6A90 /* AddressFormatterViewController.h */,
 				49FCE8F21D411FDF00ED6A90 /* AddressFormatterViewController.m */,
 				49FCE8F31D411FDF00ED6A90 /* ArrayFormatterViewController.h */,
 				49FCE8F41D411FDF00ED6A90 /* ArrayFormatterViewController.m */,
 				49FCE8F51D411FDF00ED6A90 /* ColorFormatterViewController.h */,
 				49FCE8F61D411FDF00ED6A90 /* ColorFormatterViewController.m */,
-				49FCE8F71D411FDF00ED6A90 /* FormatterViewController.h */,
-				49FCE8F81D411FDF00ED6A90 /* FormatterViewController.m */,
 				49FCE8F91D411FDF00ED6A90 /* LocationFormatterViewController.h */,
 				49FCE8FA1D411FDF00ED6A90 /* LocationFormatterViewController.m */,
 				49FCE8FB1D411FDF00ED6A90 /* NameFormatterViewController.h */,
 				49FCE8FC1D411FDF00ED6A90 /* NameFormatterViewController.m */,
 				49FCE8FD1D411FDF00ED6A90 /* OrdinalNumberFormatterViewController.h */,
 				49FCE8FE1D411FDF00ED6A90 /* OrdinalNumberFormatterViewController.m */,
-				49FCE8FF1D411FDF00ED6A90 /* FormatterRootViewController.h */,
-				49FCE9001D411FDF00ED6A90 /* FormatterRootViewController.m */,
 				49FCE9011D411FDF00ED6A90 /* TimeIntervalFormatterViewController.h */,
 				49FCE9021D411FDF00ED6A90 /* TimeIntervalFormatterViewController.m */,
 				49FCE9031D411FDF00ED6A90 /* UnitOfInformationFormatterViewController.h */,
 				49FCE9041D411FDF00ED6A90 /* UnitOfInformationFormatterViewController.m */,
 				49FCE9051D411FDF00ED6A90 /* URLRequestFormatterViewController.h */,
 				49FCE9061D411FDF00ED6A90 /* URLRequestFormatterViewController.m */,
+				49FCE8F71D411FDF00ED6A90 /* FormatterViewController.h */,
+				49FCE8F81D411FDF00ED6A90 /* FormatterViewController.m */,
 			);
 			path = FormatterKit;
 			sourceTree = "<group>";
@@ -17624,7 +17619,6 @@
 				49FDEF2A1D6951B000D8D378 /* EndChain.m in Sources */,
 				49B4E8381D7D0213001C8E29 /* GJGCInformationCellConstans.m in Sources */,
 				49FDEF711D6951B000D8D378 /* StateOne.m in Sources */,
-				49F7F2CE1D443D2D00663F4F /* JKBaseViewController.m in Sources */,
 				4972E7D31D669A07005B4315 /* MVVMTableViewModel.m in Sources */,
 				4966F2F41D6D8331001E16BD /* CTUDIDGenerator.m in Sources */,
 				49B4E6A01D7D0213001C8E29 /* GJCFAssetsPickerViewController.m in Sources */,
