@@ -11,6 +11,7 @@
 @implementation NSObject (MVCModel)
 
 - (BOOL)give:(id<TTView>)view {
+    // view遵循TTView协议，协议中定义了可选方法update
     return [view update:self];
 }
 

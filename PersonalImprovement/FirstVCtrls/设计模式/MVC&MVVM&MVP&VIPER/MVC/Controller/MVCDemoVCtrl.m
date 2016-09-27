@@ -12,6 +12,7 @@
 
 @interface MVCDemoVCtrl ()
 
+// 数组中的元素为遵循TTModel协议的对象
 @property (nonatomic, strong) NSArray<TTModel> *dataList;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
@@ -64,6 +65,8 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     MVCMyCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyCell" forIndexPath:indexPath];
+    
+    // 因为定义了NSObject的类别，所以可以直接调用类别中的give方法
     [[self.dataList objectAtIndex:indexPath.row] give:cell];
     return cell;
 }

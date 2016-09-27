@@ -10,6 +10,7 @@
 
 @protocol TTModel;
 
+// 定义TTView协议
 @protocol TTView <NSObject>
 
 @optional
@@ -17,6 +18,7 @@
 
 @end
 
+// 定义UIView的类别MVCModel，该类别遵循协议TTView
 @interface UIView (MVCModel) <TTView>
 
 @end
