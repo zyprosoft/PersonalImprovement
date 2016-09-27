@@ -1997,7 +1997,6 @@
 		49FBCC601D32883E00D4D091 /* TestBlockVCtrl2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49FBCC4A1D32883D00D4D091 /* TestBlockVCtrl2.xib */; };
 		49FBCC611D32883E00D4D091 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCC4D1D32883E00D4D091 /* Item.m */; };
 		49FBCC621D32883E00D4D091 /* PersistentStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCC4F1D32883E00D4D091 /* PersistentStack.m */; };
-		49FBCC631D32883E00D4D091 /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCC511D32883E00D4D091 /* Store.m */; };
 		49FBCC641D32883E00D4D091 /* TableVDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCC531D32883E00D4D091 /* TableVDatasource.m */; };
 		49FBCC651D32883E00D4D091 /* TestCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCC541D32883E00D4D091 /* TestCoreData.xcdatamodeld */; };
 		49FBCC661D32883E00D4D091 /* TestCoreDataVCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBCC571D32883E00D4D091 /* TestCoreDataVCtrl.m */; };
@@ -5665,8 +5664,6 @@
 		49FBCC4D1D32883E00D4D091 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 		49FBCC4E1D32883E00D4D091 /* PersistentStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistentStack.h; sourceTree = "<group>"; };
 		49FBCC4F1D32883E00D4D091 /* PersistentStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistentStack.m; sourceTree = "<group>"; };
-		49FBCC501D32883E00D4D091 /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
-		49FBCC511D32883E00D4D091 /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
 		49FBCC521D32883E00D4D091 /* TableVDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableVDatasource.h; sourceTree = "<group>"; };
 		49FBCC531D32883E00D4D091 /* TableVDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableVDatasource.m; sourceTree = "<group>"; };
 		49FBCC551D32883E00D4D091 /* TestCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestCoreData.xcdatamodel; sourceTree = "<group>"; };
@@ -13707,8 +13704,6 @@
 				49FBCC4D1D32883E00D4D091 /* Item.m */,
 				49FBCC4E1D32883E00D4D091 /* PersistentStack.h */,
 				49FBCC4F1D32883E00D4D091 /* PersistentStack.m */,
-				49FBCC501D32883E00D4D091 /* Store.h */,
-				49FBCC511D32883E00D4D091 /* Store.m */,
 				49FBCC521D32883E00D4D091 /* TableVDatasource.h */,
 				49FBCC531D32883E00D4D091 /* TableVDatasource.m */,
 				49FBCC541D32883E00D4D091 /* TestCoreData.xcdatamodeld */,
@@ -17481,7 +17476,6 @@
 				49B4E8581D7D0213001C8E29 /* GJGCRecentContactListDataManager.m in Sources */,
 				49B4E6921D7D0213001C8E29 /* GJCFAssetsPickerCommonStyleDescription.m in Sources */,
 				49FDF2AA1D69DFE100D8D378 /* SimpleFactoryVCtrl2.m in Sources */,
-				49FBCC631D32883E00D4D091 /* Store.m in Sources */,
 				49FBCDB91D33E3FE00D4D091 /* SquareCashStyleViewController.m in Sources */,
 				4929A3A41D748B29000E8B1F /* CanvasViewGenerator.m in Sources */,
 				49FDF31A1D69DFE100D8D378 /* HCDNonterminalExpression.m in Sources */,

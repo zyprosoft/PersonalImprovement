@@ -19,7 +19,6 @@ static NSString* const selectItemSegue = @"selectItem";
 @property (nonatomic, strong) TableVDatasource* tableVDatasource;
 @property (nonatomic, strong) UITextField* titleField;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (strong,nonatomic)Store *store;
 @property (strong,nonatomic)PersistentStack *stack;
 
 @end
@@ -31,15 +30,26 @@ static NSString* const selectItemSegue = @"selectItem";
     [super viewDidLoad];
     [UIApplication sharedApplication].applicationSupportsShakeToEdit = YES;
     if (self.navigationController.viewControllers.count == 2) {
-        self.store = [[Store alloc] init];
         self.stack = [[PersistentStack alloc] initWithStoreURL:self.storeURL modelURL:self.modelURL];
-        self.store.managedObjectContext = self.stack.managedObjectContext;
-        self.parent = self.store.rootItem;
+        self.parent = [self rootItem];
     }
     
     [self setupFetchedResultsController];
     [self setupNewItemField];
     
+}
+
+- (Item*)rootItem
+{
+    // todo: use a cache?
+    NSFetchRequest* request = [NSFetchRequest fetchRequestWithEntityName:@"Item"];
+    request.predicate = [NSPredicate predicateWithFormat:@"parent = %@", nil];
+    NSArray* objects = [self.stack.managedObjectContext executeFetchRequest:request error:NULL];
+    Item* rootItem = [objects lastObject];
+    if (rootItem == nil) {
+        rootItem = [Item insertItemWithTitle:nil parent:nil inManagedObjectContext:self.managedObjectContext];
+    }
+    return rootItem;
 }
 
 - (NSURL*)storeURL
@@ -69,7 +79,7 @@ static NSString* const selectItemSegue = @"selectItem";
     self.tableVDatasource.paused = YES;
     
     // 利用上下文对象，将数据同步到持久化存储库
-    [self.store.managedObjectContext save:NULL];
+    [self.stack.managedObjectContext save:NULL];
 }
 
 
