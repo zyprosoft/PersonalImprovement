@@ -16,6 +16,7 @@
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
     self.presenter = [AMNPhotoPresenter new];
     self.presenter.view = self;
     self.presenter.viewController = self;

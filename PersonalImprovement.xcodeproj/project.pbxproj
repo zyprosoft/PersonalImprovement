@@ -9082,10 +9082,10 @@
 		4972E78A1D6694C9005B4315 /* Presenters */ = {
 			isa = PBXGroup;
 			children = (
-				4972E78B1D6694C9005B4315 /* CarPresenter.h */,
-				4972E78C1D6694C9005B4315 /* CarPresenter.m */,
 				4972E78D1D6694C9005B4315 /* Presenter.h */,
 				4972E78E1D6694C9005B4315 /* Presenter.m */,
+				4972E78B1D6694C9005B4315 /* CarPresenter.h */,
+				4972E78C1D6694C9005B4315 /* CarPresenter.m */,
 				4972E78F1D6694C9005B4315 /* UserPresenter.h */,
 				4972E7901D6694C9005B4315 /* UserPresenter.m */,
 			);
@@ -9095,12 +9095,12 @@
 		4972E7921D6694C9005B4315 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				4972E7931D6694C9005B4315 /* CarDetailViewController.h */,
-				4972E7941D6694C9005B4315 /* CarDetailViewController.m */,
 				4972E7951D6694C9005B4315 /* CarsListViewController.h */,
 				4972E7961D6694C9005B4315 /* CarsListViewController.m */,
 				4972E7971D6694C9005B4315 /* CarsPhotoViewController.h */,
 				4972E7981D6694C9005B4315 /* CarsPhotoViewController.m */,
+				4972E7931D6694C9005B4315 /* CarDetailViewController.h */,
+				4972E7941D6694C9005B4315 /* CarDetailViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -9108,10 +9108,10 @@
 		4972E7991D6694C9005B4315 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4972E79A1D6694C9005B4315 /* PresenterCollectionViewCell.h */,
-				4972E79B1D6694C9005B4315 /* PresenterCollectionViewCell.m */,
 				4972E79C1D6694C9005B4315 /* PresenterTableViewCell.h */,
 				4972E79D1D6694C9005B4315 /* PresenterTableViewCell.m */,
+				4972E79A1D6694C9005B4315 /* PresenterCollectionViewCell.h */,
+				4972E79B1D6694C9005B4315 /* PresenterCollectionViewCell.m */,
 				4972E79E1D6694C9005B4315 /* PresenterView.h */,
 				4972E79F1D6694C9005B4315 /* PresenterView.m */,
 			);
@@ -12369,12 +12369,12 @@
 		49C7D7921D65960C00BC0926 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				49C7D7971D65960C00BC0926 /* AMNTopViewController.h */,
+				49C7D7981D65960C00BC0926 /* AMNTopViewController.m */,
 				49C7D7931D65960C00BC0926 /* AMNImageViewController.h */,
 				49C7D7941D65960C00BC0926 /* AMNImageViewController.m */,
 				49C7D7951D65960C00BC0926 /* AMNTextViewController.h */,
 				49C7D7961D65960C00BC0926 /* AMNTextViewController.m */,
-				49C7D7971D65960C00BC0926 /* AMNTopViewController.h */,
-				49C7D7981D65960C00BC0926 /* AMNTopViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";

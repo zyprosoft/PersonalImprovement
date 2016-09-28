@@ -17,6 +17,8 @@
 
 - (void)setModel:(id)model{
     _model = model;
+    
+    // 该方法由子类重载，子类利用model进行各自界面控制的赋值
     [self reloadData];
 }
 

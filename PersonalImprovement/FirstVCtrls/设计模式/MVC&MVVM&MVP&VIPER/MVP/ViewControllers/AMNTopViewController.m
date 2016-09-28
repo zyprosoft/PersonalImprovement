@@ -14,6 +14,8 @@
 
 @implementation AMNTopViewController
 
+// 在storyboard中绑定了view、UITableview的datasource和delegate都为TimelineTableViewPresenter
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }

@@ -32,6 +32,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    // 生成模型数组
     self.cars = @[
                   [Car carWithYear:@(2014)
                               make:@"Tesla"
@@ -64,8 +65,8 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView
          cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"carListCell"
-                                                            forIndexPath:indexPath];
+    // storyboard中指定的是PresenterTableViewCell类型的cell
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"carListCell" forIndexPath:indexPath];
 
     [self configureCell:(PresenterTableViewCell *)cell forRowAtIndexPath:indexPath];
 
@@ -76,6 +77,9 @@
     forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     Car *car = self.cars[indexPath.row];
+    
+    // cell拥有Presneter类的presenter属性
+    // presenter拥有model属性
     cell.presenter.model = car;
 }
 
