@@ -31,7 +31,7 @@
     [super viewDidLoad];
     
     [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
-    [self addCell:@"MVC" class:@"aaa"];
+    [self addCell:@"MVC" class:@"ItemViewController"];
     [self addCell:@"MVP" class:@"BBB"];
     [self addCell:@"MVP2" class:@"CCC"];
     [self addCell:@"MVVM" class:@"CCC"];
@@ -69,12 +69,7 @@
     [_tableView deselectRowAtIndexPath:indexPath animated:YES];
     
     NSString *cellTitle = self.titleArray[indexPath.row];
-    if ([cellTitle isEqualToString:@"MVC"]) {
-        UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"MVC" bundle:nil];
-        UIViewController *ctrl = [mainStoryBoard instantiateViewControllerWithIdentifier:@"ctrl"];
-        ctrl.title = cellTitle;
-        [self.navigationController pushViewController:ctrl animated:YES];
-    }else if ([cellTitle isEqualToString:@"MVP"]) {
+    if ([cellTitle isEqualToString:@"MVP"]) {
         UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"MVP" bundle:nil];
         UIViewController *ctrl = [mainStoryBoard instantiateViewControllerWithIdentifier:@"ctrl"];
         ctrl.title = cellTitle;
