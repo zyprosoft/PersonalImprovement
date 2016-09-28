@@ -10,6 +10,10 @@
 #import "AMNPresenterProtocol.h"
 
 @interface AMNTimelineTableViewPresenter : NSObject <UITableViewDataSource, UITableViewDelegate, AMNPresenterProtocol>
+
+//AMNTopViewController中的tableview视图作为该属性
 @property (nonatomic, weak) IBOutlet UITableView *view;
+
+// AMNTopViewController实例作为该属性
 @property (nonatomic, weak) IBOutlet UIViewController *viewController;
 @end
