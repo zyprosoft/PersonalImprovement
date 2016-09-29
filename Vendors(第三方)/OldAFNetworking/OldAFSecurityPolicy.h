@@ -23,10 +23,10 @@
 #import <Foundation/Foundation.h>
 #import <Security/Security.h>
 
-typedef NS_ENUM(NSUInteger, AFSSLPinningMode) {
-    AFSSLPinningModeNone,
-    AFSSLPinningModePublicKey,
-    AFSSLPinningModeCertificate,
+typedef NS_ENUM(NSUInteger, OldAFSSLPinningMode) {
+    OldAFSSLPinningModeNone,
+    OldAFSSLPinningModePublicKey,
+    OldAFSSLPinningModeCertificate,
 };
 
 /**
@@ -39,7 +39,7 @@ typedef NS_ENUM(NSUInteger, AFSSLPinningMode) {
 /**
  The criteria by which server trust should be evaluated against the pinned SSL certificates. Defaults to `AFSSLPinningModeNone`.
  */
-@property (nonatomic, assign) AFSSLPinningMode SSLPinningMode;
+@property (nonatomic, assign) OldAFSSLPinningMode SSLPinningMode;
 
 /**
  Whether to evaluate an entire SSL certificate chain, or just the leaf certificate. Defaults to `YES`.
@@ -83,7 +83,7 @@ typedef NS_ENUM(NSUInteger, AFSSLPinningMode) {
  
  @return A new security policy.
  */
-+ (instancetype)policyWithPinningMode:(AFSSLPinningMode)pinningMode;
++ (instancetype)policyWithPinningMode:(OldAFSSLPinningMode)pinningMode;
 
 ///------------------------------
 /// @name Evaluating Server Trust

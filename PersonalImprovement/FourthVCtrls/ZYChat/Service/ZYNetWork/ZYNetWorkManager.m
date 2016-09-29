@@ -81,7 +81,7 @@ static dispatch_queue_t ZYNetworkManagerOperationQueue = nil;
     OldAFSecurityPolicy *securityPolicy = [[OldAFSecurityPolicy alloc] init];
     [securityPolicy setAllowInvalidCertificates:YES];
     [securityPolicy setPinnedCertificates:@[certData]];
-    [securityPolicy setSSLPinningMode:AFSSLPinningModeCertificate];
+    [securityPolicy setSSLPinningMode:OldAFSSLPinningModeCertificate];
     /**** SSL Pinning ****/
     
     return securityPolicy;

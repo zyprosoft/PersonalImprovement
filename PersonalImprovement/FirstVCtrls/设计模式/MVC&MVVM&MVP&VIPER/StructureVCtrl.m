@@ -7,7 +7,6 @@
 //
 
 #import "StructureVCtrl.h"
-#import "MVVMTableViewController.h"
 #import "VTDAppDependencies.h"
 
 #import "CNTCountInteractor.h"
@@ -80,7 +79,8 @@
         ctrl.title = cellTitle;
         [self.navigationController pushViewController:ctrl animated:YES];
     }else if ([cellTitle isEqualToString:@"MVVM"]) {
-        MVVMTableViewController *ctrl=[[MVVMTableViewController alloc] init];
+        UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"MVVMMain" bundle:nil];
+        UIViewController *ctrl = [mainStoryBoard instantiateViewControllerWithIdentifier:@"PublicTableViewController"];
         ctrl.title = cellTitle;
         [self.navigationController pushViewController:ctrl animated:YES];
     }else if ([cellTitle isEqualToString:@"MVVM2(C-14完整项目)"]) {
