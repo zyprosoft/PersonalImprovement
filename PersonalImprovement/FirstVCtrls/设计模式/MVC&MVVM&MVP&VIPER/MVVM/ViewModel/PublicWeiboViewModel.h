@@ -10,6 +10,7 @@
 #import "PublicModel.h"
 #import "Config.h"
 
+// 继承自ViewModelClass
 @interface PublicWeiboViewModel : ViewModelClass
 //获取围脖列表
 -(void) fetchPublicWeiBo;

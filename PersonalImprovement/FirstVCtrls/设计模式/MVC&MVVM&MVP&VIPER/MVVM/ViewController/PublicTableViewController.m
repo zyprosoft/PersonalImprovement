@@ -25,6 +25,7 @@
     
     PublicWeiboViewModel *publicViewModel = [[PublicWeiboViewModel alloc] init];
     [publicViewModel setBlockWithReturnBlock:^(id returnValue) {
+        // 次数返回数组中的数据是已经经过MVVM里面处理过的，直接可以提供给控件显示
         _publicModelArray = returnValue;
         [self.tableView reloadData];
         DDLog(@"%@",_publicModelArray);
@@ -36,6 +37,7 @@
         
     }];
     
+    // 通过制定的ViewModel获取数据
     [publicViewModel fetchPublicWeiBo];
     
 }

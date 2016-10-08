@@ -3722,9 +3722,9 @@
 		497B85991D6B39F300AF3DEF /* RWTSearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTSearchResultsViewController.h; sourceTree = "<group>"; };
 		497B859A1D6B39F300AF3DEF /* RWTSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTSearchResultsViewController.m; sourceTree = "<group>"; };
 		497B859B1D6B39F300AF3DEF /* RWTSearchResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RWTSearchResultsViewController.xib; sourceTree = "<group>"; };
-		497B85AD1D6B3A2A00AF3DEF /* ReactiveCocoaMVVMVCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaMVVMVCtrl.h; sourceTree = "<group>"; };
-		497B85AE1D6B3A2A00AF3DEF /* ReactiveCocoaMVVMVCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaMVVMVCtrl.m; sourceTree = "<group>"; };
-		497B85AF1D6B3A2A00AF3DEF /* ReactiveCocoaMVVMVCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReactiveCocoaMVVMVCtrl.xib; sourceTree = "<group>"; };
+		497B85AD1D6B3A2A00AF3DEF /* ReactiveCocoaMVVMVCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReactiveCocoaMVVMVCtrl.h; path = ../ReactiveCocoaMVVMVCtrl.h; sourceTree = "<group>"; };
+		497B85AE1D6B3A2A00AF3DEF /* ReactiveCocoaMVVMVCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReactiveCocoaMVVMVCtrl.m; path = ../ReactiveCocoaMVVMVCtrl.m; sourceTree = "<group>"; };
+		497B85AF1D6B3A2A00AF3DEF /* ReactiveCocoaMVVMVCtrl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ReactiveCocoaMVVMVCtrl.xib; path = ../ReactiveCocoaMVVMVCtrl.xib; sourceTree = "<group>"; };
 		497B85B31D6B3C2200AF3DEF /* RWTFlickrSearchViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTFlickrSearchViewModel.h; sourceTree = "<group>"; };
 		497B85B41D6B3C2200AF3DEF /* RWTFlickrSearchViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTFlickrSearchViewModel.m; sourceTree = "<group>"; };
 		497B85B51D6B3C2200AF3DEF /* RWTPreviousSearchViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTPreviousSearchViewModel.h; sourceTree = "<group>"; };
@@ -9472,9 +9472,6 @@
 			isa = PBXGroup;
 			children = (
 				497B857B1D6B39F300AF3DEF /* RWTFlickrSearch */,
-				497B85AD1D6B3A2A00AF3DEF /* ReactiveCocoaMVVMVCtrl.h */,
-				497B85AE1D6B3A2A00AF3DEF /* ReactiveCocoaMVVMVCtrl.m */,
-				497B85AF1D6B3A2A00AF3DEF /* ReactiveCocoaMVVMVCtrl.xib */,
 			);
 			path = "MVVM与ReactiveCocoa";
 			sourceTree = "<group>";
@@ -9482,6 +9479,9 @@
 		497B857B1D6B39F300AF3DEF /* RWTFlickrSearch */ = {
 			isa = PBXGroup;
 			children = (
+				497B85AD1D6B3A2A00AF3DEF /* ReactiveCocoaMVVMVCtrl.h */,
+				497B85AE1D6B3A2A00AF3DEF /* ReactiveCocoaMVVMVCtrl.m */,
+				497B85AF1D6B3A2A00AF3DEF /* ReactiveCocoaMVVMVCtrl.xib */,
 				497B857C1D6B39F300AF3DEF /* FinishedApp.png */,
 				497B85871D6B39F300AF3DEF /* RWTViewModelServicesImpl.h */,
 				497B85881D6B39F300AF3DEF /* RWTViewModelServicesImpl.m */,
@@ -14553,12 +14553,12 @@
 		49FDEB641D694ECF00D8D378 /* Design Pattern */ = {
 			isa = PBXGroup;
 			children = (
-				49FDF1521D6951F700D8D378 /* Gof GML.pdf */,
-				49FDEB6A1D6951AC00D8D378 /* Design Pattern系列1 */,
-				49FDEC761D6951AC00D8D378 /* Design Pattern系列2 */,
 				49FDEB651D694ECF00D8D378 /* PatternVCtrl.h */,
 				49FDEB661D694ECF00D8D378 /* PatternVCtrl.m */,
 				49FDEB671D694ECF00D8D378 /* PatternVCtrl.xib */,
+				49FDF1521D6951F700D8D378 /* Gof GML.pdf */,
+				49FDEB6A1D6951AC00D8D378 /* Design Pattern系列1 */,
+				49FDEC761D6951AC00D8D378 /* Design Pattern系列2 */,
 			);
 			path = "Design Pattern";
 			sourceTree = "<group>";

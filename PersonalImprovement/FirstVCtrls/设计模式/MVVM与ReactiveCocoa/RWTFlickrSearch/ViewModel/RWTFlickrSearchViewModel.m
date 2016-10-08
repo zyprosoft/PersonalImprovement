@@ -14,7 +14,7 @@
 
 @interface RWTFlickrSearchViewModel ()
 
-@property (weak, nonatomic) id<RWTViewModelServices> services;
+@property (strong, nonatomic) id<RWTViewModelServices> services;
 @property NSMutableArray *mutablePreviousSearches;
 
 @end
