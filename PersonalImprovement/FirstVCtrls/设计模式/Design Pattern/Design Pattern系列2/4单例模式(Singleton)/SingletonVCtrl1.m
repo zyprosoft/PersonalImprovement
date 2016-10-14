@@ -8,7 +8,6 @@
 
 #import "SingletonVCtrl1.h"
 #import "Singleton.h"
-#import "SubSingleton.h"
 
 @interface SingletonVCtrl1 ()
 
@@ -22,7 +21,6 @@
    
     NSLog(@"%@", [Singleton sharedInstance]);
 //    NSLog(@"%@", [Singleton new]);
-//    NSLog(@"%@", [SubSingleton sharedInstance]);
 }
 
 @end

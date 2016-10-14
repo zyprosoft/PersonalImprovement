@@ -9,6 +9,12 @@
 #import <Foundation/Foundation.h>
 #import "HCDCalculate.h"
 
+typedef NS_ENUM(NSInteger, CalculateType){
+    calcuteTypeAdd = 0,
+    calcuteTypeMinus,
+    calcuteTypdeMultipy,
+    calcuteTypeDivide
+};
 
 @class CommonTool;
 @interface HCDCalcuteFactory : NSObject
