@@ -9,7 +9,7 @@
 #import "HCDfactoryMinus.h"
 #import "HCDCalculateMinus.h"
 @implementation HCDfactoryMinus
--(id<HCDCalculate>)createFactory{
++(id<HCDCalculate>)createFactory{
     return [[HCDCalculateMinus alloc]init];
 }
 @end

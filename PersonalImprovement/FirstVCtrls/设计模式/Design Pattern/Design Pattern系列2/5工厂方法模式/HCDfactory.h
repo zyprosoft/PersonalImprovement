@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "HCDCalculate.h"
-@interface HCDfactory : NSObject<HCDCalculate>
--(id<HCDCalculate>)createFactory;
+
+// 工厂方法模式提供一个抽象工厂接口来声明抽象工厂方法，而由其子类来具体实现工厂方法，创建具体的产品对象
+@interface HCDfactory : NSObject
++(id<HCDCalculate>)createFactory;
 @end

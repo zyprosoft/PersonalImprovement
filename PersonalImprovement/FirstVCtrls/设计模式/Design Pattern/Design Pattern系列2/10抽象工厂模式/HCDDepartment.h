@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "SQLDepartment.h"
+
+// 抽象产品
 @protocol HCDDepartment <NSObject>
 -(void)insertDepartment:(SQLDepartment *)department;
 -(SQLDepartment *)getDepartment;

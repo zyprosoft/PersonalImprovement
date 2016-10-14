@@ -9,7 +9,7 @@
 #import "HCDfactoryAdd.h"
 #import "HCDCalculateAdd.h"
 @implementation HCDfactoryAdd
--(id<HCDCalculate>)createFactory{
++(id<HCDCalculate>)createFactory{
     return [[HCDCalculateAdd alloc]init];
 }
 @end

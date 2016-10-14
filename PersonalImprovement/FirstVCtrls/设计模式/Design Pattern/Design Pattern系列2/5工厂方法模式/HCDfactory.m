@@ -10,4 +10,9 @@
 
 @implementation HCDfactory
 
++(id<HCDCalculate>)createFactory {
+    // 由子类重载
+    return nil;
+}
+
 @end

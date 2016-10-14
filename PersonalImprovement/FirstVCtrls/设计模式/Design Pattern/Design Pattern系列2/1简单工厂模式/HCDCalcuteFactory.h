@@ -13,5 +13,6 @@
 @class CommonTool;
 @interface HCDCalcuteFactory : NSObject
 
+// 简单工厂模式的要点在于：当你需要什么，只需要传入一个正确的参数，就可以获取你所需要的对象，而无须知道其创建细节
 +(id<HCDCalculate>)createCalcute:(NSString *)calculatetype;
 @end

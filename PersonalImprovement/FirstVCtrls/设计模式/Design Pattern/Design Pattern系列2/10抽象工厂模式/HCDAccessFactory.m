@@ -10,10 +10,12 @@
 #import "HCDAccessDepartment.h"
 #import "HCDAccessUser.h"
 @implementation HCDAccessFactory
--(id<HCDUser>)createUser{
+
+// 实现抽象类（此处为协议）中的方法，并返回“具体的产品”对象
++(id<HCDUser>)createUser{
     return [[HCDAccessUser alloc]init];
 }
--(id<HCDDepartment>)createDepartment{
++(id<HCDDepartment>)createDepartment{
     return [[HCDAccessDepartment alloc]init];
 }
 @end

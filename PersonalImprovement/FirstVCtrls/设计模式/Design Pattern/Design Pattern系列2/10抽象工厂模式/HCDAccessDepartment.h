@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "HCDDepartment.h"
+
+// 具体产品
 @interface HCDAccessDepartment : NSObject<HCDDepartment>
 
 @end

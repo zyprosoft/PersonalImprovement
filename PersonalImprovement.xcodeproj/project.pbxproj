@@ -6319,13 +6319,12 @@
 		49FDF1921D69DFE000D8D378 /* HCDschoolGirl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDschoolGirl.m; sourceTree = "<group>"; };
 		49FDF1931D69DFE000D8D378 /* ProxyVCtrl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProxyVCtrl2.h; sourceTree = "<group>"; };
 		49FDF1941D69DFE000D8D378 /* ProxyVCtrl2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProxyVCtrl2.m; sourceTree = "<group>"; };
-		49FDF1961D69DFE000D8D378 /* HCDCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculate.h; sourceTree = "<group>"; };
-		49FDF1991D69DFE000D8D378 /* HCDCalculateDivide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculateDivide.h; sourceTree = "<group>"; };
-		49FDF19A1D69DFE000D8D378 /* HCDCalculateDivide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalculateDivide.m; sourceTree = "<group>"; };
-		49FDF19B1D69DFE000D8D378 /* HCDCalculateMinus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalculateMinus.h; sourceTree = "<group>"; };
-		49FDF19C1D69DFE000D8D378 /* HCDCalculateMinus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalculateMinus.m; sourceTree = "<group>"; };
-		49FDF19D1D69DFE000D8D378 /* HCDCalcuteMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDCalcuteMultiply.h; sourceTree = "<group>"; };
-		49FDF19E1D69DFE000D8D378 /* HCDCalcuteMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDCalcuteMultiply.m; sourceTree = "<group>"; };
+		49FDF1991D69DFE000D8D378 /* HCDCalculateDivide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HCDCalculateDivide.h; path = "../5工厂方法模式/HCDCalculateDivide.h"; sourceTree = "<group>"; };
+		49FDF19A1D69DFE000D8D378 /* HCDCalculateDivide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HCDCalculateDivide.m; path = "../5工厂方法模式/HCDCalculateDivide.m"; sourceTree = "<group>"; };
+		49FDF19B1D69DFE000D8D378 /* HCDCalculateMinus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HCDCalculateMinus.h; path = "../5工厂方法模式/HCDCalculateMinus.h"; sourceTree = "<group>"; };
+		49FDF19C1D69DFE000D8D378 /* HCDCalculateMinus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HCDCalculateMinus.m; path = "../5工厂方法模式/HCDCalculateMinus.m"; sourceTree = "<group>"; };
+		49FDF19D1D69DFE000D8D378 /* HCDCalcuteMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HCDCalcuteMultiply.h; path = "../5工厂方法模式/HCDCalcuteMultiply.h"; sourceTree = "<group>"; };
+		49FDF19E1D69DFE000D8D378 /* HCDCalcuteMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HCDCalcuteMultiply.m; path = "../5工厂方法模式/HCDCalcuteMultiply.m"; sourceTree = "<group>"; };
 		49FDF1A11D69DFE000D8D378 /* HCDfactoryAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactoryAdd.h; sourceTree = "<group>"; };
 		49FDF1A21D69DFE000D8D378 /* HCDfactoryAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDfactoryAdd.m; sourceTree = "<group>"; };
 		49FDF1A51D69DFE000D8D378 /* HCDfactoryMinus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDfactoryMinus.h; sourceTree = "<group>"; };
@@ -14767,17 +14766,17 @@
 		49FDEBE01D6951AC00D8D378 /* FactoryPattern */ = {
 			isa = PBXGroup;
 			children = (
-				49FDEBE11D6951AC00D8D378 /* AndroidDevice.h */,
-				49FDEBE21D6951AC00D8D378 /* AndroidDevice.m */,
-				49FDEBE31D6951AC00D8D378 /* BaseDevice.h */,
-				49FDEBE41D6951AC00D8D378 /* BaseDevice.m */,
+				49FDEBEA1D6951AC00D8D378 /* FactoryVCtrl1.h */,
+				49FDEBEB1D6951AC00D8D378 /* FactoryVCtrl1.m */,
 				49FDEBE51D6951AC00D8D378 /* DeviceCreator.h */,
 				49FDEBE61D6951AC00D8D378 /* DeviceCreator.m */,
 				49FDEBE71D6951AC00D8D378 /* DeviceProtocol.h */,
+				49FDEBE31D6951AC00D8D378 /* BaseDevice.h */,
+				49FDEBE41D6951AC00D8D378 /* BaseDevice.m */,
+				49FDEBE11D6951AC00D8D378 /* AndroidDevice.h */,
+				49FDEBE21D6951AC00D8D378 /* AndroidDevice.m */,
 				49FDEBE81D6951AC00D8D378 /* iPhoneDevice.h */,
 				49FDEBE91D6951AC00D8D378 /* iPhoneDevice.m */,
-				49FDEBEA1D6951AC00D8D378 /* FactoryVCtrl1.h */,
-				49FDEBEB1D6951AC00D8D378 /* FactoryVCtrl1.m */,
 				49FDEBEC1D6951AC00D8D378 /* WindowsDevice.h */,
 				49FDEBED1D6951AC00D8D378 /* WindowsDevice.m */,
 				49FDEBEE1D6951AC00D8D378 /* 简单工厂.png */,
@@ -14979,15 +14978,15 @@
 			children = (
 				49FDEF101D6951B000D8D378 /* README.md */,
 				49FDF1621D69DFE000D8D378 /* 1简单工厂模式 */,
+				49FDF1951D69DFE000D8D378 /* 2工厂方法模式 */,
+				49FDF1CA1D69DFE000D8D378 /* 3抽象工厂模式 */,
 				49FDF1721D69DFE000D8D378 /* 2策略模式 */,
 				49FDF17E1D69DFE000D8D378 /* 3装饰模式 */,
 				49FDF18B1D69DFE000D8D378 /* 4代理模式 */,
-				49FDF1951D69DFE000D8D378 /* 5工厂方法模式 */,
 				49FDF1AB1D69DFE000D8D378 /* 6模板方法模式 */,
 				49FDF2891D69DFE100D8D378 /* 7外观模式 */,
 				49FDF1B41D69DFE000D8D378 /* 8建造者模式 */,
 				49FDF1BE1D69DFE000D8D378 /* 9观察者模式 */,
-				49FDF1CA1D69DFE000D8D378 /* 10抽象工厂模式 */,
 				49FDF1E01D69DFE000D8D378 /* 11状态模式 */,
 				49FDF1F21D69DFE000D8D378 /* 12适配器模式 */,
 				49FDF1FD1D69DFE100D8D378 /* 13备忘录模式 */,
@@ -15017,15 +15016,21 @@
 		49FDF1621D69DFE000D8D378 /* 1简单工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
-				49FDF1631D69DFE000D8D378 /* DesignCommonTool.h */,
-				49FDF1641D69DFE000D8D378 /* DesignCommonTool.m */,
-				49FDF1651D69DFE000D8D378 /* HCDCalculate.h */,
-				49FDF1661D69DFE000D8D378 /* HCDCalculateAdd.h */,
-				49FDF1671D69DFE000D8D378 /* HCDCalculateAdd.m */,
-				49FDF16C1D69DFE000D8D378 /* HCDCalcuteFactory.h */,
-				49FDF16D1D69DFE000D8D378 /* HCDCalcuteFactory.m */,
 				49FDF1701D69DFE000D8D378 /* SimpleFactoryVCtrl2.h */,
 				49FDF1711D69DFE000D8D378 /* SimpleFactoryVCtrl2.m */,
+				49FDF1651D69DFE000D8D378 /* HCDCalculate.h */,
+				49FDF16C1D69DFE000D8D378 /* HCDCalcuteFactory.h */,
+				49FDF16D1D69DFE000D8D378 /* HCDCalcuteFactory.m */,
+				49FDF1631D69DFE000D8D378 /* DesignCommonTool.h */,
+				49FDF1641D69DFE000D8D378 /* DesignCommonTool.m */,
+				49FDF1661D69DFE000D8D378 /* HCDCalculateAdd.h */,
+				49FDF1671D69DFE000D8D378 /* HCDCalculateAdd.m */,
+				49FDF19B1D69DFE000D8D378 /* HCDCalculateMinus.h */,
+				49FDF19C1D69DFE000D8D378 /* HCDCalculateMinus.m */,
+				49FDF1991D69DFE000D8D378 /* HCDCalculateDivide.h */,
+				49FDF19A1D69DFE000D8D378 /* HCDCalculateDivide.m */,
+				49FDF19D1D69DFE000D8D378 /* HCDCalcuteMultiply.h */,
+				49FDF19E1D69DFE000D8D378 /* HCDCalcuteMultiply.m */,
 			);
 			path = "1简单工厂模式";
 			sourceTree = "<group>";
@@ -15083,27 +15088,21 @@
 			path = "4代理模式";
 			sourceTree = "<group>";
 		};
-		49FDF1951D69DFE000D8D378 /* 5工厂方法模式 */ = {
+		49FDF1951D69DFE000D8D378 /* 2工厂方法模式 */ = {
 			isa = PBXGroup;
 			children = (
-				49FDF1961D69DFE000D8D378 /* HCDCalculate.h */,
-				49FDF1991D69DFE000D8D378 /* HCDCalculateDivide.h */,
-				49FDF19A1D69DFE000D8D378 /* HCDCalculateDivide.m */,
-				49FDF19B1D69DFE000D8D378 /* HCDCalculateMinus.h */,
-				49FDF19C1D69DFE000D8D378 /* HCDCalculateMinus.m */,
-				49FDF19D1D69DFE000D8D378 /* HCDCalcuteMultiply.h */,
-				49FDF19E1D69DFE000D8D378 /* HCDCalcuteMultiply.m */,
-				49FDF1A11D69DFE000D8D378 /* HCDfactoryAdd.h */,
-				49FDF1A21D69DFE000D8D378 /* HCDfactoryAdd.m */,
+				49FDF1A91D69DFE000D8D378 /* FactoryVCtrl2.h */,
+				49FDF1AA1D69DFE000D8D378 /* FactoryVCtrl2.m */,
 				49FDF3671D69F17200D8D378 /* HCDfactory.h */,
 				49FDF3681D69F17200D8D378 /* HCDfactory.m */,
+				49FDF1A11D69DFE000D8D378 /* HCDfactoryAdd.h */,
+				49FDF1A21D69DFE000D8D378 /* HCDfactoryAdd.m */,
 				49FDF1A51D69DFE000D8D378 /* HCDfactoryMinus.h */,
 				49FDF1A61D69DFE000D8D378 /* HCDfactoryMinus.m */,
 				49FDF1A71D69DFE000D8D378 /* HCDfactoryMultiply.h */,
 				49FDF1A81D69DFE000D8D378 /* HCDfactoryMultiply.m */,
-				49FDF1A91D69DFE000D8D378 /* FactoryVCtrl2.h */,
-				49FDF1AA1D69DFE000D8D378 /* FactoryVCtrl2.m */,
 			);
+			name = "2工厂方法模式";
 			path = "5工厂方法模式";
 			sourceTree = "<group>";
 		};
@@ -15156,31 +15155,32 @@
 			path = "9观察者模式";
 			sourceTree = "<group>";
 		};
-		49FDF1CA1D69DFE000D8D378 /* 10抽象工厂模式 */ = {
+		49FDF1CA1D69DFE000D8D378 /* 3抽象工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
-				49FDF1CB1D69DFE000D8D378 /* HCDAccessDepartment.h */,
-				49FDF1CC1D69DFE000D8D378 /* HCDAccessDepartment.m */,
+				49FDF1DE1D69DFE000D8D378 /* AbstractFactoryVCtrl2.h */,
+				49FDF1DF1D69DFE000D8D378 /* AbstractFactoryVCtrl2.m */,
+				49FDF1D21D69DFE000D8D378 /* HCDFactory.h */,
 				49FDF1CD1D69DFE000D8D378 /* HCDAccessFactory.h */,
 				49FDF1CE1D69DFE000D8D378 /* HCDAccessFactory.m */,
+				49FDF1D91D69DFE000D8D378 /* HCDUser.h */,
 				49FDF1CF1D69DFE000D8D378 /* HCDAccessUser.h */,
 				49FDF1D01D69DFE000D8D378 /* HCDAccessUser.m */,
 				49FDF1D11D69DFE000D8D378 /* HCDDepartment.h */,
-				49FDF1D21D69DFE000D8D378 /* HCDFactory.h */,
-				49FDF1D31D69DFE000D8D378 /* HCDSqlserverDepartment.h */,
-				49FDF1D41D69DFE000D8D378 /* HCDSqlserverDepartment.m */,
+				49FDF1CB1D69DFE000D8D378 /* HCDAccessDepartment.h */,
+				49FDF1CC1D69DFE000D8D378 /* HCDAccessDepartment.m */,
 				49FDF1D51D69DFE000D8D378 /* HCDSqlserverFactory.h */,
 				49FDF1D61D69DFE000D8D378 /* HCDSqlserverFactory.m */,
-				49FDF1D71D69DFE000D8D378 /* HCDSqlserverUser.h */,
-				49FDF1D81D69DFE000D8D378 /* HCDSqlserverUser.m */,
-				49FDF1D91D69DFE000D8D378 /* HCDUser.h */,
-				49FDF1DA1D69DFE000D8D378 /* SQLDepartment.h */,
-				49FDF1DB1D69DFE000D8D378 /* SQLDepartment.m */,
 				49FDF1DC1D69DFE000D8D378 /* SQLUser.h */,
 				49FDF1DD1D69DFE000D8D378 /* SQLUser.m */,
-				49FDF1DE1D69DFE000D8D378 /* AbstractFactoryVCtrl2.h */,
-				49FDF1DF1D69DFE000D8D378 /* AbstractFactoryVCtrl2.m */,
+				49FDF1D71D69DFE000D8D378 /* HCDSqlserverUser.h */,
+				49FDF1D81D69DFE000D8D378 /* HCDSqlserverUser.m */,
+				49FDF1DA1D69DFE000D8D378 /* SQLDepartment.h */,
+				49FDF1DB1D69DFE000D8D378 /* SQLDepartment.m */,
+				49FDF1D31D69DFE000D8D378 /* HCDSqlserverDepartment.h */,
+				49FDF1D41D69DFE000D8D378 /* HCDSqlserverDepartment.m */,
 			);
+			name = "3抽象工厂模式";
 			path = "10抽象工厂模式";
 			sourceTree = "<group>";
 		};

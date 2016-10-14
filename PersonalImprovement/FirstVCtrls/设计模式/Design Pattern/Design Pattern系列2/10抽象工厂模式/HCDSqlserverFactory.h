@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "HCDFactory.h"
+
+// 具体工厂类
 @interface HCDSqlserverFactory : NSObject<HCDFactory>
 
 @end

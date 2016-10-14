@@ -13,7 +13,6 @@
 #import "WindowsDevice.h"
 
 typedef enum : NSUInteger {
-    
     kAndroid,
     kiPhone,
     kWindows,
