@@ -51,6 +51,8 @@
     [self addCell:@"XLForm" class:@"dddd"];
     [self addCell:@"ZSSRichTextEditor" class:@"ZSSDemoList"];
     [self addCell:@"NYTPhotoViewer" class:@"sdddd"];
+    [self addCell:@"YLProgressBar" class:@"YLViewController"];
+    [self addCell:@"FSCalender" class:@"dddd"];
 }
 
 
@@ -122,6 +124,10 @@
     }else if ([cellTitle isEqualToString:@"NYTPhotoViewer"]){
         UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"NYTMain" bundle:nil];
         UIViewController *ctrl = [mainStoryBoard instantiateViewControllerWithIdentifier:@"NYTViewController"];
+        [self.navigationController pushViewController:ctrl animated:YES];
+    }else if ([cellTitle isEqualToString:@"FSCalendar"]){
+        UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil];
+        UIViewController *ctrl = [mainStoryBoard instantiateViewControllerWithIdentifier:@"FSTableViewController"];
         [self.navigationController pushViewController:ctrl animated:YES];
     }else {
         [self.navigationController pushViewController:ctrl animated:YES];

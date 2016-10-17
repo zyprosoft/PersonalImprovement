@@ -32,18 +32,22 @@
     dispatch_queue_t serialQ = dispatch_queue_create("serialQueue", NULL);
     dispatch_sync(serialQ, ^{
         NSLog(@"串行队列同步派发 %@", [NSThread currentThread]);
+        // 打印出来还是主线程
     });
     dispatch_async(serialQ, ^{
         NSLog(@"串行队列异步派发 %@", [NSThread currentThread]);
+        // 新开辟了线程
     });
 
     
     dispatch_queue_t concurrentQ = dispatch_queue_create("concurrentQueue", DISPATCH_QUEUE_CONCURRENT);
     dispatch_sync(concurrentQ, ^{
         NSLog(@"并行队列同步派发 %@", [NSThread currentThread]);
+        // 打印出来还是主线程
     });
     dispatch_async(concurrentQ, ^{
         NSLog(@"并行队列异步派发 %@", [NSThread currentThread]);
+        // 新开辟了线程
     });
 }
 

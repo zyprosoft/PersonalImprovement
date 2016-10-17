@@ -62,6 +62,7 @@ pod 'MLPAutoCompleteTextField'
 pod 'TWMessageBarManager'
 pod 'FTPopOverMenu'
 pod 'BabyBluetooth'
+pod 'FSCalendar'
 
 #pod 'JSQMessagesViewController'
 

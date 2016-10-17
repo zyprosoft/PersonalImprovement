@@ -45,6 +45,7 @@
     [self addCell:@"设计模式" class:@"StructureAndPatternVCtrl"];
     [self addCell:@"CTNetworking网络层架构" class:@"ddd"];
     [self addCell:@"蓝牙第三方库BabyBluetooth" class:@"ddd"];
+    [self addCell:@"UITableView+FDTemplateLayout" class:@"ddd"];
 }
 
 - (void)addCell:(NSString *)title class:(NSString *)className {
@@ -74,8 +75,12 @@
         UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"SystemServiceMainStoryboard" bundle:nil];
         UITabBarController *tabBarCtrl = [mainStoryBoard instantiateViewControllerWithIdentifier:@"tabBar"];
         [self.navigationController pushViewController:tabBarCtrl animated:YES];
-    }else if ([cellTitle isEqualToString:@"CFNetworking网络层架构"]){
-        UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"CFNetworking" bundle:nil];
+    }else if ([cellTitle isEqualToString:@"CTNetworking网络层架构"]){
+        UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"CTNetworking" bundle:nil];
+        UIViewController *ctrl = [mainStoryBoard instantiateViewControllerWithIdentifier:@"TestViewController"];
+        [self.navigationController pushViewController:ctrl animated:YES];
+    }else if ([cellTitle isEqualToString:@"UITableView+FDTemplateLayout"]){
+        UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"FDTemplate" bundle:nil];
         UIViewController *ctrl = [mainStoryBoard instantiateViewControllerWithIdentifier:@"TestViewController"];
         [self.navigationController pushViewController:ctrl animated:YES];
     }else {
