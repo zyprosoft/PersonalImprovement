@@ -807,7 +807,6 @@
 		4971093F1DB0B1A10020E867 /* VisitorVCtlr2.m in Sources */ = {isa = PBXBuildFile; fileRef = 497108C71DB0B1A00020E867 /* VisitorVCtlr2.m */; };
 		497109451DB0B2E40020E867 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 497109411DB0B2E40020E867 /* Singleton.m */; };
 		497109461DB0B2E40020E867 /* SingletonVCtrl1.m in Sources */ = {isa = PBXBuildFile; fileRef = 497109431DB0B2E40020E867 /* SingletonVCtrl1.m */; };
-		497109511DB0B3540020E867 /* AbstractFactoryVCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 497109481DB0B3540020E867 /* AbstractFactoryVCtrl.m */; };
 		497109521DB0B3540020E867 /* AbstractFactoryVCtrl1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4971094A1DB0B3540020E867 /* AbstractFactoryVCtrl1.m */; };
 		497109531DB0B3540020E867 /* AcmeBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4971094C1DB0B3540020E867 /* AcmeBrandingFactory.m */; };
 		497109541DB0B3540020E867 /* BrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4971094E1DB0B3540020E867 /* BrandingFactory.m */; };
@@ -3818,7 +3817,6 @@
 		497109411DB0B2E40020E867 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 		497109421DB0B2E40020E867 /* SingletonVCtrl1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonVCtrl1.h; sourceTree = "<group>"; };
 		497109431DB0B2E40020E867 /* SingletonVCtrl1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonVCtrl1.m; sourceTree = "<group>"; };
-		497109481DB0B3540020E867 /* AbstractFactoryVCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryVCtrl.m; sourceTree = "<group>"; };
 		497109491DB0B3540020E867 /* AbstractFactoryVCtrl1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractFactoryVCtrl1.h; sourceTree = "<group>"; };
 		4971094A1DB0B3540020E867 /* AbstractFactoryVCtrl1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryVCtrl1.m; sourceTree = "<group>"; };
 		4971094B1DB0B3540020E867 /* AcmeBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeBrandingFactory.h; sourceTree = "<group>"; };
@@ -9134,7 +9132,6 @@
 		497107CE1DB0B1A00020E867 /* 3抽象工厂模式(Abstract Factory) */ = {
 			isa = PBXGroup;
 			children = (
-				497109481DB0B3540020E867 /* AbstractFactoryVCtrl.m */,
 				497109491DB0B3540020E867 /* AbstractFactoryVCtrl1.h */,
 				4971094A1DB0B3540020E867 /* AbstractFactoryVCtrl1.m */,
 				4971094B1DB0B3540020E867 /* AcmeBrandingFactory.h */,
@@ -16842,7 +16839,6 @@
 				49B4E6881D7D0213001C8E29 /* GJCFFileUploadTask.m in Sources */,
 				497109171DB0B1A10020E867 /* IteratorVCtrol2.m in Sources */,
 				4917A4D91D56DDAD00A55069 /* XLFormWeekDaysCell.m in Sources */,
-				497109511DB0B3540020E867 /* AbstractFactoryVCtrl.m in Sources */,
 				49C7D7A71D65960C00BC0926 /* AMNPhotoPresenter.m in Sources */,
 				49B172401D29567600F2520D /* XYDTabBar.m in Sources */,
 				49FCE8831D3FC71A00ED6A90 /* GVUserDefaults+Properties.m in Sources */,

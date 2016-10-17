@@ -18,7 +18,6 @@
 #import "CompositeVCtrl1.h"
 #import "DecoratorVCtrl1.h"
 #import "FacadeVCtrl1.h"
-#import "FactoryVCtrl1.h"
 #import "FlyweightVCtrl1.h"
 #import "IteratorVCtrl1.h"
 #import "MediatorVCtrl1.h"
@@ -42,13 +41,11 @@
 #import "FacadeVCtrl2.h"
 #import "BuilderVCtrl2.h"
 #import "ObserverVCtrl2.h"
-#import "AbstractFactoryVCtrl2.h"
 #import "StateVCtrl2.h"
 #import "AdaptorVCtrl2.h"
 #import "MementorVCtrl2.h"
 #import "CompositeVCtrl2.h"
 #import "IteratorVCtrol2.h"
-#import "SingletonVCtrl2.h"
 #import "BridgeVCtrl2.h"
 #import "CommandVCtrl2.h"
 #import "ChainOfResponsibilityVCtrl2.h"
@@ -76,7 +73,6 @@
     [self addCell:@"Composite" class:@"CompositeVCtrl1"];
     [self addCell:@"Decorator" class:@"DecoratorVCtrl1"];
     [self addCell:@"Facade" class:@"FacadeVCtrl1"];
-    [self addCell:@"Factory" class:@"FactoryVCtrl1"];
     [self addCell:@"Flyweight" class:@"FlyweightVCtrl1"];
     [self addCell:@"Iterator" class:@"IteratorVCtrl1"];
     [self addCell:@"Mediator" class:@"MediatorVCtrl1"];

@@ -11,7 +11,6 @@
 #import "HCDCalculateDivide.h"
 #import "HCDCalculateMinus.h"
 #import "HCDCalcuteMultiply.h"
-#import "DesignCommonTool.h"
 
 
 @implementation HCDCalcuteFactory

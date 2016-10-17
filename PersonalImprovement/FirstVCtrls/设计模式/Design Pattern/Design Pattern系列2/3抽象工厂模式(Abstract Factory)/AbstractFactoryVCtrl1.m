@@ -6,15 +6,15 @@
 //  Copyright (c) 2015年 YouXianMing. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "AbstractFactoryVCtrl1.h"
 #import "AcmeBrandingFactory.h"
 #import "SierraBrandingFactory.h"
 
-@interface ViewController ()
+@interface AbstractFactoryVCtrl1 ()
 
 @end
 
-@implementation ViewController
+@implementation AbstractFactoryVCtrl1
 
 - (void)viewDidLoad {
     

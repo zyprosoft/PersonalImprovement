@@ -21,7 +21,30 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    [self testDeadLock1];
+    [self testTaskOnQueue];
+}
+
+// 测试分别在串行队列/并行队列上执行sync/async的操作
+- (void)testTaskOnQueue {
+    
+    NSLog(@"当前线程 %@", [NSThread currentThread]);
+    
+    dispatch_queue_t serialQ = dispatch_queue_create("serialQueue", NULL);
+    dispatch_sync(serialQ, ^{
+        NSLog(@"串行队列同步派发 %@", [NSThread currentThread]);
+    });
+    dispatch_async(serialQ, ^{
+        NSLog(@"串行队列异步派发 %@", [NSThread currentThread]);
+    });
+
+    
+    dispatch_queue_t concurrentQ = dispatch_queue_create("concurrentQueue", DISPATCH_QUEUE_CONCURRENT);
+    dispatch_sync(concurrentQ, ^{
+        NSLog(@"并行队列同步派发 %@", [NSThread currentThread]);
+    });
+    dispatch_async(concurrentQ, ^{
+        NSLog(@"并行队列异步派发 %@", [NSThread currentThread]);
+    });
 }
 
 /**
