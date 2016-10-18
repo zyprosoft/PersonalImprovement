@@ -53,6 +53,7 @@
     [self addCell:@"NYTPhotoViewer" class:@"sdddd"];
     [self addCell:@"YLProgressBar" class:@"YLViewController"];
     [self addCell:@"FSCalender" class:@"dddd"];
+    [self addCell:@"FDStackView" class:@"dddd"];
 }
 
 
@@ -128,6 +129,10 @@
     }else if ([cellTitle isEqualToString:@"FSCalendar"]){
         UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil];
         UIViewController *ctrl = [mainStoryBoard instantiateViewControllerWithIdentifier:@"FSTableViewController"];
+        [self.navigationController pushViewController:ctrl animated:YES];
+    }else if ([cellTitle isEqualToString:@"FDStackView"]){
+        UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"FDStackView" bundle:nil];
+        UIViewController *ctrl = [mainStoryBoard instantiateViewControllerWithIdentifier:@"tableVCtrl"];
         [self.navigationController pushViewController:ctrl animated:YES];
     }else {
         [self.navigationController pushViewController:ctrl animated:YES];
