@@ -54,6 +54,7 @@
     [self addCell:@"YLProgressBar" class:@"YLViewController"];
     [self addCell:@"FSCalender" class:@"dddd"];
     [self addCell:@"FDStackView" class:@"dddd"];
+    [self addCell:@"FDFullscreenPopGesture" class:@"dddd"];
 }
 
 
@@ -132,6 +133,10 @@
         [self.navigationController pushViewController:ctrl animated:YES];
     }else if ([cellTitle isEqualToString:@"FDStackView"]){
         UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"FDStackView" bundle:nil];
+        UIViewController *ctrl = [mainStoryBoard instantiateViewControllerWithIdentifier:@"tableVCtrl"];
+        [self.navigationController pushViewController:ctrl animated:YES];
+    }else if ([cellTitle isEqualToString:@"FDFullscreenPopGesture"]){
+        UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"FDFullscreen" bundle:nil];
         UIViewController *ctrl = [mainStoryBoard instantiateViewControllerWithIdentifier:@"tableVCtrl"];
         [self.navigationController pushViewController:ctrl animated:YES];
     }else {

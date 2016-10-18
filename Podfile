@@ -64,6 +64,7 @@ pod 'FTPopOverMenu'
 pod 'BabyBluetooth'
 pod 'FSCalendar'
 pod 'FDStackView'
+pod 'FDFullscreenPopGesture'
 
 #pod 'JSQMessagesViewController'
 

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E024F731792BB50FF34BD92358A0CB5C'
+               BlueprintIdentifier = 'BC00D63F62807D311946FE08E11B6487'
                BlueprintName = 'PQFCustomLoaders'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPQFCustomLoaders.a'>

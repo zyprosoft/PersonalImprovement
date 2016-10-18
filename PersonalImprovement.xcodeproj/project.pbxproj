@@ -1008,10 +1008,7 @@
 		4994AAD61DB4DDC600FC3F7B /* FDStackView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4994AAD11DB4DDC600FC3F7B /* FDStackView.storyboard */; };
 		4994AAD71DB4DDC600FC3F7B /* FDStoryboardBasedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4994AAD31DB4DDC600FC3F7B /* FDStoryboardBasedViewController.m */; };
 		4994AAD81DB4DDC600FC3F7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4994AAD41DB4DDC600FC3F7B /* Images.xcassets */; };
-		4994AAE01DB4DE0400FC3F7B /* FDCodeBasedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4994AADB1DB4DE0400FC3F7B /* FDCodeBasedViewController.m */; };
-		4994AAE11DB4DE0400FC3F7B /* FDStackView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4994AADC1DB4DE0400FC3F7B /* FDStackView.storyboard */; };
-		4994AAE21DB4DE0400FC3F7B /* FDStoryboardBasedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4994AADE1DB4DE0400FC3F7B /* FDStoryboardBasedViewController.m */; };
-		4994AAE31DB4DE0400FC3F7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4994AADF1DB4DE0400FC3F7B /* Images.xcassets */; };
+		4994AAE61DB5AA5C00FC3F7B /* FDFullscreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4994AAE51DB5AA5C00FC3F7B /* FDFullscreen.storyboard */; };
 		49A0A3741D66AE2400633FFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A0A3731D66AE2400633FFA /* Images.xcassets */; };
 		49A0A37C1D66D48800633FFA /* PersonalImprovement_VIPERTestTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A0A37B1D66D48800633FFA /* PersonalImprovement_VIPERTestTarget.m */; };
 		49A0A3891D66D4B600633FFA /* VIPER_TODOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A0A3831D66D4B600633FFA /* VIPER_TODOTests.m */; };
@@ -4193,12 +4190,7 @@
 		4994AAD21DB4DDC600FC3F7B /* FDStoryboardBasedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDStoryboardBasedViewController.h; sourceTree = "<group>"; };
 		4994AAD31DB4DDC600FC3F7B /* FDStoryboardBasedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDStoryboardBasedViewController.m; sourceTree = "<group>"; };
 		4994AAD41DB4DDC600FC3F7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4994AADA1DB4DE0400FC3F7B /* FDCodeBasedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCodeBasedViewController.h; sourceTree = "<group>"; };
-		4994AADB1DB4DE0400FC3F7B /* FDCodeBasedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCodeBasedViewController.m; sourceTree = "<group>"; };
-		4994AADC1DB4DE0400FC3F7B /* FDStackView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FDStackView.storyboard; sourceTree = "<group>"; };
-		4994AADD1DB4DE0400FC3F7B /* FDStoryboardBasedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDStoryboardBasedViewController.h; sourceTree = "<group>"; };
-		4994AADE1DB4DE0400FC3F7B /* FDStoryboardBasedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDStoryboardBasedViewController.m; sourceTree = "<group>"; };
-		4994AADF1DB4DE0400FC3F7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4994AAE51DB5AA5C00FC3F7B /* FDFullscreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FDFullscreen.storyboard; sourceTree = "<group>"; };
 		49A0A3731D66AE2400633FFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		49A0A3791D66D48700633FFA /* PersonalImprovement-VIPERTestTarget.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PersonalImprovement-VIPERTestTarget.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A0A37B1D66D48800633FFA /* PersonalImprovement_VIPERTestTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalImprovement_VIPERTestTarget.m; sourceTree = "<group>"; };
@@ -10445,17 +10437,12 @@
 			path = FDStackView;
 			sourceTree = "<group>";
 		};
-		4994AAD91DB4DE0400FC3F7B /* FDStackView */ = {
+		4994AAE41DB5AA5C00FC3F7B /* FDFullscreenPopGesture */ = {
 			isa = PBXGroup;
 			children = (
-				4994AADA1DB4DE0400FC3F7B /* FDCodeBasedViewController.h */,
-				4994AADB1DB4DE0400FC3F7B /* FDCodeBasedViewController.m */,
-				4994AADC1DB4DE0400FC3F7B /* FDStackView.storyboard */,
-				4994AADD1DB4DE0400FC3F7B /* FDStoryboardBasedViewController.h */,
-				4994AADE1DB4DE0400FC3F7B /* FDStoryboardBasedViewController.m */,
-				4994AADF1DB4DE0400FC3F7B /* Images.xcassets */,
+				4994AAE51DB5AA5C00FC3F7B /* FDFullscreen.storyboard */,
 			);
-			path = FDStackView;
+			path = FDFullscreenPopGesture;
 			sourceTree = "<group>";
 		};
 		49A0A37A1D66D48800633FFA /* PersonalImprovement-VIPERTestTarget */ = {
@@ -14516,7 +14503,6 @@
 		49FC8C511D2BFB9A007454F7 /* SecondVCtrls */ = {
 			isa = PBXGroup;
 			children = (
-				4994AAD91DB4DE0400FC3F7B /* FDStackView */,
 				49FC8C521D2BFB9A007454F7 /* SecondVCtrl.h */,
 				49FC8C531D2BFB9A007454F7 /* SecondVCtrl.m */,
 				49FC8C541D2BFB9A007454F7 /* SecondVCtrl.xib */,
@@ -14537,6 +14523,7 @@
 				49AD4BAB1D8946A5005BD306 /* NYTPhotoViewer */,
 				496BC2D81DB4D85300C32DE6 /* FSCalendar */,
 				4994AACE1DB4DDC600FC3F7B /* FDStackView */,
+				4994AAE41DB5AA5C00FC3F7B /* FDFullscreenPopGesture */,
 			);
 			path = SecondVCtrls;
 			sourceTree = "<group>";
@@ -15867,7 +15854,6 @@
 				4917A4601D56D9B400A55069 /* 4Stars.png in Resources */,
 				497B85A81D6B39F300AF3DEF /* RWTRecentSearchItemTableViewCell.xib in Resources */,
 				4948CB0A1D771620007109B7 /* Assets.xcassets in Resources */,
-				4994AAE31DB4DE0400FC3F7B /* Images.xcassets in Resources */,
 				49B4E6001D7D0213001C8E29 /* owl-login-arm-left@2x.png in Resources */,
 				49FC8C971D309BBA007454F7 /* Empty.xib in Resources */,
 				49B4E7D21D7D0213001C8E29 /* 聊天键盘-icon-短视频@2x.png in Resources */,
@@ -16035,7 +16021,6 @@
 				4930ED911D28B2AE00606CD9 /* list_arrow_up@3x.png in Resources */,
 				490147EA1D58D7ED0058E23B /* ZSSsuperscript.png in Resources */,
 				49B4E77F1D7D0213001C8E29 /* 081[撇嘴]@2x.png in Resources */,
-				4994AAE11DB4DE0400FC3F7B /* FDStackView.storyboard in Resources */,
 				4930EDEB1D28B2AE00606CD9 /* Checkmark@2x.png in Resources */,
 				4930ED9E1D28B2AE00606CD9 /* list_folder@2x.png in Resources */,
 				4930EDA11D28B2AE00606CD9 /* list_html@3x.png in Resources */,
@@ -16113,6 +16098,7 @@
 				4917A4591D56D9B400A55069 /* 2Stars@2x.png in Resources */,
 				49F545671D4E332B00938724 /* cone.png in Resources */,
 				490147C81D58D7ED0058E23B /* ZSShorizontalrule.png in Resources */,
+				4994AAE61DB5AA5C00FC3F7B /* FDFullscreen.storyboard in Resources */,
 				49FCE9A91D432DF700ED6A90 /* FormFields.json in Resources */,
 				49FBCD051D328B7700D4D091 /* BFKitViewController.xib in Resources */,
 				49F964CD1D48E285007E4C21 /* MRProgress.storyboard in Resources */,
@@ -16915,7 +16901,6 @@
 				49B4E8671D7D0214001C8E29 /* ZWCollectionViewFlowLayout.m in Sources */,
 				49B4E71D1D7D0213001C8E29 /* GJGCChatInputExpandEmojiPanelGifPageItem.m in Sources */,
 				4972E8351D669DEE005B4315 /* VTDRootWireframe.m in Sources */,
-				4994AAE21DB4DE0400FC3F7B /* FDStoryboardBasedViewController.m in Sources */,
 				49FCE89E1D41163600ED6A90 /* FCFileManager.m in Sources */,
 				49B4E7FB1D7D0213001C8E29 /* GJGCRecentChatDataManager.m in Sources */,
 				49B4E6891D7D0213001C8E29 /* GJCFUploadFileModel.m in Sources */,
@@ -17478,7 +17463,6 @@
 				4930EE131D28B2AE00606CD9 /* ScanPhotoesViewCtrl.m in Sources */,
 				49A93F301D6BE92B009269BC /* Dijkstra.m in Sources */,
 				49534C0B1D63FB9A0077BDF1 /* StructureAndPatternVCtrl.m in Sources */,
-				4994AAE01DB4DE0400FC3F7B /* FDCodeBasedViewController.m in Sources */,
 				4929A3741D748B29000E8B1F /* UIImage+Shadow.m in Sources */,
 				4929A34C1D748B29000E8B1F /* SierraView.m in Sources */,
 				49B4E5DF1D7D0213001C8E29 /* GJGCAppWallAreaSheetDataManager.m in Sources */,

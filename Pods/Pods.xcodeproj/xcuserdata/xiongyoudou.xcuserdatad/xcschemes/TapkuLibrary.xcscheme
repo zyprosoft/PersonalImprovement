@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '38A520E0334DF9E7286558580255363A'
+               BlueprintIdentifier = '9C2599AAF4A69C6A5BDE2C069ADB18C4'
                BlueprintName = 'TapkuLibrary'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libTapkuLibrary.a'>
