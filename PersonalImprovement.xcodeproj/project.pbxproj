@@ -2383,10 +2383,6 @@
 		49FDEF391D6951B000D8D378 /* Folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49FDEBC51D6951AC00D8D378 /* Folder@2x.png */; };
 		49FDEF3A1D6951B000D8D378 /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FDEBC71D6951AC00D8D378 /* UIView+SetRect.m */; };
 		49FDEF3B1D6951B000D8D378 /* CompositeVCtrl1.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FDEBC91D6951AC00D8D378 /* CompositeVCtrl1.m */; };
-		49FDEF3C1D6951B000D8D378 /* DecoratorGamePlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FDEBCC1D6951AC00D8D378 /* DecoratorGamePlay.m */; };
-		49FDEF3D1D6951B000D8D378 /* GamePlay+MoreCommond.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FDEBCE1D6951AC00D8D378 /* GamePlay+MoreCommond.m */; };
-		49FDEF3E1D6951B000D8D378 /* GamePlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FDEBD01D6951AC00D8D378 /* GamePlay.m */; };
-		49FDEF3F1D6951B000D8D378 /* DecoratorVCtrl1.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FDEBD21D6951AC00D8D378 /* DecoratorVCtrl1.m */; };
 		49FDEF511D6951B000D8D378 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FDEBFB1D6951AC00D8D378 /* LinkedList.m */; };
 		49FDEF521D6951B000D8D378 /* LinkedListIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FDEBFD1D6951AC00D8D378 /* LinkedListIterator.m */; };
 		49FDEF531D6951B000D8D378 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FDEBFF1D6951AC00D8D378 /* Node.m */; };
@@ -6382,14 +6378,6 @@
 		49FDEBC71D6951AC00D8D378 /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
 		49FDEBC81D6951AC00D8D378 /* CompositeVCtrl1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositeVCtrl1.h; sourceTree = "<group>"; };
 		49FDEBC91D6951AC00D8D378 /* CompositeVCtrl1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositeVCtrl1.m; sourceTree = "<group>"; };
-		49FDEBCB1D6951AC00D8D378 /* DecoratorGamePlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoratorGamePlay.h; sourceTree = "<group>"; };
-		49FDEBCC1D6951AC00D8D378 /* DecoratorGamePlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoratorGamePlay.m; sourceTree = "<group>"; };
-		49FDEBCD1D6951AC00D8D378 /* GamePlay+MoreCommond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GamePlay+MoreCommond.h"; sourceTree = "<group>"; };
-		49FDEBCE1D6951AC00D8D378 /* GamePlay+MoreCommond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GamePlay+MoreCommond.m"; sourceTree = "<group>"; };
-		49FDEBCF1D6951AC00D8D378 /* GamePlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlay.h; sourceTree = "<group>"; };
-		49FDEBD01D6951AC00D8D378 /* GamePlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlay.m; sourceTree = "<group>"; };
-		49FDEBD11D6951AC00D8D378 /* DecoratorVCtrl1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoratorVCtrl1.h; sourceTree = "<group>"; };
-		49FDEBD21D6951AC00D8D378 /* DecoratorVCtrl1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoratorVCtrl1.m; sourceTree = "<group>"; };
 		49FDEBF91D6951AC00D8D378 /* IteratorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IteratorProtocol.h; sourceTree = "<group>"; };
 		49FDEBFA1D6951AC00D8D378 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 		49FDEBFB1D6951AC00D8D378 /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
@@ -15013,7 +15001,6 @@
 				49FDEBA11D6951AC00D8D378 /* ChainOfResponsibilityPattern */,
 				49FDEBB11D6951AC00D8D378 /* CommandPattern */,
 				49FDEBBD1D6951AC00D8D378 /* CompositePattern */,
-				49FDEBCA1D6951AC00D8D378 /* DecoratorPattern */,
 				49FDEBF81D6951AC00D8D378 /* IteratorPattern */,
 				49FDEC021D6951AC00D8D378 /* MediatorPattern */,
 				49FDEC071D6951AC00D8D378 /* MementoPattern */,
@@ -15104,21 +15091,6 @@
 				49FDEBC91D6951AC00D8D378 /* CompositeVCtrl1.m */,
 			);
 			path = CompositePattern;
-			sourceTree = "<group>";
-		};
-		49FDEBCA1D6951AC00D8D378 /* DecoratorPattern */ = {
-			isa = PBXGroup;
-			children = (
-				49FDEBCB1D6951AC00D8D378 /* DecoratorGamePlay.h */,
-				49FDEBCC1D6951AC00D8D378 /* DecoratorGamePlay.m */,
-				49FDEBCD1D6951AC00D8D378 /* GamePlay+MoreCommond.h */,
-				49FDEBCE1D6951AC00D8D378 /* GamePlay+MoreCommond.m */,
-				49FDEBCF1D6951AC00D8D378 /* GamePlay.h */,
-				49FDEBD01D6951AC00D8D378 /* GamePlay.m */,
-				49FDEBD11D6951AC00D8D378 /* DecoratorVCtrl1.h */,
-				49FDEBD21D6951AC00D8D378 /* DecoratorVCtrl1.m */,
-			);
-			path = DecoratorPattern;
 			sourceTree = "<group>";
 		};
 		49FDEBF81D6951AC00D8D378 /* IteratorPattern */ = {
@@ -17597,7 +17569,6 @@
 				4912E3A51D766F9900914825 /* LCCKMapViewController.m in Sources */,
 				49FCE99C1D4314B500ED6A90 /* RootForm2.m in Sources */,
 				4930ED791D28B2AE00606CD9 /* ImageTool.m in Sources */,
-				49FDEF3C1D6951B000D8D378 /* DecoratorGamePlay.m in Sources */,
 				497109351DB0B1A10020E867 /* HCDtextPaperA.m in Sources */,
 				49B4E6ED1D7D0213001C8E29 /* SCMediaTypeConfiguration.m in Sources */,
 				497D4D131D4450E500AFCBBD /* SBCustomStyleViewController.m in Sources */,
@@ -17613,7 +17584,6 @@
 				49B4E6AD1D7D0213001C8E29 /* GJCFCachePathManager.m in Sources */,
 				4966F2EE1D6D8331001E16BD /* CTLocationManager.m in Sources */,
 				4948CB071D77127A007109B7 /* XYDMWTapDetectingView.m in Sources */,
-				49FDEF3F1D6951B000D8D378 /* DecoratorVCtrl1.m in Sources */,
 				49FCE8911D3FC71A00ED6A90 /* Track.m in Sources */,
 				4929A36A1D748B29000E8B1F /* DecoratorView.m in Sources */,
 				49FCE8E71D411F6C00ED6A90 /* TTTAddressFormatter.m in Sources */,
@@ -17907,7 +17877,6 @@
 				49F964711D47924C007E4C21 /* MJTableViewController.m in Sources */,
 				49F7F3521D44468100663F4F /* SSProcessorInfo.m in Sources */,
 				49DAA8561D742F5900F92C7E /* WBModel.m in Sources */,
-				49FDEF3D1D6951B000D8D378 /* GamePlay+MoreCommond.m in Sources */,
 				49F7F31F1D44462D00663F4F /* SystemServicesDemoDiskViewController.m in Sources */,
 				49F546DF1D4E3CA200938724 /* MenuTableViewCell.m in Sources */,
 				49F546EA1D4E3CA200938724 /* PopModalViewController.m in Sources */,
@@ -17932,7 +17901,6 @@
 				49FDEF831D6951B000D8D378 /* ElementCollection.m in Sources */,
 				49B4E7241D7D0213001C8E29 /* GJGCChatInputExpandMenuPanelConfigModel.m in Sources */,
 				49DAA8661D742F5900F92C7E /* YYRootViewController.m in Sources */,
-				49FDEF3E1D6951B000D8D378 /* GamePlay.m in Sources */,
 				492574D41D3BE4D900C454D4 /* DKNightVersionManager.m in Sources */,
 				4971092C1DB0B1A10020E867 /* HCDSleepState.m in Sources */,
 				49B4E8191D7D0213001C8E29 /* BTActionSheetNameAndDetailCell.m in Sources */,
