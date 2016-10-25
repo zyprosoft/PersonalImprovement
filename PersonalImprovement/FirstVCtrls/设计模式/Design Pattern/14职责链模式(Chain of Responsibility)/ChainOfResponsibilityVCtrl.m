@@ -6,14 +6,14 @@
 //  Copyright © 2015年 ZiPeiYi. All rights reserved.
 //
 
-#import "ChainOfResponsibilityVCtrl1.h"
+#import "ChainOfResponsibilityVCtrl.h"
 #import "HeadChain.h"
 #import "PhoneNumChain.h"
 #import "EmailChain.h"
 #import "UserNameChain.h"
 #import "EndChain.h"
 
-@interface ChainOfResponsibilityVCtrl1 ()
+@interface ChainOfResponsibilityVCtrl ()
 
 @property (nonatomic, strong) id <ChainOfResponsibilityProtocol> headChain;
 @property (nonatomic, strong) id <ChainOfResponsibilityProtocol> phoneNumChain;
@@ -23,7 +23,7 @@
 
 @end
 
-@implementation ChainOfResponsibilityVCtrl1
+@implementation ChainOfResponsibilityVCtrl
 
 - (void)viewDidLoad {
     

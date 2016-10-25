@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PrototypeVCtrl1 : UIViewController
+@interface PrototypeVCtrl : UIViewController
 
 
 @end

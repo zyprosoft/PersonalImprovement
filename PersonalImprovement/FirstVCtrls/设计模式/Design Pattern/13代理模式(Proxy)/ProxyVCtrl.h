@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ProxyVCtrl1 : UIViewController
+@interface ProxyVCtrl : UIViewController
 
 
 @end

@@ -6,14 +6,14 @@
 //  Copyright (c) 2015年 YouXianMing. All rights reserved.
 //
 
-#import "StateVCtrl1.h"
+#import "StateVCtrl.h"
 #import "StateNormalModel.h"
 
-@interface StateVCtrl1 ()
+@interface StateVCtrl ()
 
 @end
 
-@implementation StateVCtrl1
+@implementation StateVCtrl
 
 - (void)viewDidLoad {
     [super viewDidLoad];

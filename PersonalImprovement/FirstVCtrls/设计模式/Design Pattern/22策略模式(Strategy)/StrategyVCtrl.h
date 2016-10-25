@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface StrategyVCtrl2 : UIViewController
+@interface StrategyVCtrl : UIViewController
 
 
 @end

@@ -6,17 +6,17 @@
 //  Copyright (c) 2015年 YouXianMing. All rights reserved.
 //
 
-#import "ObserverVCtrl1.h"
+#import "ObserverVCtrl.h"
 #import "SubscriptionServiceCenter.h"
 
 #define  SCIENCE  @"SCIENCE"
 #define  NEWTON   @"NEWTON"
 
-@interface ObserverVCtrl1 () <SubscriptionServiceCenterProtocol>
+@interface ObserverVCtrl () <SubscriptionServiceCenterProtocol>
 
 @end
 
-@implementation ObserverVCtrl1
+@implementation ObserverVCtrl
 
 - (void)viewDidLoad {
     

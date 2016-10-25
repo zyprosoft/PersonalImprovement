@@ -6,16 +6,16 @@
 //  Copyright (c) 2015年 黄成都. All rights reserved.
 //
 
-#import "CompositeVCtrl2.h"
+#import "CompositeVCtrl.h"
 #import "HCDConcreteCompany.h"
 #import "HCDHRDepartment.h"
 #import "HCDFinanceDepartment.h"
 
-@interface CompositeVCtrl2 ()
+@interface CompositeVCtrl ()
 
 @end
 
-@implementation CompositeVCtrl2
+@implementation CompositeVCtrl
 
 - (void)viewDidLoad {
     [super viewDidLoad];

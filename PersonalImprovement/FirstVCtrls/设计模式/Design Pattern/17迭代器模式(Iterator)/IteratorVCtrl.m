@@ -6,18 +6,18 @@
 //  Copyright © 2015年 YouXianMing. All rights reserved.
 //
 
-#import "IteratorVCtrl1.h"
+#import "IteratorVCtrl.h"
 
 #import "LinkedList.h"
 #import "LinkedListIterator.h"
 
-@interface IteratorVCtrl1 ()
+@interface IteratorVCtrl ()
 
 @property (nonatomic, strong) LinkedList  *linkedList;
 
 @end
 
-@implementation IteratorVCtrl1
+@implementation IteratorVCtrl
 
 - (void)viewDidLoad {
     

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DecoratorVCtrl1 : UIViewController
+@interface DecoratorVCtrl : UIViewController
 
 
 @end

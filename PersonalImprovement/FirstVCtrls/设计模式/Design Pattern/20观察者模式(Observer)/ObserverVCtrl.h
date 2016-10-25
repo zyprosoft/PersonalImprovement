@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ObserverVCtrl1 : UIViewController
+@interface ObserverVCtrl : UIViewController
 
 
 @end

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FacadeVCtrl1 : UIViewController
+@interface FacadeVCtrl : UIViewController
 
 
 @end

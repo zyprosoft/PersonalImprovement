@@ -6,17 +6,17 @@
 //  Copyright (c) 2015年 YouXianMing. All rights reserved.
 //
 
-#import "ProxyVCtrl1.h"
+#import "ProxyVCtrl.h"
 #import "MessageProtocol.h"
 #import "ConcreteProxy.h"
 
-@interface ProxyVCtrl1 () <MessageProtocol>
+@interface ProxyVCtrl () <MessageProtocol>
 
 @property (nonatomic, strong) ConcreteProxy  *proxy;
 
 @end
 
-@implementation ProxyVCtrl1
+@implementation ProxyVCtrl
 
 - (void)viewDidLoad {
     

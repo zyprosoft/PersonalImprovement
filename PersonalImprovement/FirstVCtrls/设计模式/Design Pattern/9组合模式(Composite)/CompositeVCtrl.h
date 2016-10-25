@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CompositeVCtrl2 : UIViewController
+@interface CompositeVCtrl : UIViewController
 
 
 @end

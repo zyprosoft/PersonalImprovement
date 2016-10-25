@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IteratorVCtrl1 : UIViewController
+@interface IteratorVCtrl : UIViewController
 
 
 @end

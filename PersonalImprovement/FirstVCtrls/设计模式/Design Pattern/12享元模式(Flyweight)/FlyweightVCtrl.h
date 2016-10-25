@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FlyweightVCtrl1 : UIViewController
+@interface FlyweightVCtrl : UIViewController
 
 
 @end

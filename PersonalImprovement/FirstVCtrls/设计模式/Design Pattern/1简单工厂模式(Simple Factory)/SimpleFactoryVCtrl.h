@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SimpleFactoryVCtr : UIViewController
+@interface SimpleFactoryVCtrl : UIViewController
 
 
 @end

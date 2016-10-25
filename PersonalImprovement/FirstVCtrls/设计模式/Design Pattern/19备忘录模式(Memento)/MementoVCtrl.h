@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MementoVCtrl1 : UIViewController
+@interface MementoVCtrl : UIViewController
 
 
 @end

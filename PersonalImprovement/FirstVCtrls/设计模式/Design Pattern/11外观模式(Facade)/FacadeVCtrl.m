@@ -6,14 +6,14 @@
 //  Copyright (c) 2015年 YouXianMing. All rights reserved.
 //
 
-#import "FacadeVCtrl1.h"
+#import "FacadeVCtrl.h"
 #import "ShapeMaker.h"
 
-@interface FacadeVCtrl1 ()
+@interface FacadeVCtrl ()
 
 @end
 
-@implementation FacadeVCtrl1
+@implementation FacadeVCtrl
 
 - (void)viewDidLoad {
     

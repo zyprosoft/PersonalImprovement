@@ -6,16 +6,16 @@
 //  Copyright (c) 2015年 YouXianMing. All rights reserved.
 //
 
-#import "BuilderPatternVCtrl1.h"
+#import "BuilderPatternVCtrl.h"
 #import "VehicleAssemblyPlant.h"
 #import "SportsCar.h"
 #import "SuperBike.h"
 
-@interface BuilderPatternVCtrl1 ()
+@interface BuilderPatternVCtrl ()
 
 @end
 
-@implementation BuilderPatternVCtrl1
+@implementation BuilderPatternVCtrl
 
 - (void)viewDidLoad {
     

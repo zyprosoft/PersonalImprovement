@@ -6,7 +6,7 @@
 //  Copyright © 2015年 YouXianMing. All rights reserved.
 //
 
-#import "CommandVCtrl1.h"
+#import "CommandVCtrl.h"
 #import "Invoker.h"
 #import "Receiver.h"
 #import "MakeDarkerCommand.h"
@@ -19,7 +19,7 @@ typedef enum : NSUInteger {
     
 } ViewControllerEnumValue;
 
-@interface CommandVCtrl1 ()
+@interface CommandVCtrl ()
 
 @property (nonatomic, strong) UIButton *addButton;
 @property (nonatomic, strong) UIButton *delButton;
@@ -31,7 +31,7 @@ typedef enum : NSUInteger {
 
 @end
 
-@implementation CommandVCtrl1
+@implementation CommandVCtrl
 
 - (void)viewDidLoad {
     

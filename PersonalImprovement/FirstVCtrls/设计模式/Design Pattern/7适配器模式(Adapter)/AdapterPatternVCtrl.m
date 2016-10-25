@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 YouXianMing. All rights reserved.
 //
 
-#import "AdapterPatternVCtrl1.h"
+#import "AdapterPatternVCtrl.h"
 #import "BusinessCardView.h"
 
 #import "AdapterNormalModel.h"
@@ -17,11 +17,11 @@
 
 #import "CommonUsedAdapter.h"
 
-@interface AdapterPatternVCtrl1 ()
+@interface AdapterPatternVCtrl ()
 
 @end
 
-@implementation AdapterPatternVCtrl1
+@implementation AdapterPatternVCtrl
 
 - (void)viewDidLoad {
     

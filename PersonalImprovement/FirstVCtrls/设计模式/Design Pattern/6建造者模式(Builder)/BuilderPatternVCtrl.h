@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BuilderPatternVCtrl1 : UIViewController
+@interface BuilderPatternVCtrl : UIViewController
 
 
 @end

@@ -6,15 +6,15 @@
 //  Copyright (c) 2015年 黄成都. All rights reserved.
 //
 
-#import "InterpreterVCtrl2.h"
+#import "InterpreterVCtrl.h"
 #import "HCDContext.h"
 #import "HCDTerminalExpression.h"
 #import "HCDNonterminalExpression.h"
-@interface InterpreterVCtrl2 ()
+@interface InterpreterVCtrl ()
 
 @end
 
-@implementation InterpreterVCtrl2
+@implementation InterpreterVCtrl
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -6,17 +6,17 @@
 //  Copyright (c) 2015年 黄成都. All rights reserved.
 //
 
-#import "StrategyVCtrl2.h"
+#import "StrategyVCtrl.h"
 #import "HCDCashContext.h"
 #import "HCDCashNormal.h"
 #import "HCDCashRobate.h"
 #import "HCDCaseReturn.h"
 
-@interface StrategyVCtrl2 ()
+@interface StrategyVCtrl ()
 
 @end
 
-@implementation StrategyVCtrl2
+@implementation StrategyVCtrl
 
 - (void)viewDidLoad {
     [super viewDidLoad];

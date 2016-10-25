@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MeditorVCtrl2 : UIViewController
+@interface MeditorVCtrl : UIViewController
 
 
 @end

@@ -6,16 +6,16 @@
 //  Copyright © 2015年 ZiPeiYi. All rights reserved.
 //
 
-#import "FlyweightVCtrl1.h"
+#import "FlyweightVCtrl.h"
 #import "CoffeeShop.h"
 
-@interface FlyweightVCtrl1 ()
+@interface FlyweightVCtrl ()
 
 @property (nonatomic, strong) CoffeeShop *coffeeShop;
 
 @end
 
-@implementation FlyweightVCtrl1
+@implementation FlyweightVCtrl
 
 - (void)viewDidLoad {
     

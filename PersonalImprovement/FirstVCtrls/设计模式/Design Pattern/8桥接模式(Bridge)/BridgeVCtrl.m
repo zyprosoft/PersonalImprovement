@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 黄成都. All rights reserved.
 //
 
-#import "BridgeVCtrl2.h"
+#import "BridgeVCtrl.h"
 #import "HCDPhone.h"
 #import "HCDNokiaPhone.h"
 #import "HCDSonyPhone.h"
@@ -15,11 +15,11 @@
 #import "HCDGameNokiaSoftware.h"
 #import "HCDAddressListSofeware.h"
 typedef id<HCDSoftware> HCDSoftware;
-@interface BridgeVCtrl2 ()
+@interface BridgeVCtrl ()
 
 @end
 
-@implementation BridgeVCtrl2
+@implementation BridgeVCtrl
 
 - (void)viewDidLoad {
     [super viewDidLoad];

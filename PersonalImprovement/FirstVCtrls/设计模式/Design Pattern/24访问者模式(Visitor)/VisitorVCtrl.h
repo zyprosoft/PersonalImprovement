@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VisitorVCtrl1 : UIViewController
+@interface VisitorVCtrl : UIViewController
 
 
 @end

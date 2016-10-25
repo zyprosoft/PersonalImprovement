@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TemplateVCtrl2 : UIViewController
+@interface TemplateVCtrl : UIViewController
 
 
 @end

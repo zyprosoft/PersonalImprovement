@@ -6,15 +6,15 @@
 //  Copyright (c) 2015年 YouXianMing. All rights reserved.
 //
 
-#import "MementoVCtrl1.h"
+#import "MementoVCtrl.h"
 #import "MementoModel.h"
 #import "MementoCenter.h"
 
-@interface MementoVCtrl1 ()
+@interface MementoVCtrl ()
 
 @end
 
-@implementation MementoVCtrl1
+@implementation MementoVCtrl
 
 - (void)viewDidLoad {
     

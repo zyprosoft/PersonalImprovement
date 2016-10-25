@@ -1647,7 +1647,7 @@
 		49CEAAAF1DBDB319002B74B1 /* BridgeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49CEAA561DBDB319002B74B1 /* BridgeView.xib */; };
 		49CEAAB01DBDB319002B74B1 /* BridgeViewIpad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49CEAA571DBDB319002B74B1 /* BridgeViewIpad.xib */; };
 		49CEAAB11DBDB319002B74B1 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA591DBDB319002B74B1 /* CanvasView.m */; };
-		49CEAAB21DBDB319002B74B1 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA5B1DBDB319002B74B1 /* CanvasViewController.m */; };
+		49CEAAB21DBDB319002B74B1 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA5B1DBDB319002B74B1 /* CanvasViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		49CEAAB31DBDB319002B74B1 /* CanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49CEAA5C1DBDB319002B74B1 /* CanvasViewController.xib */; };
 		49CEAAB41DBDB319002B74B1 /* CanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA5E1DBDB319002B74B1 /* CanvasViewGenerator.m */; };
 		49CEAAB51DBDB319002B74B1 /* ClothCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA601DBDB319002B74B1 /* ClothCanvasView.m */; };
@@ -1655,7 +1655,7 @@
 		49CEAAB71DBDB319002B74B1 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA641DBDB319002B74B1 /* Command.m */; };
 		49CEAAB81DBDB319002B74B1 /* CommandBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA661DBDB319002B74B1 /* CommandBarButton.m */; };
 		49CEAAB91DBDB319002B74B1 /* CommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA681DBDB319002B74B1 /* CommandSlider.m */; };
-		49CEAABA1DBDB319002B74B1 /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA6A1DBDB319002B74B1 /* CoordinatingController.m */; };
+		49CEAABA1DBDB319002B74B1 /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA6A1DBDB319002B74B1 /* CoordinatingController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		49CEAABB1DBDB319002B74B1 /* DeleteScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA6C1DBDB319002B74B1 /* DeleteScribbleCommand.m */; };
 		49CEAABC1DBDB319002B74B1 /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA6E1DBDB319002B74B1 /* Dot.m */; };
 		49CEAABD1DBDB31A002B74B1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49CEAA6F1DBDB319002B74B1 /* MainWindow.xib */; };
@@ -1663,7 +1663,7 @@
 		49CEAABF1DBDB31A002B74B1 /* MarkRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA751DBDB319002B74B1 /* MarkRenderer.m */; };
 		49CEAAC01DBDB31A002B74B1 /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA781DBDB319002B74B1 /* NSMutableArray+Stack.m */; };
 		49CEAAC11DBDB31A002B74B1 /* OpenScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA7A1DBDB319002B74B1 /* OpenScribbleCommand.m */; };
-		49CEAAC21DBDB31A002B74B1 /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA7C1DBDB319002B74B1 /* PaletteViewController.m */; };
+		49CEAAC21DBDB31A002B74B1 /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA7C1DBDB319002B74B1 /* PaletteViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		49CEAAC31DBDB31A002B74B1 /* PaletteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49CEAA7D1DBDB319002B74B1 /* PaletteViewController.xib */; };
 		49CEAAC41DBDB31A002B74B1 /* PaperCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA7F1DBDB319002B74B1 /* PaperCanvasView.m */; };
 		49CEAAC51DBDB31A002B74B1 /* PaperCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA811DBDB319002B74B1 /* PaperCanvasViewGenerator.m */; };
@@ -1678,16 +1678,16 @@
 		49CEAACE1DBDB31A002B74B1 /* small_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CEAA8D1DBDB319002B74B1 /* small_dot.png */; };
 		49CEAACF1DBDB31A002B74B1 /* undo.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CEAA8E1DBDB319002B74B1 /* undo.png */; };
 		49CEAAD01DBDB31A002B74B1 /* SaveScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA901DBDB319002B74B1 /* SaveScribbleCommand.m */; };
-		49CEAAD11DBDB31A002B74B1 /* Scribble.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA921DBDB319002B74B1 /* Scribble.m */; };
+		49CEAAD11DBDB31A002B74B1 /* Scribble.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA921DBDB319002B74B1 /* Scribble.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		49CEAAD21DBDB31A002B74B1 /* ScribbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA941DBDB319002B74B1 /* ScribbleManager.m */; };
 		49CEAAD31DBDB31A002B74B1 /* ScribbleMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA971DBDB319002B74B1 /* ScribbleMemento.m */; };
 		49CEAAD41DBDB31A002B74B1 /* ScribbleThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA9A1DBDB319002B74B1 /* ScribbleThumbnailCell.m */; };
-		49CEAAD51DBDB31A002B74B1 /* ScribbleThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA9C1DBDB319002B74B1 /* ScribbleThumbnailView.m */; };
-		49CEAAD61DBDB31A002B74B1 /* ScribbleThumbnailViewImageProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA9E1DBDB319002B74B1 /* ScribbleThumbnailViewImageProxy.m */; };
-		49CEAAD71DBDB31A002B74B1 /* SetStrokeColorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAAA01DBDB319002B74B1 /* SetStrokeColorCommand.m */; };
-		49CEAAD81DBDB31A002B74B1 /* SetStrokeSizeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAAA21DBDB319002B74B1 /* SetStrokeSizeCommand.m */; };
-		49CEAAD91DBDB31A002B74B1 /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAAA41DBDB319002B74B1 /* Stroke.m */; };
-		49CEAADA1DBDB31A002B74B1 /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAAA61DBDB319002B74B1 /* ThumbnailViewController.m */; };
+		49CEAAD51DBDB31A002B74B1 /* ScribbleThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA9C1DBDB319002B74B1 /* ScribbleThumbnailView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		49CEAAD61DBDB31A002B74B1 /* ScribbleThumbnailViewImageProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAA9E1DBDB319002B74B1 /* ScribbleThumbnailViewImageProxy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		49CEAAD71DBDB31A002B74B1 /* SetStrokeColorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAAA01DBDB319002B74B1 /* SetStrokeColorCommand.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		49CEAAD81DBDB31A002B74B1 /* SetStrokeSizeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAAA21DBDB319002B74B1 /* SetStrokeSizeCommand.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		49CEAAD91DBDB31A002B74B1 /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAAA41DBDB319002B74B1 /* Stroke.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		49CEAADA1DBDB31A002B74B1 /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAAA61DBDB319002B74B1 /* ThumbnailViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		49CEAADB1DBDB31A002B74B1 /* ThumbnailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49CEAAA71DBDB319002B74B1 /* ThumbnailViewController.xib */; };
 		49CEAADC1DBDB31A002B74B1 /* TouchPainterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CEAAA91DBDB319002B74B1 /* TouchPainterAppDelegate.m */; };
 		49CEAADD1DBDB31A002B74B1 /* TouchPainterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49CEAAAA1DBDB319002B74B1 /* TouchPainterViewController.xib */; };
@@ -17264,6 +17264,7 @@
 					"\"$(SRCROOT)/PersonalImprovement/FourthVCtrls/YYKit/Resources\"",
 					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/YYKit/Resources",
 					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/ChatKit/Class/Module/Redpacket/Vendor/RedpacketStaticLib",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				GCC_PREFIX_HEADER = "/Users/xiongyoudou/Desktop/Github/PersonalImprovement/Other(其他)/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (
@@ -17490,6 +17491,7 @@
 					"\"$(SRCROOT)/PersonalImprovement/FourthVCtrls/YYKit/Resources\"",
 					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/YYKit/Resources",
 					"$(PROJECT_DIR)/PersonalImprovement/FourthVCtrls/ChatKit/Class/Module/Redpacket/Vendor/RedpacketStaticLib",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				GCC_PREFIX_HEADER = "/Users/xiongyoudou/Desktop/Github/PersonalImprovement/Other(其他)/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (

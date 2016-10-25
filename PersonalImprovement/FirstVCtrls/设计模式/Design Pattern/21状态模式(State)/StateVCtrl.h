@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface StateVCtrl1 : UIViewController
+@interface StateVCtrl : UIViewController
 
 
 @end

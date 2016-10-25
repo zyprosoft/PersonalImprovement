@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BridgeVCtrl2 : UIViewController
+@interface BridgeVCtrl : UIViewController
 
 
 @end

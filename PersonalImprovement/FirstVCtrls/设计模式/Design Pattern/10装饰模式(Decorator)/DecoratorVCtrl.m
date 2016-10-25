@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 YouXianMing. All rights reserved.
 //
 
-#import "DecoratorVCtrl1.h"
+#import "DecoratorVCtrl.h"
 
 // 装饰器对象
 #import "DecoratorGamePlay.h"
@@ -15,11 +15,11 @@
 #import "GamePlay.h"
 #import "GamePlay+MoreCommond.h"
 
-@interface DecoratorVCtrl1 ()
+@interface DecoratorVCtrl ()
 
 @end
 
-@implementation DecoratorVCtrl1
+@implementation DecoratorVCtrl
 
 - (void)viewDidLoad {
     

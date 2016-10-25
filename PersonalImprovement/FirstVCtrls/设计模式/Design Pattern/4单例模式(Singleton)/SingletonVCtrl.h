@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SingletonVCtrl1 : UIViewController
+@interface SingletonVCtrl : UIViewController
 
 
 @end

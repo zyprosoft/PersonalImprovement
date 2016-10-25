@@ -6,14 +6,14 @@
 //  Copyright (c) 2015年 YouXianMing. All rights reserved.
 //
 
-#import "SingletonVCtrl1.h"
+#import "SingletonVCtrl.h"
 #import "Singleton.h"
 
-@interface SingletonVCtrl1 ()
+@interface SingletonVCtrl ()
 
 @end
 
-@implementation SingletonVCtrl1
+@implementation SingletonVCtrl
 
 - (void)viewDidLoad {
     

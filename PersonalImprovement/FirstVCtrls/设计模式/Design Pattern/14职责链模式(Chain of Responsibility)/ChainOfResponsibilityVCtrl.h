@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ChainOfResponsibilityVCtrl1 : UIViewController
+@interface ChainOfResponsibilityVCtrl : UIViewController
 
 
 @end

@@ -6,15 +6,15 @@
 //  Copyright (c) 2015年 黄成都. All rights reserved.
 //
 
-#import "TemplateVCtrl2.h"
+#import "TemplateVCtrl.h"
 #import "HCDtextPaper.h"
 #import "HCDtextPaperA.h"
 #import "HCDtextPaperB.h"
-@interface TemplateVCtrl2 ()
+@interface TemplateVCtrl ()
 
 @end
 
-@implementation TemplateVCtrl2
+@implementation TemplateVCtrl
 
 - (void)viewDidLoad {
     [super viewDidLoad];

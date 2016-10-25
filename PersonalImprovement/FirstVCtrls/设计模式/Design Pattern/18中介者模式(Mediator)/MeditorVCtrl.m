@@ -6,16 +6,16 @@
 //  Copyright (c) 2015年 黄成都. All rights reserved.
 //
 
-#import "MeditorVCtrl2.h"
+#import "MeditorVCtrl.h"
 #import "HCDColleagueA.h"
 #import "HCDColleagueB.h"
 #import "HCDAbstractMediator.h"
 #import "HCDMediator.h"
-@interface MeditorVCtrl2 ()
+@interface MeditorVCtrl ()
 
 @end
 
-@implementation MeditorVCtrl2
+@implementation MeditorVCtrl
 
 - (void)viewDidLoad {
     [super viewDidLoad];

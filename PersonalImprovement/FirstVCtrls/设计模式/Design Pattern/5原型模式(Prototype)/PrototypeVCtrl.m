@@ -6,15 +6,15 @@
 //  Copyright (c) 2015年 YouXianMing. All rights reserved.
 //
 
-#import "PrototypeVCtrl1.h"
+#import "PrototypeVCtrl.h"
 #import "Person.h"
 #import "PrototyModel.h"
 
-@interface PrototypeVCtrl1 ()
+@interface PrototypeVCtrl ()
 
 @end
 
-@implementation PrototypeVCtrl1
+@implementation PrototypeVCtrl
 
 - (void)viewDidLoad {
 

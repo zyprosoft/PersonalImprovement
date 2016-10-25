@@ -6,7 +6,7 @@
 //  Copyright © 2015年 ZiPeiYi. All rights reserved.
 //
 
-#import "VisitorVCtrl1.h"
+#import "VisitorVCtrl.h"
 #import "ElementCollection.h"
 
 #import "ElementA.h"
@@ -14,13 +14,13 @@
 
 #import "Visitor.h"
 
-@interface VisitorVCtrl1 ()
+@interface VisitorVCtrl ()
 
 @property (nonatomic, strong) ElementCollection  *collection;
 
 @end
 
-@implementation VisitorVCtrl1
+@implementation VisitorVCtrl
 
 - (void)viewDidLoad {
     

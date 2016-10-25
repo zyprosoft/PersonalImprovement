@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface InterpreterVCtrl2 : UIViewController
+@interface InterpreterVCtrl : UIViewController
 
 
 @end
