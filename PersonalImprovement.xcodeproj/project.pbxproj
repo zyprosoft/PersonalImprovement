@@ -511,6 +511,7 @@
 		493A2E531D675F1C00DB5CD5 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 493A2E521D675F1C00DB5CD5 /* libOCMock.a */; };
 		49415D631D7D714A00E6675C /* bpg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49415D621D7D714A00E6675C /* bpg.framework */; };
 		49415D901D7E6EA700E6675C /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 49415D8F1D7E6EA700E6675C /* libiconv.tbd */; };
+		494257271DCB2992000A8AAA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494257261DCB2992000A8AAA /* XCTest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4948CB001D77127A007109B7 /* UIImage+XYDMWPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4948CAEC1D77127A007109B7 /* UIImage+XYDMWPhotoBrowser.m */; };
 		4948CB011D77127A007109B7 /* XYDMWCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4948CAEE1D77127A007109B7 /* XYDMWCaptionView.m */; };
 		4948CB021D77127A007109B7 /* XYDMWGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4948CAF11D77127A007109B7 /* XYDMWGridCell.m */; };
@@ -3101,6 +3102,7 @@
 		493A2E521D675F1C00DB5CD5 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = OCMock/libOCMock.a; sourceTree = "<group>"; };
 		49415D621D7D714A00E6675C /* bpg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = bpg.framework; sourceTree = "<group>"; };
 		49415D8F1D7E6EA700E6675C /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		494257261DCB2992000A8AAA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4948CAEB1D77127A007109B7 /* UIImage+XYDMWPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XYDMWPhotoBrowser.h"; sourceTree = "<group>"; };
 		4948CAEC1D77127A007109B7 /* UIImage+XYDMWPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XYDMWPhotoBrowser.m"; sourceTree = "<group>"; };
 		4948CAED1D77127A007109B7 /* XYDMWCaptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDMWCaptionView.h; sourceTree = "<group>"; };
@@ -3296,9 +3298,9 @@
 		4972E7E91D669DEE005B4315 /* VTDCoreDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDCoreDataStore.m; sourceTree = "<group>"; };
 		4972E7EB1D669DEE005B4315 /* VTDRootWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDRootWireframe.h; sourceTree = "<group>"; };
 		4972E7EC1D669DEE005B4315 /* VTDRootWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDRootWireframe.m; sourceTree = "<group>"; };
-		4972E7ED1D669DEE005B4315 /* VTDClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDClock.h; sourceTree = "<group>"; };
-		4972E7EE1D669DEE005B4315 /* VTDDeviceClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDDeviceClock.h; sourceTree = "<group>"; };
-		4972E7EF1D669DEE005B4315 /* VTDDeviceClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDDeviceClock.m; sourceTree = "<group>"; };
+		4972E7ED1D669DEE005B4315 /* VTDClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VTDClock.h; path = Common/VTDClock.h; sourceTree = "<group>"; };
+		4972E7EE1D669DEE005B4315 /* VTDDeviceClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VTDDeviceClock.h; path = Common/VTDDeviceClock.h; sourceTree = "<group>"; };
+		4972E7EF1D669DEE005B4315 /* VTDDeviceClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VTDDeviceClock.m; path = Common/VTDDeviceClock.m; sourceTree = "<group>"; };
 		4972E7F41D669DEE005B4315 /* VTDAddInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDAddInteractor.h; sourceTree = "<group>"; };
 		4972E7F51D669DEE005B4315 /* VTDAddInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTDAddInteractor.m; sourceTree = "<group>"; };
 		4972E7F71D669DEE005B4315 /* VTDAddDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDAddDataManager.h; sourceTree = "<group>"; };
@@ -6100,6 +6102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494257271DCB2992000A8AAA /* XCTest.framework in Frameworks */,
 				49415D901D7E6EA700E6675C /* libiconv.tbd in Frameworks */,
 				49EF66F31D92237E0081B975 /* AlipaySDK.framework in Frameworks */,
 				49C9F6DB1D7587DD00A113DA /* libPods-PersonalImprovement.a in Frameworks */,
@@ -8029,7 +8032,9 @@
 			children = (
 				49A0A3731D66AE2400633FFA /* Images.xcassets */,
 				4972E7D61D669DEE005B4315 /* Common */,
-				4972E7F01D669DEE005B4315 /* Modules */,
+				4972E7ED1D669DEE005B4315 /* VTDClock.h */,
+				4972E7EE1D669DEE005B4315 /* VTDDeviceClock.h */,
+				4972E7EF1D669DEE005B4315 /* VTDDeviceClock.m */,
 				4972E82C1D669DEE005B4315 /* VTDAppDependencies.h */,
 				4972E82D1D669DEE005B4315 /* VTDAppDependencies.m */,
 				4972E8491D669EDC005B4315 /* VIPER.storyboard */,
@@ -8432,9 +8437,7 @@
 				4972E7DE1D669DEE005B4315 /* Model */,
 				4972E7E21D669DEE005B4315 /* Store */,
 				4972E7EA1D669DEE005B4315 /* View */,
-				4972E7ED1D669DEE005B4315 /* VTDClock.h */,
-				4972E7EE1D669DEE005B4315 /* VTDDeviceClock.h */,
-				4972E7EF1D669DEE005B4315 /* VTDDeviceClock.m */,
+				4972E7F01D669DEE005B4315 /* Modules */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -8497,7 +8500,8 @@
 				4972E7F11D669DEE005B4315 /* Add */,
 				4972E80C1D669DEE005B4315 /* List */,
 			);
-			path = Modules;
+			name = Modules;
+			path = ../Modules;
 			sourceTree = "<group>";
 		};
 		4972E7F11D669DEE005B4315 /* Add */ = {
@@ -14412,6 +14416,7 @@
 		FD09C2B7ADD73A1CAEF32BB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				494257261DCB2992000A8AAA /* XCTest.framework */,
 				49415D8F1D7E6EA700E6675C /* libiconv.tbd */,
 				49C9F6DA1D7587DD00A113DA /* libPods-PersonalImprovement.a */,
 				49C9F6D81D75852600A113DA /* bpg.framework */,
