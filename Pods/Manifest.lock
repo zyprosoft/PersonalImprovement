@@ -19,21 +19,21 @@ PODS:
   - AFSoundManager (2.1)
   - AMap3DMap (2.5.0)
   - AMapSearch (2.5.0)
-  - AVOSCloud (3.4.0)
-  - AVOSCloudIM (3.4.0):
-    - AVOSCloud (= 3.4.0)
-    - AVOSCloudIM/_ARC (= 3.4.0)
-    - AVOSCloudIM/_NOARC (= 3.4.0)
-  - AVOSCloudIM/_ARC (3.4.0):
-    - AVOSCloud (= 3.4.0)
-    - AVOSCloudIM/_NOARC (= 3.4.0)
-  - AVOSCloudIM/_NOARC (3.4.0):
-    - AVOSCloud (= 3.4.0)
+  - AVOSCloud (3.6.1)
+  - AVOSCloudIM (3.6.1):
+    - AVOSCloud (= 3.6.1)
+    - AVOSCloudIM/_ARC (= 3.6.1)
+    - AVOSCloudIM/_NOARC (= 3.6.1)
+  - AVOSCloudIM/_ARC (3.6.1):
+    - AVOSCloud (= 3.6.1)
+    - AVOSCloudIM/_NOARC (= 3.6.1)
+  - AVOSCloudIM/_NOARC (3.6.1):
+    - AVOSCloud (= 3.6.1)
   - AXRatingView (1.0.3)
   - BabyBluetooth (0.7.0)
-  - ChatKit (0.7.16):
-    - AVOSCloud (~> 3.4.0)
-    - AVOSCloudIM (~> 3.4.0)
+  - ChatKit (0.8.0):
+    - AVOSCloud (~> 3.6.0)
+    - AVOSCloudIM (~> 3.6.0)
     - DACircularProgress (~> 2.3.1)
     - FDStackView (~> 1.0)
     - FMDB (~> 2.6.2)
@@ -265,7 +265,7 @@ DEPENDENCIES:
   - AMapSearch (= 2.5.0)
   - AXRatingView (= 1.0.3)
   - BabyBluetooth
-  - ChatKit (~> 0.7.2)
+  - ChatKit
   - CocoaAsyncSocket
   - CYLTabBarController
   - DateTools
@@ -350,11 +350,11 @@ SPEC CHECKSUMS:
   AFSoundManager: 232af6154e736e6b2d8c93fafebfafd14fad7510
   AMap3DMap: 9f6274e39cd8937b5651f868c35deef9a37edce3
   AMapSearch: eafa5a749b1078a46f15e6108e88307f78f75e9b
-  AVOSCloud: 771c8d77bc9b9f2cc8ac2eb4b58eaf368337ac95
-  AVOSCloudIM: 288597efc0cff96620fc380ea146ccf89a8a8d48
+  AVOSCloud: cc9b567da2d30f07e3da1e4db682cad9ff56a1b6
+  AVOSCloudIM: 7c30a50d1e8f6afee000a2037ea24eb6abcbc8db
   AXRatingView: ccaadc1bbda99a4b7e1d556059482d2b933a9f4e
   BabyBluetooth: d50758aecf24d4a0ab9271d69f0f116d6bee51c9
-  ChatKit: b0a38a2b6e55e7835cf8bf69cf6686e05840a783
+  ChatKit: 7c5fa96b01e69bcfc38b9158fdafe363ce56352b
   CocoaAsyncSocket: 3baeb1ddd969f81cf9fca81053ae49ef2d1cbbfa
   CocoaLumberjack: a2213b8410917a1a5ecfc5c63a4206edc24d3a5b
   CYLTabBarController: efbdd574772be17f17965acd7ee993f5972ff02f
@@ -439,6 +439,6 @@ SPEC CHECKSUMS:
   YYKit: 843d1b26e20b82c695790c9a89907eaa1e99907f
   ZXingObjC: bf15b3814f7a105b6d99f47da2333c93a063650a
 
-PODFILE CHECKSUM: f6950d70f920284816a54d0b375f4ad2a9d19dc8
+PODFILE CHECKSUM: 0e44eae64498c8ad50ea542a1b9b56d0d2c258db
 
 COCOAPODS: 1.0.1

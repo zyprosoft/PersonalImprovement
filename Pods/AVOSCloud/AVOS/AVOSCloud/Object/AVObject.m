@@ -358,6 +358,11 @@ BOOL requests_contain_request(NSArray *requests, NSDictionary *request) {
         }
         [dic removeObjectForKey:key];
     }
+    if ([AVUtils containsProperty:key inClass:[self class] containSuper:YES filterDynamic:YES]) {
+        /* Create a clean object to produce an empty value. */
+        [self setValue:[[[self class] alloc] valueForKey:key] forKey:key];
+        hasKey = YES;
+    }
     if (hasKey || [self hasValidObjectId]) {
         [self.requestManager unsetRequestForKey:key];
     }
@@ -770,7 +775,9 @@ BOOL requests_contain_request(NSArray *requests, NSDictionary *request) {
 
 - (void)saveInBackground
 {
-    [self saveInBackgroundWithBlock:nil];
+    [self saveInBackgroundWithBlock:^(BOOL succeeded, NSError * _Nullable error) {
+        /* Ignore result intentionally. */
+    }];
 }
 
 - (void)saveInBackgroundWithBlock:(AVBooleanResultBlock)block
@@ -1089,7 +1096,9 @@ BOOL requests_contain_request(NSArray *requests, NSDictionary *request) {
 
 - (void)saveEventually
 {
-    [self saveEventually:nil];
+    [self saveEventually:^(BOOL succeeded, NSError * _Nullable error) {
+        /* Ignore result intentionally. */
+    }];
 }
 
 - (void)saveEventually:(AVBooleanResultBlock)callback
@@ -1273,7 +1282,9 @@ BOOL requests_contain_request(NSArray *requests, NSDictionary *request) {
 
 + (void)saveAllInBackground:(NSArray *)objects
 {
-    [[self class] saveAllInBackground:objects block:NULL];
+    [[self class] saveAllInBackground:objects block:^(BOOL succeeded, NSError * _Nullable error) {
+        /* Ignore result intentionally. */
+    }];
 }
 
 + (void)saveAllInBackground:(NSArray *)objects
@@ -1667,7 +1678,9 @@ BOOL requests_contain_request(NSArray *requests, NSDictionary *request) {
 
 - (void)deleteInBackground
 {
-    [self deleteInBackgroundWithBlock:NULL];
+    [self deleteInBackgroundWithBlock:^(BOOL succeeded, NSError * _Nullable error) {
+        /* Ignore result intentionally. */
+    }];
 }
 
 - (void)deleteInBackgroundWithBlock:(AVBooleanResultBlock)block {
@@ -1703,7 +1716,9 @@ BOOL requests_contain_request(NSArray *requests, NSDictionary *request) {
 }
 
 - (void)deleteEventually {
-    [self deleteEventuallyWithBlock:nil];
+    [self deleteEventuallyWithBlock:^(id  _Nullable object, NSError * _Nullable error) {
+        /* Ignore result intentionally. */
+    }];
 }
 
 - (void)deleteEventuallyWithBlock:(AVIdResultBlock)block {

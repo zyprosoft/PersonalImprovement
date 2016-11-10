@@ -49,8 +49,8 @@
     
     self.listTable = [[UITableView alloc]init];
     self.listTable.separatorStyle = UITableViewCellSeparatorStyleNone;
-    self.listTable.gjcf_height = GJCFSystemScreenHeight - 20;
-    self.listTable.gjcf_top = 20;
+    self.listTable.gjcf_height = GJCFSystemScreenHeight - 64;
+    self.listTable.gjcf_top = 64;
     self.listTable.gjcf_width = GJCFSystemScreenWidth;
     self.listTable.backgroundColor = [GJGCCommonFontColorStyle mainBackgroundColor];
     self.listTable.dataSource = self;

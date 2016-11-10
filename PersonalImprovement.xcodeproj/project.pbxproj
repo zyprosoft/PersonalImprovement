@@ -4364,7 +4364,7 @@
 		49B4E4AA1D7D0212001C8E29 /* 聊天键盘切换-btn-圆@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "聊天键盘切换-btn-圆@3x.png"; sourceTree = "<group>"; };
 		49B4E4AB1D7D0212001C8E29 /* 输入框-灰色@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "输入框-灰色@2x.png"; sourceTree = "<group>"; };
 		49B4E4AC1D7D0212001C8E29 /* 输入框-白色@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "输入框-白色@2x.png"; sourceTree = "<group>"; };
-		49B4E4AD1D7D0212001C8E29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49B4E4AD1D7D0212001C8E29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ZYChat/Images.xcassets; sourceTree = "<group>"; };
 		49B4E4AF1D7D0212001C8E29 /* HALoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HALoginViewController.h; sourceTree = "<group>"; };
 		49B4E4B01D7D0212001C8E29 /* HALoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HALoginViewController.m; sourceTree = "<group>"; };
 		49B4E4B11D7D0212001C8E29 /* HARegistContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HARegistContentModel.h; sourceTree = "<group>"; };
@@ -6560,8 +6560,6 @@
 		4912E3561D766F9800914825 /* ChatKit */ = {
 			isa = PBXGroup;
 			children = (
-				4948CB091D771620007109B7 /* Assets.xcassets */,
-				4912E3571D766F9800914825 /* Class */,
 				4912E3B11D766FD400914825 /* ChatKitVCtrl.h */,
 				4912E3B21D766FD400914825 /* ChatKitVCtrl.m */,
 				4912E3941D766F9800914825 /* LCChatKitExample.h */,
@@ -6570,6 +6568,8 @@
 				49EF66FB1D9266A40081B975 /* LCChatKitExample+Setting.m */,
 				4912E3961D766F9800914825 /* LCCKTabBarControllerConfig.h */,
 				4912E3971D766F9800914825 /* LCCKTabBarControllerConfig.m */,
+				4912E3571D766F9800914825 /* Class */,
+				4948CB091D771620007109B7 /* Assets.xcassets */,
 			);
 			path = ChatKit;
 			sourceTree = "<group>";
@@ -9455,7 +9455,6 @@
 				49B4E1FE1D7D0210001C8E29 /* Contacts */,
 				49B4E2131D7D0210001C8E29 /* Dependcy */,
 				49B4E3CB1D7D0211001C8E29 /* GJGCChatInputPanel */,
-				49B4E4AD1D7D0212001C8E29 /* Images.xcassets */,
 				49B4E4AE1D7D0212001C8E29 /* Login */,
 				49B4E4B71D7D0212001C8E29 /* MainTab */,
 				49B4E4C01D7D0212001C8E29 /* MusicShare */,
@@ -13764,6 +13763,7 @@
 				49DAA79D1D742F5800F92C7E /* YYKit */,
 				4912E3561D766F9800914825 /* ChatKit */,
 				49B4E10D1D7D020F001C8E29 /* ZYChat */,
+				49B4E4AD1D7D0212001C8E29 /* Images.xcassets */,
 			);
 			path = FourthVCtrls;
 			sourceTree = "<group>";

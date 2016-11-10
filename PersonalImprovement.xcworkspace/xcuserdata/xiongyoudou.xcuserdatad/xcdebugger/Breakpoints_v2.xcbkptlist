@@ -35,22 +35,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PersonalImprovement/FourthVCtrls/ChatKit/LCChatKitExample+Setting.m"
-            timestampString = "496135438.263518"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "686"
-            endingLineNumber = "686"
-            landmarkName = "+lcck_pushToViewController:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "Pods/CYLTabBarController/CYLTabBarController/UIViewController+CYLTabBarControllerExtention.m"
             timestampString = "496135451.493443"
             startingColumnNumber = "9223372036854775807"
@@ -74,22 +58,6 @@
             startingLineNumber = "29"
             endingLineNumber = "29"
             landmarkName = "-cyl_popSelectTabBarChildViewControllerAtIndex:completion:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PersonalImprovement/FourthVCtrls/ChatKit/LCChatKitExample+Setting.m"
-            timestampString = "496135477.132347"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "681"
-            endingLineNumber = "681"
-            landmarkName = "+lcck_pushToViewController:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -2,7 +2,7 @@
 //  LCCKConversationService.m
 //  LeanCloudChatKit-iOS
 //
-//  v0.7.15 Created by ElonChan (微信向我报BUG:chenyilong1010) on 16/3/1.
+//  v0.8.0 Created by ElonChan (微信向我报BUG:chenyilong1010) on 16/3/1.
 //  Copyright © 2016年 LeanCloud. All rights reserved.
 //
 
@@ -41,6 +41,7 @@ NSString *const LCCKConversationServiceErrorDomain = @"LCCKConversationServiceEr
 @synthesize conversationInvalidedHandler = _conversationInvalidedHandler;
 @synthesize loadLatestMessagesHandler = _loadLatestMessagesHandler;
 @synthesize filterMessagesBlock = _filterMessagesBlock;
+@synthesize sendMessageHookBlock = _sendMessageHookBlock;
 
 /**
  *  根据 conversationId 获取对话
@@ -418,13 +419,24 @@ NSString *const LCCKConversationServiceErrorDomain = @"LCCKConversationServiceEr
 }
 
 - (void)updateRecentConversation:(NSArray *)conversations shouldRefreshWhenFinished:(BOOL)shouldRefreshWhenFinished {
-    [self.databaseQueue inDatabase:^(FMDatabase *db) {
-        [db beginTransaction];
-        for (AVIMConversation *conversation in conversations) {
-            [db executeUpdate:LCCKConversationTableUpdateDataSQL, [self dataFromConversation:conversation], conversation.conversationId];
+    for (AVIMConversation *conversation in conversations) {
+        AVIMConversation *cachedConversation = [self.conversationDictionary objectForKey:conversation.conversationId];
+        if (cachedConversation) {
+            conversation.lcck_unreadCount = cachedConversation.lcck_unreadCount;
+            conversation.lcck_draft = [cachedConversation.lcck_draft copy];
+            conversation.lcck_mentioned = cachedConversation.lcck_mentioned;
+            [self.conversationDictionary setObject:conversation forKey:conversation.conversationId];
         }
-        [db commit];
-    }];
+    }
+    dispatch_async(self.sqliteQueue, ^{
+        [self.databaseQueue inDatabase:^(FMDatabase *db) {
+            [db beginTransaction];
+            for (AVIMConversation *conversation in conversations) {
+                [db executeUpdate:LCCKConversationTableUpdateDataSQL, [self dataFromConversation:conversation], conversation.conversationId];
+            }
+            [db commit];
+        }];
+    });
     if (shouldRefreshWhenFinished) {
         [[NSNotificationCenter defaultCenter] postNotificationName:LCCKNotificationConversationListDataSourceUpdated object:self];
     }
