@@ -2718,7 +2718,7 @@
 				TargetAttributes = {
 					C054EC2E1B3270D900078809 = {
 						CreatedOnToolsVersion = 6.3;
-						DevelopmentTeam = MEU26PKGC2;
+						DevelopmentTeam = H8J36KWCJF;
 					};
 				};
 			};
@@ -3391,6 +3391,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				DEVELOPMENT_TEAM = H8J36KWCJF;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3408,6 +3409,7 @@
 					"$(PROJECT_DIR)/TeamTalk/Exist/Security",
 					"$(PROJECT_DIR)/TeamTalk/Exist/MobClick",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hampoo.teamtalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "/Users/xiongyoudou/Desktop/GitHub/PersonalImprovement/Vendors(第三方)/OldAFNetworking /Users/xiongyoudou/Desktop/GitHub/PersonalImprovement/Expand(拓展)/Tool(工具) /Users/xiongyoudou/Desktop/GitHub/PersonalImprovement/Expand(拓展)/Macro(宏) /Users/xiongyoudou/Desktop/GitHub/PersonalImprovement/Vendors(第三方)/MWPhotoBrowser/Classes";
@@ -3422,6 +3424,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				DEVELOPMENT_TEAM = H8J36KWCJF;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3438,6 +3441,7 @@
 					"$(PROJECT_DIR)/TeamTalk/Exist/Security",
 					"$(PROJECT_DIR)/TeamTalk/Exist/MobClick",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hampoo.teamtalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "/Users/xiongyoudou/Desktop/GitHub/PersonalImprovement/Vendors(第三方)/OldAFNetworking /Users/xiongyoudou/Desktop/GitHub/PersonalImprovement/Expand(拓展)/Tool(工具) /Users/xiongyoudou/Desktop/GitHub/PersonalImprovement/Expand(拓展)/Macro(宏) /Users/xiongyoudou/Desktop/GitHub/PersonalImprovement/Vendors(第三方)/MWPhotoBrowser/Classes";
